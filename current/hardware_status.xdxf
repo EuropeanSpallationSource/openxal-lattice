@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<xdxf date="Wed Dec 26 11:25:35 EST 2012" version="1.0.0">
+	<sequence id="LEBT">
+		<node exclude="true" id="LEBT-010:BMD-Chop" mod-comment="not available yet." status="false" />
+		<node exclude="true" id="LEBT-010:PBI-EMU-001" mod-comment="not available yet." status="false" />
+	</sequence>
+	<sequence id="COMISS-TANK">
+		<node exclude="true" id="LEBT-020:PBI-EMU-001" mod-comment="not available yet" status="false" />
+		<node exclude="true" id="LEBT-020:PBI-NPM-001" mod-comment="not functional yet" status="false" />
+		<node exclude="true" id="LEBT-020:PBI-NPM-002" mod-comment="not functional yet" status="false" />
+		<node exclude="true" id="LEBT-020:PBI-FC-001" mod-comment="installed at the permanent tank" status="false" />
+	</sequence>
+</xdxf>

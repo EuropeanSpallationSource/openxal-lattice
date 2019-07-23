@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<tablegroup>
+    <table name="Algorithm" recordClass="xal.tools.data.GenericRecord">
+        <schema>
+            <attribute isPrimaryKey="true" name="name" type="java.lang.String"/>
+            <attribute defaultValue="xal.model.alg.EnvelopeTracker" isPrimaryKey="false" name="type" type="java.lang.String"/>
+            <attribute defaultValue="1" isPrimaryKey="false" name="update" type="java.lang.Integer"/>
+            <attribute defaultValue="false" isPrimaryKey="false" name="debug" type="java.lang.Boolean"/>
+            <attribute defaultValue="true" isPrimaryKey="false" name="calcRfGapPhase" type="java.lang.Boolean"/>
+        </schema>
+        <record name="default"/>
+    </table>
+    <table name="EnvelopeBaseTracker" recordClass="xal.tools.data.GenericRecord">
+        <schema>
+            <attribute isPrimaryKey="true" name="name" type="java.lang.String"/>
+            <attribute defaultValue="false" isPrimaryKey="false" name="emitgrowth" type="java.lang.Boolean"/>
+            <attribute defaultValue="true" isPrimaryKey="false" name="scheff" type="java.lang.Boolean"/>
+            <attribute defaultValue="0.1" isPrimaryKey="false" name="stepsize" type="java.lang.Double"/>
+        </schema>
+        <record name="default"/>
+    </table>
+    <table name="species" recordClass="xal.tools.data.GenericRecord">
+        <schema>
+            <attribute isPrimaryKey="true" name="name" type="java.lang.String"/>
+            <attribute isPrimaryKey="false" name="mass" type="java.lang.Double"/>
+            <attribute isPrimaryKey="false" name="charge" type="java.lang.Double"/>
+        </schema>
+        <record charge="1.0" mass="9.38272029E8" name="PROTON"/>
+    </table>
+    <table name="beam" recordClass="xal.tools.data.GenericRecord">
+        <schema>
+            <attribute isPrimaryKey="true" name="name" type="java.lang.String"/>
+            <attribute defaultValue="0.0625" isPrimaryKey="false" name="current" type="java.lang.Double"/>
+            <attribute defaultValue="3.52E8" isPrimaryKey="false" name="bunchFreq" type="java.lang.Double"/>
+            <attribute defaultValue="(0,0,0)" isPrimaryKey="false" name="phase" type="java.lang.String"/>
+        </schema>
+        <record name="default"/>
+    </table>
+    <table name="twiss" recordClass="xal.tools.data.GenericRecord">
+        <schema>
+            <attribute isPrimaryKey="true" name="name" type="java.lang.String"/>
+            <attribute isPrimaryKey="true" name="coordinate" type="java.lang.String"/>
+            <attribute isPrimaryKey="false" name="alpha" type="java.lang.Double"/>
+            <attribute isPrimaryKey="false" name="beta" type="java.lang.Double"/>
+            <attribute isPrimaryKey="false" name="emittance" type="java.lang.Double"/>
+        </schema>
+        <record alpha="-4.289" beta="0.439" coordinate="x" emittance="8.993619002691791e-06" name="ISRC"/>
+        <record alpha="-4.289" beta="0.439" coordinate="y" emittance="9.159022026416777e-06" name="ISRC"/>
+        <record alpha="0.0" beta="110" coordinate="z" emittance="10e-05" name="ISRC"/>
+        <record alpha="-4.289" beta="0.439" coordinate="x" emittance="8.993619002691791e-06" name="LEBT"/>
+        <record alpha="-4.289" beta="0.439" coordinate="y" emittance="9.159022026416777e-06" name="LEBT"/>
+        <record alpha="0.0" beta="110" coordinate="z" emittance="10e-05" name="LEBT"/>
+        <record alpha="1.0" beta="0.1" coordinate="x" emittance="1.9815390037975136e-05" name="COMISS-TANK"/>
+        <record alpha="1.0" beta="0.1" coordinate="y" emittance="1.9815390037975136e-05" name="COMISS-TANK"/>
+        <record alpha="0.0" beta="110" coordinate="z" emittance="10e-05" name="COMISS-TANK"/>
+    </table>
+    <table name="location" recordClass="xal.tools.data.GenericRecord">
+        <schema>
+            <attribute isPrimaryKey="true" name="name" type="java.lang.String"/>
+            <attribute defaultValue="PROTON" isPrimaryKey="false" name="species" type="java.lang.String"/>
+            <attribute isPrimaryKey="false" name="W" type="java.lang.Double"/>
+            <attribute defaultValue="" isPrimaryKey="false" name="elem" type="java.lang.String"/>
+            <attribute defaultValue="0" isPrimaryKey="false" name="s" type="java.lang.Double"/>
+            <attribute defaultValue="0" isPrimaryKey="false" name="t" type="java.lang.Double"/>
+        </schema>
+        <record W="74671.738" name="ISRC"/>
+        <record W="74671.738" name="LEBT"/>
+        <record W="74622.785" name="COMISS-TANK"/>
+    </table>
+    <table name="EnvTrackerAdapt" recordClass="xal.tools.data.GenericRecord">
+        <schema>
+            <attribute isPrimaryKey="true" name="name" type="java.lang.String"/>
+            <attribute defaultValue="0.01" isPrimaryKey="false" name="initstep" type="java.lang.Double"/>
+            <attribute defaultValue="0.0" isPrimaryKey="false" name="maxstep" type="java.lang.Double"/>
+            <attribute defaultValue="0.0" isPrimaryKey="false" name="maxstepdriftpmq" type="java.lang.Double"/>
+            <attribute defaultValue="1.0E-5" isPrimaryKey="false" name="errortol" type="java.lang.Double"/>
+            <attribute defaultValue="0.05" isPrimaryKey="false" name="slack" type="java.lang.Double"/>
+            <attribute defaultValue="0" isPrimaryKey="false" name="norm" type="java.lang.Integer"/>
+            <attribute defaultValue="50" isPrimaryKey="false" name="maxiter" type="java.lang.Integer"/>
+            <attribute defaultValue="2" isPrimaryKey="false" name="order" type="java.lang.Integer"/>
+        </schema>
+        <record name="default"/>
+    </table>
+    <table name="CentroidCoordinates" recordClass="xal.tools.data.GenericRecord">
+        <schema>
+            <attribute isPrimaryKey="true" name="name" type="java.lang.String"/>
+            <attribute isPrimaryKey="true" name="coordinates" type="java.lang.String"/>
+        </schema>
+        <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="ISRC"/>
+        <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="LEBT"/>
+        <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="COMISS-TANK"/>
+    </table>
+</tablegroup>
