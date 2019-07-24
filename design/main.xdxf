@@ -19,7 +19,7 @@
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="FM1:B" valid="true"/>
             </channelsuite>
-            <ps main="FM1-PS"/>
+            <ps main="MFM1-PS"/>
         </node>
         <node id="ST1-VC" len="0.5454" pos="0.6081000000000001" type="DC">
             <attributes>
@@ -48,7 +48,7 @@
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="FM2:B" valid="true"/>
             </channelsuite>
-            <ps main="FM2-PS"/>
+            <ps main="MFM2-PS"/>
         </node>
         <node id="ST2-VC" len="0.5454" pos="2.1069" type="DC">
             <attributes>
@@ -10002,6 +10002,26 @@
         </node>
     </sequence>
     <powersupplies>
+        <ps id="MFM1-PS" type="main">
+            <channelsuite>
+                <channel handle="cycleEnable" settable="true" signal="MFM1-PS:CycEn" valid="true"/>
+                <channel handle="fieldSet" settable="true" signal="MFM1-PS:FldSet" valid="true"/>
+                <channel handle="I" settable="false" signal="MFM1-PS:CurRB" valid="true"/>
+                <channel handle="I_Set" settable="true" signal="MFM1-PS:CurSet" valid="true"/>
+                <channel handle="psFieldRB" settable="false" signal="MFM1-PS:FldRB" valid="true"/>
+                <channel handle="cycleState" settable="false" signal="MFM1-PS:CycSt" valid="true"/>
+            </channelsuite>
+        </ps>
+        <ps id="MFM2-PS" type="main">
+            <channelsuite>
+                <channel handle="cycleEnable" settable="true" signal="MFM2-PS:CycEn" valid="true"/>
+                <channel handle="fieldSet" settable="true" signal="MFM2-PS:FldSet" valid="true"/>
+                <channel handle="I" settable="false" signal="MFM2-PS:CurRB" valid="true"/>
+                <channel handle="I_Set" settable="true" signal="MFM2-PS:CurSet" valid="true"/>
+                <channel handle="psFieldRB" settable="false" signal="MFM2-PS:FldRB" valid="true"/>
+                <channel handle="cycleState" settable="false" signal="MFM2-PS:CycSt" valid="true"/>
+            </channelsuite>
+        </ps>
         <ps id="TS35-VC-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="TS35-VC-PS:CycEn" valid="true"/>
