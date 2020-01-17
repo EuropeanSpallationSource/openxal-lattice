@@ -71,6 +71,7 @@
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="LEBT-010:EARTH:FldRB" valid="true"/>
             </channelsuite>
+            <ps main="LEBT-010:PwrC-Dummy-EARTH"/>
         </node>
         <node id="LEBT-010:AptExt" len="0.9609" pos="0.48045" s="0.48045" type="VC">
             <attributes>
@@ -330,6 +331,14 @@
         <node id="END-COMISS-TANK" len="0.0" pos="0.830" s="3.3359" type="marker"/>
     </sequence>
     <powersupplies>
+        <ps id="LEBT-010:PwrC-Dummy-EARTH" type="main">
+            <channelsuite>
+                <channel handle="fieldSet" settable="false" signal="LEBT-010:PwrC-Dummy-EARTH:FldS" valid="true"/>
+                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-Dummy-EARTH:FldRB" valid="true"/>
+                <channel handle="I_Set" settable="false" signal="LEBT-010:PwrC-Dummy-EARTH:CurS" valid="true"/>
+                <channel handle="I" settable="false" signal="LEBT-010:PwrC-Dummy-EARTH:CurR" valid="true"/>
+            </channelsuite>
+        </ps>
         <ps id="LEBT-010:PwrC-SolPS-01" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-SolPS-01:FldS" valid="true"/>
