@@ -11,13 +11,17 @@
         <record name="default"/>
     </table>
     <table name="EnvelopeBaseTracker" recordClass="xal.tools.data.GenericRecord">
-        <schema>
-            <attribute isPrimaryKey="true" name="name" type="java.lang.String"/>
-            <attribute defaultValue="false" isPrimaryKey="false" name="emitgrowth" type="java.lang.Boolean"/>
-            <attribute defaultValue="true" isPrimaryKey="false" name="scheff" type="java.lang.Boolean"/>
-            <attribute defaultValue="0.1" isPrimaryKey="false" name="stepsize" type="java.lang.Double"/>
-        </schema>
-        <record name="default"/>
+      <schema>
+        <attribute isPrimaryKey="true" name="name" type="java.lang.String"/>
+        <attribute defaultValue="false" isPrimaryKey="false" name="emitgrowth" type="java.lang.Boolean"/>
+        <attribute defaultValue="true" isPrimaryKey="false" name="scheff" type="java.lang.Boolean"/>
+        <attribute defaultValue="0.1" isPrimaryKey="false" name="stepsize" type="java.lang.Double"/>
+        <attribute defaultValue="false" isPrimaryKey="false" name="useDCBeam" type="java.lang.Boolean"/>
+      </schema>
+      <record emitgrowth="false" scheff="true" stepsize="0.1" useDCBeam="true" name="ISRC"/>
+      <record emitgrowth="false" scheff="true" stepsize="0.1" useDCBeam="true" name="LEBT"/>
+      <record emitgrowth="false" scheff="true" stepsize="0.1" useDCBeam="true" name="COMISS-TANK"/>
+      <record name="default"/>
     </table>
     <table name="species" recordClass="xal.tools.data.GenericRecord">
         <schema>
@@ -46,10 +50,16 @@
         </schema>
         <record alpha="-4.289" beta="0.439" coordinate="x" emittance="8.993619002691791e-06" name="ISRC"/>
         <record alpha="-4.289" beta="0.439" coordinate="y" emittance="9.159022026416777e-06" name="ISRC"/>
-        <record alpha="0.0" beta="110" coordinate="z" emittance="10e-05" name="ISRC"/>
+        <record alpha="0.0" beta="1" coordinate="z" emittance="10e-05" name="ISRC"/>
         <record alpha="-4.289" beta="0.439" coordinate="x" emittance="8.993619002691791e-06" name="LEBT"/>
         <record alpha="-4.289" beta="0.439" coordinate="y" emittance="9.159022026416777e-06" name="LEBT"/>
-        <record alpha="0.0" beta="110" coordinate="z" emittance="10e-05" name="LEBT"/>
+        <record alpha="0.0" beta="1" coordinate="z" emittance="10e-05" name="LEBT"/>
+        <record alpha="1.9691528" beta="0.22536279" coordinate="x" emittance="1.1461682084361586E-5" name="RFQ"/>
+        <record alpha="1.968493" beta="0.22505737" coordinate="y" emittance="1.1454752352058426E-5" name="RFQ"/>
+        <record alpha="0.15899949" beta="1.4449517" coordinate="z" emittance="0.0" name="RFQ"/>
+        <record alpha="-0.051805615" beta="0.20954703" coordinate="x" emittance="2.875304356347471E-6" name="MEBT"/>
+        <record alpha="-0.30984478" beta="0.37074849" coordinate="y" emittance="2.8618192607818744E-6" name="MEBT"/>
+        <record alpha="-0.48130325" beta="0.92564505" coordinate="z" emittance="4.079614268808417E-6" name="MEBT"/>
         <record alpha="1.0" beta="0.1" coordinate="x" emittance="1.9815390037975136e-05" name="COMISS-TANK"/>
         <record alpha="1.0" beta="0.1" coordinate="y" emittance="1.9815390037975136e-05" name="COMISS-TANK"/>
         <record alpha="0.0" beta="110" coordinate="z" emittance="10e-05" name="COMISS-TANK"/>
@@ -65,6 +75,8 @@
         </schema>
         <record W="74671.738" name="ISRC"/>
         <record W="74671.738" name="LEBT"/>
+        <record W="74622.785" name="RFQ"/>
+        <record W="3621785.3" name="MEBT"/>
         <record W="74622.785" name="COMISS-TANK"/>
     </table>
     <table name="EnvTrackerAdapt" recordClass="xal.tools.data.GenericRecord">
@@ -88,6 +100,8 @@
         </schema>
         <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="ISRC"/>
         <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="LEBT"/>
+        <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="RFQ"/>
+        <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="MEBT"/>
         <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="COMISS-TANK"/>
     </table>
 </tablegroup>
