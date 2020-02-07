@@ -12,4 +12,5 @@
     <device class="xal.extension.jels.smf.impl.ESSRfGap" type="RG"/>
     <device class="xal.smf.impl.Marker" type="marker"/>
     <device class="xal.smf.impl.BPM" type="BPM"/>
+    <device class="xal.extension.jels.smf.impl.RfqDummy" type="RFQ"/>
 </deviceMapping>
