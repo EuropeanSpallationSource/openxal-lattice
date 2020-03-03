@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xsi:noNamespaceSchemaLocation="https://bitbucket.org/europeanspallationsource/openxal/raw/site.ess.master/core/resources/xal/schemas/model-impl.xsd"
+               xsi:noNamespaceSchemaLocation="https://gitlab.esss.lu.se/ess-crs/openxal/-/raw/site.ess.master/core/src/main/resources/xal/schemas/model-impl.xsd"
                subsectionCtrOrigin="false">
    
     <elements>
