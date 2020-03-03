@@ -2712,7 +2712,7 @@
             </node>
             <node id="BPM8" len="0.0" pos="0.23016066999999998" s="11.29213266999999" type="BPM">
                 <attributes>
-                    <bpm frequency="3.5221E8" length="1.0" orientation="1" />
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
                 <channelsuite>
                     <channel handle="yAvg" settable="false" signal="BPM8:YAvg" valid="true" />
@@ -2915,7 +2915,7 @@
             </node>
             <node id="BPM9" len="0.0" pos="1.2895686700000002" s="12.35154066999999" type="BPM">
                 <attributes>
-                    <bpm frequency="3.5221E8" length="1.0" orientation="1" />
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
                 <channelsuite>
                     <channel handle="yAvg" settable="false" signal="BPM9:YAvg" valid="true" />
@@ -2966,7 +2966,7 @@
             </node>
             <node id="BPM10" len="0.0" pos="1.6942968600000001" s="12.75626885999999" type="BPM">
                 <attributes>
-                    <bpm frequency="3.5221E8" length="1.0" orientation="1" />
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
                 <channelsuite>
                     <channel handle="yAvg" settable="false" signal="BPM10:YAvg" valid="true" />
@@ -3187,7 +3187,7 @@
             </node>
             <node id="BPM11" len="0.0" pos="3.32464546" s="14.38661745999999" type="BPM">
                 <attributes>
-                    <bpm frequency="3.5221E8" length="1.0" orientation="1" />
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
                 <channelsuite>
                     <channel handle="yAvg" settable="false" signal="BPM11:YAvg" valid="true" />
@@ -3256,7 +3256,7 @@
             </node>
             <node id="BPM12" len="0.0" pos="4.12779506" s="15.18976705999999" type="BPM">
                 <attributes>
-                    <bpm frequency="3.5221E8" length="1.0" orientation="1" />
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
                 <channelsuite>
                     <channel handle="yAvg" settable="false" signal="BPM12:YAvg" valid="true" />
@@ -3513,7 +3513,7 @@
             </node>
             <node id="BPM13" len="0.0" pos="6.9225467599999995" s="17.98451875999999" type="BPM">
                 <attributes>
-                    <bpm frequency="3.5221E8" length="1.0" orientation="1" />
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
                 <channelsuite>
                     <channel handle="yAvg" settable="false" signal="BPM13:YAvg" valid="true" />
@@ -3625,7 +3625,7 @@
             </node>
             <node id="BPM14" len="0.0" pos="0.5469053999999982" s="19.40481505999999" type="BPM">
                 <attributes>
-                    <bpm frequency="3.5221E8" length="1.0" orientation="1" />
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
                 <channelsuite>
                     <channel handle="yAvg" settable="false" signal="BPM14:YAvg" valid="true" />
@@ -3788,7 +3788,7 @@
             </node>
             <node id="BPM15" len="0.0" pos="2.8812662000000007" s="21.73917585999999" type="BPM">
                 <attributes>
-                    <bpm frequency="3.5221E8" length="1.0" orientation="1" />
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
                 <channelsuite>
                     <channel handle="yAvg" settable="false" signal="BPM15:YAvg" valid="true" />
@@ -3951,7 +3951,7 @@
             </node>
             <node id="BPM16" len="0.0" pos="5.4734237000000014" s="24.33133335999999" type="BPM">
                 <attributes>
-                    <bpm frequency="3.5221E8" length="1.0" orientation="1" />
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
                 <channelsuite>
                     <channel handle="yAvg" settable="false" signal="BPM16:YAvg" valid="true" />
@@ -4133,7 +4133,7 @@
             </node>
             <node id="BPM17" len="0.0" pos="0.9715080999999977" s="27.16892245999999" type="BPM">
                 <attributes>
-                    <bpm frequency="3.5221E8" length="1.0" orientation="1" />
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
                 <channelsuite>
                     <channel handle="yAvg" settable="false" signal="BPM17:YAvg" valid="true" />
@@ -4314,7 +4314,7 @@
             </node>
             <node id="BPM18" len="0.0" pos="4.554145599999998" s="30.751559959999987" type="BPM">
                 <attributes>
-                    <bpm frequency="3.5221E8" length="1.0" orientation="1" />
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
                 <channelsuite>
                     <channel handle="yAvg" settable="false" signal="BPM18:YAvg" valid="true" />
@@ -4515,7 +4515,7 @@
             </node>
             <node id="BPM19" len="0.0" pos="0.576273699999998" s="34.63980205999999" type="BPM">
                 <attributes>
-                    <bpm frequency="3.5221E8" length="1.0" orientation="1" />
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
                 <channelsuite>
                     <channel handle="yAvg" settable="false" signal="BPM19:YAvg" valid="true" />
@@ -4678,7 +4678,7 @@
             </node>
             <node id="BPM20" len="0.0" pos="4.112596700000001" s="38.17612505999999" type="BPM">
                 <attributes>
-                    <bpm frequency="3.5221E8" length="1.0" orientation="1" />
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
                 <channelsuite>
                     <channel handle="yAvg" settable="false" signal="BPM20:YAvg" valid="true" />
@@ -4877,7 +4877,7 @@
             </node>
             <node id="BPM21" len="0.0" pos="0.3232217999999989" s="42.553088259999996" type="BPM">
                 <attributes>
-                    <bpm frequency="3.5221E8" length="1.0" orientation="1" />
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
                 <channelsuite>
                     <channel handle="yAvg" settable="false" signal="BPM21:YAvg" valid="true" />
@@ -5047,7 +5047,7 @@
             </node>
             <node id="BPM22" len="0.0" pos="4.265472199999998" s="46.495338659999994" type="BPM">
                 <attributes>
-                    <bpm frequency="3.5221E8" length="1.0" orientation="1" />
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
                 <channelsuite>
                     <channel handle="yAvg" settable="false" signal="BPM22:YAvg" valid="true" />
