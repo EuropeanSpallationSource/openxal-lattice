@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:noNamespaceSchemaLocation="https://bitbucket.org/europeanspallationsource/openxal/raw/site.ess.master/core/resources/xal/schemas/model-impl.xsd"
                subsectionCtrOrigin="false">
-               
+
     <elements>
         <default type="xal.model.elem.Marker"/>
         <drift type="xal.model.elem.IdealDrift"/>
         <rfcavdrift type="xal.model.elem.IdealRfCavityDrift"/>
         <sequence type="xal.model.Sector"/>
     </elements>
-    
+
     <associations>
         <map smf="rfm" model="xal.extension.jels.model.elem.ThickRfFieldMap"/>
         <map smf="mfm" model="xal.extension.jels.model.elem.ThinMagFieldMap"/>
