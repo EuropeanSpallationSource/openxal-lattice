@@ -259,6 +259,17 @@
         <attributes>
             <sequence predecessors="LEBT" />
         </attributes>
+        <sequence id="RFQ-010:EMR-Cav-001" len="4.545071999999999" pos="2.272536" s="4.778436" type="RF">
+            <attributes>
+                <rfcavity amp="0.0596669" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
+            </attributes>
+            <channelsuite>
+                <channel handle="cavPhaseAvg" settable="false" signal="RFQ-010:EMR-Cav-001:Phs" valid="true" />
+                <channel handle="cavAmpSet" settable="true" signal="RFQ-010:EMR-Cav-001:AmpCtl" valid="true" />
+                <channel handle="cavAmpAvg" settable="false" signal="RFQ-010:EMR-Cav-001:Amp" valid="true" />
+                <channel handle="cavPhaseSet" settable="true" signal="RFQ-010:EMR-Cav-001:PhsCtl" valid="true" />
+            </channelsuite>
+        </sequence>
         <node id="LATTICE-POINT-1" len="0.0" pos="0.037667000000000006" s="2.5435669999999955" type="marker" />
         <node id="LATTICE-START-1" len="0.0" pos="0.037667000000000006" s="2.5435669999999955" type="marker" />
         <node id="LATTICE-POINT-2" len="0.0" pos="0.048429" s="2.5543289999999956" type="marker" />
