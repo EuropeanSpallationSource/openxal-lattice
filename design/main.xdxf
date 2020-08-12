@@ -1,5 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <xdxf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="03.03.2020" system="ESS" ver="" xsi:noNamespaceSchemaLocation="https://gitlab.esss.lu.se/ess-crs/openxal/-/raw/site.ess.master/core/src/main/resources/xal/schemas/xdxf.xsd">
+    <comboseq id="FRONT-END">
+        <sequence id="ISRC" />
+        <sequence id="LEBT" />
+    </comboseq>
+    <comboseq id="NCL">
+        <sequence id="MEBT" />
+        <sequence id="DTL" />
+    </comboseq>
     <comboseq id="LEBT-A2T">
         <sequence id="LEBT" />
         <sequence id="RFQ" />
@@ -20,6 +28,59 @@
         <sequence id="HEBT" />
         <sequence id="A2T" />
     </comboseq>
+    <sequence id="ISRC" len="0.0" pos="0.0" s="0.0">
+        <node id="START-ISRC" len="0.0" pos="0.0" type="marker" />
+        <node id="ISrc-010:ISS-Magtr" len="0.0" pos="0.0" s="0.0" type="ISM">
+            <channelsuite>
+                <channel handle="forwdPrwRB" settable="false" signal="ISrc-010:ISS-Magtr:ForwdPwrRB" valid="true" />
+                <channel handle="forwdPrwR" settable="false" signal="ISrc-010:ISS-Magtr:ForwdPwrR" valid="true" />
+                <channel handle="forwdPrwS" settable="true" signal="ISrc-010:ISS-Magtr:PulsHLvlS" valid="true" />
+            </channelsuite>
+        </node>
+        <node id="ISrc-010:ISS-HVPf" len="0.0" pos="0.0" s="0.0" type="ISMFC">
+            <channelsuite>
+                <channel handle="h2FlowS" settable="true" signal="ISrc-010:VAC-VEVMC-01100:MFC1FlowS" valid="true" />
+                <channel handle="h2FLowR" settable="false" signal="ISrc-010:VAC-VEVMC-01100:MFC1FlowR" valid="true" />
+                <channel handle="h2FlowRB" settable="false" signal="ISrc-010:VAC-VEVMC-01100:MFC1FlowRB" valid="true" />
+                <channel handle="volS" settable="true" signal="ISrc-010:ISS-HVPS:VolS" valid="true" />
+                <channel handle="volR" settable="false" signal="ISrc-010:ISS-HVPS:VolR" valid="true" />
+                <channel handle="volRB" settable="false" signal="ISrc-010:ISS-HVPS:VolRB" valid="true" />
+                <channel handle="currS" settable="true" signal="ISrc-010:ISS-HVPS:CurS" valid="true" />
+                <channel handle="currR" settable="false" signal="ISrc-010:ISS-HVPS:CurR" valid="true" />
+                <channel handle="currRB" settable="false" signal="ISrc-010:ISS-HVPS:CurRB" valid="true" />
+            </channelsuite>
+        </node>
+        <node id="ISrc-010:ISS-Coil-01" len="0.0" pos="0.0" s="0.0" type="ISC">
+            <channelsuite>
+                <channel handle="I_Set" settable="true" signal="ISrc-010:PwrC-CoilPS-01:CurS" valid="true" />
+                <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-01:CurR" valid="true" />
+            </channelsuite>
+        </node>
+        <node id="ISrc-010:ISS-Coil-02" len="0.0" pos="0.0" s="0.0" type="ISC">
+            <channelsuite>
+                <channel handle="I_Set" settable="true" signal="ISrc-010:PwrC-CoilPS-02:CurS" valid="true" />
+                <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-02:CurR" valid="true" />
+            </channelsuite>
+        </node>
+        <node id="ISrc-010:ISS-Coil-03" len="0.0" pos="0.0" s="0.0" type="ISC">
+            <channelsuite>
+                <channel handle="I_Set" settable="true" signal="ISrc-010:PwrC-CoilPS-03:CurS" valid="true" />
+                <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-03:CurR" valid="true" />
+            </channelsuite>
+        </node>
+      <node id="ISrc-010:PBI-BCM-001" len="0.0" pos="0.0" s="0.0" type="BCM" status="false">
+          <channelsuite>
+              <channel handle="DisplayLength" signal="ISrc-010:PBI-BCM:CURR:WIDTH" settable="false" valid="true" />
+              <channel handle="currentAvg" signal="ISrc-010:PBI-BCM:CURR:AVG" settable="false" valid="true" />
+              <channel handle="currentMax" signal="ISrc-010:PBI-BCM:CURR:MAX" settable="false" valid="true" />
+              <channel handle="currentArray" signal="ISrc-010:PBI-BCM-001:AI4-ArrayData" settable="false" valid="true" />
+              <channel handle="currentArrayCompressed" signal="ISrc-010:PBI-BCM-001:AI4-Compressed" settable="false" valid="true" />
+              <channel handle="Particles" signal="ISrc-010:PBI-BCM:CURR:INTEGRAL" settable="false" valid="true" />
+              <channel handle="tDelay" signal="ISrc-010:PBI-BCM:CURR:tAvgDelay" settable="false" valid="true" />
+          </channelsuite>
+      </node>
+        <node id="END-ISRC" len="0.0" pos="0.0" type="marker" />
+    </sequence>
     <sequence id="LEBT" len="2.505899999999999" pos="0.0">
         <node id="MFM1:MFM" len="0.5454" pos="0.6081000000000001" type="MFM">
             <attributes>
