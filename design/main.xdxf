@@ -82,6 +82,9 @@
         <node id="END-ISRC" len="0.0" pos="0.0" type="marker" />
     </sequence>
     <sequence id="LEBT" len="2.505899999999999" pos="0.0">
+        <attributes>
+            <sequence predecessors="ISRC" />
+        </attributes>
         <node id="MFM1:MFM" len="0.5454" pos="0.6081000000000001" type="MFM">
             <attributes>
                 <fieldmap dimensions="2" dynamic="false" fieldMapFile="Field_Maps/1D/sef2_545_4mm" fieldType="magnetic" numberOfPoints="2000" />
