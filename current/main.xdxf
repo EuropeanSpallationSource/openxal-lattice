@@ -571,12 +571,12 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-002" />
         </node>
-        <node id="MEBT-010:EMR-Cav-001:Aper" len="0.2" pos="0.621" s="7.671972" type="VC">
+        <node id="MEBT-010:EMR-Cav-001:Aper" len="0.2" pos="0.581" s="7.631972" type="VC">
             <attributes>
                 <aperture shape="1" pos="0.0,0.0,0.10,0.20,0.20" x="0.0184,0.015,0.015,0.015,0.0184" y="0.0184,0.015,0.015,0.015,0.0184" />
             </attributes>
         </node>
-        <sequence id="MEBT-010:EMR-Cav-001" len="0.0" pos="0.621" s="7.671972" type="RF">
+        <sequence id="MEBT-010:EMR-Cav-001" len="0.0" pos="0.581" s="7.631972" type="RF">
             <attributes>
                 <rfcavity amp="0.130769" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
@@ -586,7 +586,7 @@
                 <channel handle="cavAmpAvg" settable="false" signal="MEBT-010:EMR-Cav-001:Amp" valid="true" />
                 <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:EMR-Cav-001:PhsCtl" valid="true" />
             </channelsuite>
-            <node id="MEBT-010:EMR-Cav-001:G" len="0.0" pos="0.0" s="7.631971999999995" type="RG">
+            <node id="MEBT-010:EMR-Cav-001:G" len="0.0" pos="0.0" s="7.631972" type="RG">
                 <attributes>
                     <rfgap TTF="1.0" ampFactor="1.0" endCell="0" gapOffset="0.0" length="1.0" phaseFactor="0.0" testAmpFactor="0.0" testPhaseFactor="0.0" />
                 </attributes>
@@ -703,12 +703,12 @@
                 <channel handle="tDelay" signal="MEBT-010:PBI-BCM-002:CURR:tAvgDelay" settable="false" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:EMR-Cav-002:Aper" len="0.2" pos="2.083" s="9.133972" type="VC">
+        <node id="MEBT-010:EMR-Cav-002:Aper" len="0.2" pos="2.043" s="9.093972" type="VC">
             <attributes>
                 <aperture shape="1" pos="0.0,0.0,0.10,0.20,0.20" x="0.0184,0.015,0.015,0.015,0.0184" y="0.0184,0.015,0.015,0.015,0.0184" />
             </attributes>
         </node>
-        <sequence id="MEBT-010:EMR-Cav-002" len="0.0" pos="2.083" s="9.133972" type="RF">
+        <sequence id="MEBT-010:EMR-Cav-002" len="0.0" pos="2.043" s="9.093972" type="RF">
             <attributes>
                 <rfcavity amp="0.0596669" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
@@ -718,7 +718,7 @@
                 <channel handle="cavAmpAvg" settable="false" signal="MEBT-010:EMR-Cav-002:Amp" valid="true" />
                 <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:EMR-Cav-002:PhsCtl" valid="true" />
             </channelsuite>
-            <node id="MEBT-010:EMR-Cav-002:G" len="0.0" pos="0.0" s="9.133972" type="RG">
+            <node id="MEBT-010:EMR-Cav-002:G" len="0.0" pos="0.0" s="9.093972" type="RG">
                 <attributes>
                     <rfgap TTF="1.0" ampFactor="1.0" endCell="0" gapOffset="0.0" length="1.0" phaseFactor="0.0" testAmpFactor="0.0" testPhaseFactor="0.0" />
                 </attributes>
@@ -906,12 +906,12 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-008" />
         </node>
-        <node id="MEBT-010:EMR-Cav-003:Aper" len="0.2" pos="3.295" s="10.345972" type="VC">
+        <node id="MEBT-010:EMR-Cav-003:Aper" len="0.2" pos="3.255" s="10.305972" type="VC">
             <attributes>
                 <aperture shape="1" pos="0.0,0.0,0.10,0.20,0.20" x="0.0184,0.015,0.015,0.015,0.0184" y="0.0184,0.015,0.015,0.015,0.0184" />
             </attributes>
         </node>
-        <sequence id="MEBT-010:EMR-Cav-003" len="0.0" pos="3.295" s="10.345972" type="RF">
+        <sequence id="MEBT-010:EMR-Cav-003" len="0.0" pos="3.255" s="10.305972" type="RF">
             <attributes>
                 <rfcavity amp="0.145257" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
@@ -921,7 +921,7 @@
                 <channel handle="cavAmpAvg" settable="false" signal="MEBT-010:EMR-Cav-003:Amp" valid="true" />
                 <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:EMR-Cav-003:PhsCtl" valid="true" />
             </channelsuite>
-            <node id="MEBT-010:EMR-Cav-003:G" len="0.0" pos="0.0" s="10.345972" type="RG">
+            <node id="MEBT-010:EMR-Cav-003:G" len="0.0" pos="0.0" s="10.305972" type="RG">
                 <attributes>
                     <rfgap TTF="1.0" ampFactor="1.0" endCell="0" gapOffset="0.0" length="1.0" phaseFactor="0.0" testAmpFactor="0.0" testPhaseFactor="0.0" />
                 </attributes>
