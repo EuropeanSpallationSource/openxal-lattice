@@ -93,7 +93,7 @@
         </node>
         <node id="LEBT-010:BMD-CV-01" len="0.19913163150972682" pos="0.5747" s="0.5747" type="DC">
             <attributes>
-                <magnet len="0.19913163150972682" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.030026459799745046,0.11407441400731184,0.030026459799745046" orientation="vertical" />
+                <steerer len="0.19913163150972682" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.030026459799745046,0.11407441400731184,0.030026459799745046" orientation="vertical" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-01:FldRB" valid="true" />
@@ -102,7 +102,7 @@
         </node>
         <node id="LEBT-010:BMD-CH-01" len="0.21721723971874288" pos="0.5747" s="0.5747" type="DC">
             <attributes>
-                <magnet len="0.21721723971874288" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.02137574039433439,0.11772249964813478,0.02137574039433439" orientation="horizontal" />
+                <steerer len="0.21721723971874288" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.02137574039433439,0.11772249964813478,0.02137574039433439" orientation="horizontal" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-01:FldRB" valid="true" />
@@ -215,7 +215,7 @@
         </node>
         <node id="LEBT-010:BMD-CV-02" len="0.20098699071338388" pos="2.1291" s="2.1291" type="DC">
             <attributes>
-                <magnet len="0.20098699071338388" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.0224578947046075,0.11407441400731184,0.0224578947046075" orientation="vertical" />
+                <steerer len="0.20098699071338388" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.0224578947046075,0.11407441400731184,0.0224578947046075" orientation="vertical" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-02:FldRB" valid="true" />
@@ -224,7 +224,7 @@
         </node>
         <node id="LEBT-010:BMD-CH-02" len="0.21881162102689383" pos="2.1291" s="2.1291" type="DC">
             <attributes>
-                <magnet len="0.21881162102689383" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.015892271209502623,0.11825775126714289,0.015892271209502623" orientation="horizontal" />
+                <steerer len="0.21881162102689383" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.015892271209502623,0.11825775126714289,0.015892271209502623" orientation="horizontal" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-02:FldRB" valid="true" />
@@ -515,7 +515,7 @@
         </node>
         <node id="MEBT-010:BMD-CV-001" len="0.08" pos="0.20000000000000004" s="7.250971999999995" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-001:FldRB" valid="true" />
@@ -524,7 +524,7 @@
         </node>
         <node id="MEBT-010:BMD-CH-001" len="0.08" pos="0.20000000000000004" s="7.250971999999995" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-001:FldRB" valid="true" />
@@ -555,7 +555,7 @@
         </node>
         <node id="MEBT-010:BMD-CV-002" len="0.08" pos="0.4" s="7.450971999999995" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-002:FldRB" valid="true" />
@@ -564,7 +564,7 @@
         </node>
         <node id="MEBT-010:BMD-CH-002" len="0.08" pos="0.4" s="7.450971999999995" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-002:FldRB" valid="true" />
@@ -615,7 +615,7 @@
         </node>
         <node id="MEBT-010:BMD-CV-003" len="0.08" pos="0.7620000000000001" s="7.812971999999995" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-003:FldRB" valid="true" />
@@ -624,7 +624,7 @@
         </node>
         <node id="MEBT-010:BMD-CH-003" len="0.08" pos="0.7620000000000001" s="7.812971999999995" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-003:FldRB" valid="true" />
@@ -650,7 +650,7 @@
         </node>
         <node id="MEBT-010:BMD-CV-004" len="0.08" pos="1.5120000000000002" s="8.562971999999995" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-004:FldRB" valid="true" />
@@ -659,7 +659,7 @@
         </node>
         <node id="MEBT-010:BMD-CH-004" len="0.08" pos="1.5120000000000002" s="8.562971999999995" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-004:FldRB" valid="true" />
@@ -747,7 +747,7 @@
         </node>
         <node id="MEBT-010:BMD-CV-005" len="0.08" pos="2.2239999999999998" s="9.274971999999995" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-005:FldRB" valid="true" />
@@ -756,7 +756,7 @@
         </node>
         <node id="MEBT-010:BMD-CH-005" len="0.08" pos="2.2239999999999998" s="9.274971999999995" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-005:FldRB" valid="true" />
@@ -787,7 +787,7 @@
         </node>
         <node id="MEBT-010:BMD-CV-006" len="0.08" pos="2.423999999999999" s="9.474971999999994" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-006:FldRB" valid="true" />
@@ -796,7 +796,7 @@
         </node>
         <node id="MEBT-010:BMD-CH-006" len="0.08" pos="2.423999999999999" s="9.474971999999994" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-006:FldRB" valid="true" />
@@ -828,7 +828,7 @@
         </node>
         <node id="MEBT-010:BMD-CV-007" len="0.08" pos="2.6239999999999983" s="9.674971999999993" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-007:FldRB" valid="true" />
@@ -837,7 +837,7 @@
         </node>
         <node id="MEBT-010:BMD-CH-007" len="0.08" pos="2.6239999999999983" s="9.674971999999993" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-007:FldRB" valid="true" />
@@ -890,7 +890,7 @@
         </node>
         <node id="MEBT-010:BMD-CV-008" len="0.08" pos="3.0739999999999976" s="10.124971999999993" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-008:FldRB" valid="true" />
@@ -899,7 +899,7 @@
         </node>
         <node id="MEBT-010:BMD-CH-008" len="0.08" pos="3.0739999999999976" s="10.124971999999993" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-008:FldRB" valid="true" />
@@ -950,7 +950,7 @@
         </node>
         <node id="MEBT-010:BMD-CV-009" len="0.08" pos="3.435999999999997" s="10.48697199999999" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-009:FldRB" valid="true" />
@@ -959,7 +959,7 @@
         </node>
         <node id="MEBT-010:BMD-CH-009" len="0.08" pos="3.435999999999997" s="10.48697199999999" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-009:FldRB" valid="true" />
@@ -990,7 +990,7 @@
         </node>
         <node id="MEBT-010:BMD-CV-010" len="0.08" pos="3.635999999999996" s="10.68697199999999" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-010:FldRB" valid="true" />
@@ -999,7 +999,7 @@
         </node>
         <node id="MEBT-010:BMD-CH-010" len="0.08" pos="3.635999999999996" s="10.68697199999999" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-010:FldRB" valid="true" />
@@ -1051,7 +1051,7 @@
         </node>
         <node id="MEBT-010:BMD-CV-011" len="0.08" pos="3.8359999999999954" s="10.88697199999999" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-011:FldRB" valid="true" />
@@ -1060,7 +1060,7 @@
         </node>
         <node id="MEBT-010:BMD-CH-011" len="0.08" pos="3.8359999999999954" s="10.88697199999999" type="DC">
             <attributes>
-                <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-011:FldRB" valid="true" />
