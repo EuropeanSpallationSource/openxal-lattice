@@ -2523,7 +2523,16 @@
                 <aperture pos="0.0,0.0,0.45,0.45" shape="2" x="0.0184,0.0184,0.0184,0.0184" y="0.0184,0.010,0.010,0.0184" />
             </attributes>
         </node>
-        <node id="MEBT-010:BMD-Chop-001" len="0.45" pos="1.24175" s="8.292722" type="marker" />
+        <node id="MEBT-010:BMD-Chop-001" len="0.450" pos="1.24175" s="8.292722" type="CHP" status="false">
+            <channelsuite>
+                <channel handle="statusS" settable="true" signal="MEBT-010:BMD-Chop:UNKNOWN:STATUSSET" valid="true" />
+                <channel handle="statusRB" settable="false" signal="MEBT-010:BMD-Chop:UNKNOWN:PwrSysOK" valid="true" />
+                <channel handle="delayS" settable="true" signal="MEBT-010:BMD-Chop:UNKNOWN:Pul1-Delay-SP" valid="true" />
+                <channel handle="delayRB" settable="false" signal="MEBT-010:BMD-Chop:UNKNOWN:Pul1-Delay-RB" valid="true" />
+                <channel handle="lengthS" settable="true" signal="MEBT-010:BMD-Chop:UNKNOWN:Pul1-Width-SP" valid="true" />
+                <channel handle="lengthRB" settable="false" signal="MEBT-010:BMD-Chop:UNKNOWN:Pul1-Width-RB" valid="true" />
+            </channelsuite>
+        </node>
         <node id="MEBT-010:BMD-QH-004" len="0.08" pos="1.512" s="8.562972" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
