@@ -2697,7 +2697,16 @@
             <ps main="MEBT-010:PwrC-PSCH-006" />
         </node>
         <node id="MEBT-010:PBI-WS-003" len="0.0" pos="2.564" s="9.614972" type="marker" />
-        <node id="MEBT-010:PBI-EMU-001" len="0.0" pos="2.564" s="9.614972" type="marker" />
+        <node id="MEBT-010:PBI-EMU-001" len="0.0" pos="2.564" s="9.614972" type="EMU" status="false">
+            <channelsuite>
+                <channel handle="xEmitt" settable="false"      signal="MEBT-010:EMU001:UNKNOWN:EMITTX" valid="true" />
+                <channel handle="yEmitt" settable="false"      signal="MEBT-010:EMU001:UNKNOWN:EMITTY" valid="true" />
+                <channel handle="yAlphaTwiss" settable="false" signal="MEBT-010:EMU001:UNKNOWN:ALPHAY" valid="true" />
+                <channel handle="yBetaTwiss" settable="false"  signal="MEBT-010:EMU001:UNKNOWN:BETAY" valid="true" />
+                <channel handle="xAlphaTwiss" settable="false" signal="MEBT-010:EMU001:UNKNOWN:ALPHAX" valid="true" />
+                <channel handle="xBetaTwiss" settable="false"  signal="MEBT-010:EMU001:UNKNOWN:BETAX" valid="true" />
+            </channelsuite>
+        </node>
         <node id="MEBT-010:PBI-BPM-004" len="0.0" pos="2.624" s="9.674972" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
