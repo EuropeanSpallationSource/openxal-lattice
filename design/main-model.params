@@ -21,6 +21,12 @@
         <record name="default"/>
         <record emitgrowth="false" scheff="true" stepsize="0.1" useDCBeam="true" name="LEBT"/>
     </table>
+    <table name="TransferMapTracker">
+        <schema>
+            <attribute isPrimaryKey="true" name="name" type="java.lang.String" />
+        </schema>
+        <record name="default" />
+    </table>
     <table name="species" recordClass="xal.tools.data.GenericRecord">
         <schema>
             <attribute isPrimaryKey="true" name="name" type="java.lang.String"/>

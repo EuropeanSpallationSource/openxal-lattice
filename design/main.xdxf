@@ -2814,16 +2814,6 @@
                 </channelsuite>
                 <ps main="TS1-VC-PS" />
             </node>
-            <node id="TS1-HC" len="0.0" pos="0.3911053" s="11.45307729999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS1-HC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS1-HC-PS" />
-            </node>
             <node id="DTL6:G" len="0.0" pos="0.4324913648" s="11.494463364799989" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
@@ -2841,16 +2831,6 @@
                     <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
                     <rfgap TTF="1.0" ampFactor="0.8713035836544366" endCell="0" gapOffset="0.0" length="0.03437389999999999" phaseFactor="0.0" stfCoeffs="0.0990905,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.0990905,0.81549,-0.32703,-0.174559" />
                 </attributes>
-            </node>
-            <node id="TS2-VC" len="0.0" pos="0.55817471" s="11.62014670999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS2-VC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS2-VC-PS" />
             </node>
             <node id="TS2-HC" len="0.0" pos="0.55817471" s="11.62014670999999" type="DC">
                 <attributes>
@@ -2890,16 +2870,6 @@
                 </channelsuite>
                 <ps main="TS3-VC-PS" />
             </node>
-            <node id="TS3-HC" len="0.0" pos="0.73146415" s="11.79343614999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS3-HC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS3-HC-PS" />
-            </node>
             <node id="DTL10:G" len="0.0" pos="0.7759872656" s="11.83795926559999" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
@@ -2917,16 +2887,6 @@
                     <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
                     <rfgap TTF="1.0" ampFactor="0.8125554956035488" endCell="0" gapOffset="0.0" length="0.04059531999999999" phaseFactor="0.0" stfCoeffs="0.10647,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.10647,0.835667,-0.295675,-0.174518" />
                 </attributes>
-            </node>
-            <node id="TS4-VC" len="0.0" pos="0.91107045" s="11.97304244999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS4-VC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS4-VC-PS" />
             </node>
             <node id="TS4-HC" len="0.0" pos="0.91107045" s="11.97304244999999" type="DC">
                 <attributes>
@@ -3068,16 +3028,6 @@
                 </channelsuite>
                 <ps main="TS5-VC-PS" />
             </node>
-            <node id="TS5-HC" len="0.0" pos="1.9066760600000001" s="12.968648059999989" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS5-HC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS5-HC-PS" />
-            </node>
             <node id="DTL22:G" len="0.0" pos="1.9611080671000003" s="13.02308006709999" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
@@ -3095,16 +3045,6 @@
                     <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
                     <rfgap TTF="1.0" ampFactor="0.7003487513372074" endCell="0" gapOffset="0.0" length="0.060450500000000004" phaseFactor="0.0" stfCoeffs="0.129726,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.129726,0.879949,-0.223108,-0.159043" />
                 </attributes>
-            </node>
-            <node id="TS6-VC" len="0.0" pos="2.12581566" s="13.18778765999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS6-VC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS6-VC-PS" />
             </node>
             <node id="TS6-HC" len="0.0" pos="2.12581566" s="13.18778765999999" type="DC">
                 <attributes>
@@ -3162,16 +3102,6 @@
                 </channelsuite>
                 <ps main="TS7-VC-PS" />
             </node>
-            <node id="TS7-HC" len="0.0" pos="2.58459176" s="13.646563759999989" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS7-HC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS7-HC-PS" />
-            </node>
             <node id="DTL28:G" len="0.0" pos="2.64419512" s="13.70616711999999" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
@@ -3189,16 +3119,6 @@
                     <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
                     <rfgap TTF="1.0" ampFactor="0.6630441223439728" endCell="0" gapOffset="0.0" length="0.07075340000000002" phaseFactor="0.0" stfCoeffs="0.141828,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.141828,0.892578,-0.201643,-0.151441" />
                 </attributes>
-            </node>
-            <node id="TS8-VC" len="0.0" pos="2.82431936" s="13.88629135999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS8-VC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS8-VC-PS" />
             </node>
             <node id="TS8-HC" len="0.0" pos="2.82431936" s="13.88629135999999" type="DC">
                 <attributes>
@@ -3376,16 +3296,6 @@
                 </channelsuite>
                 <ps main="TS9-VC-PS" />
             </node>
-            <node id="TS9-HC" len="0.0" pos="4.698660760000001" s="15.760632759999991" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS9-HC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS9-HC-PS" />
-            </node>
             <node id="DTL44:G" len="0.0" pos="4.772452405000001" s="15.834424404999991" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
@@ -3403,16 +3313,6 @@
                     <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
                     <rfgap TTF="1.0" ampFactor="0.5983441862105663" endCell="0" gapOffset="0.0" length="0.09893410000000001" phaseFactor="0.0" stfCoeffs="0.174971,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.174971,0.913154,-0.165812,-0.135375" />
                 </attributes>
-            </node>
-            <node id="TS10-VC" len="0.0" pos="4.99479696" s="16.056768959999992" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS10-VC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS10-VC-PS" />
             </node>
             <node id="TS10-HC" len="0.0" pos="4.99479696" s="16.056768959999992" type="DC">
                 <attributes>
@@ -3470,16 +3370,6 @@
                 </channelsuite>
                 <ps main="TS11-VC-PS" />
             </node>
-            <node id="TS11-HC" len="0.0" pos="5.6085711599999994" s="16.67054315999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS11-HC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS11-HC-PS" />
-            </node>
             <node id="DTL50:G" len="0.0" pos="5.6877841149999995" s="16.74975611499999" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
@@ -3497,16 +3387,6 @@
                     <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
                     <rfgap TTF="1.0" ampFactor="0.5834802547977387" endCell="0" gapOffset="0.0" length="0.1096836" phaseFactor="0.0" stfCoeffs="0.18762,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.18762,0.917954,-0.157295,-0.130935" />
                 </attributes>
-            </node>
-            <node id="TS12-VC" len="0.0" pos="5.926238059999999" s="16.98821005999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS12-VC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS12-VC-PS" />
             </node>
             <node id="TS12-HC" len="0.0" pos="5.926238059999999" s="16.98821005999999" type="DC">
                 <attributes>
@@ -3727,16 +3607,6 @@
                 </channelsuite>
                 <ps main="TS13-VC-PS" />
             </node>
-            <node id="TS13-HC" len="0.0" pos="0.917759499999999" s="19.77566915999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS13-HC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS13-HC-PS" />
-            </node>
             <node id="DTL68:G" len="0.0" pos="1.0128905899999991" s="19.870800249999988" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.011" y="0.011" />
@@ -3754,16 +3624,6 @@
                     <aperture pos="0.0" shape="1" x="0.011" y="0.011" />
                     <rfgap TTF="1.0" ampFactor="1.1081928119147997" endCell="0" gapOffset="0.0" length="0.109991" phaseFactor="0.0" stfCoeffs="0.223278,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.223278,0.894264,-0.201721,-0.163916" />
                 </attributes>
-            </node>
-            <node id="TS14-VC" len="0.0" pos="1.295934899999999" s="20.15384455999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS14-VC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS14-VC-PS" />
             </node>
             <node id="TS14-HC" len="0.0" pos="1.295934899999999" s="20.15384455999999" type="DC">
                 <attributes>
@@ -3890,16 +3750,6 @@
                 </channelsuite>
                 <ps main="TS15-VC-PS" />
             </node>
-            <node id="TS15-HC" len="0.0" pos="3.2955960000000015" s="22.153505659999993" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS15-HC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS15-HC-PS" />
-            </node>
             <node id="DTL80:G" len="0.0" pos="3.4017405500000013" s="22.25965020999999" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.011" y="0.011" />
@@ -3917,16 +3767,6 @@
                     <aperture pos="0.0" shape="1" x="0.011" y="0.011" />
                     <rfgap TTF="1.0" ampFactor="1.02299901573047" endCell="0" gapOffset="0.0" length="0.1316077" phaseFactor="0.0" stfCoeffs="0.248676,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.248676,0.886677,-0.216344,-0.176307" />
                 </attributes>
-            </node>
-            <node id="TS16-VC" len="0.0" pos="3.717055100000003" s="22.574964759999993" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS16-VC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS16-VC-PS" />
             </node>
             <node id="TS16-HC" len="0.0" pos="3.717055100000003" s="22.574964759999993" type="DC">
                 <attributes>
@@ -4053,16 +3893,6 @@
                 </channelsuite>
                 <ps main="TS17-VC-PS" />
             </node>
-            <node id="TS17-HC" len="0.0" pos="5.929949200000001" s="24.787858859999993" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS17-HC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS17-HC-PS" />
-            </node>
             <node id="DTL92:G" len="0.0" pos="6.046776480000001" s="24.90468613999999" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.011" y="0.011" />
@@ -4080,16 +3910,6 @@
                     <aperture pos="0.0" shape="1" x="0.011" y="0.011" />
                     <rfgap TTF="1.0" ampFactor="0.9618580810152089" endCell="0" gapOffset="0.0" length="0.1520648" phaseFactor="0.0" stfCoeffs="0.273289,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.273289,0.874204,-0.239784,-0.193853" />
                 </attributes>
-            </node>
-            <node id="TS18-VC" len="0.0" pos="6.393365000000001" s="25.251274659999993" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS18-VC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS18-VC-PS" />
             </node>
             <node id="TS18-HC" len="0.0" pos="6.393365000000001" s="25.251274659999993" type="DC">
                 <attributes>
@@ -4235,16 +4055,6 @@
                 </channelsuite>
                 <ps main="TS19-VC-PS" />
             </node>
-            <node id="TS19-HC" len="0.0" pos="1.4641411999999967" s="27.66155555999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS19-HC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS19-HC-PS" />
-            </node>
             <node id="DTL104:G" len="0.0" pos="1.5899006099999966" s="27.78731496999999" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.011" y="0.011" />
@@ -4262,16 +4072,6 @@
                     <aperture pos="0.0" shape="1" x="0.011" y="0.011" />
                     <rfgap TTF="1.0" ampFactor="0.9761986601087012" endCell="0" gapOffset="0.0" length="0.1703428" phaseFactor="0.0" stfCoeffs="0.294187,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.294187,0.860477,-0.265265,-0.211668" />
                 </attributes>
-            </node>
-            <node id="TS20-VC" len="0.0" pos="1.9632393999999955" s="28.160653759999988" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS20-VC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS20-VC-PS" />
             </node>
             <node id="TS20-HC" len="0.0" pos="1.9632393999999955" s="28.160653759999988" type="DC">
                 <attributes>
@@ -4416,16 +4216,6 @@
                 </channelsuite>
                 <ps main="TS21-VC-PS" />
             </node>
-            <node id="TS21-HC" len="0.0" pos="5.091093300000001" s="31.288507659999993" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS21-HC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS21-HC-PS" />
-            </node>
             <node id="DTL118:G" len="0.0" pos="5.228047190000001" s="31.425461549999994" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.011" y="0.011" />
@@ -4443,16 +4233,6 @@
                     <aperture pos="0.0" shape="1" x="0.011" y="0.011" />
                     <rfgap TTF="1.0" ampFactor="0.9165388852438234" endCell="0" gapOffset="0.0" length="0.19232339999999998" phaseFactor="0.0" stfCoeffs="0.31999,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.31999,0.839618,-0.303506,-0.236473" />
                 </attributes>
-            </node>
-            <node id="TS22-VC" len="0.0" pos="5.634189599999999" s="31.83160395999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS22-VC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS22-VC-PS" />
             </node>
             <node id="TS22-HC" len="0.0" pos="5.634189599999999" s="31.83160395999999" type="DC">
                 <attributes>
@@ -4617,16 +4397,6 @@
                 </channelsuite>
                 <ps main="TS23-VC-PS" />
             </node>
-            <node id="TS23-HC" len="0.0" pos="1.151471799999996" s="35.21500015999998" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS23-HC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS23-HC-PS" />
-            </node>
             <node id="DTL132:G" len="0.0" pos="1.297959299999996" s="35.36148765999998" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.012" y="0.012" />
@@ -4644,16 +4414,6 @@
                     <aperture pos="0.0" shape="1" x="0.012" y="0.012" />
                     <rfgap TTF="1.0" ampFactor="0.99286395321356" endCell="0" gapOffset="0.0" length="0.21117989999999998" phaseFactor="0.0" stfCoeffs="0.342161,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.342161,0.810584,-0.355216,-0.263859" />
                 </attributes>
-            </node>
-            <node id="TS24-VC" len="0.0" pos="1.7324054999999987" s="35.795933859999984" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS24-VC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS24-VC-PS" />
             </node>
             <node id="TS24-HC" len="0.0" pos="1.7324054999999987" s="35.795933859999984" type="DC">
                 <attributes>
@@ -4780,16 +4540,6 @@
                 </channelsuite>
                 <ps main="TS25-VC-PS" />
             </node>
-            <node id="TS25-HC" len="0.0" pos="4.721534100000003" s="38.78506245999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS25-HC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS25-HC-PS" />
-            </node>
             <node id="DTL144:G" len="0.0" pos="4.8765336400000034" s="38.94006199999999" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.012" y="0.012" />
@@ -4807,16 +4557,6 @@
                     <aperture pos="0.0" shape="1" x="0.012" y="0.012" />
                     <rfgap TTF="1.0" ampFactor="0.9490925940326758" endCell="0" gapOffset="0.0" length="0.22789330000000002" phaseFactor="0.0" stfCoeffs="0.361786,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.361786,0.790854,-0.390293,-0.282157" />
                 </attributes>
-            </node>
-            <node id="TS26-VC" len="0.0" pos="5.335938400000003" s="39.39946675999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS26-VC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS26-VC-PS" />
             </node>
             <node id="TS26-HC" len="0.0" pos="5.335938400000003" s="39.39946675999999" type="DC">
                 <attributes>
@@ -4986,16 +4726,6 @@
                 </channelsuite>
                 <ps main="TS27-VC-PS" />
             </node>
-            <node id="TS27-HC" len="0.0" pos="0.9704328999999987" s="43.200299359999995" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS27-HC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS27-HC-PS" />
-            </node>
             <node id="DTL158:G" len="0.0" pos="1.1340286799999988" s="43.36389514" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.012" y="0.012" />
@@ -5013,16 +4743,6 @@
                     <aperture pos="0.0" shape="1" x="0.012" y="0.012" />
                     <rfgap TTF="1.0" ampFactor="1.0013022220873296" endCell="0" gapOffset="0.0" length="0.24490840000000003" phaseFactor="0.0" stfCoeffs="0.381809,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.381809,0.769635,-0.427547,-0.299612" />
                 </attributes>
-            </node>
-            <node id="TS28-VC" len="0.0" pos="1.6189460999999952" s="43.84881255999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS28-VC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS28-VC-PS" />
             </node>
             <node id="TS28-HC" len="0.0" pos="1.6189460999999952" s="43.84881255999999" type="DC">
                 <attributes>
@@ -5149,16 +4869,6 @@
                 </channelsuite>
                 <ps main="TS29-VC-PS" />
             </node>
-            <node id="TS29-HC" len="0.0" pos="4.939996999999991" s="47.16986345999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS29-HC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS29-HC-PS" />
-            </node>
             <node id="DTL170:G" len="0.0" pos="5.1114956099999915" s="47.34136206999999" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.012" y="0.012" />
@@ -5176,16 +4886,6 @@
                     <aperture pos="0.0" shape="1" x="0.012" y="0.012" />
                     <rfgap TTF="1.0" ampFactor="0.9615383069448834" endCell="0" gapOffset="0.0" length="0.26041410000000004" phaseFactor="0.0" stfCoeffs="0.400029,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.400029,0.749258,-0.462842,-0.314165" />
                 </attributes>
-            </node>
-            <node id="TS30-VC" len="0.0" pos="5.619589899999994" s="47.84945635999999" type="DC">
-                <attributes>
-                    <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
-                    <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
-                </attributes>
-                <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="TS30-VC:B" valid="true" />
-                </channelsuite>
-                <ps main="TS30-VC-PS" />
             </node>
             <node id="TS30-HC" len="0.0" pos="5.619589899999994" s="47.84945635999999" type="DC">
                 <attributes>
@@ -12095,16 +11795,6 @@
                 <channel handle="cycleState" settable="false" signal="QP28-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS5-HC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS5-HC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS5-HC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS5-HC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS5-HC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS5-HC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS5-HC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="TS102-HC-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="TS102-HC-PS:CycEn" valid="true" />
@@ -12183,16 +11873,6 @@
                 <channel handle="I_Set" settable="true" signal="ST9-HC-PS:CurSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="ST9-HC-PS:FldRB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="ST9-HC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
-        <ps id="TS22-VC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS22-VC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS22-VC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS22-VC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS22-VC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS22-VC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS22-VC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="TS96-HC-PS" type="main">
@@ -12375,16 +12055,6 @@
                 <channel handle="cycleState" settable="false" signal="TS83-VC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS16-VC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS16-VC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS16-VC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS16-VC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS16-VC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS16-VC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS16-VC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="QP17-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="QP17-PS:CycEn" valid="true" />
@@ -12545,16 +12215,6 @@
                 <channel handle="cycleState" settable="false" signal="QP105-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS27-HC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS27-HC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS27-HC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS27-HC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS27-HC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS27-HC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS27-HC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="QP85-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="QP85-PS:CycEn" valid="true" />
@@ -12633,16 +12293,6 @@
                 <channel handle="I_Set" settable="true" signal="ST4-VC-PS:CurSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="ST4-VC-PS:FldRB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="ST4-VC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
-        <ps id="TS14-VC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS14-VC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS14-VC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS14-VC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS14-VC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS14-VC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS14-VC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="TS41-HC-PS" type="main">
@@ -12825,16 +12475,6 @@
                 <channel handle="cycleState" settable="false" signal="ST2-VC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS29-HC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS29-HC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS29-HC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS29-HC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS29-HC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS29-HC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS29-HC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="QP8-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="QP8-PS:CycEn" valid="true" />
@@ -12863,16 +12503,6 @@
                 <channel handle="I_Set" settable="true" signal="QP75-PS:CurSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="QP75-PS:FldRB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="QP75-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
-        <ps id="TS11-HC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS11-HC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS11-HC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS11-HC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS11-HC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS11-HC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS11-HC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="QP106-PS" type="main">
@@ -13055,16 +12685,6 @@
                 <channel handle="cycleState" settable="false" signal="TS2-HC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS18-VC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS18-VC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS18-VC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS18-VC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS18-VC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS18-VC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS18-VC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="QP109-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="QP109-PS:CycEn" valid="true" />
@@ -13215,16 +12835,6 @@
                 <channel handle="cycleState" settable="false" signal="TS17-VC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS20-VC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS20-VC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS20-VC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS20-VC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS20-VC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS20-VC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS20-VC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="TS38-HC-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="TS38-HC-PS:CycEn" valid="true" />
@@ -13325,16 +12935,6 @@
                 <channel handle="cycleState" settable="false" signal="QP133-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS7-HC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS7-HC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS7-HC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS7-HC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS7-HC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS7-HC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS7-HC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="QP54-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="QP54-PS:CycEn" valid="true" />
@@ -13403,16 +13003,6 @@
                 <channel handle="I_Set" settable="true" signal="QP65-PS:CurSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="QP65-PS:FldRB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="QP65-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
-        <ps id="TS1-HC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS1-HC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS1-HC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS1-HC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS1-HC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS1-HC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS1-HC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="QP119-PS" type="main">
@@ -13515,16 +13105,6 @@
                 <channel handle="cycleState" settable="false" signal="QP143-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS26-VC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS26-VC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS26-VC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS26-VC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS26-VC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS26-VC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS26-VC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="TS74-VC-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="TS74-VC-PS:CycEn" valid="true" />
@@ -13583,16 +13163,6 @@
                 <channel handle="I_Set" settable="true" signal="TS44-HC-PS:CurSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="TS44-HC-PS:FldRB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="TS44-HC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
-        <ps id="TS3-HC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS3-HC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS3-HC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS3-HC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS3-HC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS3-HC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS3-HC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="TS77-VC-PS" type="main">
@@ -13683,16 +13253,6 @@
                 <channel handle="I_Set" settable="true" signal="TS103-VC-PS:CurSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="TS103-VC-PS:FldRB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="TS103-VC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
-        <ps id="TS30-VC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS30-VC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS30-VC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS30-VC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS30-VC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS30-VC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS30-VC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="QP132-PS" type="main">
@@ -13855,16 +13415,6 @@
                 <channel handle="cycleState" settable="false" signal="TS19-VC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS24-VC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS24-VC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS24-VC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS24-VC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS24-VC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS24-VC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS24-VC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="TS51-HC-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="TS51-HC-PS:CycEn" valid="true" />
@@ -13903,16 +13453,6 @@
                 <channel handle="I_Set" settable="true" signal="TS55-VC-PS:CurSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="TS55-VC-PS:FldRB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="TS55-VC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
-        <ps id="TS23-HC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS23-HC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS23-HC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS23-HC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS23-HC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS23-HC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS23-HC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="TS95-VC-PS" type="main">
@@ -14015,16 +13555,6 @@
                 <channel handle="cycleState" settable="false" signal="TS68-VC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS28-VC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS28-VC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS28-VC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS28-VC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS28-VC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS28-VC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS28-VC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="QP147-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="QP147-PS:CycEn" valid="true" />
@@ -14095,16 +13625,6 @@
                 <channel handle="cycleState" settable="false" signal="QP11-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS4-VC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS4-VC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS4-VC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS4-VC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS4-VC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS4-VC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS4-VC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="TS76-HC-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="TS76-HC-PS:CycEn" valid="true" />
@@ -14173,26 +13693,6 @@
                 <channel handle="I_Set" settable="true" signal="QP113-PS:CurSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="QP113-PS:FldRB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="QP113-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
-        <ps id="TS10-VC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS10-VC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS10-VC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS10-VC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS10-VC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS10-VC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS10-VC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
-        <ps id="TS15-HC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS15-HC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS15-HC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS15-HC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS15-HC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS15-HC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS15-HC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="TS50-VC-PS" type="main">
@@ -14635,16 +14135,6 @@
                 <channel handle="cycleState" settable="false" signal="QP146-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS9-HC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS9-HC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS9-HC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS9-HC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS9-HC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS9-HC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS9-HC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="TS61-HC-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="TS61-HC-PS:CycEn" valid="true" />
@@ -14955,26 +14445,6 @@
                 <channel handle="cycleState" settable="false" signal="TS33-HC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS12-VC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS12-VC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS12-VC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS12-VC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS12-VC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS12-VC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS12-VC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
-        <ps id="TS13-HC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS13-HC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS13-HC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS13-HC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS13-HC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS13-HC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS13-HC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="QP14-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="QP14-PS:CycEn" valid="true" />
@@ -15095,16 +14565,6 @@
                 <channel handle="cycleState" settable="false" signal="TS79-HC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS19-HC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS19-HC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS19-HC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS19-HC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS19-HC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS19-HC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS19-HC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="QP104-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="QP104-PS:CycEn" valid="true" />
@@ -15153,16 +14613,6 @@
                 <channel handle="I_Set" settable="true" signal="QP7-PS:CurSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="QP7-PS:FldRB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="QP7-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
-        <ps id="TS25-HC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS25-HC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS25-HC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS25-HC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS25-HC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS25-HC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS25-HC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="TS78-HC-PS" type="main">
@@ -15325,16 +14775,6 @@
                 <channel handle="cycleState" settable="false" signal="TS44-VC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS2-VC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS2-VC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS2-VC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS2-VC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS2-VC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS2-VC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS2-VC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="QP48-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="QP48-PS:CycEn" valid="true" />
@@ -15373,26 +14813,6 @@
                 <channel handle="I_Set" settable="true" signal="QP5-PS:CurSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="QP5-PS:FldRB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="QP5-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
-        <ps id="TS17-HC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS17-HC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS17-HC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS17-HC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS17-HC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS17-HC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS17-HC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
-        <ps id="TS8-VC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS8-VC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS8-VC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS8-VC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS8-VC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS8-VC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS8-VC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="TS67-HC-PS" type="main">
@@ -15515,16 +14935,6 @@
                 <channel handle="cycleState" settable="false" signal="QP94-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="TS21-HC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS21-HC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS21-HC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS21-HC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS21-HC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS21-HC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS21-HC-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
         <ps id="QP125-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="QP125-PS:CycEn" valid="true" />
@@ -15593,16 +15003,6 @@
                 <channel handle="I_Set" settable="true" signal="QP16-PS:CurSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="QP16-PS:FldRB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="QP16-PS:CycSt" valid="true" />
-            </channelsuite>
-        </ps>
-        <ps id="TS6-VC-PS" type="main">
-            <channelsuite>
-                <channel handle="cycleEnable" settable="true" signal="TS6-VC-PS:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="TS6-VC-PS:FldSet" valid="true" />
-                <channel handle="I" settable="false" signal="TS6-VC-PS:CurRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="TS6-VC-PS:CurSet" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="TS6-VC-PS:FldRB" valid="true" />
-                <channel handle="cycleState" settable="false" signal="TS6-VC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="TS101-HC-PS" type="main">
