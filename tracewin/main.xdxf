@@ -82,6 +82,9 @@
         <node id="END-ISRC" len="0.0" pos="0.0" type="marker" />
     </sequence>
     <sequence id="LEBT" len="2.505899999999999" pos="0.0">
+        <attributes>
+            <sequence predecessors="ISRC" />
+        </attributes>
         <node id="MFM1:MFM" len="0.5454" pos="0.6081000000000001" type="MFM">
             <attributes>
                 <fieldmap dimensions="2" dynamic="false" fieldMapFile="Field_Maps/1D/sef2_545_4mm" fieldType="magnetic" numberOfPoints="2000" />
@@ -2771,7 +2774,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9547977368824289" endCell="0" gapOffset="0.0" length="0.028276440000000007" phaseFactor="0.0" stfCoeffs="0.0919382,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.0919382,0.792678,-0.361117,-0.169146" />
                 </attributes>
             </node>
-            <node id="BPM8" len="0.0" pos="0.23054343" s="11.29251543" type="BPM">
+            <node id="BPM8" len="0.0" pos="0.23016066999999998" s="11.29213266999999" type="BPM">
                 <attributes>
                     <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
@@ -2804,7 +2807,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9089159651536013" endCell="0" gapOffset="0.0" length="0.031308159999999995" phaseFactor="0.0" stfCoeffs="0.0954842,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.0954842,0.804402,-0.343792,-0.172695" />
                 </attributes>
             </node>
-            <node id="TS1-VC" len="0.0" pos="0.39149716" s="11.45346916" type="DC">
+            <node id="TS1-VC" len="0.0" pos="0.3911053" s="11.45307729999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -2832,7 +2835,7 @@
                     <rfgap TTF="1.0" ampFactor="0.8713035836544366" endCell="0" gapOffset="0.0" length="0.03437389999999999" phaseFactor="0.0" stfCoeffs="0.0990905,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.0990905,0.81549,-0.32703,-0.174559" />
                 </attributes>
             </node>
-            <node id="TS2-HC" len="0.0" pos="0.55856370" s="11.62053570" type="DC">
+            <node id="TS2-HC" len="0.0" pos="0.55817471" s="11.62014670999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -2860,7 +2863,7 @@
                     <rfgap TTF="1.0" ampFactor="0.8393521198293002" endCell="0" gapOffset="0.0" length="0.03747313" phaseFactor="0.0" stfCoeffs="0.102754,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.102754,0.82582,-0.311126,-0.175139" />
                 </attributes>
             </node>
-            <node id="TS3-VC" len="0.0" pos="0.73184944" s="11.79382144" type="DC">
+            <node id="TS3-VC" len="0.0" pos="0.73146415" s="11.79343614999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -2888,7 +2891,7 @@
                     <rfgap TTF="1.0" ampFactor="0.8125554956035488" endCell="0" gapOffset="0.0" length="0.04059531999999999" phaseFactor="0.0" stfCoeffs="0.10647,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.10647,0.835667,-0.295675,-0.174518" />
                 </attributes>
             </node>
-            <node id="TS4-HC" len="0.0" pos="0.91143797" s="11.97340997" type="DC">
+            <node id="TS4-HC" len="0.0" pos="0.91107045" s="11.97304244999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -2934,7 +2937,7 @@
                     <rfgap TTF="1.0" ampFactor="0.7657326245883577" endCell="0" gapOffset="0.0" length="0.047088700000000004" phaseFactor="0.0" stfCoeffs="0.114052,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.114052,0.852709,-0.268356,-0.171103" />
                 </attributes>
             </node>
-            <node id="BPM9" len="0.0" pos="1.28995987" s="12.35193187" type="BPM">
+            <node id="BPM9" len="0.0" pos="1.2895686700000002" s="12.35154066999999" type="BPM">
                 <attributes>
                     <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
@@ -2985,7 +2988,7 @@
                     <rfgap TTF="1.0" ampFactor="0.7298844357462797" endCell="0" gapOffset="0.0" length="0.0536817" phaseFactor="0.0" stfCoeffs="0.121811,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.121811,0.867551,-0.243964,-0.165631" />
                 </attributes>
             </node>
-            <node id="BPM10" len="0.0" pos="1.69469733" s="12.75666933" type="BPM">
+            <node id="BPM10" len="0.0" pos="1.6942968600000001" s="12.75626885999999" type="BPM">
                 <attributes>
                     <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
@@ -3018,7 +3021,7 @@
                     <rfgap TTF="1.0" ampFactor="0.7140492602185285" endCell="0" gapOffset="0.0" length="0.057062299999999996" phaseFactor="0.0" stfCoeffs="0.12575,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.12575,0.873948,-0.233257,-0.162457" />
                 </attributes>
             </node>
-            <node id="TS5-VC" len="0.0" pos="1.90708210" s="12.96905410" type="DC">
+            <node id="TS5-VC" len="0.0" pos="1.9066760600000001" s="12.968648059999989" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -3046,7 +3049,7 @@
                     <rfgap TTF="1.0" ampFactor="0.7003487513372074" endCell="0" gapOffset="0.0" length="0.060450500000000004" phaseFactor="0.0" stfCoeffs="0.129726,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.129726,0.879949,-0.223108,-0.159043" />
                 </attributes>
             </node>
-            <node id="TS6-HC" len="0.0" pos="2.12622647" s="13.18819847" type="DC">
+            <node id="TS6-HC" len="0.0" pos="2.12581566" s="13.18778765999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -3092,7 +3095,7 @@
                     <rfgap TTF="1.0" ampFactor="0.6750360489333465" endCell="0" gapOffset="0.0" length="0.0672705" phaseFactor="0.0" stfCoeffs="0.137769,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.137769,0.889023,-0.207699,-0.153636" />
                 </attributes>
             </node>
-            <node id="TS7-VC" len="0.0" pos="2.58495173" s="13.64692373" type="DC">
+            <node id="TS7-VC" len="0.0" pos="2.58459176" s="13.646563759999989" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -3120,7 +3123,7 @@
                     <rfgap TTF="1.0" ampFactor="0.6630441223439728" endCell="0" gapOffset="0.0" length="0.07075340000000002" phaseFactor="0.0" stfCoeffs="0.141828,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.141828,0.892578,-0.201643,-0.151441" />
                 </attributes>
             </node>
-            <node id="TS8-HC" len="0.0" pos="2.82470498" s="13.88667698" type="DC">
+            <node id="TS8-HC" len="0.0" pos="2.82431936" s="13.88629135999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -3166,7 +3169,7 @@
                     <rfgap TTF="1.0" ampFactor="0.643104176321175" endCell="0" gapOffset="0.0" length="0.07768290000000001" phaseFactor="0.0" stfCoeffs="0.150012,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.150012,0.899207,-0.190214,-0.146753" />
                 </attributes>
             </node>
-            <node id="BPM11" len="0.0" pos="3.32500737" s="14.38697937" type="BPM">
+            <node id="BPM11" len="0.0" pos="3.32464546" s="14.38661745999999" type="BPM">
                 <attributes>
                     <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
@@ -3235,7 +3238,7 @@
                     <rfgap TTF="1.0" ampFactor="0.6176448096320318" endCell="0" gapOffset="0.0" length="0.08828000000000001" phaseFactor="0.0" stfCoeffs="0.162424,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.162424,0.906863,-0.176902,-0.140876" />
                 </attributes>
             </node>
-            <node id="BPM12" len="0.0" pos="4.12815973" s="15.19013173" type="BPM">
+            <node id="BPM12" len="0.0" pos="4.12779506" s="15.18976705999999" type="BPM">
                 <attributes>
                     <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
@@ -3286,7 +3289,7 @@
                     <rfgap TTF="1.0" ampFactor="0.6048439045419511" endCell="0" gapOffset="0.0" length="0.09532570000000001" phaseFactor="0.0" stfCoeffs="0.170776,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.170776,0.911428,-0.168847,-0.136844" />
                 </attributes>
             </node>
-            <node id="TS9-VC" len="0.0" pos="4.69899497" s="15.76096697" type="DC">
+            <node id="TS9-VC" len="0.0" pos="4.698660760000001" s="15.760632759999991" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -3314,7 +3317,7 @@
                     <rfgap TTF="1.0" ampFactor="0.5983441862105663" endCell="0" gapOffset="0.0" length="0.09893410000000001" phaseFactor="0.0" stfCoeffs="0.174971,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.174971,0.913154,-0.165812,-0.135375" />
                 </attributes>
             </node>
-            <node id="TS10-HC" len="0.0" pos="4.99516321" s="16.05713521" type="DC">
+            <node id="TS10-HC" len="0.0" pos="4.99479696" s="16.056768959999992" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -3360,7 +3363,7 @@
                     <rfgap TTF="1.0" ampFactor="0.588382198968633" endCell="0" gapOffset="0.0" length="0.10606850000000001" phaseFactor="0.0" stfCoeffs="0.183394,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.183394,0.916627,-0.159643,-0.132134" />
                 </attributes>
             </node>
-            <node id="TS11-VC" len="0.0" pos="5.60889426" s="16.67086626" type="DC">
+            <node id="TS11-VC" len="0.0" pos="5.6085711599999994" s="16.67054315999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -3388,7 +3391,7 @@
                     <rfgap TTF="1.0" ampFactor="0.5834802547977387" endCell="0" gapOffset="0.0" length="0.1096836" phaseFactor="0.0" stfCoeffs="0.18762,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.18762,0.917954,-0.157295,-0.130935" />
                 </attributes>
             </node>
-            <node id="TS12-HC" len="0.0" pos="5.92658851" s="16.98856051" type="DC">
+            <node id="TS12-HC" len="0.0" pos="5.926238059999999" s="16.98821005999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="10.0" y="10.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -3452,7 +3455,7 @@
                     <rfgap TTF="1.0" ampFactor="0.5688725456395136" endCell="0" gapOffset="0.0" length="0.12056610000000001" phaseFactor="0.0" stfCoeffs="0.200337,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.200337,0.919774,-0.154221,-0.129998" />
                 </attributes>
             </node>
-            <node id="BPM13" len="0.0" pos="6.92285960" s="17.98483160" type="BPM">
+            <node id="BPM13" len="0.0" pos="6.9225467599999995" s="17.98451875999999" type="BPM">
                 <attributes>
                     <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
@@ -3564,7 +3567,7 @@
                     <rfgap TTF="1.0" ampFactor="1.1382342220821275" endCell="0" gapOffset="0.0" length="0.10313739999999999" phaseFactor="0.0" stfCoeffs="0.214669,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.214669,0.895329,-0.199506,-0.161419" />
                 </attributes>
             </node>
-            <node id="BPM14" len="0.0" pos="0.54721741" s="19.40512707" type="BPM">
+            <node id="BPM14" len="0.0" pos="0.5469053999999982" s="19.40481505999999" type="BPM">
                 <attributes>
                     <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
@@ -3597,7 +3600,7 @@
                     <rfgap TTF="1.0" ampFactor="1.1252283954537523" endCell="0" gapOffset="0.0" length="0.1063342" phaseFactor="0.0" stfCoeffs="0.218981,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.218981,0.894907,-0.200412,-0.162543" />
                 </attributes>
             </node>
-            <node id="TS13-VC" len="0.0" pos="0.91805939" s="19.77596905" type="DC">
+            <node id="TS13-VC" len="0.0" pos="0.917759499999999" s="19.77566915999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -3625,7 +3628,7 @@
                     <rfgap TTF="1.0" ampFactor="1.1081928119147997" endCell="0" gapOffset="0.0" length="0.109991" phaseFactor="0.0" stfCoeffs="0.223278,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.223278,0.894264,-0.201721,-0.163916" />
                 </attributes>
             </node>
-            <node id="TS14-HC" len="0.0" pos="1.29623144" s="20.15414110" type="DC">
+            <node id="TS14-HC" len="0.0" pos="1.295934899999999" s="20.15384455999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -3707,7 +3710,7 @@
                     <rfgap TTF="1.0" ampFactor="1.0485524401738002" endCell="0" gapOffset="0.0" length="0.1244781" phaseFactor="0.0" stfCoeffs="0.240289,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.240289,0.889845,-0.21031,-0.171471" />
                 </attributes>
             </node>
-            <node id="BPM15" len="0.0" pos="2.88153990" s="21.73944956" type="BPM">
+            <node id="BPM15" len="0.0" pos="2.8812662000000007" s="21.73917585999999" type="BPM">
                 <attributes>
                     <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
@@ -3740,7 +3743,7 @@
                     <rfgap TTF="1.0" ampFactor="1.035610675390959" endCell="0" gapOffset="0.0" length="0.1280473" phaseFactor="0.0" stfCoeffs="0.244493,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.244493,0.888367,-0.213135,-0.173768" />
                 </attributes>
             </node>
-            <node id="TS15-VC" len="0.0" pos="3.29585706" s="22.15376672" type="DC">
+            <node id="TS15-VC" len="0.0" pos="3.2955960000000015" s="22.153505659999993" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -3768,7 +3771,7 @@
                     <rfgap TTF="1.0" ampFactor="1.02299901573047" endCell="0" gapOffset="0.0" length="0.1316077" phaseFactor="0.0" stfCoeffs="0.248676,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.248676,0.886677,-0.216344,-0.176307" />
                 </attributes>
             </node>
-            <node id="TS16-HC" len="0.0" pos="3.71731273" s="22.57522239" type="DC">
+            <node id="TS16-HC" len="0.0" pos="3.717055100000003" s="22.574964759999993" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -3850,7 +3853,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9782089130325522" endCell="0" gapOffset="0.0" length="0.1456636" phaseFactor="0.0" stfCoeffs="0.265181,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.265181,0.878764,-0.231254,-0.187627" />
                 </attributes>
             </node>
-            <node id="BPM16" len="0.0" pos="5.47366623" s="24.33157589" type="BPM">
+            <node id="BPM16" len="0.0" pos="5.4734237000000014" s="24.33133335999999" type="BPM">
                 <attributes>
                     <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
@@ -3883,7 +3886,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9685092614412606" endCell="0" gapOffset="0.0" length="0.1491151" phaseFactor="0.0" stfCoeffs="0.269247,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.269247,0.876587,-0.235335,-0.190634" />
                 </attributes>
             </node>
-            <node id="TS17-VC" len="0.0" pos="5.93017838" s="24.78808804" type="DC">
+            <node id="TS17-VC" len="0.0" pos="5.929949200000001" s="24.787858859999993" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -3911,7 +3914,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9618580810152089" endCell="0" gapOffset="0.0" length="0.1520648" phaseFactor="0.0" stfCoeffs="0.273289,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.273289,0.874204,-0.239784,-0.193853" />
                 </attributes>
             </node>
-            <node id="TS18-HC" len="0.0" pos="6.39310021" s="25.25100987" type="DC">
+            <node id="TS18-HC" len="0.0" pos="6.393365000000001" s="25.251274659999993" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -4012,7 +4015,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9956032087593161" endCell="0" gapOffset="0.0" length="0.1638768" phaseFactor="0.0" stfCoeffs="0.286578,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.286578,0.865822,-0.255377,-0.204892" />
                 </attributes>
             </node>
-            <node id="BPM17" len="0.0" pos="0.97171584" s="27.16913020" type="BPM">
+            <node id="BPM17" len="0.0" pos="0.9715080999999977" s="27.16892245999999" type="BPM">
                 <attributes>
                     <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
@@ -4045,7 +4048,7 @@
                     <rfgap TTF="1.0" ampFactor="0.985660048062867" endCell="0" gapOffset="0.0" length="0.1671257" phaseFactor="0.0" stfCoeffs="0.290395,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.290395,0.863169,-0.260289,-0.208275" />
                 </attributes>
             </node>
-            <node id="TS19-VC" len="0.0" pos="1.46434551" s="27.66175987" type="DC">
+            <node id="TS19-VC" len="0.0" pos="1.4641411999999967" s="27.66155555999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -4073,7 +4076,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9761986601087012" endCell="0" gapOffset="0.0" length="0.1703428" phaseFactor="0.0" stfCoeffs="0.294187,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.294187,0.860477,-0.265265,-0.211668" />
                 </attributes>
             </node>
-            <node id="TS20-HC" len="0.0" pos="1.96343080" s="28.16084516" type="DC">
+            <node id="TS20-HC" len="0.0" pos="1.9632393999999955" s="28.160653759999988" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -4173,7 +4176,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9325389884826303" endCell="0" gapOffset="0.0" length="0.1861413" phaseFactor="0.0" stfCoeffs="0.312751,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.312751,0.845878,-0.292084,-0.229289" />
                 </attributes>
             </node>
-            <node id="BPM18" len="0.0" pos="4.55432042" s="30.75173478" type="BPM">
+            <node id="BPM18" len="0.0" pos="4.554145599999998" s="30.751559959999987" type="BPM">
                 <attributes>
                     <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
@@ -4206,7 +4209,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9246492166124897" endCell="0" gapOffset="0.0" length="0.18923249999999997" phaseFactor="0.0" stfCoeffs="0.316384,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.316384,0.84284,-0.297636,-0.23281" />
                 </attributes>
             </node>
-            <node id="TS21-VC" len="0.0" pos="5.09126399" s="31.28867835" type="DC">
+            <node id="TS21-VC" len="0.0" pos="5.091093300000001" s="31.288507659999993" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -4234,7 +4237,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9165388852438234" endCell="0" gapOffset="0.0" length="0.19232339999999998" phaseFactor="0.0" stfCoeffs="0.31999,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.31999,0.839618,-0.303506,-0.236473" />
                 </attributes>
             </node>
-            <node id="TS22-HC" len="0.0" pos="5.63436940" s="31.83178376" type="DC">
+            <node id="TS22-HC" len="0.0" pos="5.634189599999999" s="31.83160395999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="11.0" y="11.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -4354,7 +4357,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9955968111539983" endCell="0" gapOffset="0.0" length="0.20858379999999999" phaseFactor="0.0" stfCoeffs="0.33544,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.33544,0.809351,-0.357236,-0.264205" />
                 </attributes>
             </node>
-            <node id="BPM19" len="0.0" pos="0.57600103" s="34.63952939" type="BPM">
+            <node id="BPM19" len="0.0" pos="0.576273699999998" s="34.63980205999999" type="BPM">
                 <attributes>
                     <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
@@ -4387,7 +4390,7 @@
                     <rfgap TTF="1.0" ampFactor="1.0009775093249609" endCell="0" gapOffset="0.0" length="0.20831760000000005" phaseFactor="0.0" stfCoeffs="0.338797,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.338797,0.813802,-0.349453,-0.260679" />
                 </attributes>
             </node>
-            <node id="TS23-VC" len="0.0" pos="1.15162078" s="35.21514914" type="DC">
+            <node id="TS23-VC" len="0.0" pos="1.151471799999996" s="35.21500015999998" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -4415,7 +4418,7 @@
                     <rfgap TTF="1.0" ampFactor="0.99286395321356" endCell="0" gapOffset="0.0" length="0.21117989999999998" phaseFactor="0.0" stfCoeffs="0.342161,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.342161,0.810584,-0.355216,-0.263859" />
                 </attributes>
             </node>
-            <node id="TS24-HC" len="0.0" pos="1.73255222" s="35.79608058" type="DC">
+            <node id="TS24-HC" len="0.0" pos="1.7324054999999987" s="35.795933859999984" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -4497,7 +4500,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9627722603224543" endCell="0" gapOffset="0.0" length="0.22240340000000003" phaseFactor="0.0" stfCoeffs="0.355349,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.355349,0.797493,-0.37854,-0.276228" />
                 </attributes>
             </node>
-            <node id="BPM20" len="0.0" pos="4.11273329" s="38.17626165" type="BPM">
+            <node id="BPM20" len="0.0" pos="4.112596700000001" s="38.17612505999999" type="BPM">
                 <attributes>
                     <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
@@ -4530,7 +4533,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9560126230290535" endCell="0" gapOffset="0.0" length="0.2251537" phaseFactor="0.0" stfCoeffs="0.358581,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.358581,0.794255,-0.38428,-0.27916" />
                 </attributes>
             </node>
-            <node id="TS25-VC" len="0.0" pos="4.72166829" s="38.78519665" type="DC">
+            <node id="TS25-VC" len="0.0" pos="4.721534100000003" s="38.78506245999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -4558,7 +4561,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9490925940326758" endCell="0" gapOffset="0.0" length="0.22789330000000002" phaseFactor="0.0" stfCoeffs="0.361786,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.361786,0.790854,-0.390293,-0.282157" />
                 </attributes>
             </node>
-            <node id="TS26-HC" len="0.0" pos="5.33607113" s="39.39959949" type="DC">
+            <node id="TS26-HC" len="0.0" pos="5.335938400000003" s="39.39946675999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -4676,7 +4679,7 @@
                     <rfgap TTF="1.0" ampFactor="1.0" endCell="0" gapOffset="0.0" length="0.24336700000000003" phaseFactor="0.0" stfCoeffs="0.375651,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.375651,0.767986,-0.430244,-0.300073" />
                 </attributes>
             </node>
-            <node id="BPM21" len="0.0" pos="0.32336700" s="42.55323346" type="BPM">
+            <node id="BPM21" len="0.0" pos="0.3232217999999989" s="42.553088259999996" type="BPM">
                 <attributes>
                     <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
@@ -4716,7 +4719,7 @@
                     <rfgap TTF="1.0" ampFactor="1.0068890734115072" endCell="0" gapOffset="0.0" length="0.2426772" phaseFactor="0.0" stfCoeffs="0.378679,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.378679,0.772934,-0.42178,-0.297034" />
                 </attributes>
             </node>
-            <node id="TS27-VC" len="0.0" pos="0.97055665" s="43.20042311" type="DC">
+            <node id="TS27-VC" len="0.0" pos="0.9704328999999987" s="43.200299359999995" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -4744,7 +4747,7 @@
                     <rfgap TTF="1.0" ampFactor="1.0013022220873296" endCell="0" gapOffset="0.0" length="0.24490840000000003" phaseFactor="0.0" stfCoeffs="0.381809,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.381809,0.769635,-0.427547,-0.299612" />
                 </attributes>
             </node>
-            <node id="TS28-HC" len="0.0" pos="1.61905587" s="43.84892233" type="DC">
+            <node id="TS28-HC" len="0.0" pos="1.6189460999999952" s="43.84881255999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -4826,7 +4829,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9739487318518363" endCell="0" gapOffset="0.0" length="0.255335" phaseFactor="0.0" stfCoeffs="0.394061,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.394061,0.756047,-0.451135,-0.309558" />
                 </attributes>
             </node>
-            <node id="BPM22" len="0.0" pos="4.26557413" s="46.49544059" type="BPM">
+            <node id="BPM22" len="0.0" pos="4.265472199999998" s="46.495338659999994" type="BPM">
                 <attributes>
                     <bpm frequency="7.0442E8" length="1.0" orientation="1" />
                 </attributes>
@@ -4859,7 +4862,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9676048169359407" endCell="0" gapOffset="0.0" length="0.25788600000000006" phaseFactor="0.0" stfCoeffs="0.397058,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.397058,0.752642,-0.457013,-0.311897" />
                 </attributes>
             </node>
-            <node id="TS29-VC" len="0.0" pos="4.94009726" s="47.16996372" type="DC">
+            <node id="TS29-VC" len="0.0" pos="4.939996999999991" s="47.16986345999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -4887,7 +4890,7 @@
                     <rfgap TTF="1.0" ampFactor="0.9615383069448834" endCell="0" gapOffset="0.0" length="0.26041410000000004" phaseFactor="0.0" stfCoeffs="0.400029,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.400029,0.749258,-0.462842,-0.314165" />
                 </attributes>
             </node>
-            <node id="TS30-HC" len="0.0" pos="5.61968818" s="47.84955464" type="DC">
+            <node id="TS30-HC" len="0.0" pos="5.619589899999994" s="47.84945635999999" type="DC">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="12.0" y="12.0" />
                     <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />

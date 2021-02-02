@@ -24,38 +24,38 @@
                 <channel handle="volS" settable="true" signal="ISrc-010:ISS-HVPS:VolS" valid="true" />
                 <channel handle="volR" settable="false" signal="ISrc-010:ISS-HVPS:VolR" valid="true" />
                 <channel handle="volRB" settable="false" signal="ISrc-010:ISS-HVPS:VolRB" valid="true" />
-                <channel handle="currS" settable="true" signal="ISrc-010:ISS-HVPS:CurS" valid="true" />
-                <channel handle="currR" settable="false" signal="ISrc-010:ISS-HVPS:CurR" valid="true" />
-                <channel handle="currRB" settable="false" signal="ISrc-010:ISS-HVPS:CurRB" valid="true" />
+                <channel handle="Cur-RS" settable="true" signal="ISrc-010:ISS-HVPS:Cur-S" valid="true" />
+                <channel handle="Cur-RR" settable="false" signal="ISrc-010:ISS-HVPS:Cur-R" valid="true" />
+                <channel handle="Cur-RRB" settable="false" signal="ISrc-010:ISS-HVPS:Cur-RB" valid="true" />
             </channelsuite>
         </node>
         <node id="ISrc-010:ISS-Coil-01" len="0.0" pos="0.0" s="0.0" type="ISC">
             <channelsuite>
-                <channel handle="I_Set" settable="true" signal="ISrc-010:PwrC-CoilPS-01:CurS" valid="true" />
-                <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-01:CurR" valid="true" />
+                <channel handle="I_Set" settable="true" signal="ISrc-010:PwrC-CoilPS-01:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-01:Cur-R" valid="true" />
             </channelsuite>
         </node>
         <node id="ISrc-010:ISS-Coil-02" len="0.0" pos="0.0" s="0.0" type="ISC">
             <channelsuite>
-                <channel handle="I_Set" settable="true" signal="ISrc-010:PwrC-CoilPS-02:CurS" valid="true" />
-                <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-02:CurR" valid="true" />
+                <channel handle="I_Set" settable="true" signal="ISrc-010:PwrC-CoilPS-02:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-02:Cur-R" valid="true" />
             </channelsuite>
         </node>
         <node id="ISrc-010:ISS-Coil-03" len="0.0" pos="0.0" s="0.0" type="ISC">
             <channelsuite>
-                <channel handle="I_Set" settable="true" signal="ISrc-010:PwrC-CoilPS-03:CurS" valid="true" />
-                <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-03:CurR" valid="true" />
+                <channel handle="I_Set" settable="true" signal="ISrc-010:PwrC-CoilPS-03:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-03:Cur-R" valid="true" />
             </channelsuite>
         </node>
       <node id="ISrc-010:PBI-BCM-001" len="0.0" pos="0.0" s="0.0" type="BCM" status="false">
           <channelsuite>
-              <channel handle="DisplayLength" signal="ISrc-010:PBI-BCM:CURR:WIDTH" settable="false" valid="true" />
-              <channel handle="currentAvg" signal="ISrc-010:PBI-BCM:CURR:AVG" settable="false" valid="true" />
-              <channel handle="currentMax" signal="ISrc-010:PBI-BCM:CURR:MAX" settable="false" valid="true" />
-              <channel handle="currentArray" signal="ISrc-010:PBI-BCM-001:AI4-ArrayData" settable="false" valid="true" />
-              <channel handle="currentArrayCompressed" signal="ISrc-010:PBI-BCM-001:AI4-Compressed" settable="false" valid="true" />
-              <channel handle="Particles" signal="ISrc-010:PBI-BCM:CURR:INTEGRAL" settable="false" valid="true" />
-              <channel handle="tDelay" signal="ISrc-010:PBI-BCM:CURR:tAvgDelay" settable="false" valid="true" />
+              <channel handle="DisplayLength" signal="ISrc-010:PBI-BCM-001:PulseWidthR" settable="false" valid="true" />
+              <channel handle="Cur-RentAvg" signal="ISrc-010:PBI-BCM-001:FlatTopCur-RentR" settable="false" valid="true" />
+              <channel handle="Cur-RentMax" signal="ISrc-010:PBI-BCM:Cur-R:MAX" settable="false" valid="true" />
+              <channel handle="Cur-RentArray" signal="ISrc-010:PBI-BCM-001:RAW-TR1-ArrayData" settable="false" valid="true" />
+              <channel handle="Cur-RentArrayCompressed" signal="ISrc-010:PBI-BCM-001:AI4-Compressed" settable="false" valid="true" />
+              <channel handle="Particles" signal="ISrc-010:PBI-BCM:FlatTopChargeR" settable="false" valid="true" />
+              <channel handle="tDelay" signal="ISrc-010:PBI-BCM-001:FineDelayR" settable="false" valid="true" />
           </channelsuite>
       </node>
         <node id="END-ISRC" len="0.0" pos="0.0" type="marker" />
@@ -71,7 +71,7 @@
                 <magnet dfltMagFld="1" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="LEBT-010:EARTH:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-010:EARTH:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="LEBT-010:PwrC-Dummy-EARTH" />
         </node>
@@ -87,7 +87,7 @@
                 <align pitch="0.0" yaw="0.0" roll="0.0" x="0.0" y="0.0" z="0.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-01:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-01:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="LEBT-010:PwrC-SolPS-01" />
         </node>
@@ -96,7 +96,7 @@
                 <magnet len="0.19913163150972682" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.030026459799745046,0.11407441400731184,0.030026459799745046" orientation="vertical" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-01:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-01:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="LEBT-010:PwrC-PSCV-01" />
         </node>
@@ -105,7 +105,7 @@
                 <magnet len="0.21721723971874288" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.02137574039433439,0.11772249964813478,0.02137574039433439" orientation="horizontal" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-01:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-01:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="LEBT-010:PwrC-PSCH-01" />
         </node>
@@ -154,9 +154,9 @@
                 <channel handle="Particles" settable="false" signal="LEBT-010:PBI-FC-001:AMC31-AOI11-MeanValueR" valid="false" />
                 <channel handle="tDelay" settable="false" signal="LEBT-010:PBI-FC-001:AMC31-AOI11-StartR" valid="true" />
                 <channel handle="DisplayLength" settable="false" signal="LEBT-010:PBI-FC-001:AMC31-AOI11-SizeR" valid="true" />
-                <channel handle="currentAvg" settable="false" signal="LEBT-010:PBI-FC-001:AMC31-AOI11-MeanValueR" valid="true" />
-                <channel handle="currentArray" settable="false" signal="LEBT-010:PBI-FC-001:AMC31-AOI11-ArrayData" valid="true" />
-                <channel handle="currentMax" settable="false" signal="LEBT-010:PBI-FC-001:AMC31-AOI11-MaxValueR" valid="true" />
+                <channel handle="Cur-RentAvg" settable="false" signal="LEBT-010:PBI-FC-001:AMC31-AOI11-MeanValueR" valid="true" />
+                <channel handle="Cur-RentArray" settable="false" signal="LEBT-010:PBI-FC-001:AMC31-AOI11-ArrayData" valid="true" />
+                <channel handle="Cur-RentMax" settable="false" signal="LEBT-010:PBI-FC-001:AMC31-AOI11-MaxValueR" valid="true" />
             </channelsuite>
         </node>
         <node id="LEBT-010:PBI-Dpl-001" len="0.0" pos="1.6353" s="1.6353" type="DPL" status="true">
@@ -209,7 +209,7 @@
                 <align pitch="0.0" yaw="0.0" roll="0.0" x="0.0" y="0.0" z="0.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-02:FldRB" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-02:Fld-RB" />
             </channelsuite>
             <ps main="LEBT-010:PwrC-SolPS-02" />
         </node>
@@ -218,7 +218,7 @@
                 <magnet len="0.20098699071338388" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.0224578947046075,0.11407441400731184,0.0224578947046075" orientation="vertical" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-02:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-02:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="LEBT-010:PwrC-PSCV-02" />
         </node>
@@ -227,7 +227,7 @@
                 <magnet len="0.21881162102689383" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.015892271209502623,0.11825775126714289,0.015892271209502623" orientation="horizontal" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-02:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-02:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="LEBT-010:PwrC-PSCH-02" />
         </node>
@@ -238,14 +238,14 @@
        </node>
         <node id="LEBT-010:PBI-BCM-001" len="0.0" pos="2.4018" s="2.4018" type="BCM" status="true">
           <channelsuite>
-                <channel handle="DisplayLength" signal="LEBT-010:PBI-BCM:CURR:WIDTH" settable="false" valid="true" />
-                <channel handle="currentAvg" signal="LEBT-010:PBI-BCM:CURR:AVG" settable="false" valid="true" />
-                <channel handle="currentMax" signal="LEBT-010:PBI-BCM:CURR:MAX" settable="false" valid="true" />
-                <channel handle="Particles" signal="LEBT-010:PBI-BCM:CURR:INTEGRAL" settable="false" valid="true" />
-                <channel handle="currentArray" signal="LEBT-010:PBI-BCM-001:AI5-ArrayData" settable="false" valid="true" />
-                <channel handle="currentArrayCompressed" signal="LEBT-010:PBI-BCM-001:AI5-Compressed" settable="false" valid="true" />
-                <channel handle="tDelay" signal="LEBT-010:PBI-BCM:CURR:tAvgDelay" settable="false" valid="true" />
-            </channelsuite>
+              <channel handle="DisplayLength" signal="LEBT-010:PBI-BCM-001:PulseWidthR" settable="false" valid="true" />
+              <channel handle="Cur-RentAvg" signal="LEBT-010:PBI-BCM-001:FlatTopCur-RentR" settable="false" valid="true" />
+              <channel handle="Cur-RentMax" signal="LEBT-010:PBI-BCM:Cur-R:MAX" settable="false" valid="true" />
+              <channel handle="Cur-RentArray" signal="LEBT-010:PBI-BCM-001:RAW-TR1-ArrayData" settable="false" valid="true" />
+              <channel handle="Cur-RentArrayCompressed" signal="LEBT-010:PBI-BCM-001:AI4-Compressed" settable="false" valid="true" />
+              <channel handle="Particles" signal="LEBT-010:PBI-BCM:FlatTopChargeR" settable="false" valid="true" />
+              <channel handle="tDelay" signal="LEBT-010:PBI-BCM-001:FineDelayR" settable="false" valid="true" />
+          </channelsuite>
         </node>
         <node id="LEBT-010:BMD-Rep-01" len="0.006" pos="2.488962" s="2.488962" type="REP" status="true">
             <channelsuite>
@@ -494,13 +494,13 @@
               <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
           </attributes>
           <channelsuite>
-                <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-001:CURR:WIDTH" settable="false" valid="true" />
-                <channel handle="currentAvg" signal="MEBT-010:PBI-BCM-001:CURR:AVG" settable="false" valid="true" />
-                <channel handle="currentMax" signal="MEBT-010:PBI-BCM-001:CURR:MAX" settable="false" valid="true" />
-                <channel handle="Particles" signal="MEBT-010:PBI-BCM-001:CURR:INTEGRAL" settable="false" valid="true" />
-                <channel handle="currentArray" signal="MEBT-010:PBI-BCM-001:AI5-ArrayData" settable="false" valid="true" />
-                <channel handle="currentArrayCompressed" signal="MEBT-010:PBI-BCM-001:AI5-Compressed" settable="false" valid="true" />
-                <channel handle="tDelay" signal="MEBT-010:PBI-BCM-001:CURR:tAvgDelay" settable="false" valid="true" />
+                <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-001:Cur-R:WIDTH" settable="false" valid="true" />
+                <channel handle="Cur-RentAvg" signal="MEBT-010:PBI-BCM-001:Cur-R:AVG" settable="false" valid="true" />
+                <channel handle="Cur-RentMax" signal="MEBT-010:PBI-BCM-001:Cur-R:MAX" settable="false" valid="true" />
+                <channel handle="Particles" signal="MEBT-010:PBI-BCM-001:Cur-R:INTEGRAL" settable="false" valid="true" />
+                <channel handle="Cur-RentArray" signal="MEBT-010:PBI-BCM-001:AI5-ArrayData" settable="false" valid="true" />
+                <channel handle="Cur-RentArrayCompressed" signal="MEBT-010:PBI-BCM-001:AI5-Compressed" settable="false" valid="true" />
+                <channel handle="tDelay" signal="MEBT-010:PBI-BCM-001:Cur-R:tAvgDelay" settable="false" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QV-001" len="0.08" pos="0.20000000000000004" s="7.250971999999995" type="Q">
@@ -509,7 +509,7 @@
                 <magnet dfltMagFld="-16.3007" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-001:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-001:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-QVPS-001" />
         </node>
@@ -518,7 +518,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-001:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-001:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-001" />
         </node>
@@ -527,7 +527,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-001:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-001:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-001" />
         </node>
@@ -537,10 +537,10 @@
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-001:YAvg" valid="true" />
-                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-001:PhsAvg" valid="true" />
-                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-001:AmpAvg" valid="true" />
-                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-001:XAvg" valid="true" />
+                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-001:YP-AvgValue" valid="true" />
+                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-001:SA-AvgValue" valid="true" />
+                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-001:SM-AvgValue" valid="true" />
+                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-001:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QH-002" len="0.08" pos="0.4" s="7.450971999999995" type="Q">
@@ -549,7 +549,7 @@
                 <magnet bendAngle="0.0" dfltMagFld="19.5694" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-002:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-002:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-QHPS-002" />
         </node>
@@ -558,7 +558,7 @@
                 <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-002:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-002:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-002" />
         </node>
@@ -567,7 +567,7 @@
                 <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-002:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-002:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-002" />
         </node>
@@ -597,10 +597,10 @@
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-002:YAvg" valid="true" />
-                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-002:PhsAvg" valid="true" />
-                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-002:AmpAvg" valid="true" />
-                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-002:XAvg" valid="true" />
+                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-002:YP-AvgValue" valid="true" />
+                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-002:SA-AvgValue" valid="true" />
+                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-002:SM-AvgValue" valid="true" />
+                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-002:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QV-003" len="0.08" pos="0.7620000000000001" s="7.812971999999995" type="Q">
@@ -609,7 +609,7 @@
                 <magnet dfltMagFld="-12.4749" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-003:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-003:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-QVPS-003" />
         </node>
@@ -618,7 +618,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-003:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-003:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-003" />
         </node>
@@ -627,7 +627,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-003:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-003:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-003" />
         </node>
@@ -644,7 +644,7 @@
                 <magnet dfltMagFld="5.0" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-004:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-004:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-QHPS-004" />
         </node>
@@ -653,7 +653,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-004:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-004:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-004" />
         </node>
@@ -662,7 +662,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-004:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-004:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-004" />
         </node>
@@ -694,13 +694,13 @@
         </node>
         <node id="MEBT-010:PBI-BCM-002" len="0.0" pos="1.9359" s="8.986872" type="BCM" status="true">
           <channelsuite>
-                <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-002:CURR:WIDTH" settable="false" valid="true" />
-                <channel handle="currentAvg" signal="MEBT-010:PBI-BCM-002:CURR:AVG" settable="false" valid="true" />
-                <channel handle="currentMax" signal="MEBT-010:PBI-BCM-002:CURR:MAX" settable="false" valid="true" />
-                <channel handle="Particles" signal="MEBT-010:PBI-BCM-002:CURR:INTEGRAL" settable="false" valid="true" />
-                <channel handle="currentArray" signal="MEBT-010:PBI-BCM-002:AI5-ArrayData" settable="false" valid="true" />
-                <channel handle="currentArrayCompressed" signal="MEBT-010:PBI-BCM-002:AI5-Compressed" settable="false" valid="true" />
-                <channel handle="tDelay" signal="MEBT-010:PBI-BCM-002:CURR:tAvgDelay" settable="false" valid="true" />
+                <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-002:Cur-R:WIDTH" settable="false" valid="true" />
+                <channel handle="Cur-RentAvg" signal="MEBT-010:PBI-BCM-002:Cur-R:AVG" settable="false" valid="true" />
+                <channel handle="Cur-RentMax" signal="MEBT-010:PBI-BCM-002:Cur-R:MAX" settable="false" valid="true" />
+                <channel handle="Particles" signal="MEBT-010:PBI-BCM-002:Cur-R:INTEGRAL" settable="false" valid="true" />
+                <channel handle="Cur-RentArray" signal="MEBT-010:PBI-BCM-002:AI5-ArrayData" settable="false" valid="true" />
+                <channel handle="Cur-RentArrayCompressed" signal="MEBT-010:PBI-BCM-002:AI5-Compressed" settable="false" valid="true" />
+                <channel handle="tDelay" signal="MEBT-010:PBI-BCM-002:Cur-R:tAvgDelay" settable="false" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:EMR-Cav-002:Aper" len="0.2" pos="2.043" s="9.093972" type="VC">
@@ -729,10 +729,10 @@
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-003:YAvg" valid="true" />
-                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-003:PhsAvg" valid="true" />
-                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-003:AmpAvg" valid="true" />
-                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-003:XAvg" valid="true" />
+                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-003:YP-AvgValue" valid="true" />
+                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-003:SA-AvgValue" valid="true" />
+                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-003:SM-AvgValue" valid="true" />
+                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-003:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QH-005" len="0.08" pos="2.2239999999999998" s="9.274971999999995" type="Q">
@@ -741,7 +741,7 @@
                 <magnet dfltMagFld="6.87809" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-005:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-005:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-QHPS-005" />
         </node>
@@ -750,7 +750,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-005:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-005:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-005" />
         </node>
@@ -759,20 +759,20 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-005:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-005:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-005" />
         </node>
         <node id="MEBT-010:ID-Coll-002" len="0.0" pos="2.364" s="9.414972" type="marker" />
         <node id="MEBT-010:PBI-BCM-003" len="0.0" pos="2.424" s="9.474972" type="BCM" status="true">
           <channelsuite>
-                <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-003:CURR:WIDTH" settable="false" valid="true" />
-                <channel handle="currentAvg" signal="MEBT-010:PBI-BCM-003:CURR:AVG" settable="false" valid="true" />
-                <channel handle="currentMax" signal="MEBT-010:PBI-BCM-003:CURR:MAX" settable="false" valid="true" />
-                <channel handle="Particles" signal="MEBT-010:PBI-BCM-003:CURR:INTEGRAL" settable="false" valid="true" />
-                <channel handle="currentArray" signal="MEBT-010:PBI-BCM-003:AI5-ArrayData" settable="false" valid="true" />
-                <channel handle="currentArrayCompressed" signal="MEBT-010:PBI-BCM-003:AI5-Compressed" settable="false" valid="true" />
-                <channel handle="tDelay" signal="MEBT-010:PBI-BCM-003:CURR:tAvgDelay" settable="false" valid="true" />
+                <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-003:Cur-R:WIDTH" settable="false" valid="true" />
+                <channel handle="Cur-RentAvg" signal="MEBT-010:PBI-BCM-003:Cur-R:AVG" settable="false" valid="true" />
+                <channel handle="Cur-RentMax" signal="MEBT-010:PBI-BCM-003:Cur-R:MAX" settable="false" valid="true" />
+                <channel handle="Particles" signal="MEBT-010:PBI-BCM-003:Cur-R:INTEGRAL" settable="false" valid="true" />
+                <channel handle="Cur-RentArray" signal="MEBT-010:PBI-BCM-003:AI5-ArrayData" settable="false" valid="true" />
+                <channel handle="Cur-RentArrayCompressed" signal="MEBT-010:PBI-BCM-003:AI5-Compressed" settable="false" valid="true" />
+                <channel handle="tDelay" signal="MEBT-010:PBI-BCM-003:Cur-R:tAvgDelay" settable="false" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QV-006" len="0.08" pos="2.423999999999999" s="9.474971999999994" type="Q">
@@ -781,7 +781,7 @@
                 <magnet dfltMagFld="-14.7817" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-006:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-006:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-QVPS-006" />
         </node>
@@ -790,7 +790,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-006:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-006:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-006" />
         </node>
@@ -799,7 +799,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-006:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-006:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-006" />
         </node>
@@ -810,10 +810,10 @@
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-004:YAvg" valid="true" />
-                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-004:PhsAvg" valid="true" />
-                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-004:AmpAvg" valid="true" />
-                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-004:XAvg" valid="true" />
+                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-004:YP-AvgValue" valid="true" />
+                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-004:SA-AvgValue" valid="true" />
+                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-004:SM-AvgValue" valid="true" />
+                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-004:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QH-007" len="0.08" pos="2.6239999999999983" s="9.674971999999993" type="Q">
@@ -822,7 +822,7 @@
                 <magnet dfltMagFld="9.57296" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-007:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-007:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-QHPS-007" />
         </node>
@@ -831,7 +831,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-007:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-007:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-007" />
         </node>
@@ -840,7 +840,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-007:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-007:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-007" />
         </node>
@@ -853,9 +853,9 @@
                 <channel handle="Particles" settable="false" signal="MEBT-010:PBI-FC-001:AMC31-AOI11-MeanValueR" valid="false" />
                 <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-FC-001:AMC31-AOI11-StartR" valid="true" />
                 <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-FC-001:AMC31-AOI11-SizeR" valid="true" />
-                <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-FC-001:AMC31-AOI11-MeanValueR" valid="true" />
-                <channel handle="currentArray" settable="false" signal="MEBT-010:PBI-FC-001:AMC31-AOI11-ArrayData" valid="true" />
-                <channel handle="currentMax" settable="false" signal="MEBT-010:PBI-FC-001:AMC31-AOI11-MaxValueR" valid="true" />
+                <channel handle="Cur-RentAvg" settable="false" signal="MEBT-010:PBI-FC-001:AMC31-AOI11-MeanValueR" valid="true" />
+                <channel handle="Cur-RentArray" settable="false" signal="MEBT-010:PBI-FC-001:AMC31-AOI11-ArrayData" valid="true" />
+                <channel handle="Cur-RentMax" settable="false" signal="MEBT-010:PBI-FC-001:AMC31-AOI11-MaxValueR" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:PBI-NPM-002" len="0.0" pos="2.9875" s="10.038472" type="NPM" status="false">
@@ -884,7 +884,7 @@
                 <magnet dfltMagFld="-9.19019" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-008:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-008:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-QVPS-008" />
         </node>
@@ -893,7 +893,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-008:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-008:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-008" />
         </node>
@@ -902,7 +902,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-008:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-008:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-008" />
         </node>
@@ -932,10 +932,10 @@
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-005:YAvg" valid="true" />
-                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-005:PhsAvg" valid="true" />
-                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-005:AmpAvg" valid="true" />
-                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-005:XAvg" valid="true" />
+                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-005:YP-AvgValue" valid="true" />
+                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-005:SA-AvgValue" valid="true" />
+                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-005:SM-AvgValue" valid="true" />
+                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-005:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QH-009" len="0.08" pos="3.435999999999997" s="10.48697199999999" type="Q">
@@ -944,7 +944,7 @@
                 <magnet dfltMagFld="18.58" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-009:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-009:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-QHPS-009" />
         </node>
@@ -953,7 +953,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-009:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-009:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-009" />
         </node>
@@ -962,7 +962,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-009:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-009:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-009" />
         </node>
@@ -972,10 +972,10 @@
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-006:YAvg" valid="true" />
-                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-006:PhsAvg" valid="true" />
-                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-006:AmpAvg" valid="true" />
-                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-006:XAvg" valid="true" />
+                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-006:YP-AvgValue" valid="true" />
+                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-006:SA-AvgValue" valid="true" />
+                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-006:SM-AvgValue" valid="true" />
+                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-006:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QV-010" len="0.08" pos="3.635999999999996" s="10.68697199999999" type="Q">
@@ -984,7 +984,7 @@
                 <magnet dfltMagFld="-30.7441" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-010:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-010:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-QVPS-010" />
         </node>
@@ -993,7 +993,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-010:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-010:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-010" />
         </node>
@@ -1002,30 +1002,30 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-010:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-010:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-010" />
         </node>
         <node id="MEBT-010:PBI-BCM-004" len="0.0" pos="3.776" s="10.826972" type="BCM" status="true">
           <channelsuite>
-                <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-004:CURR:WIDTH" settable="false" valid="true" />
-                <channel handle="currentAvg" signal="MEBT-010:PBI-BCM-004:CURR:AVG" settable="false" valid="true" />
-                <channel handle="currentMax" signal="MEBT-010:PBI-BCM-004:CURR:MAX" settable="false" valid="true" />
-                <channel handle="Particles" signal="MEBT-010:PBI-BCM-004:CURR:INTEGRAL" settable="false" valid="true" />
-                <channel handle="currentArray" signal="MEBT-010:PBI-BCM-004:AI5-ArrayData" settable="false" valid="true" />
-                <channel handle="currentArrayCompressed" signal="MEBT-010:PBI-BCM-004:AI5-Compressed" settable="false" valid="true" />
-                <channel handle="tDelay" signal="MEBT-010:PBI-BCM-004:CURR:tAvgDelay" settable="false" valid="true" />
+                <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-004:Cur-R:WIDTH" settable="false" valid="true" />
+                <channel handle="Cur-RentAvg" signal="MEBT-010:PBI-BCM-004:Cur-R:AVG" settable="false" valid="true" />
+                <channel handle="Cur-RentMax" signal="MEBT-010:PBI-BCM-004:Cur-R:MAX" settable="false" valid="true" />
+                <channel handle="Particles" signal="MEBT-010:PBI-BCM-004:Cur-R:INTEGRAL" settable="false" valid="true" />
+                <channel handle="Cur-RentArray" signal="MEBT-010:PBI-BCM-004:AI5-ArrayData" settable="false" valid="true" />
+                <channel handle="Cur-RentArrayCompressed" signal="MEBT-010:PBI-BCM-004:AI5-Compressed" settable="false" valid="true" />
+                <channel handle="tDelay" signal="MEBT-010:PBI-BCM-004:Cur-R:tAvgDelay" settable="false" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:PBI-FBCM-001" len="0.0" pos="3.776" s="10.826972" type="BCM" status="true">
           <channelsuite>
-                <channel handle="DisplayLength" signal="MEBT-010:PBI-FBCM-001:CURR:WIDTH" settable="false" valid="true" />
-                <channel handle="currentAvg" signal="MEBT-010:PBI-FBCM-001:CURR:AVG" settable="false" valid="true" />
-                <channel handle="currentMax" signal="MEBT-010:PBI-FBCM-001:CURR:MAX" settable="false" valid="true" />
-                <channel handle="Particles" signal="MEBT-010:PBI-FBCM-001:CURR:INTEGRAL" settable="false" valid="true" />
-                <channel handle="currentArray" signal="MEBT-010:PBI-FBCM-001:AI5-ArrayData" settable="false" valid="true" />
-                <channel handle="currentArrayCompressed" signal="MEBT-010:PBI-FBCM-001:AI5-Compressed" settable="false" valid="true" />
-                <channel handle="tDelay" signal="MEBT-010:PBI-FBCM-001:CURR:tAvgDelay" settable="false" valid="true" />
+                <channel handle="DisplayLength" signal="MEBT-010:PBI-FBCM-001:Cur-R:WIDTH" settable="false" valid="true" />
+                <channel handle="Cur-RentAvg" signal="MEBT-010:PBI-FBCM-001:Cur-R:AVG" settable="false" valid="true" />
+                <channel handle="Cur-RentMax" signal="MEBT-010:PBI-FBCM-001:Cur-R:MAX" settable="false" valid="true" />
+                <channel handle="Particles" signal="MEBT-010:PBI-FBCM-001:Cur-R:INTEGRAL" settable="false" valid="true" />
+                <channel handle="Cur-RentArray" signal="MEBT-010:PBI-FBCM-001:AI5-ArrayData" settable="false" valid="true" />
+                <channel handle="Cur-RentArrayCompressed" signal="MEBT-010:PBI-FBCM-001:AI5-Compressed" settable="false" valid="true" />
+                <channel handle="tDelay" signal="MEBT-010:PBI-FBCM-001:Cur-R:tAvgDelay" settable="false" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:PBI-BPM-007" len="0.0" pos="3.8359999999999954" s="10.88697199999999" type="BPM">
@@ -1033,10 +1033,10 @@
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-007:YAvg" valid="true" />
-                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-007:PhsAvg" valid="true" />
-                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-007:AmpAvg" valid="true" />
-                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-007:XAvg" valid="true" />
+                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-007:YP-AvgValue" valid="true" />
+                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-007:SA-AvgValue" valid="true" />
+                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-007:SM-AvgValue" valid="true" />
+                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-007:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QH-011" len="0.08" pos="3.8359999999999954" s="10.88697199999999" type="Q">
@@ -1045,7 +1045,7 @@
                 <magnet dfltMagFld="23.8053" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-011:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-011:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-QHPS-011" />
         </node>
@@ -1054,7 +1054,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-011:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-011:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-011" />
         </node>
@@ -1063,7 +1063,7 @@
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-011:FldRB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-011:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-011" />
         </node>
@@ -1138,11 +1138,11 @@
             </attributes>
             <channelsuite>
                 <channel handle="DisplayLength" signal="LEBT-020:PBI-FC-001:AMC31-AOI11-SizeR" settable="false" valid="true" />
-                <channel handle="currentAvg" signal="LEBT-020:PBI-FC-001:AMC31-AOI11-MeanValueR" settable="false" valid="true" />
-                <channel handle="currentArray" signal="LEBT-020:PBI-FC-001:AMC31-AOI11-ArrayData" settable="false" valid="true" />
-                <channel handle="Particles" signal="LEBT-020:PBI-FC1:CURR:INTEGRAL" settable="false" valid="false" />
+                <channel handle="Cur-RentAvg" signal="LEBT-020:PBI-FC-001:AMC31-AOI11-MeanValueR" settable="false" valid="true" />
+                <channel handle="Cur-RentArray" signal="LEBT-020:PBI-FC-001:AMC31-AOI11-ArrayData" settable="false" valid="true" />
+                <channel handle="Particles" signal="LEBT-020:PBI-FC1:Cur-R:INTEGRAL" settable="false" valid="false" />
                 <channel handle="tDelay" signal="LEBT-020:PBI-FC-001:AMC31-AOI11-StartR" settable="false" valid="true" />
-                <channel handle="currentMax" signal="LEBT-020:PBI-FC-001:AMC31-AOI11-MaxValueR" settable="false" valid="true" />
+                <channel handle="Cur-RentMax" signal="LEBT-020:PBI-FC-001:AMC31-AOI11-MaxValueR" settable="false" valid="true" />
             </channelsuite>
         </node>
         <node id="END-COMISS-TANK" len="0.0" pos="0.830" s="3.3359" type="marker" />
@@ -1150,344 +1150,344 @@
     <powersupplies>
         <ps id="LEBT-010:PwrC-Dummy-EARTH" type="main">
             <channelsuite>
-                <channel handle="fieldSet" settable="false" signal="LEBT-010:PwrC-Dummy-EARTH:FldS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-Dummy-EARTH:FldRB" valid="true" />
-                <channel handle="I_Set" settable="false" signal="LEBT-010:PwrC-Dummy-EARTH:CurS" valid="true" />
-                <channel handle="I" settable="false" signal="LEBT-010:PwrC-Dummy-EARTH:CurR" valid="true" />
+                <channel handle="fieldSet" settable="false" signal="LEBT-010:PwrC-Dummy-EARTH:Fld-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-Dummy-EARTH:Fld-RB" valid="true" />
+                <channel handle="I_Set" settable="false" signal="LEBT-010:PwrC-Dummy-EARTH:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-010:PwrC-Dummy-EARTH:Cur-R" valid="true" />
             </channelsuite>
         </ps>
         <ps id="LEBT-010:PwrC-SolPS-01" type="main">
             <channelsuite>
-                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-SolPS-01:FldS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-01:FldRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-SolPS-01:CurS" valid="true" />
-                <channel handle="I" settable="false" signal="LEBT-010:PwrC-SolPS-01:CurR" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-SolPS-01:Fld-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-01:Fld-RB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-SolPS-01:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-010:PwrC-SolPS-01:Cur-R" valid="true" />
             </channelsuite>
         </ps>
         <ps id="LEBT-010:PwrC-PSCH-01" type="main">
             <channelsuite>
-                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCH-01:FldS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-01:FldRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCH-01:CurS" valid="true" />
-                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCH-01:CurR" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCH-01:Fld-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-01:Fld-RB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCH-01:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCH-01:Cur-R" valid="true" />
             </channelsuite>
         </ps>
         <ps id="LEBT-010:PwrC-PSCV-01" type="main">
             <channelsuite>
-                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCV-01:FldS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-01:FldRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCV-01:CurS" valid="true" />
-                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCV-01:CurR" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCV-01:Fld-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-01:Fld-RB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCV-01:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCV-01:Cur-R" valid="true" />
             </channelsuite>
         </ps>
         <ps id="LEBT-010:PwrC-SolPS-02" type="main">
             <channelsuite>
-                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-SolPS-02:FldS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-02:FldRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-SolPS-02:CurS" valid="true" />
-                <channel handle="I" settable="false" signal="LEBT-010:PwrC-SolPS-02:CurR" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-SolPS-02:Fld-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-02:Fld-RB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-SolPS-02:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-010:PwrC-SolPS-02:Cur-R" valid="true" />
             </channelsuite>
         </ps>
         <ps id="LEBT-010:PwrC-PSCH-02" type="main">
             <channelsuite>
-                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCH-02:FldS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-02:FldRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCH-02:CurS" valid="true" />
-                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCH-02:CurR" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCH-02:Fld-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-02:Fld-RB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCH-02:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCH-02:Cur-R" valid="true" />
             </channelsuite>
         </ps>
         <ps id="LEBT-010:PwrC-PSCV-02" type="main">
             <channelsuite>
-                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCV-02:FldS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-02:FldRB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCV-02:CurS" valid="true" />
-                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCV-02:CurR" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCV-02:Fld-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-02:Fld-RB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCV-02:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCV-02:Cur-R" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-QVPS-001" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MEBT-010:PwrC-QVPS-001:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QVPS-001:FldS" valid="true" />
-                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QVPS-001:CurR" valid="true" />
-                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QVPS-001:CurS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-001:FldRB" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QVPS-001:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QVPS-001:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QVPS-001:Cur S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-001:Fld-RB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="MEBT-010:PwrC-QVPS-001:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-QHPS-002" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MEBT-010:PwrC-QHPS-002:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QHPS-002:FldS" valid="true" />
-                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QHPS-002:CurR" valid="true" />
-                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QHPS-002:CurS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-002:FldRB" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QHPS-002:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QHPS-002:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QHPS-002:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-002:Fld-RB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="MEBT-010:PwrC-QHPS-002:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-QVPS-003" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MEBT-010:PwrC-QVPS-003:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QVPS-003:FldS" valid="true" />
-                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QVPS-003:CurR" valid="true" />
-                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QVPS-003:CurS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-003:FldRB" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QVPS-003:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QVPS-003:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QVPS-003:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-003:Fld-RB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="MEBT-010:PwrC-QVPS-003:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-QHPS-004" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MEBT-010:PwrC-QHPS-004:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QHPS-004:FldS" valid="true" />
-                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QHPS-004:CurR" valid="true" />
-                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QHPS-004:CurS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-004:FldRB" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QHPS-004:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QHPS-004:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QHPS-004:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-004:Fld-RB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="MEBT-010:PwrC-QHPS-004:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-QHPS-005" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MEBT-010:PwrC-QHPS-005:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QHPS-005:FldS" valid="true" />
-                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QHPS-005:CurR" valid="true" />
-                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QHPS-005:CurS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-005:FldRB" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QHPS-005:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QHPS-005:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QHPS-005:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-005:Fld-RB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="MEBT-010:PwrC-QHPS-005:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-QVPS-006" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MEBT-010:PwrC-QVPS-006:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QVPS-006:FldS" valid="true" />
-                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QVPS-006:CurR" valid="true" />
-                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QVPS-006:CurS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-006:FldRB" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QVPS-006:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QVPS-006:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QVPS-006:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-006:Fld-RB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="MEBT-010:PwrC-QVPS-006:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-QHPS-007" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MEBT-010:PwrC-QHPS-007:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QHPS-007:FldS" valid="true" />
-                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QHPS-007:CurR" valid="true" />
-                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QHPS-007:CurS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-007:FldRB" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QHPS-007:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QHPS-007:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QHPS-007:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-007:Fld-RB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="MEBT-010:PwrC-QHPS-007:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-QVPS-008" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MEBT-010:PwrC-QVPS-008:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QVPS-008:FldS" valid="true" />
-                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QVPS-008:CurR" valid="true" />
-                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QVPS-008:CurS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-008:FldRB" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QVPS-008:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QVPS-008:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QVPS-008:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-008:Fld-RB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="MEBT-010:PwrC-QVPS-008:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-QHPS-009" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MEBT-010:PwrC-QHPS-009:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QHPS-009:FldS" valid="true" />
-                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QHPS-009:CurR" valid="true" />
-                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QHPS-009:CurS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-009:FldRB" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QHPS-009:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QHPS-009:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QHPS-009:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-009:Fld-RB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="MEBT-010:PwrC-QHPS-009:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-QVPS-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MEBT-010:PwrC-QVPS-010:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QVPS-010:FldS" valid="true" />
-                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QVPS-010:CurR" valid="true" />
-                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QVPS-010:CurS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-010:FldRB" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QVPS-010:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QVPS-010:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QVPS-010:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QVPS-010:Fld-RB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="MEBT-010:PwrC-QVPS-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-QHPS-011" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MEBT-010:PwrC-QHPS-011:CycEn" valid="true" />
-                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QHPS-011:FldS" valid="true" />
-                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QHPS-011:CurR" valid="true" />
-                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QHPS-011:CurS" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-011:FldRB" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-QHPS-011:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="MEBT-010:PwrC-QHPS-011:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-QHPS-011:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-QHPS-011:Fld-RB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="MEBT-010:PwrC-QHPS-011:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCV-001" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-001:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-001:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-001:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-001:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-001:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-001:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-001:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-001:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCH-001" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-001:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-001:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-001:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-001:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-001:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-001:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-001:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-001:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCV-002" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-002:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-002:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-002:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-002:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-002:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-002:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-002:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-002:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCH-002" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-002:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-002:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-002:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-002:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-002:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-002:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-002:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-002:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCV-003" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-003:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-003:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-003:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-003:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-003:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-003:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-003:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-003:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCH-003" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-003:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-003:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-003:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-003:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-003:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-003:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-003:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-003:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCV-004" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-004:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-004:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-004:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-004:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-004:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-004:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-004:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-004:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCH-004" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-004:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-004:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-004:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-004:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-004:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-004:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-004:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-004:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCV-005" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-005:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-005:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-005:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-005:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-005:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-005:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-005:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-005:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCH-005" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-005:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-005:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-005:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-005:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-005:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-005:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-005:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-005:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCV-006" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-006:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-006:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-006:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-006:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-006:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-006:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-006:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-006:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCH-006" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-006:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-006:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-006:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-006:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-006:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-006:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-006:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-006:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCV-007" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-007:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-007:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-007:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-007:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-007:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-007:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-007:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-007:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCH-007" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-007:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-007:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-007:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-007:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-007:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-007:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-007:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-007:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCV-008" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-008:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-008:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-008:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-008:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-008:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-008:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-008:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-008:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCH-008" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-008:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-008:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-008:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-008:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-008:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-008:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-008:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-008:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCV-009" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-009:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-009:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-009:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-009:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-009:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-009:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-009:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-009:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCH-009" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-009:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-009:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-009:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-009:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-009:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-009:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-009:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-009:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCV-010" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-010:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-010:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-010:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-010:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-010:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-010:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-010:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-010:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCH-010" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-010:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-010:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-010:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-010:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-010:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-010:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-010:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-010:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCV-011" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-011:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-011:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-011:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-011:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCV-011:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCV-011:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCV-011:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-011:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSCH-011" type="main">
             <channelsuite>
-              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-011:FldS" valid="true" />
-              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-011:CurR" valid="true" />
-              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-011:CurS" valid="true" />
-              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-011:FldRB" valid="true" />
+              <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSCH-011:Fld-S" valid="true" />
+              <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-011:Cur-R" valid="true" />
+              <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-011:Cur-S" valid="true" />
+              <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-011:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
     </powersupplies>
