@@ -842,6 +842,7 @@
             <attributes>
                 <aperture shape="1" x="0.0184" y="0.0184" />
             </attributes>
+            <channelsuite>
                 <channel handle="Particles" settable="false" signal="MEBT-010:PBI-FC-001:PulseChargeUcR" valid="false" />
                 <channel handle="CurrentAvg" settable="false" signal="MEBT-010:PBI-FC-001:STAT3-MeanValueR" valid="true" />
                 <channel handle="CurrentArray" settable="false" signal="MEBT-010:PBI-FC-001:TRC2-ArrayData" valid="true" />
