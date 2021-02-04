@@ -50,10 +50,9 @@
       <node id="ISrc-010:PBI-BCM-001" len="0.0" pos="0.0" s="0.0" type="BCM" status="false">
           <channelsuite>
               <channel handle="DisplayLength" signal="ISrc-010:PBI-BCM-001:PulseWidthR" settable="false" valid="true" />
-              <channel handle="Cur-RentAvg" signal="ISrc-010:PBI-BCM-001:FlatTopCur-RentR" settable="false" valid="true" />
-              <channel handle="Cur-RentMax" signal="ISrc-010:PBI-BCM:Cur-R:MAX" settable="false" valid="true" />
-              <channel handle="Cur-RentArray" signal="ISrc-010:PBI-BCM-001:RAW-TR1-ArrayData" settable="false" valid="true" />
-              <channel handle="Cur-RentArrayCompressed" signal="ISrc-010:PBI-BCM-001:AI4-Compressed" settable="false" valid="true" />
+              <channel handle="CurrentAvg" signal="ISrc-010:PBI-BCM-001:FlatTopCurrentR" settable="false" valid="true" />
+              <channel handle="CurrentMax" signal="ISrc-010:PBI-BCM-001:UpperThreshold" settable="false" valid="true" />
+              <channel handle="CurrentArray" signal="ISrc-010:PBI-BCM-001:PCR-TR1-ArrayData" settable="false" valid="true" />
               <channel handle="Particles" signal="ISrc-010:PBI-BCM:FlatTopChargeR" settable="false" valid="true" />
               <channel handle="tDelay" signal="ISrc-010:PBI-BCM-001:FineDelayR" settable="false" valid="true" />
           </channelsuite>
@@ -151,12 +150,10 @@
                 <aperture shape="1" x="0.075" y="0.075" />
             </attributes>
             <channelsuite>
-                <channel handle="Particles" settable="false" signal="LEBT-010:PBI-FC-001:AMC31-AOI11-MeanValueR" valid="false" />
-                <channel handle="tDelay" settable="false" signal="LEBT-010:PBI-FC-001:AMC31-AOI11-StartR" valid="true" />
-                <channel handle="DisplayLength" settable="false" signal="LEBT-010:PBI-FC-001:AMC31-AOI11-SizeR" valid="true" />
-                <channel handle="Cur-RentAvg" settable="false" signal="LEBT-010:PBI-FC-001:AMC31-AOI11-MeanValueR" valid="true" />
-                <channel handle="Cur-RentArray" settable="false" signal="LEBT-010:PBI-FC-001:AMC31-AOI11-ArrayData" valid="true" />
-                <channel handle="Cur-RentMax" settable="false" signal="LEBT-010:PBI-FC-001:AMC31-AOI11-MaxValueR" valid="true" />
+                <channel handle="Particles" settable="false" signal="LEBT-010:PBI-FC-001:PulseChargeUcR" valid="false" />
+                <channel handle="CurrentAvg" settable="false" signal="LEBT-010:PBI-FC-001:STAT3-MeanValueR" valid="true" />
+                <channel handle="CurrentArray" settable="false" signal="LEBT-010:PBI-FC-001:TRC2-ArrayData" valid="true" />
+                <channel handle="CurrentMax" settable="false" signal="LEBT-010:PBI-FC-001:STAT3-MaxValueR" valid="true" />
             </channelsuite>
         </node>
         <node id="LEBT-010:PBI-Dpl-001" len="0.0" pos="1.6353" s="1.6353" type="DPL" status="true">
@@ -239,11 +236,10 @@
         <node id="LEBT-010:PBI-BCM-001" len="0.0" pos="2.4018" s="2.4018" type="BCM" status="true">
           <channelsuite>
               <channel handle="DisplayLength" signal="LEBT-010:PBI-BCM-001:PulseWidthR" settable="false" valid="true" />
-              <channel handle="Cur-RentAvg" signal="LEBT-010:PBI-BCM-001:FlatTopCur-RentR" settable="false" valid="true" />
-              <channel handle="Cur-RentMax" signal="LEBT-010:PBI-BCM:Cur-R:MAX" settable="false" valid="true" />
-              <channel handle="Cur-RentArray" signal="LEBT-010:PBI-BCM-001:RAW-TR1-ArrayData" settable="false" valid="true" />
-              <channel handle="Cur-RentArrayCompressed" signal="LEBT-010:PBI-BCM-001:AI4-Compressed" settable="false" valid="true" />
-              <channel handle="Particles" signal="LEBT-010:PBI-BCM:FlatTopChargeR" settable="false" valid="true" />
+              <channel handle="CurrentAvg" signal="LEBT-010:PBI-BCM-001:FlatTopCurrentR" settable="false" valid="true" />
+              <channel handle="CurrentMax" signal="LEBT-010:PBI-BCM-001:UpperThreshold" settable="false" valid="true" />
+              <channel handle="CurrentArray" signal="LEBT-010:PBI-BCM-001:PCR-TR1-ArrayData" settable="false" valid="true" />
+              <channel handle="Particles" signal="LEBT-010:PBI-BCM-001:FlatTopChargeR" settable="false" valid="true" />
               <channel handle="tDelay" signal="LEBT-010:PBI-BCM-001:FineDelayR" settable="false" valid="true" />
           </channelsuite>
         </node>
@@ -265,9 +261,9 @@
             </attributes>
             <channelsuite>
                 <channel handle="cavPhaseAvg" settable="false" signal="RFQ-010:EMR-Cav-001:Phs" valid="true" />
-                <channel handle="cavAmpSet" settable="true" signal="RFQ-010:EMR-Cav-001:AmpCtl" valid="true" />
+                <channel handle="cavAmpSet" settable="true" signal="RFQ-010:RFS-DIG-101:RFCtrlCnstSP-Mag" valid="true" />
                 <channel handle="cavAmpAvg" settable="false" signal="RFQ-010:EMR-Cav-001:Amp" valid="true" />
-                <channel handle="cavPhaseSet" settable="true" signal="RFQ-010:EMR-Cav-001:PhsCtl" valid="true" />
+                <channel handle="cavPhaseSet" settable="true" signal="RFQ-010:RFS-DIG-101:RFCtrlCnstSP-Ang" valid="true" />
             </channelsuite>
         </sequence>
         <node id="LATTICE-POINT-1" len="0.0" pos="0.037667000000000006" s="2.5435669999999955" type="marker" />
@@ -494,13 +490,12 @@
               <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
           </attributes>
           <channelsuite>
-                <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-001:Cur-R:WIDTH" settable="false" valid="true" />
-                <channel handle="Cur-RentAvg" signal="MEBT-010:PBI-BCM-001:Cur-R:AVG" settable="false" valid="true" />
-                <channel handle="Cur-RentMax" signal="MEBT-010:PBI-BCM-001:Cur-R:MAX" settable="false" valid="true" />
-                <channel handle="Particles" signal="MEBT-010:PBI-BCM-001:Cur-R:INTEGRAL" settable="false" valid="true" />
-                <channel handle="Cur-RentArray" signal="MEBT-010:PBI-BCM-001:AI5-ArrayData" settable="false" valid="true" />
-                <channel handle="Cur-RentArrayCompressed" signal="MEBT-010:PBI-BCM-001:AI5-Compressed" settable="false" valid="true" />
-                <channel handle="tDelay" signal="MEBT-010:PBI-BCM-001:Cur-R:tAvgDelay" settable="false" valid="true" />
+                <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-001:PulseWidthR" settable="false" valid="true" />
+                <channel handle="CurrentAvg" signal="MEBT-010:PBI-BCM-001:FlatTopCurrentR" settable="false" valid="true" />
+                <channel handle="CurrentMax" signal="MEBT-010:PBI-BCM-001:UpperThreshold" settable="false" valid="true" />
+                <channel handle="Particles" signal="MEBT-010:PBI-BCM-001:FlatTopChargeR" settable="false" valid="true" />
+                <channel handle="CurrentArray" signal="MEBT-010:PBI-BCM-001:PCR-TR1-ArrayData" settable="false" valid="true" />
+                <channel handle="tDelay" signal="MEBT-010:PBI-BCM-001:FineDelayR" settable="false" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QV-001" len="0.08" pos="0.20000000000000004" s="7.250971999999995" type="Q">
@@ -694,13 +689,12 @@
         </node>
         <node id="MEBT-010:PBI-BCM-002" len="0.0" pos="1.9359" s="8.986872" type="BCM" status="true">
           <channelsuite>
-                <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-002:Cur-R:WIDTH" settable="false" valid="true" />
-                <channel handle="Cur-RentAvg" signal="MEBT-010:PBI-BCM-002:Cur-R:AVG" settable="false" valid="true" />
-                <channel handle="Cur-RentMax" signal="MEBT-010:PBI-BCM-002:Cur-R:MAX" settable="false" valid="true" />
-                <channel handle="Particles" signal="MEBT-010:PBI-BCM-002:Cur-R:INTEGRAL" settable="false" valid="true" />
-                <channel handle="Cur-RentArray" signal="MEBT-010:PBI-BCM-002:AI5-ArrayData" settable="false" valid="true" />
-                <channel handle="Cur-RentArrayCompressed" signal="MEBT-010:PBI-BCM-002:AI5-Compressed" settable="false" valid="true" />
-                <channel handle="tDelay" signal="MEBT-010:PBI-BCM-002:Cur-R:tAvgDelay" settable="false" valid="true" />
+            <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-002:PulseWidthR" settable="false" valid="true" />
+            <channel handle="CurrentAvg" signal="MEBT-010:PBI-BCM-002:FlatTopCurrentR" settable="false" valid="true" />
+            <channel handle="CurrentMax" signal="MEBT-010:PBI-BCM-002:UpperThreshold" settable="false" valid="true" />
+            <channel handle="Particles" signal="MEBT-010:PBI-BCM-002:FlatTopChargeR" settable="false" valid="true" />
+            <channel handle="CurrentArray" signal="MEBT-010:PBI-BCM-002:PCR-TR1-ArrayData" settable="false" valid="true" />
+            <channel handle="tDelay" signal="MEBT-010:PBI-BCM-002:FineDelayR" settable="false" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:EMR-Cav-002:Aper" len="0.2" pos="2.043" s="9.093972" type="VC">
@@ -766,13 +760,12 @@
         <node id="MEBT-010:ID-Coll-002" len="0.0" pos="2.364" s="9.414972" type="marker" />
         <node id="MEBT-010:PBI-BCM-003" len="0.0" pos="2.424" s="9.474972" type="BCM" status="true">
           <channelsuite>
-                <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-003:Cur-R:WIDTH" settable="false" valid="true" />
-                <channel handle="Cur-RentAvg" signal="MEBT-010:PBI-BCM-003:Cur-R:AVG" settable="false" valid="true" />
-                <channel handle="Cur-RentMax" signal="MEBT-010:PBI-BCM-003:Cur-R:MAX" settable="false" valid="true" />
-                <channel handle="Particles" signal="MEBT-010:PBI-BCM-003:Cur-R:INTEGRAL" settable="false" valid="true" />
-                <channel handle="Cur-RentArray" signal="MEBT-010:PBI-BCM-003:AI5-ArrayData" settable="false" valid="true" />
-                <channel handle="Cur-RentArrayCompressed" signal="MEBT-010:PBI-BCM-003:AI5-Compressed" settable="false" valid="true" />
-                <channel handle="tDelay" signal="MEBT-010:PBI-BCM-003:Cur-R:tAvgDelay" settable="false" valid="true" />
+            <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-003:PulseWidthR" settable="false" valid="true" />
+            <channel handle="CurrentAvg" signal="MEBT-010:PBI-BCM-003:FlatTopCurrentR" settable="false" valid="true" />
+            <channel handle="CurrentMax" signal="MEBT-010:PBI-BCM-003:UpperThreshold" settable="false" valid="true" />
+            <channel handle="Particles" signal="MEBT-010:PBI-BCM-003:FlatTopChargeR" settable="false" valid="true" />
+            <channel handle="CurrentArray" signal="MEBT-010:PBI-BCM-003:PCR-TR1-ArrayData" settable="false" valid="true" />
+            <channel handle="tDelay" signal="MEBT-010:PBI-BCM-003:FineDelayR" settable="false" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QV-006" len="0.08" pos="2.423999999999999" s="9.474971999999994" type="Q">
@@ -849,13 +842,10 @@
             <attributes>
                 <aperture shape="1" x="0.0184" y="0.0184" />
             </attributes>
-            <channelsuite>
-                <channel handle="Particles" settable="false" signal="MEBT-010:PBI-FC-001:AMC31-AOI11-MeanValueR" valid="false" />
-                <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-FC-001:AMC31-AOI11-StartR" valid="true" />
-                <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-FC-001:AMC31-AOI11-SizeR" valid="true" />
-                <channel handle="Cur-RentAvg" settable="false" signal="MEBT-010:PBI-FC-001:AMC31-AOI11-MeanValueR" valid="true" />
-                <channel handle="Cur-RentArray" settable="false" signal="MEBT-010:PBI-FC-001:AMC31-AOI11-ArrayData" valid="true" />
-                <channel handle="Cur-RentMax" settable="false" signal="MEBT-010:PBI-FC-001:AMC31-AOI11-MaxValueR" valid="true" />
+                <channel handle="Particles" settable="false" signal="MEBT-010:PBI-FC-001:PulseChargeUcR" valid="false" />
+                <channel handle="CurrentAvg" settable="false" signal="MEBT-010:PBI-FC-001:STAT3-MeanValueR" valid="true" />
+                <channel handle="CurrentArray" settable="false" signal="MEBT-010:PBI-FC-001:TRC2-ArrayData" valid="true" />
+                <channel handle="CurrentMax" settable="false" signal="MEBT-010:PBI-FC-001:STAT3-MaxValueR" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:PBI-NPM-002" len="0.0" pos="2.9875" s="10.038472" type="NPM" status="false">
@@ -1008,23 +998,22 @@
         </node>
         <node id="MEBT-010:PBI-BCM-004" len="0.0" pos="3.776" s="10.826972" type="BCM" status="true">
           <channelsuite>
-                <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-004:Cur-R:WIDTH" settable="false" valid="true" />
-                <channel handle="Cur-RentAvg" signal="MEBT-010:PBI-BCM-004:Cur-R:AVG" settable="false" valid="true" />
-                <channel handle="Cur-RentMax" signal="MEBT-010:PBI-BCM-004:Cur-R:MAX" settable="false" valid="true" />
-                <channel handle="Particles" signal="MEBT-010:PBI-BCM-004:Cur-R:INTEGRAL" settable="false" valid="true" />
-                <channel handle="Cur-RentArray" signal="MEBT-010:PBI-BCM-004:AI5-ArrayData" settable="false" valid="true" />
-                <channel handle="Cur-RentArrayCompressed" signal="MEBT-010:PBI-BCM-004:AI5-Compressed" settable="false" valid="true" />
-                <channel handle="tDelay" signal="MEBT-010:PBI-BCM-004:Cur-R:tAvgDelay" settable="false" valid="true" />
+            <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-004:PulseWidthR" settable="false" valid="true" />
+            <channel handle="CurrentAvg" signal="MEBT-010:PBI-BCM-004:FlatTopCurrentR" settable="false" valid="true" />
+            <channel handle="CurrentMax" signal="MEBT-010:PBI-BCM-004:UpperThreshold" settable="false" valid="true" />
+            <channel handle="Particles" signal="MEBT-010:PBI-BCM-004:FlatTopChargeR" settable="false" valid="true" />
+            <channel handle="CurrentArray" signal="MEBT-010:PBI-BCM-004:PCR-TR1-ArrayData" settable="false" valid="true" />
+            <channel handle="tDelay" signal="MEBT-010:PBI-BCM-004:FineDelayR" settable="false" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:PBI-FBCM-001" len="0.0" pos="3.776" s="10.826972" type="BCM" status="true">
           <channelsuite>
                 <channel handle="DisplayLength" signal="MEBT-010:PBI-FBCM-001:Cur-R:WIDTH" settable="false" valid="true" />
-                <channel handle="Cur-RentAvg" signal="MEBT-010:PBI-FBCM-001:Cur-R:AVG" settable="false" valid="true" />
-                <channel handle="Cur-RentMax" signal="MEBT-010:PBI-FBCM-001:Cur-R:MAX" settable="false" valid="true" />
+                <channel handle="CurrentAvg" signal="MEBT-010:PBI-FBCM-001:Cur-R:AVG" settable="false" valid="true" />
+                <channel handle="CurrentMax" signal="MEBT-010:PBI-FBCM-001:Cur-R:MAX" settable="false" valid="true" />
                 <channel handle="Particles" signal="MEBT-010:PBI-FBCM-001:Cur-R:INTEGRAL" settable="false" valid="true" />
-                <channel handle="Cur-RentArray" signal="MEBT-010:PBI-FBCM-001:AI5-ArrayData" settable="false" valid="true" />
-                <channel handle="Cur-RentArrayCompressed" signal="MEBT-010:PBI-FBCM-001:AI5-Compressed" settable="false" valid="true" />
+                <channel handle="CurrentArray" signal="MEBT-010:PBI-FBCM-001:AI5-ArrayData" settable="false" valid="true" />
+                <channel handle="CurrentArrayCompressed" signal="MEBT-010:PBI-FBCM-001:AI5-Compressed" settable="false" valid="true" />
                 <channel handle="tDelay" signal="MEBT-010:PBI-FBCM-001:Cur-R:tAvgDelay" settable="false" valid="true" />
             </channelsuite>
         </node>
@@ -1072,80 +1061,6 @@
               <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
           </attributes>
         </node>
-    </sequence>
-    <sequence id="COMISS-TANK" len="0.830" pos="2.5059" s="2.5059">
-        <attributes>
-            <sequence predecessors="LEBT" />
-        </attributes>
-        <node id="START-COMISS-TANK" len="0.0" pos="0.0" s="2.5059" type="marker" />
-        <node id="LEBT-020:Aper" len="0.0" pos="0.0" s="2.5059" type="VC">
-            <attributes>
-                <aperture shape="1" x="0.21558" y="0.21558" />
-            </attributes>
-        </node>
-        <node id="LEBT-020:PBI-EMU-001" len="0.0" pos="0.1495" s="2.6554" type="EMU" status="false">
-            <attributes>
-                <aperture shape="1" x="0.21558" y="0.21558" />
-            </attributes>
-            <channelsuite>
-                <channel handle="xEmitt" settable="false" signal="LEBT-020:EMU2:EMITTX" valid="true" />
-                <channel handle="yEmitt" settable="false" signal="LEBT-020:EMU2:EMITTY" valid="true" />
-                <channel handle="yAlphaTwiss" settable="false" signal="LEBT-020:EMU2:ALPHAY" valid="true" />
-                <channel handle="yBetaTwiss" settable="false" signal="LEBT-020:EMU2:BETAY" valid="true" />
-                <channel handle="xAlphaTwiss" settable="false" signal="LEBT-020:EMU2:ALPHAX" valid="true" />
-                <channel handle="xBetaTwiss" settable="false" signal="LEBT-020:EMU2:BETAX" valid="true" />
-            </channelsuite>
-        </node>
-        <node id="LEBT-020:PBI-NPM-001" len="0.0" pos="0.2085" s="2.7144" type="NPM" status="false">
-            <attributes>
-                <npm frequency="7.0442E8" length="0.0" orientation="1" />
-                <aperture shape="1" x="0.21558" y="0.21558" />
-            </attributes>
-            <channelsuite>
-                <channel handle="yAvg" settable="false" signal="LEBT-020:PBI-NPM-002:VCAM-COM" valid="true" />
-                <channel handle="xAvg" settable="false" signal="LEBT-020:PBI-NPM-001:HCAM-COM" valid="true" />
-                <channel handle="ySigma" settable="false" signal="LEBT-020:PBI-NPM-002:VCAM-BSZ" valid="true" />
-                <channel handle="xSigma" settable="false" signal="LEBT-020:PBI-NPM-001:HCAM-BSZ" valid="true" />
-                <channel handle="ypAvg" settable="false" signal="LEBT-020:PBI-NPM-002:VCAM-ANGLE" valid="false" />
-                <channel handle="xpAvg" settable="false" signal="LEBT-020:PBI-NPM-001:HCAM-ANGLE" valid="false" />
-                <channel handle="yAlphaTwiss" settable="false" signal="LEBT-020:PBI-NPM-002:VCAM-ALPHA" valid="false" />
-                <channel handle="yBetaTwiss" settable="false" signal="LEBT-020:PBI-NPM-002:VCAM-BETA" valid="false" />
-                <channel handle="xAlphaTwiss" settable="false" signal="LEBT-020:PBI-NPM-001:HCAM-ALPHA" valid="false" />
-                <channel handle="xBetaTwiss" settable="false" signal="LEBT-020:PBI-NPM-001:HCAM-BETA" valid="false" />
-            </channelsuite>
-        </node>
-        <node id="LEBT-020:PBI-NPM-002" len="0.0" pos="0.4485" s="2.9544" type="NPM" status="false">
-            <attributes>
-                <npm frequency="7.0442E8" length="0.0" orientation="1" />
-                <aperture shape="1" x="0.21558" y="0.21558" />
-            </attributes>
-            <channelsuite>
-                <channel handle="yAvg" settable="false" signal="LEBT-020:PBI-NPM-002:VCAM-COM" valid="true" />
-                <channel handle="xAvg" settable="false" signal="LEBT-020:PBI-NPM-001:HCAM-COM" valid="true" />
-                <channel handle="ySigma" settable="false" signal="LEBT-020:PBI-NPM-002:VCAM-BSZ" valid="true" />
-                <channel handle="xSigma" settable="false" signal="LEBT-020:PBI-NPM-001:HCAM-BSZ" valid="true" />
-                <channel handle="ypAvg" settable="false" signal="LEBT-020:PBI-NPM-002:VCAM-ANGLE" valid="false" />
-                <channel handle="xpAvg" settable="false" signal="LEBT-020:PBI-NPM-001:HCAM-ANGLE" valid="false" />
-                <channel handle="yAlphaTwiss" settable="false" signal="LEBT-020:PBI-NPM-002:VCAM-ALPHA" valid="false" />
-                <channel handle="yBetaTwiss" settable="false" signal="LEBT-020:PBI-NPM-002:VCAM-BETA" valid="false" />
-                <channel handle="xAlphaTwiss" settable="false" signal="LEBT-020:PBI-NPM-001:HCAM-ALPHA" valid="false" />
-                <channel handle="xBetaTwiss" settable="false" signal="LEBT-020:PBI-NPM-001:HCAM-BETA" valid="false" />
-            </channelsuite>
-        </node>
-        <node id="LEBT-020:PBI-FC-001" len="0.0" pos="0.610" s="3.1159" type="BCM" status="false">
-            <attributes>
-                <aperture shape="1" x="0.21558" y="0.21558" />
-            </attributes>
-            <channelsuite>
-                <channel handle="DisplayLength" signal="LEBT-020:PBI-FC-001:AMC31-AOI11-SizeR" settable="false" valid="true" />
-                <channel handle="Cur-RentAvg" signal="LEBT-020:PBI-FC-001:AMC31-AOI11-MeanValueR" settable="false" valid="true" />
-                <channel handle="Cur-RentArray" signal="LEBT-020:PBI-FC-001:AMC31-AOI11-ArrayData" settable="false" valid="true" />
-                <channel handle="Particles" signal="LEBT-020:PBI-FC1:Cur-R:INTEGRAL" settable="false" valid="false" />
-                <channel handle="tDelay" signal="LEBT-020:PBI-FC-001:AMC31-AOI11-StartR" settable="false" valid="true" />
-                <channel handle="Cur-RentMax" signal="LEBT-020:PBI-FC-001:AMC31-AOI11-MaxValueR" settable="false" valid="true" />
-            </channelsuite>
-        </node>
-        <node id="END-COMISS-TANK" len="0.0" pos="0.830" s="3.3359" type="marker" />
     </sequence>
     <powersupplies>
         <ps id="LEBT-010:PwrC-Dummy-EARTH" type="main">
