@@ -81,7 +81,7 @@
       </node>
         <node id="END-ISRC" len="0.0" pos="0.0" type="marker" />
     </sequence>
-    <sequence id="LEBT" len="2.505899999999999" pos="0.0">
+    <sequence id="LEBT" len="2.5059" pos="0.0" s="0.0">
         <node id="MFM1:MFM" len="0.5454" pos="0.6081" s="0.6081" type="MFM">
             <attributes>
                 <fieldmap dimensions="2" dynamic="false" fieldMapFile="Field_Maps/1D/sef2_545_4mm" fieldType="magnetic" numberOfPoints="2000" />
@@ -141,7 +141,7 @@
             <ps main="ST2-HC-PS" />
         </node>
     </sequence>
-    <sequence id="RFQ" len="4.5450724" pos="2.5058999999999956" s="2.5058999999999956">
+    <sequence id="RFQ" len="4.545072" pos="2.5059" s="2.5059">
         <attributes>
             <sequence predecessors="LEBT" />
         </attributes>
@@ -2246,7 +2246,7 @@
             </attributes>
         </node>
     </sequence>
-    <sequence id="MEBT" len="3.9859999999999953" pos="7.0509719999999945" s="7.0509719999999945">
+    <sequence id="MEBT" len="3.986" pos="7.050972" s="7.050972">
         <attributes>
             <sequence predecessors="RFQ" />
         </attributes>
@@ -2715,7 +2715,7 @@
             <ps main="ST11-HC-PS" />
         </node>
     </sequence>
-    <sequence id="DTL" len="38.88074606" pos="11.03697199999999" s="11.03697199999999">
+    <sequence id="DTL" len="38.880746" pos="11.036972" s="11.036972">
         <attributes>
             <sequence predecessors="MEBT" />
         </attributes>
@@ -4954,7 +4954,7 @@
         </sequence>
         <node id="LATTICE-END-10" len="0.0" pos="38.880746" s="38.880746" type="marker" />
     </sequence>
-    <sequence id="SPK" len="55.859999999999914" pos="49.91771805999999" s="49.91771805999999">
+    <sequence id="SPK" len="55.86" pos="49.917718" s="49.917718">
         <attributes>
             <sequence predecessors="DTL" />
         </attributes>
@@ -6169,7 +6169,7 @@
             </node>
         </sequence>
     </sequence>
-    <sequence id="MBL" len="76.67999999999996" pos="105.7777180599999" s="105.7777180599999">
+    <sequence id="MBL" len="76.68" pos="105.777718" s="105.777718">
         <attributes>
             <sequence predecessors="SPK" />
         </attributes>
@@ -7328,7 +7328,7 @@
         </sequence>
         <node id="LATTICE-POINT-218" len="0.0" pos="76.3862" s="76.3862" type="marker" />
     </sequence>
-    <sequence id="HBL" len="178.92000000000016" pos="182.45771805999988" s="182.45771805999988">
+    <sequence id="HBL" len="178.92" pos="182.457718" s="182.457718">
         <attributes>
             <sequence predecessors="MBL" />
         </attributes>
@@ -10012,7 +10012,7 @@
             </node>
         </sequence>
     </sequence>
-    <sequence id="HEBT" len="130.3527" pos="361.37771806" s="361.37771806">
+    <sequence id="HEBT" len="130.3527" pos="361.377718" s="361.377718">
         <attributes>
             <sequence predecessors="HBL" />
         </attributes>
@@ -10904,7 +10904,7 @@
             <ps main="QP130-PS" />
         </node>
     </sequence>
-    <sequence id="A2T" len="110.86741689096776" pos="491.73041806000003" s="491.73041806000003">
+    <sequence id="A2T" len="110.867417" pos="491.730418" s="491.730418">
         <attributes>
             <sequence predecessors="HEBT" />
         </attributes>

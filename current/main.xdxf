@@ -251,7 +251,7 @@
         </node>
         <node id="END-LEBT" len="0.0" pos="2.5059" s="2.5059" type="marker" />
     </sequence>
-    <sequence id="RFQ" len="4.545071999999999" pos="2.5059" s="2.5059">
+    <sequence id="RFQ" len="4.545072" pos="2.5059" s="2.5059">
         <attributes>
             <sequence predecessors="LEBT" />
         </attributes>
