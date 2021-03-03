@@ -47,14 +47,14 @@
                 <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-03:Cur-R" valid="true" />
             </channelsuite>
         </node>
-      <node id="ISrc-010:PBI-BCM-001" len="0.0" pos="0.0" s="0.0" type="BCM" status="false">
+      <node id="ISrc-010:PBI-BCM-001" len="0.0" pos="0.0" s="0.0" status="false" type="BCM">
           <channelsuite>
-              <channel handle="DisplayLength" signal="ISrc-010:PBI-BCM-001:PulseWidthR" settable="false" valid="true" />
-              <channel handle="CurrentAvg" signal="ISrc-010:PBI-BCM-001:FlatTopCurrentR" settable="false" valid="true" />
-              <channel handle="CurrentMax" signal="ISrc-010:PBI-BCM-001:UpperThreshold" settable="false" valid="true" />
-              <channel handle="CurrentArray" signal="ISrc-010:PBI-BCM-001:PCR-TR1-ArrayData" settable="false" valid="true" />
-              <channel handle="Particles" signal="ISrc-010:PBI-BCM:FlatTopChargeR" settable="false" valid="true" />
-              <channel handle="tDelay" signal="ISrc-010:PBI-BCM-001:FineDelayR" settable="false" valid="true" />
+              <channel handle="DisplayLength" settable="false" signal="ISrc-010:PBI-BCM-001:PulseWidthR" valid="true" />
+              <channel handle="CurrentAvg" settable="false" signal="ISrc-010:PBI-BCM-001:FlatTopCurrentR" valid="true" />
+              <channel handle="CurrentMax" settable="false" signal="ISrc-010:PBI-BCM-001:UpperThreshold" valid="true" />
+              <channel handle="CurrentArray" settable="false" signal="ISrc-010:PBI-BCM-001:PCR-TR1-ArrayData" valid="true" />
+              <channel handle="Particles" settable="false" signal="ISrc-010:PBI-BCM:FlatTopChargeR" valid="true" />
+              <channel handle="tDelay" settable="false" signal="ISrc-010:PBI-BCM-001:FineDelayR" valid="true" />
           </channelsuite>
       </node>
         <node id="END-ISRC" len="0.0" pos="0.0" type="marker" />
@@ -76,39 +76,39 @@
         </node>
         <node id="LEBT-010:AptExt" len="0.9609" pos="0.48045" s="0.48045" type="VC">
             <attributes>
-                <aperture shape="1" pos="0,0.1831,0.1841,0.3831,0.3831,0.5462,0.5462,0.9609" x="0.05,0.075,0.075,0.075,0.05,0.05,0.075,0.075" y="0.05,0.075,0.075,0.075,0.05,0.05,0.075,0.075" />
+                <aperture pos="0,0.1831,0.1841,0.3831,0.3831,0.5462,0.5462,0.9609" shape="1" x="0.05,0.075,0.075,0.075,0.05,0.05,0.075,0.075" y="0.05,0.075,0.075,0.075,0.05,0.05,0.075,0.075" />
             </attributes>
         </node>
         <node id="LEBT-010:BMD-Sol-01" len="0.5454" pos="0.5747" s="0.5747" type="MFM">
             <attributes>
                 <fieldmap dimensions="2" dynamic="false" fieldMapFile="Field_Maps/1D/LEBT_Sol_2D_545mm" fieldType="magnetic" numberOfPoints="2000" />
                 <magnet dfltMagFld="0.235" />
-                <align pitch="0.0" yaw="0.0" roll="0.0" x="0.0" y="0.0" z="0.0" />
+                <align pitch="0.0" roll="0.0" x="0.0" y="0.0" yaw="0.0" z="0.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-01:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="LEBT-010:PwrC-SolPS-01" />
         </node>
-        <node id="LEBT-010:BMD-CV-01" len="0.19913163150972682" pos="0.5747" s="0.5747" type="DC">
+        <node id="LEBT-010:BMD-CV-01" len="0.199132" pos="0.5747" s="0.5747" type="DC">
             <attributes>
-                <magnet len="0.19913163150972682" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.030026459799745046,0.11407441400731184,0.030026459799745046" orientation="vertical" />
+                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.19913163150972682" orientation="vertical" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.030026459799745046,0.11407441400731184,0.030026459799745046" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-01:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="LEBT-010:PwrC-PSCV-01" />
         </node>
-        <node id="LEBT-010:BMD-CH-01" len="0.21721723971874288" pos="0.5747" s="0.5747" type="DC">
+        <node id="LEBT-010:BMD-CH-01" len="0.217217" pos="0.5747" s="0.5747" type="DC">
             <attributes>
-                <magnet len="0.21721723971874288" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.02137574039433439,0.11772249964813478,0.02137574039433439" orientation="horizontal" />
+                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.21721723971874288" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.02137574039433439,0.11772249964813478,0.02137574039433439" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-01:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="LEBT-010:PwrC-PSCH-01" />
         </node>
-        <node id="LEBT-010:Vac-VPM-00011" len="0.07" pos="0.8632" s="0.8632" type="SCC" status="true">
+        <node id="LEBT-010:Vac-VPM-00011" len="0.07" pos="0.8632" s="0.8632" status="true" type="SCC">
             <attributes>
                 <aperture shape="1" x="0.075" y="0.075" />
             </attributes>
@@ -119,7 +119,7 @@
         </node>
         <node id="LEBT-010:ID-Iris" len="0.3" pos="1.1109" s="1.1109" type="IRIS">
             <attributes>
-                <aperture shape="1" pos="0.0,0.046,0.046,0.061,0.061,0.1035,0.1035,0.1185,0.1185,0.1235,0.1235,0.1385,0.1385,0.15,0.15,0.1835,0.1835,0.1985,0.1985,0.3" x="0.075,0.075,0.04,0.04,0.075,0.075,0.037,0.037,0.075,0.075,0.037,0.037,0.075,0.075,0.075,0.075,0.037,0.037,0.075,0.075" y="0.075,0.075,0.04,0.04,0.075,0.075,0.037,0.037,0.075,0.075,0.037,0.037,0.075,0.075,0.075,0.075,0.037,0.037,0.075,0.075" />
+                <aperture pos="0.0,0.046,0.046,0.061,0.061,0.1035,0.1035,0.1185,0.1185,0.1235,0.1235,0.1385,0.1385,0.15,0.15,0.1835,0.1835,0.1985,0.1985,0.3" shape="1" x="0.075,0.075,0.04,0.04,0.075,0.075,0.037,0.037,0.075,0.075,0.037,0.037,0.075,0.075,0.075,0.075,0.037,0.037,0.075,0.075" y="0.075,0.075,0.04,0.04,0.075,0.075,0.037,0.037,0.075,0.075,0.037,0.037,0.075,0.075,0.075,0.075,0.037,0.037,0.075,0.075" />
             </attributes>
             <channelsuite>
                 <channel handle="apertureS" settable="true" signal="LEBT-010:ID-Iris:APERTURE_SET" valid="true" />
@@ -132,10 +132,10 @@
         </node>
         <node id="LEBT-010:BMD-Chop:Aper" len="0.25" pos="1.4044" s="1.4044" type="VC">
             <attributes>
-                <aperture shape="1" pos="0,0.0775,0.0775,0.1725,0.1725,0.25" x="0.075,0.075,0.04,0.04,0.075,0.075" y="0.075,0.075,0.04,0.04,0.075,0.075" />
+                <aperture pos="0,0.0775,0.0775,0.1725,0.1725,0.25" shape="1" x="0.075,0.075,0.04,0.04,0.075,0.075" y="0.075,0.075,0.04,0.04,0.075,0.075" />
             </attributes>
         </node>
-        <node id="LEBT-010:BMD-Chop" len="0.25" pos="1.4044" s="1.4044" type="CHP" status="false">
+        <node id="LEBT-010:BMD-Chop" len="0.25" pos="1.4044" s="1.4044" status="false" type="CHP">
             <channelsuite>
                 <channel handle="statusS" settable="true" signal="LEBT-010:BMD-Chop:STATUSSET" valid="true" />
                 <channel handle="statusRB" settable="false" signal="LEBT-010:BMD-Chop:PwrSysOK" valid="true" />
@@ -145,7 +145,7 @@
                 <channel handle="lengthRB" settable="false" signal="ISrc-010-EVR0:Pul1-Width-RB" valid="true" />
             </channelsuite>
         </node>
-        <node id="LEBT-010:PBI-FC-001" len="0.0" pos="1.5318" s="1.5318" type="BCM" status="true">
+        <node id="LEBT-010:PBI-FC-001" len="0.0" pos="1.5318" s="1.5318" status="true" type="BCM">
             <attributes>
                 <aperture shape="1" x="0.075" y="0.075" />
             </attributes>
@@ -156,17 +156,17 @@
                 <channel handle="CurrentMax" settable="false" signal="LEBT-010:PBI-FC-001:STAT3-MaxValueR" valid="true" />
             </channelsuite>
         </node>
-        <node id="LEBT-010:PBI-Dpl-001" len="0.0" pos="1.6353" s="1.6353" type="DPL" status="true">
+        <node id="LEBT-010:PBI-Dpl-001" len="0.0" pos="1.6353" s="1.6353" status="true" type="DPL">
             <attributes>
                 <aperture shape="1" x="0.075" y="0.075" />
             </attributes>
             <channelsuite>
-                <channel handle="fractionH+" signal="LEBT-010:PBI-Dpl-001:FIT1-FracProton" settable="false" valid="true" />
-                <channel handle="fractionH2+" signal="LEBT-010:PBI-Dpl-001:FIT1-FracH2" settable="false" valid="true" />
-                <channel handle="fractionH3+" signal="LEBT-010:PBI-Dpl-001:FIT1-FracH3" settable="false" valid="true" />
+                <channel handle="fractionH+" settable="false" signal="LEBT-010:PBI-Dpl-001:FIT1-FracProton" valid="true" />
+                <channel handle="fractionH2+" settable="false" signal="LEBT-010:PBI-Dpl-001:FIT1-FracH2" valid="true" />
+                <channel handle="fractionH3+" settable="false" signal="LEBT-010:PBI-Dpl-001:FIT1-FracH3" valid="true" />
             </channelsuite>
         </node>
-        <node id="LEBT-010:PBI-EMU-001" len="0.0" pos="1.649947" s="1.649947" type="EMU" status="false">
+        <node id="LEBT-010:PBI-EMU-001" len="0.0" pos="1.649947" s="1.649947" status="false" type="EMU">
             <attributes>
                 <aperture shape="1" x="0.075" y="0.075" />
             </attributes>
@@ -179,7 +179,7 @@
                 <channel handle="xBetaTwiss" settable="false" signal="LEBT-010:EMU1:BETAX" valid="true" />
             </channelsuite>
         </node>
-        <node id="LEBT-010:PBI-NPM-001" len="0.0" pos="1.7309" s="1.7309" type="NPM" status="true">
+        <node id="LEBT-010:PBI-NPM-001" len="0.0" pos="1.7309" s="1.7309" status="true" type="NPM">
             <attributes>
                 <npm frequency="7.0442E8" length="0.0" orientation="1" />
                 <aperture shape="1" x="0.075" y="0.075" />
@@ -203,25 +203,25 @@
             <attributes>
                 <fieldmap dimensions="2" dynamic="false" fieldMapFile="Field_Maps/1D/LEBT_Sol_2D_545mm" fieldType="magnetic" numberOfPoints="2000" />
                 <magnet dfltMagFld="0.220" />
-                <align pitch="0.0" yaw="0.0" roll="0.0" x="0.0" y="0.0" z="0.0" />
+                <align pitch="0.0" roll="0.0" x="0.0" y="0.0" yaw="0.0" z="0.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-02:Fld-RB" />
             </channelsuite>
             <ps main="LEBT-010:PwrC-SolPS-02" />
         </node>
-        <node id="LEBT-010:BMD-CV-02" len="0.20098699071338388" pos="2.1291" s="2.1291" type="DC">
+        <node id="LEBT-010:BMD-CV-02" len="0.200987" pos="2.1291" s="2.1291" type="DC">
             <attributes>
-                <magnet len="0.20098699071338388" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.0224578947046075,0.11407441400731184,0.0224578947046075" orientation="vertical" />
+                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.20098699071338388" orientation="vertical" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.0224578947046075,0.11407441400731184,0.0224578947046075" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-02:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="LEBT-010:PwrC-PSCV-02" />
         </node>
-        <node id="LEBT-010:BMD-CH-02" len="0.21881162102689383" pos="2.1291" s="2.1291" type="DC">
+        <node id="LEBT-010:BMD-CH-02" len="0.218812" pos="2.1291" s="2.1291" type="DC">
             <attributes>
-                <magnet len="0.21881162102689383" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.015892271209502623,0.11825775126714289,0.015892271209502623" orientation="horizontal" />
+                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.21881162102689383" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.015892271209502623,0.11825775126714289,0.015892271209502623" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-02:Fld-RB" valid="true" />
@@ -230,20 +230,20 @@
         </node>
         <node id="LEBT-010:ID-Coll-001:Aper" len="0.7295" pos="2.14115" s="2.14115" type="VC">
            <attributes>
-               <aperture shape="1" pos="0.0,0.0,0.3936,0.3936,0.5195,0.5195,0.533562,0.708562,0.708562,0.710562,0.710562,0.712562,0.712562,0.713562,0.713562,0.71475,0.71475,0.71975,0.71975,0.72475,0.72475,0.7295" x="0.075,0.05,0.05,0.075,0.075,0.035,0.035,0.007,0.02,0.02,0.018,0.018,0.02,0.02,0.05,0.05,0.00961,0.00961,0.00831,0.00831,0.007,0.007" y="0.075,0.05,0.05,0.075,0.075,0.035,0.035,0.007,0.02,0.02,0.018,0.018,0.02,0.02,0.05,0.05,0.00961,0.00961,0.00831,0.00831,0.007,0.007" />
+               <aperture pos="0.0,0.0,0.3936,0.3936,0.5195,0.5195,0.533562,0.708562,0.708562,0.710562,0.710562,0.712562,0.712562,0.713562,0.713562,0.71475,0.71475,0.71975,0.71975,0.72475,0.72475,0.7295" shape="1" x="0.075,0.05,0.05,0.075,0.075,0.035,0.035,0.007,0.02,0.02,0.018,0.018,0.02,0.02,0.05,0.05,0.00961,0.00961,0.00831,0.00831,0.007,0.007" y="0.075,0.05,0.05,0.075,0.075,0.035,0.035,0.007,0.02,0.02,0.018,0.018,0.02,0.02,0.05,0.05,0.00961,0.00961,0.00831,0.00831,0.007,0.007" />
            </attributes>
        </node>
-        <node id="LEBT-010:PBI-BCM-001" len="0.0" pos="2.4018" s="2.4018" type="BCM" status="true">
+        <node id="LEBT-010:PBI-BCM-001" len="0.0" pos="2.4018" s="2.4018" status="true" type="BCM">
           <channelsuite>
-              <channel handle="DisplayLength" signal="LEBT-010:PBI-BCM-001:PulseWidthR" settable="false" valid="true" />
-              <channel handle="CurrentAvg" signal="LEBT-010:PBI-BCM-001:FlatTopCurrentR" settable="false" valid="true" />
-              <channel handle="CurrentMax" signal="LEBT-010:PBI-BCM-001:UpperThreshold" settable="false" valid="true" />
-              <channel handle="CurrentArray" signal="LEBT-010:PBI-BCM-001:PCR-TR1-ArrayData" settable="false" valid="true" />
-              <channel handle="Particles" signal="LEBT-010:PBI-BCM-001:FlatTopChargeR" settable="false" valid="true" />
-              <channel handle="tDelay" signal="LEBT-010:PBI-BCM-001:FineDelayR" settable="false" valid="true" />
+              <channel handle="DisplayLength" settable="false" signal="LEBT-010:PBI-BCM-001:PulseWidthR" valid="true" />
+              <channel handle="CurrentAvg" settable="false" signal="LEBT-010:PBI-BCM-001:FlatTopCurrentR" valid="true" />
+              <channel handle="CurrentMax" settable="false" signal="LEBT-010:PBI-BCM-001:UpperThreshold" valid="true" />
+              <channel handle="CurrentArray" settable="false" signal="LEBT-010:PBI-BCM-001:PCR-TR1-ArrayData" valid="true" />
+              <channel handle="Particles" settable="false" signal="LEBT-010:PBI-BCM-001:FlatTopChargeR" valid="true" />
+              <channel handle="tDelay" settable="false" signal="LEBT-010:PBI-BCM-001:FineDelayR" valid="true" />
           </channelsuite>
         </node>
-        <node id="LEBT-010:BMD-Rep-01" len="0.006" pos="2.488962" s="2.488962" type="REP" status="true">
+        <node id="LEBT-010:BMD-Rep-01" len="0.006" pos="2.488962" s="2.488962" status="true" type="REP">
             <channelsuite>
                 <channel handle="statusS" settable="true" signal="LEBT-010:PwrC-RepPS-01:PwrS" valid="true" />
                 <channel handle="statusRB" settable="false" signal="LEBT-010:PwrC-RepPS-01:PwrR" valid="true" />
@@ -255,7 +255,7 @@
         <attributes>
             <sequence predecessors="LEBT" />
         </attributes>
-        <sequence id="RFQ-010:EMR-Cav-001" len="4.545071999999999" pos="2.272536" s="4.778436" type="RF">
+        <sequence id="RFQ-010:EMR-Cav-001" len="4.545072" pos="2.272536" s="2.272536" type="RF">
             <attributes>
                 <rfcavity amp="0.0596669" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
@@ -266,239 +266,239 @@
                 <channel handle="cavPhaseSet" settable="true" signal="RFQ-010:RFS-DIG-101:RFCtrlCnstSP-Ang" valid="true" />
             </channelsuite>
         </sequence>
-        <node id="LATTICE-POINT-1" len="0.0" pos="0.037667000000000006" s="2.5435669999999955" type="marker" />
-        <node id="LATTICE-START-1" len="0.0" pos="0.037667000000000006" s="2.5435669999999955" type="marker" />
-        <node id="LATTICE-POINT-2" len="0.0" pos="0.048429" s="2.5543289999999956" type="marker" />
-        <node id="LATTICE-POINT-3" len="0.0" pos="0.059190999999999994" s="2.5650909999999953" type="marker" />
-        <node id="LATTICE-POINT-4" len="0.0" pos="0.06995299999999999" s="2.5758529999999955" type="marker" />
-        <node id="LATTICE-POINT-5" len="0.0" pos="0.08071499999999998" s="2.5866149999999957" type="marker" />
-        <node id="LATTICE-POINT-6" len="0.0" pos="0.09147699999999997" s="2.5973769999999954" type="marker" />
-        <node id="LATTICE-POINT-7" len="0.0" pos="0.10223899999999997" s="2.6081389999999955" type="marker" />
-        <node id="LATTICE-POINT-8" len="0.0" pos="0.11300099999999996" s="2.6189009999999957" type="marker" />
-        <node id="LATTICE-POINT-9" len="0.0" pos="0.12376299999999996" s="2.6296629999999954" type="marker" />
-        <node id="LATTICE-POINT-10" len="0.0" pos="0.13452499999999995" s="2.6404249999999956" type="marker" />
-        <node id="LATTICE-POINT-11" len="0.0" pos="0.14528699999999994" s="2.6511869999999957" type="marker" />
-        <node id="LATTICE-POINT-12" len="0.0" pos="0.15604899999999994" s="2.6619489999999955" type="marker" />
-        <node id="LATTICE-POINT-13" len="0.0" pos="0.16681099999999993" s="2.6727109999999956" type="marker" />
-        <node id="LATTICE-POINT-14" len="0.0" pos="0.17757299999999993" s="2.6834729999999953" type="marker" />
-        <node id="LATTICE-POINT-15" len="0.0" pos="0.18833499999999992" s="2.6942349999999955" type="marker" />
-        <node id="LATTICE-POINT-16" len="0.0" pos="0.1990969999999999" s="2.7049969999999957" type="marker" />
-        <node id="LATTICE-POINT-17" len="0.0" pos="0.2098589999999999" s="2.7157589999999954" type="marker" />
-        <node id="LATTICE-POINT-18" len="0.0" pos="0.2206209999999999" s="2.7265209999999955" type="marker" />
-        <node id="LATTICE-POINT-19" len="0.0" pos="0.2313829999999999" s="2.7372829999999952" type="marker" />
-        <node id="LATTICE-POINT-20" len="0.0" pos="0.2421449999999999" s="2.7480449999999954" type="marker" />
-        <node id="LATTICE-POINT-21" len="0.0" pos="0.2529069999999999" s="2.7588069999999956" type="marker" />
-        <node id="LATTICE-POINT-22" len="0.0" pos="0.26366899999999993" s="2.7695689999999953" type="marker" />
-        <node id="LATTICE-POINT-23" len="0.0" pos="0.274431" s="2.7803309999999954" type="marker" />
-        <node id="LATTICE-POINT-24" len="0.0" pos="0.28519300000000003" s="2.7910929999999956" type="marker" />
-        <node id="LATTICE-POINT-25" len="0.0" pos="0.2959550000000001" s="2.8018549999999958" type="marker" />
-        <node id="LATTICE-POINT-26" len="0.0" pos="0.30671700000000013" s="2.812616999999996" type="marker" />
-        <node id="LATTICE-POINT-27" len="0.0" pos="0.3174790000000002" s="2.8233789999999956" type="marker" />
-        <node id="LATTICE-POINT-28" len="0.0" pos="0.3282410000000002" s="2.834140999999996" type="marker" />
-        <node id="LATTICE-POINT-29" len="0.0" pos="0.3390030000000003" s="2.844902999999996" type="marker" />
-        <node id="LATTICE-POINT-30" len="0.0" pos="0.3497650000000003" s="2.8556649999999957" type="marker" />
-        <node id="LATTICE-POINT-31" len="0.0" pos="0.3605270000000004" s="2.866426999999996" type="marker" />
-        <node id="LATTICE-POINT-32" len="0.0" pos="0.3712890000000004" s="2.877188999999996" type="marker" />
-        <node id="LATTICE-POINT-33" len="0.0" pos="0.3820510000000005" s="2.887950999999996" type="marker" />
-        <node id="LATTICE-POINT-34" len="0.0" pos="0.3928130000000005" s="2.8987129999999963" type="marker" />
-        <node id="LATTICE-POINT-35" len="0.0" pos="0.40357500000000057" s="2.909474999999996" type="marker" />
-        <node id="LATTICE-POINT-36" len="0.0" pos="0.4143370000000006" s="2.920236999999996" type="marker" />
-        <node id="LATTICE-POINT-37" len="0.0" pos="0.42509900000000067" s="2.9309989999999964" type="marker" />
-        <node id="LATTICE-POINT-38" len="0.0" pos="0.4358610000000007" s="2.941760999999996" type="marker" />
-        <node id="LATTICE-POINT-39" len="0.0" pos="0.44662300000000077" s="2.9525229999999962" type="marker" />
-        <node id="LATTICE-POINT-40" len="0.0" pos="0.4573850000000008" s="2.9632849999999964" type="marker" />
-        <node id="LATTICE-POINT-41" len="0.0" pos="0.46814700000000087" s="2.9740469999999966" type="marker" />
-        <node id="LATTICE-POINT-42" len="0.0" pos="0.4789090000000009" s="2.9848089999999967" type="marker" />
-        <node id="LATTICE-POINT-43" len="0.0" pos="0.48967100000000097" s="2.9955709999999964" type="marker" />
-        <node id="LATTICE-POINT-44" len="0.0" pos="0.500433000000001" s="3.0063329999999966" type="marker" />
-        <node id="LATTICE-POINT-45" len="0.0" pos="0.511195000000001" s="3.0170949999999968" type="marker" />
-        <node id="LATTICE-POINT-46" len="0.0" pos="0.5219580000000009" s="3.0278579999999966" type="marker" />
-        <node id="LATTICE-POINT-47" len="0.0" pos="0.5327220000000009" s="3.0386219999999966" type="marker" />
-        <node id="LATTICE-POINT-48" len="0.0" pos="0.5434860000000009" s="3.0493859999999966" type="marker" />
-        <node id="LATTICE-POINT-49" len="0.0" pos="0.5542500000000009" s="3.0601499999999966" type="marker" />
-        <node id="LATTICE-POINT-50" len="0.0" pos="0.565016000000001" s="3.0709159999999964" type="marker" />
-        <node id="LATTICE-POINT-51" len="0.0" pos="0.575783000000001" s="3.0816829999999964" type="marker" />
-        <node id="LATTICE-POINT-52" len="0.0" pos="0.5865510000000012" s="3.092450999999997" type="marker" />
-        <node id="LATTICE-POINT-53" len="0.0" pos="0.5973210000000011" s="3.103220999999997" type="marker" />
-        <node id="LATTICE-POINT-54" len="0.0" pos="0.6080920000000011" s="3.1139919999999965" type="marker" />
-        <node id="LATTICE-POINT-55" len="0.0" pos="0.6188650000000011" s="3.1247649999999965" type="marker" />
-        <node id="LATTICE-POINT-56" len="0.0" pos="0.629641000000001" s="3.1355409999999964" type="marker" />
-        <node id="LATTICE-POINT-57" len="0.0" pos="0.640420000000001" s="3.1463199999999967" type="marker" />
-        <node id="LATTICE-POINT-58" len="0.0" pos="0.651201000000001" s="3.1571009999999964" type="marker" />
-        <node id="LATTICE-POINT-59" len="0.0" pos="0.661986000000001" s="3.1678859999999966" type="marker" />
-        <node id="LATTICE-POINT-60" len="0.0" pos="0.672775000000001" s="3.1786749999999966" type="marker" />
-        <node id="LATTICE-POINT-61" len="0.0" pos="0.683568000000001" s="3.1894679999999966" type="marker" />
-        <node id="LATTICE-POINT-62" len="0.0" pos="0.694367000000001" s="3.2002669999999966" type="marker" />
-        <node id="LATTICE-POINT-63" len="0.0" pos="0.705171000000001" s="3.2110709999999965" type="marker" />
-        <node id="LATTICE-POINT-64" len="0.0" pos="0.715981000000001" s="3.2218809999999967" type="marker" />
-        <node id="LATTICE-POINT-65" len="0.0" pos="0.726799000000001" s="3.2326989999999967" type="marker" />
-        <node id="LATTICE-POINT-66" len="0.0" pos="0.737625000000001" s="3.2435249999999964" type="marker" />
-        <node id="LATTICE-POINT-67" len="0.0" pos="0.748459000000001" s="3.2543589999999964" type="marker" />
-        <node id="LATTICE-POINT-68" len="0.0" pos="0.759301000000001" s="3.2652009999999967" type="marker" />
-        <node id="LATTICE-POINT-69" len="0.0" pos="0.770153000000001" s="3.2760529999999966" type="marker" />
-        <node id="LATTICE-POINT-70" len="0.0" pos="0.781016000000001" s="3.2869159999999966" type="marker" />
-        <node id="LATTICE-POINT-71" len="0.0" pos="0.791891000000001" s="3.2977909999999966" type="marker" />
-        <node id="LATTICE-POINT-72" len="0.0" pos="0.802778000000001" s="3.3086779999999965" type="marker" />
-        <node id="LATTICE-POINT-73" len="0.0" pos="0.813679000000001" s="3.3195789999999965" type="marker" />
-        <node id="LATTICE-POINT-74" len="0.0" pos="0.8245950000000011" s="3.3304949999999964" type="marker" />
-        <node id="LATTICE-POINT-75" len="0.0" pos="0.8355270000000011" s="3.341426999999997" type="marker" />
-        <node id="LATTICE-POINT-76" len="0.0" pos="0.8464760000000011" s="3.352375999999997" type="marker" />
-        <node id="LATTICE-POINT-77" len="0.0" pos="0.8574430000000011" s="3.363342999999997" type="marker" />
-        <node id="LATTICE-POINT-78" len="0.0" pos="0.8684300000000011" s="3.374329999999997" type="marker" />
-        <node id="LATTICE-POINT-79" len="0.0" pos="0.8794370000000011" s="3.3853369999999967" type="marker" />
-        <node id="LATTICE-POINT-80" len="0.0" pos="0.8904670000000011" s="3.3963669999999966" type="marker" />
-        <node id="LATTICE-POINT-81" len="0.0" pos="0.9015210000000011" s="3.4074209999999967" type="marker" />
-        <node id="LATTICE-POINT-82" len="0.0" pos="0.9125990000000012" s="3.4184989999999966" type="marker" />
-        <node id="LATTICE-POINT-83" len="0.0" pos="0.9237040000000012" s="3.4296039999999968" type="marker" />
-        <node id="LATTICE-POINT-84" len="0.0" pos="0.9348370000000011" s="3.440736999999997" type="marker" />
-        <node id="LATTICE-POINT-85" len="0.0" pos="0.9460010000000011" s="3.4519009999999968" type="marker" />
-        <node id="LATTICE-POINT-86" len="0.0" pos="0.957196000000001" s="3.4630959999999966" type="marker" />
-        <node id="LATTICE-POINT-87" len="0.0" pos="0.9684250000000011" s="3.4743249999999968" type="marker" />
-        <node id="LATTICE-POINT-88" len="0.0" pos="0.9796890000000011" s="3.4855889999999965" type="marker" />
-        <node id="LATTICE-POINT-89" len="0.0" pos="0.9909900000000011" s="3.496889999999997" type="marker" />
-        <node id="LATTICE-POINT-90" len="0.0" pos="1.0023300000000013" s="3.5082299999999966" type="marker" />
-        <node id="LATTICE-POINT-91" len="0.0" pos="1.0137120000000013" s="3.519611999999997" type="marker" />
-        <node id="LATTICE-POINT-92" len="0.0" pos="1.025137000000001" s="3.531036999999997" type="marker" />
-        <node id="LATTICE-POINT-93" len="0.0" pos="1.036608000000001" s="3.5425079999999967" type="marker" />
-        <node id="LATTICE-POINT-94" len="0.0" pos="1.048128000000001" s="3.5540279999999966" type="marker" />
-        <node id="LATTICE-POINT-95" len="0.0" pos="1.0596970000000012" s="3.565596999999997" type="marker" />
-        <node id="LATTICE-POINT-96" len="0.0" pos="1.0713190000000012" s="3.577218999999997" type="marker" />
-        <node id="LATTICE-POINT-97" len="0.0" pos="1.0829970000000013" s="3.5888969999999967" type="marker" />
-        <node id="LATTICE-POINT-98" len="0.0" pos="1.0947320000000014" s="3.600631999999997" type="marker" />
-        <node id="LATTICE-POINT-99" len="0.0" pos="1.1065280000000013" s="3.612427999999997" type="marker" />
-        <node id="LATTICE-POINT-100" len="0.0" pos="1.1183880000000013" s="3.624287999999997" type="marker" />
-        <node id="LATTICE-POINT-101" len="0.0" pos="1.1303150000000013" s="3.636214999999997" type="marker" />
-        <node id="LATTICE-POINT-102" len="0.0" pos="1.1423100000000013" s="3.648209999999997" type="marker" />
-        <node id="LATTICE-POINT-103" len="0.0" pos="1.1543780000000012" s="3.660277999999997" type="marker" />
-        <node id="LATTICE-POINT-104" len="0.0" pos="1.1665210000000013" s="3.672420999999997" type="marker" />
-        <node id="LATTICE-POINT-105" len="0.0" pos="1.1787430000000012" s="3.684642999999997" type="marker" />
-        <node id="LATTICE-POINT-106" len="0.0" pos="1.1910460000000012" s="3.696945999999997" type="marker" />
-        <node id="LATTICE-POINT-107" len="0.0" pos="1.203436000000001" s="3.709335999999997" type="marker" />
-        <node id="LATTICE-POINT-108" len="0.0" pos="1.215915000000001" s="3.7218149999999968" type="marker" />
-        <node id="LATTICE-POINT-109" len="0.0" pos="1.2284860000000009" s="3.734385999999996" type="marker" />
-        <node id="LATTICE-POINT-110" len="0.0" pos="1.2411530000000008" s="3.7470529999999966" type="marker" />
-        <node id="LATTICE-POINT-111" len="0.0" pos="1.2539210000000007" s="3.759820999999996" type="marker" />
-        <node id="LATTICE-POINT-112" len="0.0" pos="1.2667940000000009" s="3.7726939999999964" type="marker" />
-        <node id="LATTICE-POINT-113" len="0.0" pos="1.279776000000001" s="3.7856759999999965" type="marker" />
-        <node id="LATTICE-POINT-114" len="0.0" pos="1.2928710000000008" s="3.7987709999999963" type="marker" />
-        <node id="LATTICE-POINT-115" len="0.0" pos="1.3060830000000008" s="3.811982999999996" type="marker" />
-        <node id="LATTICE-POINT-116" len="0.0" pos="1.3194170000000007" s="3.8253169999999965" type="marker" />
-        <node id="LATTICE-POINT-117" len="0.0" pos="1.332878000000001" s="3.8387779999999965" type="marker" />
-        <node id="LATTICE-POINT-118" len="0.0" pos="1.3464710000000009" s="3.852370999999996" type="marker" />
-        <node id="LATTICE-POINT-119" len="0.0" pos="1.360200000000001" s="3.8660999999999968" type="marker" />
-        <node id="LATTICE-POINT-120" len="0.0" pos="1.3740720000000008" s="3.8799719999999964" type="marker" />
-        <node id="LATTICE-POINT-121" len="0.0" pos="1.3880910000000009" s="3.893990999999996" type="marker" />
-        <node id="LATTICE-POINT-122" len="0.0" pos="1.4022640000000008" s="3.9081639999999966" type="marker" />
-        <node id="LATTICE-POINT-123" len="0.0" pos="1.4165950000000007" s="3.922494999999996" type="marker" />
-        <node id="LATTICE-POINT-124" len="0.0" pos="1.4310910000000008" s="3.9369909999999964" type="marker" />
-        <node id="LATTICE-POINT-125" len="0.0" pos="1.4457580000000008" s="3.9516579999999966" type="marker" />
-        <node id="LATTICE-POINT-126" len="0.0" pos="1.4606030000000008" s="3.9665029999999963" type="marker" />
-        <node id="LATTICE-POINT-127" len="0.0" pos="1.4756320000000007" s="3.981531999999996" type="marker" />
-        <node id="LATTICE-POINT-128" len="0.0" pos="1.4908520000000007" s="3.9967519999999963" type="marker" />
-        <node id="LATTICE-POINT-129" len="0.0" pos="1.5062700000000007" s="4.012169999999996" type="marker" />
-        <node id="LATTICE-POINT-130" len="0.0" pos="1.5218940000000007" s="4.0277939999999965" type="marker" />
-        <node id="LATTICE-POINT-131" len="0.0" pos="1.5377310000000008" s="4.043630999999996" type="marker" />
-        <node id="LATTICE-POINT-132" len="0.0" pos="1.5537890000000008" s="4.059688999999996" type="marker" />
-        <node id="LATTICE-POINT-133" len="0.0" pos="1.5700760000000007" s="4.075975999999996" type="marker" />
-        <node id="LATTICE-POINT-134" len="0.0" pos="1.5866010000000008" s="4.092500999999997" type="marker" />
-        <node id="LATTICE-POINT-135" len="0.0" pos="1.6033720000000007" s="4.109271999999996" type="marker" />
-        <node id="LATTICE-POINT-136" len="0.0" pos="1.6203990000000006" s="4.126298999999996" type="marker" />
-        <node id="LATTICE-POINT-137" len="0.0" pos="1.6376910000000007" s="4.143590999999996" type="marker" />
-        <node id="LATTICE-POINT-138" len="0.0" pos="1.6552570000000006" s="4.161156999999996" type="marker" />
-        <node id="LATTICE-POINT-139" len="0.0" pos="1.6731090000000006" s="4.179008999999996" type="marker" />
-        <node id="LATTICE-POINT-140" len="0.0" pos="1.6912560000000008" s="4.197155999999996" type="marker" />
-        <node id="LATTICE-POINT-141" len="0.0" pos="1.7097100000000007" s="4.215609999999996" type="marker" />
-        <node id="LATTICE-POINT-142" len="0.0" pos="1.7284810000000006" s="4.234380999999996" type="marker" />
-        <node id="LATTICE-POINT-143" len="0.0" pos="1.7475830000000006" s="4.253482999999996" type="marker" />
-        <node id="LATTICE-POINT-144" len="0.0" pos="1.7670260000000007" s="4.2729259999999964" type="marker" />
-        <node id="LATTICE-POINT-145" len="0.0" pos="1.7868240000000006" s="4.292723999999996" type="marker" />
-        <node id="LATTICE-POINT-146" len="0.0" pos="1.8069900000000005" s="4.312889999999996" type="marker" />
-        <node id="LATTICE-POINT-147" len="0.0" pos="1.8275370000000004" s="4.333436999999996" type="marker" />
-        <node id="LATTICE-POINT-148" len="0.0" pos="1.8484800000000003" s="4.3543799999999955" type="marker" />
-        <node id="LATTICE-POINT-149" len="0.0" pos="1.8698340000000004" s="4.375733999999996" type="marker" />
-        <node id="LATTICE-POINT-150" len="0.0" pos="1.8916150000000005" s="4.397514999999996" type="marker" />
-        <node id="LATTICE-POINT-151" len="0.0" pos="1.9138310000000005" s="4.419730999999996" type="marker" />
-        <node id="LATTICE-POINT-152" len="0.0" pos="1.9365380000000005" s="4.442437999999996" type="marker" />
-        <node id="LATTICE-POINT-153" len="0.0" pos="1.9597170000000004" s="4.465616999999996" type="marker" />
-        <node id="LATTICE-POINT-154" len="0.0" pos="1.9833880000000004" s="4.489287999999996" type="marker" />
-        <node id="LATTICE-POINT-155" len="0.0" pos="2.0075710000000004" s="4.513470999999996" type="marker" />
-        <node id="LATTICE-POINT-156" len="0.0" pos="2.0322870000000006" s="4.538186999999996" type="marker" />
-        <node id="LATTICE-POINT-157" len="0.0" pos="2.0575590000000004" s="4.563458999999996" type="marker" />
-        <node id="LATTICE-POINT-158" len="0.0" pos="2.0834080000000004" s="4.5893079999999955" type="marker" />
-        <node id="LATTICE-POINT-159" len="0.0" pos="2.1098570000000003" s="4.615756999999996" type="marker" />
-        <node id="LATTICE-POINT-160" len="0.0" pos="2.13693" s="4.642829999999996" type="marker" />
-        <node id="LATTICE-POINT-161" len="0.0" pos="2.1646490000000003" s="4.670548999999996" type="marker" />
-        <node id="LATTICE-POINT-162" len="0.0" pos="2.1930370000000003" s="4.6989369999999955" type="marker" />
-        <node id="LATTICE-POINT-163" len="0.0" pos="2.222119" s="4.728018999999996" type="marker" />
-        <node id="LATTICE-POINT-164" len="0.0" pos="2.2519190000000004" s="4.757818999999996" type="marker" />
-        <node id="LATTICE-POINT-165" len="0.0" pos="2.2824600000000004" s="4.7883599999999955" type="marker" />
-        <node id="LATTICE-POINT-166" len="0.0" pos="2.313768" s="4.819667999999996" type="marker" />
-        <node id="LATTICE-POINT-167" len="0.0" pos="2.345866" s="4.851765999999996" type="marker" />
-        <node id="LATTICE-POINT-168" len="0.0" pos="2.378779" s="4.884678999999996" type="marker" />
-        <node id="LATTICE-POINT-169" len="0.0" pos="2.412529" s="4.918428999999996" type="marker" />
-        <node id="LATTICE-POINT-170" len="0.0" pos="2.4471410000000002" s="4.953040999999995" type="marker" />
-        <node id="LATTICE-POINT-171" len="0.0" pos="2.4826360000000003" s="4.988535999999996" type="marker" />
-        <node id="LATTICE-POINT-172" len="0.0" pos="2.519037" s="5.024936999999996" type="marker" />
-        <node id="LATTICE-POINT-173" len="0.0" pos="2.5563659999999997" s="5.062265999999996" type="marker" />
-        <node id="LATTICE-POINT-174" len="0.0" pos="2.594642" s="5.1005419999999955" type="marker" />
-        <node id="LATTICE-POINT-175" len="0.0" pos="2.633884" s="5.139783999999995" type="marker" />
-        <node id="LATTICE-POINT-176" len="0.0" pos="2.674112" s="5.180011999999996" type="marker" />
-        <node id="LATTICE-POINT-177" len="0.0" pos="2.715341" s="5.221240999999996" type="marker" />
-        <node id="LATTICE-POINT-178" len="0.0" pos="2.757587" s="5.263486999999996" type="marker" />
-        <node id="LATTICE-POINT-179" len="0.0" pos="2.800865" s="5.306764999999995" type="marker" />
-        <node id="LATTICE-POINT-180" len="0.0" pos="2.845188" s="5.351087999999995" type="marker" />
-        <node id="LATTICE-POINT-181" len="0.0" pos="2.8905689999999997" s="5.396468999999995" type="marker" />
-        <node id="LATTICE-POINT-182" len="0.0" pos="2.9370179999999997" s="5.442917999999995" type="marker" />
-        <node id="LATTICE-POINT-183" len="0.0" pos="2.984545" s="5.490444999999996" type="marker" />
-        <node id="LATTICE-POINT-184" len="0.0" pos="3.0331569999999997" s="5.539056999999995" type="marker" />
-        <node id="LATTICE-POINT-185" len="0.0" pos="3.0828629999999997" s="5.588762999999995" type="marker" />
-        <node id="LATTICE-POINT-186" len="0.0" pos="3.133666" s="5.639565999999995" type="marker" />
-        <node id="LATTICE-POINT-187" len="0.0" pos="3.185572" s="5.691471999999996" type="marker" />
-        <node id="LATTICE-POINT-188" len="0.0" pos="3.238583" s="5.744482999999995" type="marker" />
-        <node id="LATTICE-POINT-189" len="0.0" pos="3.292704" s="5.798603999999996" type="marker" />
-        <node id="LATTICE-POINT-190" len="0.0" pos="3.347935" s="5.853834999999996" type="marker" />
-        <node id="LATTICE-POINT-191" len="0.0" pos="3.404277" s="5.910176999999996" type="marker" />
-        <node id="LATTICE-POINT-192" len="0.0" pos="3.461731" s="5.9676309999999955" type="marker" />
-        <node id="LATTICE-POINT-193" len="0.0" pos="3.520295" s="6.026194999999996" type="marker" />
-        <node id="LATTICE-POINT-194" len="0.0" pos="3.5799679999999996" s="6.085867999999995" type="marker" />
-        <node id="LATTICE-POINT-195" len="0.0" pos="3.6407479999999994" s="6.1466479999999954" type="marker" />
-        <node id="LATTICE-POINT-196" len="0.0" pos="3.7026319999999995" s="6.208531999999995" type="marker" />
-        <node id="LATTICE-POINT-197" len="0.0" pos="3.7656159999999996" s="6.271515999999995" type="marker" />
-        <node id="LATTICE-POINT-198" len="0.0" pos="3.8296959999999993" s="6.335595999999995" type="marker" />
-        <node id="LATTICE-POINT-199" len="0.0" pos="3.894868999999999" s="6.400768999999995" type="marker" />
-        <node id="LATTICE-POINT-200" len="0.0" pos="3.961129999999999" s="6.467029999999994" type="marker" />
-        <node id="LATTICE-POINT-201" len="0.0" pos="4.0284749999999985" s="6.534374999999994" type="marker" />
-        <node id="LATTICE-POINT-202" len="0.0" pos="4.096899999999999" s="6.602799999999995" type="marker" />
-        <node id="LATTICE-POINT-203" len="0.0" pos="4.1663999999999985" s="6.672299999999995" type="marker" />
-        <node id="LATTICE-POINT-204" len="0.0" pos="4.236970999999999" s="6.742870999999994" type="marker" />
-        <node id="LATTICE-POINT-205" len="0.0" pos="4.3086069999999985" s="6.814506999999994" type="marker" />
-        <node id="LATTICE-POINT-206" len="0.0" pos="4.381305999999999" s="6.887205999999994" type="marker" />
-        <node id="LATTICE-POINT-207" len="0.0" pos="4.455061999999999" s="6.960961999999995" type="marker" />
-        <node id="LATTICE-END-1" len="0.0" pos="4.455061999999999" s="6.960961999999995" type="marker" />
+        <node id="LATTICE-POINT-1" len="0.0" pos="0.037667" s="0.037667" type="marker" />
+        <node id="LATTICE-START-1" len="0.0" pos="0.037667" s="0.037667" type="marker" />
+        <node id="LATTICE-POINT-2" len="0.0" pos="0.048429" s="0.048429" type="marker" />
+        <node id="LATTICE-POINT-3" len="0.0" pos="0.059191" s="0.059191" type="marker" />
+        <node id="LATTICE-POINT-4" len="0.0" pos="0.069953" s="0.069953" type="marker" />
+        <node id="LATTICE-POINT-5" len="0.0" pos="0.080715" s="0.080715" type="marker" />
+        <node id="LATTICE-POINT-6" len="0.0" pos="0.091477" s="0.091477" type="marker" />
+        <node id="LATTICE-POINT-7" len="0.0" pos="0.102239" s="0.102239" type="marker" />
+        <node id="LATTICE-POINT-8" len="0.0" pos="0.113001" s="0.113001" type="marker" />
+        <node id="LATTICE-POINT-9" len="0.0" pos="0.123763" s="0.123763" type="marker" />
+        <node id="LATTICE-POINT-10" len="0.0" pos="0.134525" s="0.134525" type="marker" />
+        <node id="LATTICE-POINT-11" len="0.0" pos="0.145287" s="0.145287" type="marker" />
+        <node id="LATTICE-POINT-12" len="0.0" pos="0.156049" s="0.156049" type="marker" />
+        <node id="LATTICE-POINT-13" len="0.0" pos="0.166811" s="0.166811" type="marker" />
+        <node id="LATTICE-POINT-14" len="0.0" pos="0.177573" s="0.177573" type="marker" />
+        <node id="LATTICE-POINT-15" len="0.0" pos="0.188335" s="0.188335" type="marker" />
+        <node id="LATTICE-POINT-16" len="0.0" pos="0.199097" s="0.199097" type="marker" />
+        <node id="LATTICE-POINT-17" len="0.0" pos="0.209859" s="0.209859" type="marker" />
+        <node id="LATTICE-POINT-18" len="0.0" pos="0.220621" s="0.220621" type="marker" />
+        <node id="LATTICE-POINT-19" len="0.0" pos="0.231383" s="0.231383" type="marker" />
+        <node id="LATTICE-POINT-20" len="0.0" pos="0.242145" s="0.242145" type="marker" />
+        <node id="LATTICE-POINT-21" len="0.0" pos="0.252907" s="0.252907" type="marker" />
+        <node id="LATTICE-POINT-22" len="0.0" pos="0.263669" s="0.263669" type="marker" />
+        <node id="LATTICE-POINT-23" len="0.0" pos="0.274431" s="0.274431" type="marker" />
+        <node id="LATTICE-POINT-24" len="0.0" pos="0.285193" s="0.285193" type="marker" />
+        <node id="LATTICE-POINT-25" len="0.0" pos="0.295955" s="0.295955" type="marker" />
+        <node id="LATTICE-POINT-26" len="0.0" pos="0.306717" s="0.306717" type="marker" />
+        <node id="LATTICE-POINT-27" len="0.0" pos="0.317479" s="0.317479" type="marker" />
+        <node id="LATTICE-POINT-28" len="0.0" pos="0.328241" s="0.328241" type="marker" />
+        <node id="LATTICE-POINT-29" len="0.0" pos="0.339003" s="0.339003" type="marker" />
+        <node id="LATTICE-POINT-30" len="0.0" pos="0.349765" s="0.349765" type="marker" />
+        <node id="LATTICE-POINT-31" len="0.0" pos="0.360527" s="0.360527" type="marker" />
+        <node id="LATTICE-POINT-32" len="0.0" pos="0.371289" s="0.371289" type="marker" />
+        <node id="LATTICE-POINT-33" len="0.0" pos="0.382051" s="0.382051" type="marker" />
+        <node id="LATTICE-POINT-34" len="0.0" pos="0.392813" s="0.392813" type="marker" />
+        <node id="LATTICE-POINT-35" len="0.0" pos="0.403575" s="0.403575" type="marker" />
+        <node id="LATTICE-POINT-36" len="0.0" pos="0.414337" s="0.414337" type="marker" />
+        <node id="LATTICE-POINT-37" len="0.0" pos="0.425099" s="0.425099" type="marker" />
+        <node id="LATTICE-POINT-38" len="0.0" pos="0.435861" s="0.435861" type="marker" />
+        <node id="LATTICE-POINT-39" len="0.0" pos="0.446623" s="0.446623" type="marker" />
+        <node id="LATTICE-POINT-40" len="0.0" pos="0.457385" s="0.457385" type="marker" />
+        <node id="LATTICE-POINT-41" len="0.0" pos="0.468147" s="0.468147" type="marker" />
+        <node id="LATTICE-POINT-42" len="0.0" pos="0.478909" s="0.478909" type="marker" />
+        <node id="LATTICE-POINT-43" len="0.0" pos="0.489671" s="0.489671" type="marker" />
+        <node id="LATTICE-POINT-44" len="0.0" pos="0.500433" s="0.500433" type="marker" />
+        <node id="LATTICE-POINT-45" len="0.0" pos="0.511195" s="0.511195" type="marker" />
+        <node id="LATTICE-POINT-46" len="0.0" pos="0.521958" s="0.521958" type="marker" />
+        <node id="LATTICE-POINT-47" len="0.0" pos="0.532722" s="0.532722" type="marker" />
+        <node id="LATTICE-POINT-48" len="0.0" pos="0.543486" s="0.543486" type="marker" />
+        <node id="LATTICE-POINT-49" len="0.0" pos="0.55425" s="0.55425" type="marker" />
+        <node id="LATTICE-POINT-50" len="0.0" pos="0.565016" s="0.565016" type="marker" />
+        <node id="LATTICE-POINT-51" len="0.0" pos="0.575783" s="0.575783" type="marker" />
+        <node id="LATTICE-POINT-52" len="0.0" pos="0.586551" s="0.586551" type="marker" />
+        <node id="LATTICE-POINT-53" len="0.0" pos="0.597321" s="0.597321" type="marker" />
+        <node id="LATTICE-POINT-54" len="0.0" pos="0.608092" s="0.608092" type="marker" />
+        <node id="LATTICE-POINT-55" len="0.0" pos="0.618865" s="0.618865" type="marker" />
+        <node id="LATTICE-POINT-56" len="0.0" pos="0.629641" s="0.629641" type="marker" />
+        <node id="LATTICE-POINT-57" len="0.0" pos="0.64042" s="0.64042" type="marker" />
+        <node id="LATTICE-POINT-58" len="0.0" pos="0.651201" s="0.651201" type="marker" />
+        <node id="LATTICE-POINT-59" len="0.0" pos="0.661986" s="0.661986" type="marker" />
+        <node id="LATTICE-POINT-60" len="0.0" pos="0.672775" s="0.672775" type="marker" />
+        <node id="LATTICE-POINT-61" len="0.0" pos="0.683568" s="0.683568" type="marker" />
+        <node id="LATTICE-POINT-62" len="0.0" pos="0.694367" s="0.694367" type="marker" />
+        <node id="LATTICE-POINT-63" len="0.0" pos="0.705171" s="0.705171" type="marker" />
+        <node id="LATTICE-POINT-64" len="0.0" pos="0.715981" s="0.715981" type="marker" />
+        <node id="LATTICE-POINT-65" len="0.0" pos="0.726799" s="0.726799" type="marker" />
+        <node id="LATTICE-POINT-66" len="0.0" pos="0.737625" s="0.737625" type="marker" />
+        <node id="LATTICE-POINT-67" len="0.0" pos="0.748459" s="0.748459" type="marker" />
+        <node id="LATTICE-POINT-68" len="0.0" pos="0.759301" s="0.759301" type="marker" />
+        <node id="LATTICE-POINT-69" len="0.0" pos="0.770153" s="0.770153" type="marker" />
+        <node id="LATTICE-POINT-70" len="0.0" pos="0.781016" s="0.781016" type="marker" />
+        <node id="LATTICE-POINT-71" len="0.0" pos="0.791891" s="0.791891" type="marker" />
+        <node id="LATTICE-POINT-72" len="0.0" pos="0.802778" s="0.802778" type="marker" />
+        <node id="LATTICE-POINT-73" len="0.0" pos="0.813679" s="0.813679" type="marker" />
+        <node id="LATTICE-POINT-74" len="0.0" pos="0.824595" s="0.824595" type="marker" />
+        <node id="LATTICE-POINT-75" len="0.0" pos="0.835527" s="0.835527" type="marker" />
+        <node id="LATTICE-POINT-76" len="0.0" pos="0.846476" s="0.846476" type="marker" />
+        <node id="LATTICE-POINT-77" len="0.0" pos="0.857443" s="0.857443" type="marker" />
+        <node id="LATTICE-POINT-78" len="0.0" pos="0.86843" s="0.86843" type="marker" />
+        <node id="LATTICE-POINT-79" len="0.0" pos="0.879437" s="0.879437" type="marker" />
+        <node id="LATTICE-POINT-80" len="0.0" pos="0.890467" s="0.890467" type="marker" />
+        <node id="LATTICE-POINT-81" len="0.0" pos="0.901521" s="0.901521" type="marker" />
+        <node id="LATTICE-POINT-82" len="0.0" pos="0.912599" s="0.912599" type="marker" />
+        <node id="LATTICE-POINT-83" len="0.0" pos="0.923704" s="0.923704" type="marker" />
+        <node id="LATTICE-POINT-84" len="0.0" pos="0.934837" s="0.934837" type="marker" />
+        <node id="LATTICE-POINT-85" len="0.0" pos="0.946001" s="0.946001" type="marker" />
+        <node id="LATTICE-POINT-86" len="0.0" pos="0.957196" s="0.957196" type="marker" />
+        <node id="LATTICE-POINT-87" len="0.0" pos="0.968425" s="0.968425" type="marker" />
+        <node id="LATTICE-POINT-88" len="0.0" pos="0.979689" s="0.979689" type="marker" />
+        <node id="LATTICE-POINT-89" len="0.0" pos="0.99099" s="0.99099" type="marker" />
+        <node id="LATTICE-POINT-90" len="0.0" pos="1.00233" s="1.00233" type="marker" />
+        <node id="LATTICE-POINT-91" len="0.0" pos="1.013712" s="1.013712" type="marker" />
+        <node id="LATTICE-POINT-92" len="0.0" pos="1.025137" s="1.025137" type="marker" />
+        <node id="LATTICE-POINT-93" len="0.0" pos="1.036608" s="1.036608" type="marker" />
+        <node id="LATTICE-POINT-94" len="0.0" pos="1.048128" s="1.048128" type="marker" />
+        <node id="LATTICE-POINT-95" len="0.0" pos="1.059697" s="1.059697" type="marker" />
+        <node id="LATTICE-POINT-96" len="0.0" pos="1.071319" s="1.071319" type="marker" />
+        <node id="LATTICE-POINT-97" len="0.0" pos="1.082997" s="1.082997" type="marker" />
+        <node id="LATTICE-POINT-98" len="0.0" pos="1.094732" s="1.094732" type="marker" />
+        <node id="LATTICE-POINT-99" len="0.0" pos="1.106528" s="1.106528" type="marker" />
+        <node id="LATTICE-POINT-100" len="0.0" pos="1.118388" s="1.118388" type="marker" />
+        <node id="LATTICE-POINT-101" len="0.0" pos="1.130315" s="1.130315" type="marker" />
+        <node id="LATTICE-POINT-102" len="0.0" pos="1.14231" s="1.14231" type="marker" />
+        <node id="LATTICE-POINT-103" len="0.0" pos="1.154378" s="1.154378" type="marker" />
+        <node id="LATTICE-POINT-104" len="0.0" pos="1.166521" s="1.166521" type="marker" />
+        <node id="LATTICE-POINT-105" len="0.0" pos="1.178743" s="1.178743" type="marker" />
+        <node id="LATTICE-POINT-106" len="0.0" pos="1.191046" s="1.191046" type="marker" />
+        <node id="LATTICE-POINT-107" len="0.0" pos="1.203436" s="1.203436" type="marker" />
+        <node id="LATTICE-POINT-108" len="0.0" pos="1.215915" s="1.215915" type="marker" />
+        <node id="LATTICE-POINT-109" len="0.0" pos="1.228486" s="1.228486" type="marker" />
+        <node id="LATTICE-POINT-110" len="0.0" pos="1.241153" s="1.241153" type="marker" />
+        <node id="LATTICE-POINT-111" len="0.0" pos="1.253921" s="1.253921" type="marker" />
+        <node id="LATTICE-POINT-112" len="0.0" pos="1.266794" s="1.266794" type="marker" />
+        <node id="LATTICE-POINT-113" len="0.0" pos="1.279776" s="1.279776" type="marker" />
+        <node id="LATTICE-POINT-114" len="0.0" pos="1.292871" s="1.292871" type="marker" />
+        <node id="LATTICE-POINT-115" len="0.0" pos="1.306083" s="1.306083" type="marker" />
+        <node id="LATTICE-POINT-116" len="0.0" pos="1.319417" s="1.319417" type="marker" />
+        <node id="LATTICE-POINT-117" len="0.0" pos="1.332878" s="1.332878" type="marker" />
+        <node id="LATTICE-POINT-118" len="0.0" pos="1.346471" s="1.346471" type="marker" />
+        <node id="LATTICE-POINT-119" len="0.0" pos="1.3602" s="1.3602" type="marker" />
+        <node id="LATTICE-POINT-120" len="0.0" pos="1.374072" s="1.374072" type="marker" />
+        <node id="LATTICE-POINT-121" len="0.0" pos="1.388091" s="1.388091" type="marker" />
+        <node id="LATTICE-POINT-122" len="0.0" pos="1.402264" s="1.402264" type="marker" />
+        <node id="LATTICE-POINT-123" len="0.0" pos="1.416595" s="1.416595" type="marker" />
+        <node id="LATTICE-POINT-124" len="0.0" pos="1.431091" s="1.431091" type="marker" />
+        <node id="LATTICE-POINT-125" len="0.0" pos="1.445758" s="1.445758" type="marker" />
+        <node id="LATTICE-POINT-126" len="0.0" pos="1.460603" s="1.460603" type="marker" />
+        <node id="LATTICE-POINT-127" len="0.0" pos="1.475632" s="1.475632" type="marker" />
+        <node id="LATTICE-POINT-128" len="0.0" pos="1.490852" s="1.490852" type="marker" />
+        <node id="LATTICE-POINT-129" len="0.0" pos="1.50627" s="1.50627" type="marker" />
+        <node id="LATTICE-POINT-130" len="0.0" pos="1.521894" s="1.521894" type="marker" />
+        <node id="LATTICE-POINT-131" len="0.0" pos="1.537731" s="1.537731" type="marker" />
+        <node id="LATTICE-POINT-132" len="0.0" pos="1.553789" s="1.553789" type="marker" />
+        <node id="LATTICE-POINT-133" len="0.0" pos="1.570076" s="1.570076" type="marker" />
+        <node id="LATTICE-POINT-134" len="0.0" pos="1.586601" s="1.586601" type="marker" />
+        <node id="LATTICE-POINT-135" len="0.0" pos="1.603372" s="1.603372" type="marker" />
+        <node id="LATTICE-POINT-136" len="0.0" pos="1.620399" s="1.620399" type="marker" />
+        <node id="LATTICE-POINT-137" len="0.0" pos="1.637691" s="1.637691" type="marker" />
+        <node id="LATTICE-POINT-138" len="0.0" pos="1.655257" s="1.655257" type="marker" />
+        <node id="LATTICE-POINT-139" len="0.0" pos="1.673109" s="1.673109" type="marker" />
+        <node id="LATTICE-POINT-140" len="0.0" pos="1.691256" s="1.691256" type="marker" />
+        <node id="LATTICE-POINT-141" len="0.0" pos="1.70971" s="1.70971" type="marker" />
+        <node id="LATTICE-POINT-142" len="0.0" pos="1.728481" s="1.728481" type="marker" />
+        <node id="LATTICE-POINT-143" len="0.0" pos="1.747583" s="1.747583" type="marker" />
+        <node id="LATTICE-POINT-144" len="0.0" pos="1.767026" s="1.767026" type="marker" />
+        <node id="LATTICE-POINT-145" len="0.0" pos="1.786824" s="1.786824" type="marker" />
+        <node id="LATTICE-POINT-146" len="0.0" pos="1.80699" s="1.80699" type="marker" />
+        <node id="LATTICE-POINT-147" len="0.0" pos="1.827537" s="1.827537" type="marker" />
+        <node id="LATTICE-POINT-148" len="0.0" pos="1.84848" s="1.84848" type="marker" />
+        <node id="LATTICE-POINT-149" len="0.0" pos="1.869834" s="1.869834" type="marker" />
+        <node id="LATTICE-POINT-150" len="0.0" pos="1.891615" s="1.891615" type="marker" />
+        <node id="LATTICE-POINT-151" len="0.0" pos="1.913831" s="1.913831" type="marker" />
+        <node id="LATTICE-POINT-152" len="0.0" pos="1.936538" s="1.936538" type="marker" />
+        <node id="LATTICE-POINT-153" len="0.0" pos="1.959717" s="1.959717" type="marker" />
+        <node id="LATTICE-POINT-154" len="0.0" pos="1.983388" s="1.983388" type="marker" />
+        <node id="LATTICE-POINT-155" len="0.0" pos="2.007571" s="2.007571" type="marker" />
+        <node id="LATTICE-POINT-156" len="0.0" pos="2.032287" s="2.032287" type="marker" />
+        <node id="LATTICE-POINT-157" len="0.0" pos="2.057559" s="2.057559" type="marker" />
+        <node id="LATTICE-POINT-158" len="0.0" pos="2.083408" s="2.083408" type="marker" />
+        <node id="LATTICE-POINT-159" len="0.0" pos="2.109857" s="2.109857" type="marker" />
+        <node id="LATTICE-POINT-160" len="0.0" pos="2.13693" s="2.13693" type="marker" />
+        <node id="LATTICE-POINT-161" len="0.0" pos="2.164649" s="2.164649" type="marker" />
+        <node id="LATTICE-POINT-162" len="0.0" pos="2.193037" s="2.193037" type="marker" />
+        <node id="LATTICE-POINT-163" len="0.0" pos="2.222119" s="2.222119" type="marker" />
+        <node id="LATTICE-POINT-164" len="0.0" pos="2.251919" s="2.251919" type="marker" />
+        <node id="LATTICE-POINT-165" len="0.0" pos="2.28246" s="2.28246" type="marker" />
+        <node id="LATTICE-POINT-166" len="0.0" pos="2.313768" s="2.313768" type="marker" />
+        <node id="LATTICE-POINT-167" len="0.0" pos="2.345866" s="2.345866" type="marker" />
+        <node id="LATTICE-POINT-168" len="0.0" pos="2.378779" s="2.378779" type="marker" />
+        <node id="LATTICE-POINT-169" len="0.0" pos="2.412529" s="2.412529" type="marker" />
+        <node id="LATTICE-POINT-170" len="0.0" pos="2.447141" s="2.447141" type="marker" />
+        <node id="LATTICE-POINT-171" len="0.0" pos="2.482636" s="2.482636" type="marker" />
+        <node id="LATTICE-POINT-172" len="0.0" pos="2.519037" s="2.519037" type="marker" />
+        <node id="LATTICE-POINT-173" len="0.0" pos="2.556366" s="2.556366" type="marker" />
+        <node id="LATTICE-POINT-174" len="0.0" pos="2.594642" s="2.594642" type="marker" />
+        <node id="LATTICE-POINT-175" len="0.0" pos="2.633884" s="2.633884" type="marker" />
+        <node id="LATTICE-POINT-176" len="0.0" pos="2.674112" s="2.674112" type="marker" />
+        <node id="LATTICE-POINT-177" len="0.0" pos="2.715341" s="2.715341" type="marker" />
+        <node id="LATTICE-POINT-178" len="0.0" pos="2.757587" s="2.757587" type="marker" />
+        <node id="LATTICE-POINT-179" len="0.0" pos="2.800865" s="2.800865" type="marker" />
+        <node id="LATTICE-POINT-180" len="0.0" pos="2.845188" s="2.845188" type="marker" />
+        <node id="LATTICE-POINT-181" len="0.0" pos="2.890569" s="2.890569" type="marker" />
+        <node id="LATTICE-POINT-182" len="0.0" pos="2.937018" s="2.937018" type="marker" />
+        <node id="LATTICE-POINT-183" len="0.0" pos="2.984545" s="2.984545" type="marker" />
+        <node id="LATTICE-POINT-184" len="0.0" pos="3.033157" s="3.033157" type="marker" />
+        <node id="LATTICE-POINT-185" len="0.0" pos="3.082863" s="3.082863" type="marker" />
+        <node id="LATTICE-POINT-186" len="0.0" pos="3.133666" s="3.133666" type="marker" />
+        <node id="LATTICE-POINT-187" len="0.0" pos="3.185572" s="3.185572" type="marker" />
+        <node id="LATTICE-POINT-188" len="0.0" pos="3.238583" s="3.238583" type="marker" />
+        <node id="LATTICE-POINT-189" len="0.0" pos="3.292704" s="3.292704" type="marker" />
+        <node id="LATTICE-POINT-190" len="0.0" pos="3.347935" s="3.347935" type="marker" />
+        <node id="LATTICE-POINT-191" len="0.0" pos="3.404277" s="3.404277" type="marker" />
+        <node id="LATTICE-POINT-192" len="0.0" pos="3.461731" s="3.461731" type="marker" />
+        <node id="LATTICE-POINT-193" len="0.0" pos="3.520295" s="3.520295" type="marker" />
+        <node id="LATTICE-POINT-194" len="0.0" pos="3.579968" s="3.579968" type="marker" />
+        <node id="LATTICE-POINT-195" len="0.0" pos="3.640748" s="3.640748" type="marker" />
+        <node id="LATTICE-POINT-196" len="0.0" pos="3.702632" s="3.702632" type="marker" />
+        <node id="LATTICE-POINT-197" len="0.0" pos="3.765616" s="3.765616" type="marker" />
+        <node id="LATTICE-POINT-198" len="0.0" pos="3.829696" s="3.829696" type="marker" />
+        <node id="LATTICE-POINT-199" len="0.0" pos="3.894869" s="3.894869" type="marker" />
+        <node id="LATTICE-POINT-200" len="0.0" pos="3.96113" s="3.96113" type="marker" />
+        <node id="LATTICE-POINT-201" len="0.0" pos="4.028475" s="4.028475" type="marker" />
+        <node id="LATTICE-POINT-202" len="0.0" pos="4.0969" s="4.0969" type="marker" />
+        <node id="LATTICE-POINT-203" len="0.0" pos="4.1664" s="4.1664" type="marker" />
+        <node id="LATTICE-POINT-204" len="0.0" pos="4.236971" s="4.236971" type="marker" />
+        <node id="LATTICE-POINT-205" len="0.0" pos="4.308607" s="4.308607" type="marker" />
+        <node id="LATTICE-POINT-206" len="0.0" pos="4.381306" s="4.381306" type="marker" />
+        <node id="LATTICE-POINT-207" len="0.0" pos="4.455062" s="4.455062" type="marker" />
+        <node id="LATTICE-END-1" len="0.0" pos="4.455062" s="4.455062" type="marker" />
     </sequence>
-    <sequence id="MEBT" len="3.9859999999999953" pos="7.0509719999999945" s="7.0509719999999945">
+    <sequence id="MEBT" len="3.986" pos="7.050972" s="7.050972">
         <attributes>
             <sequence predecessors="RFQ" />
         </attributes>
-        <node id="START-MEBT" len="0.0" pos="0.0" s="7.0509719999999945" type="VC">
+        <node id="START-MEBT" len="0.0" pos="0.0" s="7.050972" type="VC">
           <attributes>
               <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
           </attributes>
         </node>
-        <node id="MEBT-010:PBI-BCM-001" len="0.0" pos="0.07457" s="7.125542" type="BCM" status="true">
+        <node id="MEBT-010:PBI-BCM-001" len="0.0" pos="0.07457" s="0.07457" status="true" type="BCM">
           <attributes>
               <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
           </attributes>
           <channelsuite>
-                <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-001:PulseWidthR" settable="false" valid="true" />
-                <channel handle="CurrentAvg" signal="MEBT-010:PBI-BCM-001:FlatTopCurrentR" settable="false" valid="true" />
-                <channel handle="CurrentMax" signal="MEBT-010:PBI-BCM-001:UpperThreshold" settable="false" valid="true" />
-                <channel handle="Particles" signal="MEBT-010:PBI-BCM-001:FlatTopChargeR" settable="false" valid="true" />
-                <channel handle="CurrentArray" signal="MEBT-010:PBI-BCM-001:PCR-TR1-ArrayData" settable="false" valid="true" />
-                <channel handle="tDelay" signal="MEBT-010:PBI-BCM-001:FineDelayR" settable="false" valid="true" />
+                <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-001:PulseWidthR" valid="true" />
+                <channel handle="CurrentAvg" settable="false" signal="MEBT-010:PBI-BCM-001:FlatTopCurrentR" valid="true" />
+                <channel handle="CurrentMax" settable="false" signal="MEBT-010:PBI-BCM-001:UpperThreshold" valid="true" />
+                <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-001:FlatTopChargeR" valid="true" />
+                <channel handle="CurrentArray" settable="false" signal="MEBT-010:PBI-BCM-001:PCR-TR1-ArrayData" valid="true" />
+                <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-BCM-001:FineDelayR" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:BMD-QV-001" len="0.08" pos="0.20000000000000004" s="7.250971999999995" type="Q">
+        <node id="MEBT-010:BMD-QV-001" len="0.08" pos="0.2" s="0.2" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
                 <magnet dfltMagFld="-16.3007" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -508,7 +508,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-QVPS-001" />
         </node>
-        <node id="MEBT-010:BMD-CV-001" len="0.08" pos="0.20000000000000004" s="7.250971999999995" type="DC">
+        <node id="MEBT-010:BMD-CV-001" len="0.08" pos="0.2" s="0.2" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -517,7 +517,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-001" />
         </node>
-        <node id="MEBT-010:BMD-CH-001" len="0.08" pos="0.20000000000000004" s="7.250971999999995" type="DC">
+        <node id="MEBT-010:BMD-CH-001" len="0.08" pos="0.22" s="0.22" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -526,8 +526,8 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-001" />
         </node>
-        <node id="MEBT-010:PBI-WS-001" len="0.0" pos="0.34" s="7.390972" type="marker" />
-        <node id="MEBT-010:PBI-BPM-001" len="0.0" pos="0.4" s="7.450971999999995" type="BPM">
+        <node id="MEBT-010:PBI-WS-001" len="0.0" pos="0.34" s="0.34" type="marker" />
+        <node id="MEBT-010:PBI-BPM-001" len="0.0" pos="0.4" s="0.4" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
@@ -538,7 +538,7 @@
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-001:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:BMD-QH-002" len="0.08" pos="0.4" s="7.450971999999995" type="Q">
+        <node id="MEBT-010:BMD-QH-002" len="0.08" pos="0.4" s="0.4" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
                 <magnet bendAngle="0.0" dfltMagFld="19.5694" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -548,7 +548,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-QHPS-002" />
         </node>
-        <node id="MEBT-010:BMD-CV-002" len="0.08" pos="0.4" s="7.450971999999995" type="DC">
+        <node id="MEBT-010:BMD-CV-002" len="0.08" pos="0.4" s="0.4" type="DC">
             <attributes>
                 <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -557,7 +557,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-002" />
         </node>
-        <node id="MEBT-010:BMD-CH-002" len="0.08" pos="0.4" s="7.450971999999995" type="DC">
+        <node id="MEBT-010:BMD-CH-002" len="0.08" pos="0.4" s="0.4" type="DC">
             <attributes>
                 <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -566,12 +566,12 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-002" />
         </node>
-        <node id="MEBT-010:EMR-Cav-001:Aper" len="0.2" pos="0.581" s="7.631972" type="VC">
+        <node id="MEBT-010:EMR-Cav-001:Aper" len="0.2" pos="0.581" s="0.581" type="VC">
             <attributes>
-                <aperture shape="1" pos="0.0,0.0,0.10,0.20,0.20" x="0.0184,0.015,0.015,0.015,0.0184" y="0.0184,0.015,0.015,0.015,0.0184" />
+                <aperture pos="0.0,0.0,0.10,0.20,0.20" shape="1" x="0.0184,0.015,0.015,0.015,0.0184" y="0.0184,0.015,0.015,0.015,0.0184" />
             </attributes>
         </node>
-        <sequence id="MEBT-010:EMR-Cav-001" len="0.0" pos="0.581" s="7.631972" type="RF">
+        <sequence id="MEBT-010:EMR-Cav-001" len="0.0" pos="0.581" s="0.581" type="RF">
             <attributes>
                 <rfcavity amp="0.130769" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
@@ -587,7 +587,7 @@
                 </attributes>
             </node>
         </sequence>
-        <node id="MEBT-010:PBI-BPM-002" len="0.0" pos="0.7620000000000001" s="7.812971999999995" type="BPM">
+        <node id="MEBT-010:PBI-BPM-002" len="0.0" pos="0.762" s="0.762" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
@@ -598,7 +598,7 @@
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-002:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:BMD-QV-003" len="0.08" pos="0.7620000000000001" s="7.812971999999995" type="Q">
+        <node id="MEBT-010:BMD-QV-003" len="0.08" pos="0.762" s="0.762" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
                 <magnet dfltMagFld="-12.4749" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -608,7 +608,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-QVPS-003" />
         </node>
-        <node id="MEBT-010:BMD-CV-003" len="0.08" pos="0.7620000000000001" s="7.812971999999995" type="DC">
+        <node id="MEBT-010:BMD-CV-003" len="0.08" pos="0.762" s="0.762" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -617,7 +617,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-003" />
         </node>
-        <node id="MEBT-010:BMD-CH-003" len="0.08" pos="0.7620000000000001" s="7.812971999999995" type="DC">
+        <node id="MEBT-010:BMD-CH-003" len="0.08" pos="0.762" s="0.762" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -626,14 +626,14 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-003" />
         </node>
-        <node id="MEBT-010:ID-Coll-001" len="0.0" pos="0.902" s="7.952972" type="marker" />
-        <node id="MEBT-010:BMD-Chop-001:Aper" len="0.450" pos="1.24175" s="8.292722" type="VC">
+        <node id="MEBT-010:ID-Coll-001" len="0.0" pos="0.902" s="0.902" type="marker" />
+        <node id="MEBT-010:BMD-Chop-001:Aper" len="0.45" pos="1.24175" s="1.24175" type="VC">
             <attributes>
-               <aperture shape="2" pos="0.0,0.0,0.45,0.45" x="0.0184,0.0184,0.0184,0.0184" y="0.0184,0.010,0.010,0.0184" />
+               <aperture pos="0.0,0.0,0.45,0.45" shape="2" x="0.0184,0.0184,0.0184,0.0184" y="0.0184,0.010,0.010,0.0184" />
            </attributes>
         </node>
-        <node id="MEBT-010:BMD-Chop-001" len="0.450" pos="1.24175" s="8.292722" type="marker" />
-        <node id="MEBT-010:BMD-QH-004" len="0.08" pos="1.5120000000000002" s="8.562971999999995" type="Q">
+        <node id="MEBT-010:BMD-Chop-001" len="0.45" pos="1.24175" s="1.24175" type="marker" />
+        <node id="MEBT-010:BMD-QH-004" len="0.08" pos="1.512" s="1.512" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
                 <magnet dfltMagFld="5.0" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -643,7 +643,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-QHPS-004" />
         </node>
-        <node id="MEBT-010:BMD-CV-004" len="0.08" pos="1.5120000000000002" s="8.562971999999995" type="DC">
+        <node id="MEBT-010:BMD-CV-004" len="0.08" pos="1.512" s="1.512" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -652,7 +652,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-004" />
         </node>
-        <node id="MEBT-010:BMD-CH-004" len="0.08" pos="1.5120000000000002" s="8.562971999999995" type="DC">
+        <node id="MEBT-010:BMD-CH-004" len="0.08" pos="1.512" s="1.512" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -661,7 +661,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-004" />
         </node>
-        <node id="MEBT-010:PBI-NPM-001" len="0.0" pos="1.677" s="8.727972" type="NPM" status="false">
+        <node id="MEBT-010:PBI-NPM-001" len="0.0" pos="1.677" s="1.677" status="false" type="NPM">
             <attributes>
                 <npm frequency="7.0442E8" length="0.0" orientation="1" />
                 <aperture shape="1" x="0.0184" y="0.0184" />
@@ -681,28 +681,28 @@
                 <channel handle="xBetaTwiss" settable="false" signal="MEBT-010:PBI-NPM-001:HCAM-BETA" valid="false" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:PBI-WS-002" len="0.0" pos="1.691" s="8.741971999999995" type="marker" />
-        <node id="MEBT-010:BMD-ChDump-001" len="0.150" pos="1.839122" s="8.890094" type="VC">
+        <node id="MEBT-010:PBI-WS-002" len="0.0" pos="1.691" s="1.691" type="marker" />
+        <node id="MEBT-010:BMD-ChDump-001" len="0.15" pos="1.839122" s="1.839122" type="VC">
             <attributes>
-               <aperture shape="2" pos="0.0,0.15,0.15" x="0.0184,0.0184,0.0184" y="0.0184,0.007,0.0184" />
+               <aperture pos="0.0,0.15,0.15" shape="2" x="0.0184,0.0184,0.0184" y="0.0184,0.007,0.0184" />
            </attributes>
         </node>
-        <node id="MEBT-010:PBI-BCM-002" len="0.0" pos="1.9359" s="8.986872" type="BCM" status="true">
+        <node id="MEBT-010:PBI-BCM-002" len="0.0" pos="1.9359" s="1.9359" status="true" type="BCM">
           <channelsuite>
-            <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-002:PulseWidthR" settable="false" valid="true" />
-            <channel handle="CurrentAvg" signal="MEBT-010:PBI-BCM-002:FlatTopCurrentR" settable="false" valid="true" />
-            <channel handle="CurrentMax" signal="MEBT-010:PBI-BCM-002:UpperThreshold" settable="false" valid="true" />
-            <channel handle="Particles" signal="MEBT-010:PBI-BCM-002:FlatTopChargeR" settable="false" valid="true" />
-            <channel handle="CurrentArray" signal="MEBT-010:PBI-BCM-002:PCR-TR1-ArrayData" settable="false" valid="true" />
-            <channel handle="tDelay" signal="MEBT-010:PBI-BCM-002:FineDelayR" settable="false" valid="true" />
+            <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-002:PulseWidthR" valid="true" />
+            <channel handle="CurrentAvg" settable="false" signal="MEBT-010:PBI-BCM-002:FlatTopCurrentR" valid="true" />
+            <channel handle="CurrentMax" settable="false" signal="MEBT-010:PBI-BCM-002:UpperThreshold" valid="true" />
+            <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-002:FlatTopChargeR" valid="true" />
+            <channel handle="CurrentArray" settable="false" signal="MEBT-010:PBI-BCM-002:PCR-TR1-ArrayData" valid="true" />
+            <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-BCM-002:FineDelayR" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:EMR-Cav-002:Aper" len="0.2" pos="2.043" s="9.093972" type="VC">
+        <node id="MEBT-010:EMR-Cav-002:Aper" len="0.2" pos="2.043" s="2.043" type="VC">
             <attributes>
-                <aperture shape="1" pos="0.0,0.0,0.10,0.20,0.20" x="0.0184,0.015,0.015,0.015,0.0184" y="0.0184,0.015,0.015,0.015,0.0184" />
+                <aperture pos="0.0,0.0,0.10,0.20,0.20" shape="1" x="0.0184,0.015,0.015,0.015,0.0184" y="0.0184,0.015,0.015,0.015,0.0184" />
             </attributes>
         </node>
-        <sequence id="MEBT-010:EMR-Cav-002" len="0.0" pos="2.043" s="9.093972" type="RF">
+        <sequence id="MEBT-010:EMR-Cav-002" len="0.0" pos="2.043" s="2.043" type="RF">
             <attributes>
                 <rfcavity amp="0.0596669" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
@@ -718,7 +718,7 @@
                 </attributes>
             </node>
         </sequence>
-        <node id="MEBT-010:PBI-BPM-003" len="0.0" pos="2.2239999999999998" s="9.274971999999995" type="BPM">
+        <node id="MEBT-010:PBI-BPM-003" len="0.0" pos="2.224" s="2.224" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
@@ -729,7 +729,7 @@
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-003:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:BMD-QH-005" len="0.08" pos="2.2239999999999998" s="9.274971999999995" type="Q">
+        <node id="MEBT-010:BMD-QH-005" len="0.08" pos="2.224" s="2.224" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
                 <magnet dfltMagFld="6.87809" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -739,7 +739,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-QHPS-005" />
         </node>
-        <node id="MEBT-010:BMD-CV-005" len="0.08" pos="2.2239999999999998" s="9.274971999999995" type="DC">
+        <node id="MEBT-010:BMD-CV-005" len="0.08" pos="2.224" s="2.224" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -748,7 +748,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-005" />
         </node>
-        <node id="MEBT-010:BMD-CH-005" len="0.08" pos="2.2239999999999998" s="9.274971999999995" type="DC">
+        <node id="MEBT-010:BMD-CH-005" len="0.08" pos="2.224" s="2.224" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -757,18 +757,18 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-005" />
         </node>
-        <node id="MEBT-010:ID-Coll-002" len="0.0" pos="2.364" s="9.414972" type="marker" />
-        <node id="MEBT-010:PBI-BCM-003" len="0.0" pos="2.424" s="9.474972" type="BCM" status="true">
+        <node id="MEBT-010:ID-Coll-002" len="0.0" pos="2.364" s="2.364" type="marker" />
+        <node id="MEBT-010:PBI-BCM-003" len="0.0" pos="2.424" s="2.424" status="true" type="BCM">
           <channelsuite>
-            <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-003:PulseWidthR" settable="false" valid="true" />
-            <channel handle="CurrentAvg" signal="MEBT-010:PBI-BCM-003:FlatTopCurrentR" settable="false" valid="true" />
-            <channel handle="CurrentMax" signal="MEBT-010:PBI-BCM-003:UpperThreshold" settable="false" valid="true" />
-            <channel handle="Particles" signal="MEBT-010:PBI-BCM-003:FlatTopChargeR" settable="false" valid="true" />
-            <channel handle="CurrentArray" signal="MEBT-010:PBI-BCM-003:PCR-TR1-ArrayData" settable="false" valid="true" />
-            <channel handle="tDelay" signal="MEBT-010:PBI-BCM-003:FineDelayR" settable="false" valid="true" />
+            <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-003:PulseWidthR" valid="true" />
+            <channel handle="CurrentAvg" settable="false" signal="MEBT-010:PBI-BCM-003:FlatTopCurrentR" valid="true" />
+            <channel handle="CurrentMax" settable="false" signal="MEBT-010:PBI-BCM-003:UpperThreshold" valid="true" />
+            <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-003:FlatTopChargeR" valid="true" />
+            <channel handle="CurrentArray" settable="false" signal="MEBT-010:PBI-BCM-003:PCR-TR1-ArrayData" valid="true" />
+            <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-BCM-003:FineDelayR" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:BMD-QV-006" len="0.08" pos="2.423999999999999" s="9.474971999999994" type="Q">
+        <node id="MEBT-010:BMD-QV-006" len="0.08" pos="2.424" s="2.424" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
                 <magnet dfltMagFld="-14.7817" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -778,7 +778,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-QVPS-006" />
         </node>
-        <node id="MEBT-010:BMD-CV-006" len="0.08" pos="2.423999999999999" s="9.474971999999994" type="DC">
+        <node id="MEBT-010:BMD-CV-006" len="0.08" pos="2.424" s="2.424" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -787,7 +787,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-006" />
         </node>
-        <node id="MEBT-010:BMD-CH-006" len="0.08" pos="2.423999999999999" s="9.474971999999994" type="DC">
+        <node id="MEBT-010:BMD-CH-006" len="0.08" pos="2.424" s="2.424" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -796,9 +796,9 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-006" />
         </node>
-        <node id="MEBT-010:PBI-WS-003" len="0.0" pos="2.564" s="9.614972" type="marker" />
-        <node id="MEBT-010:PBI-EMU-001" len="0.0" pos="2.564" s="9.614972" type="marker" />
-        <node id="MEBT-010:PBI-BPM-004" len="0.0" pos="2.6239999999999983" s="9.674971999999993" type="BPM">
+        <node id="MEBT-010:PBI-WS-003" len="0.0" pos="2.564" s="2.564" type="marker" />
+        <node id="MEBT-010:PBI-EMU-001" len="0.0" pos="2.564" s="2.564" type="marker" />
+        <node id="MEBT-010:PBI-BPM-004" len="0.0" pos="2.624" s="2.624" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
@@ -809,7 +809,7 @@
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-004:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:BMD-QH-007" len="0.08" pos="2.6239999999999983" s="9.674971999999993" type="Q">
+        <node id="MEBT-010:BMD-QH-007" len="0.08" pos="2.624" s="2.624" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
                 <magnet dfltMagFld="9.57296" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -819,7 +819,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-QHPS-007" />
         </node>
-        <node id="MEBT-010:BMD-CV-007" len="0.08" pos="2.6239999999999983" s="9.674971999999993" type="DC">
+        <node id="MEBT-010:BMD-CV-007" len="0.08" pos="2.624" s="2.624" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -828,7 +828,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-007" />
         </node>
-        <node id="MEBT-010:BMD-CH-007" len="0.08" pos="2.6239999999999983" s="9.674971999999993" type="DC">
+        <node id="MEBT-010:BMD-CH-007" len="0.08" pos="2.624" s="2.624" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -837,8 +837,8 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-007" />
         </node>
-        <node id="MEBT-010:PBI-LBM-001" len="0.0" pos="2.8028" s="9.853772" type="marker" />
-        <node id="MEBT-010:PBI-FC-001" len="0.0" pos="2.9875" s="10.038472" type="BCM" status="true">
+        <node id="MEBT-010:PBI-LBM-001" len="0.0" pos="2.8028" s="2.8028" type="marker" />
+        <node id="MEBT-010:PBI-FC-001" len="0.0" pos="2.9875" s="2.9875" status="true" type="BCM">
             <attributes>
                 <aperture shape="1" x="0.0184" y="0.0184" />
             </attributes>
@@ -849,7 +849,7 @@
                 <channel handle="CurrentMax" settable="false" signal="MEBT-010:PBI-FC-001:STAT3-MaxValueR" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:PBI-NPM-002" len="0.0" pos="2.9875" s="10.038472" type="NPM" status="false">
+        <node id="MEBT-010:PBI-NPM-002" len="0.0" pos="2.9875" s="2.9875" status="false" type="NPM">
             <attributes>
                 <npm frequency="7.0442E8" length="0.0" orientation="1" />
                 <aperture shape="1" x="0.0184" y="0.0184" />
@@ -869,7 +869,7 @@
                 <channel handle="xBetaTwiss" settable="false" signal="MEBT-010:PBI-NPM-002:HCAM-BETA" valid="false" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:BMD-QV-008" len="0.08" pos="3.0739999999999976" s="10.124971999999993" type="Q">
+        <node id="MEBT-010:BMD-QV-008" len="0.08" pos="3.074" s="3.074" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
                 <magnet dfltMagFld="-9.19019" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -879,7 +879,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-QVPS-008" />
         </node>
-        <node id="MEBT-010:BMD-CV-008" len="0.08" pos="3.0739999999999976" s="10.124971999999993" type="DC">
+        <node id="MEBT-010:BMD-CV-008" len="0.08" pos="3.074" s="3.074" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -888,7 +888,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-008" />
         </node>
-        <node id="MEBT-010:BMD-CH-008" len="0.08" pos="3.0739999999999976" s="10.124971999999993" type="DC">
+        <node id="MEBT-010:BMD-CH-008" len="0.08" pos="3.074" s="3.074" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -897,12 +897,12 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-008" />
         </node>
-        <node id="MEBT-010:EMR-Cav-003:Aper" len="0.2" pos="3.255" s="10.305972" type="VC">
+        <node id="MEBT-010:EMR-Cav-003:Aper" len="0.2" pos="3.255" s="3.255" type="VC">
             <attributes>
-                <aperture shape="1" pos="0.0,0.0,0.10,0.20,0.20" x="0.0184,0.015,0.015,0.015,0.0184" y="0.0184,0.015,0.015,0.015,0.0184" />
+                <aperture pos="0.0,0.0,0.10,0.20,0.20" shape="1" x="0.0184,0.015,0.015,0.015,0.0184" y="0.0184,0.015,0.015,0.015,0.0184" />
             </attributes>
         </node>
-        <sequence id="MEBT-010:EMR-Cav-003" len="0.0" pos="3.255" s="10.305972" type="RF">
+        <sequence id="MEBT-010:EMR-Cav-003" len="0.0" pos="3.255" s="3.255" type="RF">
             <attributes>
                 <rfcavity amp="0.145257" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
@@ -918,7 +918,7 @@
                 </attributes>
             </node>
         </sequence>
-        <node id="MEBT-010:PBI-BPM-005" len="0.0" pos="3.435999999999997" s="10.48697199999999" type="BPM">
+        <node id="MEBT-010:PBI-BPM-005" len="0.0" pos="3.436" s="3.436" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
@@ -929,7 +929,7 @@
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-005:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:BMD-QH-009" len="0.08" pos="3.435999999999997" s="10.48697199999999" type="Q">
+        <node id="MEBT-010:BMD-QH-009" len="0.08" pos="3.436" s="3.436" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
                 <magnet dfltMagFld="18.58" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -939,7 +939,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-QHPS-009" />
         </node>
-        <node id="MEBT-010:BMD-CV-009" len="0.08" pos="3.435999999999997" s="10.48697199999999" type="DC">
+        <node id="MEBT-010:BMD-CV-009" len="0.08" pos="3.436" s="3.436" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -948,7 +948,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-009" />
         </node>
-        <node id="MEBT-010:BMD-CH-009" len="0.08" pos="3.435999999999997" s="10.48697199999999" type="DC">
+        <node id="MEBT-010:BMD-CH-009" len="0.08" pos="3.436" s="3.436" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -957,8 +957,8 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-009" />
         </node>
-        <node id="MEBT-010:ID-Coll-003" len="0.0" pos="3.576" s="10.626972" type="marker" />
-        <node id="MEBT-010:PBI-BPM-006" len="0.0" pos="3.635999999999996" s="10.68697199999999" type="BPM">
+        <node id="MEBT-010:ID-Coll-003" len="0.0" pos="3.576" s="3.576" type="marker" />
+        <node id="MEBT-010:PBI-BPM-006" len="0.0" pos="3.636" s="3.636" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
@@ -969,7 +969,7 @@
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-006:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:BMD-QV-010" len="0.08" pos="3.635999999999996" s="10.68697199999999" type="Q">
+        <node id="MEBT-010:BMD-QV-010" len="0.08" pos="3.636" s="3.636" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
                 <magnet dfltMagFld="-30.7441" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -979,7 +979,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-QVPS-010" />
         </node>
-        <node id="MEBT-010:BMD-CV-010" len="0.08" pos="3.635999999999996" s="10.68697199999999" type="DC">
+        <node id="MEBT-010:BMD-CV-010" len="0.08" pos="3.636" s="3.636" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -988,7 +988,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-010" />
         </node>
-        <node id="MEBT-010:BMD-CH-010" len="0.08" pos="3.635999999999996" s="10.68697199999999" type="DC">
+        <node id="MEBT-010:BMD-CH-010" len="0.08" pos="3.636" s="3.636" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -997,28 +997,28 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-010" />
         </node>
-        <node id="MEBT-010:PBI-BCM-004" len="0.0" pos="3.776" s="10.826972" type="BCM" status="true">
+        <node id="MEBT-010:PBI-BCM-004" len="0.0" pos="3.776" s="3.776" status="true" type="BCM">
           <channelsuite>
-            <channel handle="DisplayLength" signal="MEBT-010:PBI-BCM-004:PulseWidthR" settable="false" valid="true" />
-            <channel handle="CurrentAvg" signal="MEBT-010:PBI-BCM-004:FlatTopCurrentR" settable="false" valid="true" />
-            <channel handle="CurrentMax" signal="MEBT-010:PBI-BCM-004:UpperThreshold" settable="false" valid="true" />
-            <channel handle="Particles" signal="MEBT-010:PBI-BCM-004:FlatTopChargeR" settable="false" valid="true" />
-            <channel handle="CurrentArray" signal="MEBT-010:PBI-BCM-004:PCR-TR1-ArrayData" settable="false" valid="true" />
-            <channel handle="tDelay" signal="MEBT-010:PBI-BCM-004:FineDelayR" settable="false" valid="true" />
+            <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-004:PulseWidthR" valid="true" />
+            <channel handle="CurrentAvg" settable="false" signal="MEBT-010:PBI-BCM-004:FlatTopCurrentR" valid="true" />
+            <channel handle="CurrentMax" settable="false" signal="MEBT-010:PBI-BCM-004:UpperThreshold" valid="true" />
+            <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-004:FlatTopChargeR" valid="true" />
+            <channel handle="CurrentArray" settable="false" signal="MEBT-010:PBI-BCM-004:PCR-TR1-ArrayData" valid="true" />
+            <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-BCM-004:FineDelayR" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:PBI-FBCM-001" len="0.0" pos="3.776" s="10.826972" type="BCM" status="true">
+        <node id="MEBT-010:PBI-FBCM-001" len="0.0" pos="3.776" s="3.776" status="true" type="BCM">
           <channelsuite>
-                <channel handle="DisplayLength" signal="MEBT-010:PBI-FBCM-001:Cur-R:WIDTH" settable="false" valid="true" />
-                <channel handle="CurrentAvg" signal="MEBT-010:PBI-FBCM-001:Cur-R:AVG" settable="false" valid="true" />
-                <channel handle="CurrentMax" signal="MEBT-010:PBI-FBCM-001:Cur-R:MAX" settable="false" valid="true" />
-                <channel handle="Particles" signal="MEBT-010:PBI-FBCM-001:Cur-R:INTEGRAL" settable="false" valid="true" />
-                <channel handle="CurrentArray" signal="MEBT-010:PBI-FBCM-001:AI5-ArrayData" settable="false" valid="true" />
-                <channel handle="CurrentArrayCompressed" signal="MEBT-010:PBI-FBCM-001:AI5-Compressed" settable="false" valid="true" />
-                <channel handle="tDelay" signal="MEBT-010:PBI-FBCM-001:Cur-R:tAvgDelay" settable="false" valid="true" />
+                <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-FBCM-001:Cur-R:WIDTH" valid="true" />
+                <channel handle="CurrentAvg" settable="false" signal="MEBT-010:PBI-FBCM-001:Cur-R:AVG" valid="true" />
+                <channel handle="CurrentMax" settable="false" signal="MEBT-010:PBI-FBCM-001:Cur-R:MAX" valid="true" />
+                <channel handle="Particles" settable="false" signal="MEBT-010:PBI-FBCM-001:Cur-R:INTEGRAL" valid="true" />
+                <channel handle="CurrentArray" settable="false" signal="MEBT-010:PBI-FBCM-001:AI5-ArrayData" valid="true" />
+                <channel handle="CurrentArrayCompressed" settable="false" signal="MEBT-010:PBI-FBCM-001:AI5-Compressed" valid="true" />
+                <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-FBCM-001:Cur-R:tAvgDelay" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:PBI-BPM-007" len="0.0" pos="3.8359999999999954" s="10.88697199999999" type="BPM">
+        <node id="MEBT-010:PBI-BPM-007" len="0.0" pos="3.836" s="3.836" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
@@ -1029,7 +1029,7 @@
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-007:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:BMD-QH-011" len="0.08" pos="3.8359999999999954" s="10.88697199999999" type="Q">
+        <node id="MEBT-010:BMD-QH-011" len="0.08" pos="3.836" s="3.836" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
                 <magnet dfltMagFld="23.8053" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
@@ -1039,7 +1039,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-QHPS-011" />
         </node>
-        <node id="MEBT-010:BMD-CV-011" len="0.08" pos="3.8359999999999954" s="10.88697199999999" type="DC">
+        <node id="MEBT-010:BMD-CV-011" len="0.08" pos="3.836" s="3.836" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -1048,7 +1048,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-011" />
         </node>
-        <node id="MEBT-010:BMD-CH-011" len="0.08" pos="3.8359999999999954" s="10.88697199999999" type="DC">
+        <node id="MEBT-010:BMD-CH-011" len="0.08" pos="3.836" s="3.836" type="DC">
             <attributes>
                 <magnet dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
@@ -1057,7 +1057,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-011" />
         </node>
-        <node id="END-MEBT" len="0.0" pos="3.9859999999999953" s="11.03697199999999" type="VC">
+        <node id="END-MEBT" len="0.0" pos="3.986" s="3.986" type="VC">
           <attributes>
               <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
           </attributes>
