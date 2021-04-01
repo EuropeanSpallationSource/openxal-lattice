@@ -21,6 +21,12 @@
         <record name="default"/>
         <record emitgrowth="false" scheff="true" stepsize="0.1" useDCBeam="true" name="LEBT"/>
     </table>
+    <table name="TransferMapTracker">
+        <schema>
+            <attribute isPrimaryKey="true" name="name" type="java.lang.String" />
+        </schema>
+        <record name="default" />
+    </table>
     <table name="species" recordClass="xal.tools.data.GenericRecord">
         <schema>
             <attribute isPrimaryKey="true" name="name" type="java.lang.String"/>
@@ -114,7 +120,7 @@
     <table name="CentroidCoordinates" recordClass="xal.tools.data.GenericRecord">
         <schema>
             <attribute isPrimaryKey="true" name="name" type="java.lang.String"/>
-            <attribute isPrimaryKey="true" name="coordinates" type="java.lang.String"/>
+            <attribute isPrimaryKey="false" name="coordinates" type="java.lang.String"/>
         </schema>
         <record coordinates="(3.089105810585379E-6,2.9505510932353388E-5,-4.045033168338097E-6,-3.472358772726465E-5,-0.005374024748164865,0.0,1.0)" name="ISRC"/>
         <record coordinates="(3.089105810585379E-6,2.9505510932353388E-5,-4.045033168338097E-6,-3.472358772726465E-5,-0.005374024748164865,0.0,1.0)" name="LEBT"/>
