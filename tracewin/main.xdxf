@@ -97,7 +97,7 @@
         </node>
         <node id="ST1-VC" len="0.5454" pos="0.6081" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.5454" orientation="vertical" pathLength="0.0" polarity="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.5454" orientation="vertical" pathLength="0.0" polarity="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST1-VC:B" valid="true" />
@@ -106,7 +106,7 @@
         </node>
         <node id="ST1-HC" len="0.5454" pos="0.6081" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.5454" orientation="horizontal" pathLength="0.0" polarity="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.5454" orientation="horizontal" pathLength="0.0" polarity="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST1-HC:B" valid="true" />
@@ -126,7 +126,7 @@
         </node>
         <node id="ST2-VC" len="0.5454" pos="2.1069" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.5454" orientation="vertical" pathLength="0.0" polarity="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.5454" orientation="vertical" pathLength="0.0" polarity="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST2-VC:B" valid="true" />
@@ -135,7 +135,7 @@
         </node>
         <node id="ST2-HC" len="0.5454" pos="2.1069" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.5454" orientation="horizontal" pathLength="0.0" polarity="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.5454" orientation="horizontal" pathLength="0.0" polarity="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST2-HC:B" valid="true" />
@@ -2264,7 +2264,7 @@
         </node>
         <node id="ST1-VC" len="0.08" pos="0.2" s="7.250972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST1-VC:B" valid="true" />
@@ -2273,7 +2273,7 @@
         </node>
         <node id="ST1-HC" len="0.08" pos="0.2" s="7.250972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST1-HC:B" valid="true" />
@@ -2307,7 +2307,7 @@
         </node>
         <node id="ST2-VC" len="0.08" pos="0.4" s="7.450972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST2-VC:B" valid="true" />
@@ -2316,7 +2316,7 @@
         </node>
         <node id="ST2-HC" len="0.08" pos="0.4" s="7.450972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST2-HC:B" valid="true" />
@@ -2367,7 +2367,7 @@
         </node>
         <node id="ST3-VC" len="0.08" pos="0.762" s="7.812972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST3-VC:B" valid="true" />
@@ -2376,7 +2376,7 @@
         </node>
         <node id="ST3-HC" len="0.08" pos="0.762" s="7.812972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST3-HC:B" valid="true" />
@@ -2395,7 +2395,7 @@
         </node>
         <node id="ST4-VC" len="0.08" pos="1.512" s="8.562972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST4-VC:B" valid="true" />
@@ -2404,7 +2404,7 @@
         </node>
         <node id="ST4-HC" len="0.08" pos="1.512" s="8.562972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST4-HC:B" valid="true" />
@@ -2455,7 +2455,7 @@
         </node>
         <node id="ST5-VC" len="0.08" pos="2.224" s="9.274972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST5-VC:B" valid="true" />
@@ -2464,7 +2464,7 @@
         </node>
         <node id="ST5-HC" len="0.08" pos="2.224" s="9.274972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST5-HC:B" valid="true" />
@@ -2483,7 +2483,7 @@
         </node>
         <node id="ST6-VC" len="0.08" pos="2.424" s="9.474972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST6-VC:B" valid="true" />
@@ -2492,7 +2492,7 @@
         </node>
         <node id="ST6-HC" len="0.08" pos="2.424" s="9.474972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST6-HC:B" valid="true" />
@@ -2526,7 +2526,7 @@
         </node>
         <node id="ST7-VC" len="0.08" pos="2.624" s="9.674972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST7-VC:B" valid="true" />
@@ -2535,7 +2535,7 @@
         </node>
         <node id="ST7-HC" len="0.08" pos="2.624" s="9.674972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST7-HC:B" valid="true" />
@@ -2554,7 +2554,7 @@
         </node>
         <node id="ST8-VC" len="0.08" pos="3.074" s="10.124972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST8-VC:B" valid="true" />
@@ -2563,7 +2563,7 @@
         </node>
         <node id="ST8-HC" len="0.08" pos="3.074" s="10.124972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST8-HC:B" valid="true" />
@@ -2614,7 +2614,7 @@
         </node>
         <node id="ST9-VC" len="0.08" pos="3.436" s="10.486972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST9-VC:B" valid="true" />
@@ -2623,7 +2623,7 @@
         </node>
         <node id="ST9-HC" len="0.08" pos="3.436" s="10.486972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST9-HC:B" valid="true" />
@@ -2657,7 +2657,7 @@
         </node>
         <node id="ST10-VC" len="0.08" pos="3.636" s="10.686972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST10-VC:B" valid="true" />
@@ -2666,7 +2666,7 @@
         </node>
         <node id="ST10-HC" len="0.08" pos="3.636" s="10.686972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST10-HC:B" valid="true" />
@@ -2700,7 +2700,7 @@
         </node>
         <node id="ST11-VC" len="0.08" pos="3.836" s="10.886972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST11-VC:B" valid="true" />
@@ -2709,7 +2709,7 @@
         </node>
         <node id="ST11-HC" len="0.08" pos="3.836" s="10.886972" type="DC">
             <attributes>
-                <magnet bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="ST11-HC:B" valid="true" />

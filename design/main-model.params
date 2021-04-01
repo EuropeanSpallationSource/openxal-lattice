@@ -52,6 +52,9 @@
             <attribute isPrimaryKey="false" name="beta" type="java.lang.Double"/>
             <attribute isPrimaryKey="false" name="emittance" type="java.lang.Double"/>
         </schema>
+        <record alpha="-3.228808231327488" beta="0.38607771736525104" coordinate="x" emittance="9.511387218228065E-6" name="ISRC"/>
+        <record alpha="-3.2275590186531122" beta="0.3858093272443539" coordinate="y" emittance="9.511387218228065E-6" name="ISRC"/>
+        <record alpha="-0.0" beta="109.13199284041227" coordinate="z" emittance="0.0" name="ISRC"/>
         <record alpha="-3.228808231327488" beta="0.38607771736525104" coordinate="x" emittance="9.511387218228065E-6" name="LEBT"/>
         <record alpha="-3.2275590186531122" beta="0.3858093272443539" coordinate="y" emittance="9.511387218228065E-6" name="LEBT"/>
         <record alpha="-0.0" beta="109.13199284041227" coordinate="z" emittance="0.0" name="LEBT"/>
@@ -89,6 +92,7 @@
             <attribute defaultValue="0" isPrimaryKey="false" name="s" type="java.lang.Double"/>
             <attribute defaultValue="0" isPrimaryKey="false" name="t" type="java.lang.Double"/>
         </schema>
+        <record W="74671.738" name="ISRC"/>
         <record W="74671.738" name="LEBT"/>
         <record W="74622.785" name="RFQ"/>
         <record W="3621785.3" name="MEBT"/>
@@ -116,8 +120,9 @@
     <table name="CentroidCoordinates" recordClass="xal.tools.data.GenericRecord">
         <schema>
             <attribute isPrimaryKey="true" name="name" type="java.lang.String"/>
-            <attribute isPrimaryKey="true" name="coordinates" type="java.lang.String"/>
+            <attribute isPrimaryKey="false" name="coordinates" type="java.lang.String"/>
         </schema>
+        <record coordinates="(3.089105810585379E-6,2.9505510932353388E-5,-4.045033168338097E-6,-3.472358772726465E-5,-0.005374024748164865,0.0,1.0)" name="ISRC"/>
         <record coordinates="(3.089105810585379E-6,2.9505510932353388E-5,-4.045033168338097E-6,-3.472358772726465E-5,-0.005374024748164865,0.0,1.0)" name="LEBT"/>
         <record coordinates="(2.9715612E-7,-4.1005964E-5,5.1619119E-7,-3.004407E-5,-0.0058376543,0.0,1.0)" name="RFQ"/>
         <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="MEBT"/>
