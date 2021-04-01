@@ -102,7 +102,7 @@
     <table name="CentroidCoordinates" recordClass="xal.tools.data.GenericRecord">
         <schema>
             <attribute isPrimaryKey="true" name="name" type="java.lang.String"/>
-            <attribute isPrimaryKey="true" name="coordinates" type="java.lang.String"/>
+            <attribute isPrimaryKey="false" name="coordinates" type="java.lang.String"/>
         </schema>
         <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="ISRC"/>
         <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="LEBT"/>
