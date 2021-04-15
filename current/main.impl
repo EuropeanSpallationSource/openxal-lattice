@@ -24,4 +24,5 @@
     <device class="xal.extension.jels.smf.impl.Doppler" type="DPL"/>
     <device class="xal.extension.jels.smf.impl.SpaceChargeCompensation" type="SCC"/>
     <device class="xal.smf.impl.Marker" type="VC"/>
+    <device class="xal.extension.jels.smf.impl.RfqDummy" type="RFQ"/>
 </deviceMapping>

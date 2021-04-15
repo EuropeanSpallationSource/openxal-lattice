@@ -22,5 +22,6 @@
         <map smf="rf" model="xal.model.elem.IdealRfCavity"/>
         <map smf="DTLTank" model="xal.model.elem.IdealRfCavity"/>
         <map smf="marker" model="xal.model.elem.Marker"/>
+        <map smf="rfq" model="xal.extension.jels.model.elem.RfqDummyModel"/>
     </associations>
 </configuration>
