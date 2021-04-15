@@ -28,22 +28,22 @@
                 <channel handle="CurRB" settable="false" signal="ISrc-010:ISS-HVPS:Cur-RB" valid="true" />
             </channelsuite>
         </node>
-        <node id="ISrc-010:ISS-Coil-01" len="0.0" pos="0.0" s="0.0" type="ISC">
+        <node id="ISrc-010:ISS-Coil-001" len="0.0" pos="0.0" s="0.0" type="ISC">
             <channelsuite>
-                <channel handle="I_Set" settable="true" signal="ISrc-010:PwrC-CoilPS-01:Cur-S" valid="true" />
-                <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-01:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="ISrc-010:PwrC-CoilPS-001:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-001:Cur-R" valid="true" />
             </channelsuite>
         </node>
-        <node id="ISrc-010:ISS-Coil-02" len="0.0" pos="0.0" s="0.0" type="ISC">
+        <node id="ISrc-010:ISS-Coil-002" len="0.0" pos="0.0" s="0.0" type="ISC">
             <channelsuite>
-                <channel handle="I_Set" settable="true" signal="ISrc-010:PwrC-CoilPS-02:Cur-S" valid="true" />
-                <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-02:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="ISrc-010:PwrC-CoilPS-002:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-002:Cur-R" valid="true" />
             </channelsuite>
         </node>
-        <node id="ISrc-010:ISS-Coil-03" len="0.0" pos="0.0" s="0.0" type="ISC">
+        <node id="ISrc-010:ISS-Coil-003" len="0.0" pos="0.0" s="0.0" type="ISC">
             <channelsuite>
-                <channel handle="I_Set" settable="true" signal="ISrc-010:PwrC-CoilPS-03:Cur-S" valid="true" />
-                <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-03:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="ISrc-010:PwrC-CoilPS-003:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="ISrc-010:PwrC-CoilPS-003:Cur-R" valid="true" />
             </channelsuite>
         </node>
       <node id="ISrc-010:PBI-BCM-001" len="0.0" pos="0.0" s="0.0" status="false" type="BCM">
@@ -78,34 +78,34 @@
                 <aperture pos="0,0.1831,0.1841,0.3831,0.3831,0.5462,0.5462,0.9609" shape="1" x="0.05,0.075,0.075,0.075,0.05,0.05,0.075,0.075" y="0.05,0.075,0.075,0.075,0.05,0.05,0.075,0.075" />
             </attributes>
         </node>
-        <node id="LEBT-010:BMD-Sol-01" len="0.5454" pos="0.5747" s="0.5747" type="MFM">
+        <node id="LEBT-010:BMD-Sol-001" len="0.5454" pos="0.5747" s="0.5747" type="MFM">
             <attributes>
                 <fieldmap dimensions="2" dynamic="false" fieldMapFile="Field_Maps/1D/LEBT_Sol_2D_545mm" fieldType="magnetic" numberOfPoints="2000" />
                 <magnet dfltMagFld="0.235" />
                 <align pitch="0.0" roll="0.0" x="0.0" y="0.0" yaw="0.0" z="0.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-01:Fld-RB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-001:Fld-RB" valid="true" />
             </channelsuite>
-            <ps main="LEBT-010:PwrC-SolPS-01" />
+            <ps main="LEBT-010:PwrC-SolPS-001" />
         </node>
-        <node id="LEBT-010:BMD-CV-01" len="0.1991316" pos="0.5747" s="0.5747" type="DC">
+        <node id="LEBT-010:BMD-CV-001" len="0.1991316" pos="0.5747" s="0.5747" type="DC">
             <attributes>
                 <steerer len="0.19913163" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.030026459799745046,0.11407441400731184,0.030026459799745046" orientation="vertical" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-01:Fld-RB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-001:Fld-RB" valid="true" />
             </channelsuite>
-            <ps main="LEBT-010:PwrC-PSCV-01" />
+            <ps main="LEBT-010:PwrC-PSCV-001" />
         </node>
-        <node id="LEBT-010:BMD-CH-01" len="0.2172172" pos="0.5747" s="0.5747" type="DC">
+        <node id="LEBT-010:BMD-CH-001" len="0.2172172" pos="0.5747" s="0.5747" type="DC">
             <attributes>
                 <steerer len="0.2172172" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.02137574039433439,0.11772249964813478,0.02137574039433439" orientation="horizontal" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-01:Fld-RB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-001:Fld-RB" valid="true" />
             </channelsuite>
-            <ps main="LEBT-010:PwrC-PSCH-01" />
+            <ps main="LEBT-010:PwrC-PSCH-001" />
         </node>
         <node id="LEBT-010:Vac-VPM-00011" len="0.07" pos="0.8632" s="0.8632" status="true" type="SCC">
             <attributes>
@@ -198,34 +198,34 @@
                 <channel handle="xBetaTwiss" settable="false" signal="LEBT-010:PBI-NPM-001:HCAM-BETA" valid="false" />
             </channelsuite>
         </node>
-        <node id="LEBT-010:BMD-Sol-02" len="0.5454" pos="2.1291" s="2.1291" type="MFM">
+        <node id="LEBT-010:BMD-Sol-002" len="0.5454" pos="2.1291" s="2.1291" type="MFM">
             <attributes>
                 <fieldmap dimensions="2" dynamic="false" fieldMapFile="Field_Maps/1D/LEBT_Sol_2D_545mm" fieldType="magnetic" numberOfPoints="2000" />
                 <magnet dfltMagFld="0.220" />
                 <align pitch="0.0" roll="0.0" x="0.0" y="0.0" yaw="0.0" z="0.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-02:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-002:Fld-RB" />
             </channelsuite>
-            <ps main="LEBT-010:PwrC-SolPS-02" />
+            <ps main="LEBT-010:PwrC-SolPS-002" />
         </node>
-        <node id="LEBT-010:BMD-CV-02" len="0.200987" pos="2.1291" s="2.1291" type="DC">
+        <node id="LEBT-010:BMD-CV-002" len="0.200987" pos="2.1291" s="2.1291" type="DC">
             <attributes>
                 <steerer len="0.200987" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.0224578947046075,0.11407441400731184,0.0224578947046075" orientation="vertical" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-02:Fld-RB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-002:Fld-RB" valid="true" />
             </channelsuite>
-            <ps main="LEBT-010:PwrC-PSCV-02" />
+            <ps main="LEBT-010:PwrC-PSCV-002" />
         </node>
-        <node id="LEBT-010:BMD-CH-02" len="0.2188116" pos="2.1291" s="2.1291" type="DC">
+        <node id="LEBT-010:BMD-CH-002" len="0.2188116" pos="2.1291" s="2.1291" type="DC">
             <attributes>
                 <steerer len="0.2188116" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" pathLength="0.0" polarity="1.0" slices="3" slicesEffLength="0.015892271209502623,0.11825775126714289,0.015892271209502623" orientation="horizontal" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-02:Fld-RB" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-002:Fld-RB" valid="true" />
             </channelsuite>
-            <ps main="LEBT-010:PwrC-PSCH-02" />
+            <ps main="LEBT-010:PwrC-PSCH-002" />
         </node>
         <node id="LEBT-010:ID-Coll-001:Aper" len="0.7295" pos="2.14115" s="2.14115" type="VC">
            <attributes>
@@ -242,10 +242,10 @@
               <channel handle="tDelay" settable="false" signal="LEBT-010:PBI-BCM-001:FineDelayR" valid="true" />
           </channelsuite>
         </node>
-        <node id="LEBT-010:BMD-Rep-01" len="0.006" pos="2.488962" s="2.488962" status="true" type="REP">
+        <node id="LEBT-010:BMD-Rep-001" len="0.006" pos="2.488962" s="2.488962" status="true" type="REP">
             <channelsuite>
-                <channel handle="statusS" settable="true" signal="LEBT-010:PwrC-RepPS-01:PwrS" valid="true" />
-                <channel handle="statusRB" settable="false" signal="LEBT-010:PwrC-RepPS-01:PwrR" valid="true" />
+                <channel handle="statusS" settable="true" signal="LEBT-010:PwrC-RepPS-001:PwrS" valid="true" />
+                <channel handle="statusRB" settable="false" signal="LEBT-010:PwrC-RepPS-001:PwrR" valid="true" />
             </channelsuite>
         </node>
         <node id="END-LEBT" len="0.0" pos="2.5059" s="2.5059" type="marker" />
@@ -1071,52 +1071,52 @@
                 <channel handle="I" settable="false" signal="LEBT-010:PwrC-Dummy-EARTH:Cur-R" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="LEBT-010:PwrC-SolPS-01" type="main">
+        <ps id="LEBT-010:PwrC-SolPS-001" type="main">
             <channelsuite>
-                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-SolPS-01:Fld-S" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-01:Fld-RB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-SolPS-01:Cur-S" valid="true" />
-                <channel handle="I" settable="false" signal="LEBT-010:PwrC-SolPS-01:Cur-R" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-SolPS-001:Fld-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-001:Fld-RB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-SolPS-001:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-010:PwrC-SolPS-001:Cur-R" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="LEBT-010:PwrC-PSCH-01" type="main">
+        <ps id="LEBT-010:PwrC-PSCH-001" type="main">
             <channelsuite>
-                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCH-01:Fld-S" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-01:Fld-RB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCH-01:Cur-S" valid="true" />
-                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCH-01:Cur-R" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCH-001:Fld-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-001:Fld-RB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCH-001:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCH-001:Cur-R" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="LEBT-010:PwrC-PSCV-01" type="main">
+        <ps id="LEBT-010:PwrC-PSCV-001" type="main">
             <channelsuite>
-                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCV-01:Fld-S" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-01:Fld-RB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCV-01:Cur-S" valid="true" />
-                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCV-01:Cur-R" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCV-001:Fld-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-001:Fld-RB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCV-001:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCV-001:Cur-R" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="LEBT-010:PwrC-SolPS-02" type="main">
+        <ps id="LEBT-010:PwrC-SolPS-002" type="main">
             <channelsuite>
-                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-SolPS-02:Fld-S" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-02:Fld-RB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-SolPS-02:Cur-S" valid="true" />
-                <channel handle="I" settable="false" signal="LEBT-010:PwrC-SolPS-02:Cur-R" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-SolPS-002:Fld-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-SolPS-002:Fld-RB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-SolPS-002:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-010:PwrC-SolPS-002:Cur-R" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="LEBT-010:PwrC-PSCH-02" type="main">
+        <ps id="LEBT-010:PwrC-PSCH-002" type="main">
             <channelsuite>
-                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCH-02:Fld-S" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-02:Fld-RB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCH-02:Cur-S" valid="true" />
-                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCH-02:Cur-R" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCH-002:Fld-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCH-002:Fld-RB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCH-002:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCH-002:Cur-R" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="LEBT-010:PwrC-PSCV-02" type="main">
+        <ps id="LEBT-010:PwrC-PSCV-002" type="main">
             <channelsuite>
-                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCV-02:Fld-S" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-02:Fld-RB" valid="true" />
-                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCV-02:Cur-S" valid="true" />
-                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCV-02:Cur-R" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-010:PwrC-PSCV-002:Fld-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-010:PwrC-PSCV-002:Fld-RB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-010:PwrC-PSCV-002:Cur-S" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-010:PwrC-PSCV-002:Cur-R" valid="true" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-QVPS-001" type="main">
