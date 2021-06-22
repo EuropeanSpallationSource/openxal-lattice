@@ -40,7 +40,7 @@
         <node id="ISrc-010:ISS-HVPf" len="0.0" pos="0.0" s="0.0" type="ISMFC">
             <channelsuite>
                 <channel handle="h2FlowS" settable="true" signal="ISrc-010:VAC-VEVMC-01100:MFC1FlowS" valid="true" />
-                <channel handle="h2FLowR" settable="false" signal="ISrc-010:VAC-VEVMC-01100:MFC1FlowR" valid="true" />
+                <channel handle="h2FlowR" settable="false" signal="ISrc-010:VAC-VEVMC-01100:MFC1FlowR" valid="true" />
                 <channel handle="h2FlowRB" settable="false" signal="ISrc-010:VAC-VEVMC-01100:MFC1FlowRB" valid="true" />
                 <channel handle="volS" settable="true" signal="ISrc-010:ISS-HVPS:VolS" valid="true" />
                 <channel handle="volR" settable="false" signal="ISrc-010:ISS-HVPS:VolR" valid="true" />
