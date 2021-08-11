@@ -2376,7 +2376,7 @@
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
             </attributes>
         </node>
-        <node id="MEBT-010:PBI-BCM-001" len="0.0" pos="0.07457" s="7.125542" status="true" type="BCM">
+        <node id="MEBT-010:PBI-BCM-001" len="0.0" pos="0.03457" s="7.085542" status="true" type="BCM">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
             </attributes>
@@ -2417,7 +2417,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-001" />
         </node>
-        <node id="MEBT-010:PBI-WS-001" len="0.0" pos="0.34" s="7.390972" type="marker" />
+        <node id="MEBT-010:PBI-WS-001" len="0.0" pos="0.3" s="7.350972" type="marker" />
         <node id="MEBT-010:PBI-BPM-001" len="0.0" pos="0.4" s="7.450972" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
@@ -2517,13 +2517,13 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-003" />
         </node>
-        <node id="MEBT-010:ID-Coll-001" len="0.0" pos="0.902" s="7.952972" type="marker" />
-        <node id="MEBT-010:BMD-Chop-001:Aper" len="0.45" pos="1.24175" s="8.292722" type="VC">
+        <node id="MEBT-010:ID-Coll-001" len="0.0" pos="0.862" s="7.912972" type="marker" />
+        <node id="MEBT-010:BMD-Chop-001:Aper" len="0.45" pos="1.20175" s="8.252722" type="VC">
             <attributes>
                 <aperture pos="0.0,0.0,0.45,0.45" shape="2" x="0.0184,0.0184,0.0184,0.0184" y="0.0184,0.010,0.010,0.0184" />
             </attributes>
         </node>
-        <node id="MEBT-010:BMD-Chop-001" len="0.450" pos="1.24175" s="8.292722" type="CHP" status="false">
+        <node id="MEBT-010:BMD-Chop-001" len="0.450" pos="1.20175" s="8.252722" type="CHP" status="false">
             <channelsuite>
                 <channel handle="statusS" settable="true" signal="MEBT-010:BMD-Chop:UNKNOWN:STATUSSET" valid="true" />
                 <channel handle="statusRB" settable="false" signal="MEBT-010:BMD-Chop:UNKNOWN:PwrSysOK" valid="true" />
@@ -2561,7 +2561,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-004" />
         </node>
-        <node id="MEBT-010:PBI-NPM-001" len="0.0" pos="1.677" s="8.727972" status="false" type="NPM">
+        <node id="MEBT-010:PBI-NPM-001" len="0.0" pos="1.637" s="8.687972" status="false" type="NPM">
             <attributes>
                 <npm frequency="7.0442E8" length="0.0" orientation="1" />
                 <aperture shape="1" x="0.0184" y="0.0184" />
@@ -2582,12 +2582,12 @@
             </channelsuite>
         </node>
         <node id="MEBT-010:PBI-WS-002" len="0.0" pos="1.691" s="8.741972" type="marker" />
-        <node id="MEBT-010:BMD-ChDump-001" len="0.15" pos="1.839122" s="8.890094" type="VC">
+        <node id="MEBT-010:BMD-ChDump-001" len="0.15" pos="1.799122" s="8.850094" type="VC">
             <attributes>
                 <aperture pos="0.0,0.15,0.15" shape="2" x="0.0184,0.0184,0.0184" y="0.0184,0.007,0.0184" />
             </attributes>
         </node>
-        <node id="MEBT-010:PBI-BCM-002" len="0.0" pos="1.9359" s="8.986872" status="true" type="BCM">
+        <node id="MEBT-010:PBI-BCM-002" len="0.0" pos="1.8959" s="8.946872" status="true" type="BCM">
             <channelsuite>
                 <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-002:PulseWidthR" valid="true" />
                 <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-002:FlatTopCurrentR" valid="true" />
@@ -2657,8 +2657,8 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-005" />
         </node>
-        <node id="MEBT-010:ID-Coll-002" len="0.0" pos="2.364" s="9.414972" type="marker" />
-        <node id="MEBT-010:PBI-BCM-003" len="0.0" pos="2.424" s="9.474972" status="true" type="BCM">
+        <node id="MEBT-010:ID-Coll-002" len="0.0" pos="2.324" s="9.374972" type="marker" />
+        <node id="MEBT-010:PBI-BCM-003" len="0.0" pos="2.384" s="9.434972" status="true" type="BCM">
             <channelsuite>
                 <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-003:PulseWidthR" valid="true" />
                 <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-003:FlatTopCurrentR" valid="true" />
@@ -2696,8 +2696,8 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-006" />
         </node>
-        <node id="MEBT-010:PBI-WS-003" len="0.0" pos="2.564" s="9.614972" type="marker" />
-        <node id="MEBT-010:PBI-EMU-001" len="0.0" pos="2.564" s="9.614972" type="EMU" status="false">
+        <node id="MEBT-010:PBI-WS-003" len="0.0" pos="2.524" s="9.574972" type="marker" />
+        <node id="MEBT-010:PBI-EMU-001" len="0.0" pos="2.524" s="9.574972" type="EMU" status="false">
             <channelsuite>
                 <channel handle="xEmitt" settable="false"      signal="MEBT-010:EMU001:UNKNOWN:EMITTX" valid="true" />
                 <channel handle="yEmitt" settable="false"      signal="MEBT-010:EMU001:UNKNOWN:EMITTY" valid="true" />
@@ -2746,8 +2746,8 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-007" />
         </node>
-        <node id="MEBT-010:PBI-LBM-001" len="0.0" pos="2.8028" s="9.853772" type="marker" />
-        <node id="MEBT-010:PBI-FC-001" len="0.0" pos="2.9875" s="10.038472" status="true" type="BCM">
+        <node id="MEBT-010:PBI-LBM-001" len="0.0" pos="2.7628" s="9.813772" type="marker" />
+        <node id="MEBT-010:PBI-FC-001" len="0.0" pos="2.9475" s="9.998472" status="true" type="BCM">
             <attributes>
                 <aperture shape="1" x="0.0184" y="0.0184" />
             </attributes>
@@ -2758,7 +2758,7 @@
                 <channel handle="currentMax" settable="false" signal="MEBT-010:PBI-FC-001:STAT3-MaxValueR" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:PBI-NPM-002" len="0.0" pos="2.9875" s="10.038472" status="false" type="NPM">
+        <node id="MEBT-010:PBI-NPM-002" len="0.0" pos="2.9475" s="9.998472" status="false" type="NPM">
             <attributes>
                 <npm frequency="7.0442E8" length="0.0" orientation="1" />
                 <aperture shape="1" x="0.0184" y="0.0184" />
@@ -2866,7 +2866,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-009" />
         </node>
-        <node id="MEBT-010:ID-Coll-003" len="0.0" pos="3.576" s="10.626972" type="marker" />
+        <node id="MEBT-010:ID-Coll-003" len="0.0" pos="3.536" s="10.586972" type="marker" />
         <node id="MEBT-010:PBI-BPM-006" len="0.0" pos="3.636" s="10.686972" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
@@ -2906,7 +2906,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-010" />
         </node>
-        <node id="MEBT-010:PBI-BCM-004" len="0.0" pos="3.776" s="10.826972" status="true" type="BCM">
+        <node id="MEBT-010:PBI-BCM-004" len="0.0" pos="3.763" s="10.786972" status="true" type="BCM">
             <channelsuite>
                 <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-004:PulseWidthR" valid="true" />
                 <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-004:FlatTopCurrentR" valid="true" />
@@ -2916,7 +2916,7 @@
                 <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-BCM-004:FineDelayR" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:PBI-FBCM-001" len="0.0" pos="3.776" s="10.826972" status="true" type="BCM">
+        <node id="MEBT-010:PBI-FBCM-001" len="0.0" pos="3.763" s="10.786972" status="true" type="BCM">
             <channelsuite>
                 <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-FBCM-001:Cur-R:WIDTH" valid="true" />
                 <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-FBCM-001:Cur-R:AVG" valid="true" />
