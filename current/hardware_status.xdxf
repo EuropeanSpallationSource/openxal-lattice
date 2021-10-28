@@ -1,7 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <xdxf date="Wed Dec 26 11:25:35 EST 2012" version="1.0.0">
 	<sequence id="LEBT">
-		<node exclude="true" id="LEBT-010:BMD-Chop" mod-comment="not available yet." status="false" />
-		<node exclude="true" id="LEBT-010:PBI-EMU-001" mod-comment="not available yet." status="false" />
+		<node exclude="true" id="LEBT-010:PBI-EMU-01" mod-comment="not available." status="false" />
+        <node exclude="true" id="LEBT-010:PBI-Dpl-01" mod-comment="not available." status="false" />
+        <node exclude="true" id="LEBT-010:PBI-NPM-01" mod-comment="not available." status="false" />
+	</sequence>
+    <sequence id="MEBT">
+	<node exclude="true" id="MEBT-010:EMR-Cav-001" mod-comment="not available." status="false" />
+        <node exclude="true" id="MEBT-010:PBI-NPM-001" mod-comment="not available." status="false" />
+        <node exclude="true" id="MEBT-010:EMR-Cav-002" mod-comment="not available." status="false" />
+        <node exclude="true" id="MEBT-010:PBI-EMU-001" mod-comment="not available." status="false" />
+        <node exclude="true" id="MEBT-010:PBI-NPM-002" mod-comment="not available." status="false" />
+        <node exclude="true" id="MEBT-010:EMR-Cav-003" mod-comment="not available." status="false" />
+        <node exclude="true" id="MEBT-010:PBI-BCM-003" mod-comment="not available." status="false" />
+        <node exclude="true" id="MEBT-010:PBI-BCM-004" mod-comment="not available." status="false" />
+        <node exclude="true" id="MEBT-010:PBI-FBCM-001" mod-comment="not available." status="false" />
+        <node exclude="true" id="MEBT-010:PBI-BPM-004" mod-comment="not available." status="false" />
 	</sequence>
 </xdxf>
