@@ -2365,16 +2365,16 @@
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
             </attributes>
         </node>
-        <node id="MEBT-010:PBI-BCM-01" len="0.0" pos="0.03457" s="7.085542" status="true" type="BCM">
+        <node id="RFQ-010:PBI-BCM-01" len="0.0" pos="0.03457" s="7.085542" status="true" type="BCM">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
             </attributes>
             <channelsuite>
-                <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-001:PulseWidthR" valid="true" />
-                <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-001:FlatTopCurrentR" valid="true" />
-                <channel handle="currentMax" settable="false" signal="MEBT-010:PBI-BCM-001:UpperThreshold" valid="true" />
-                <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-001:PulseChargeR" valid="true" />
-                <channel handle="currentArray" settable="false" signal="MEBT-010:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
+                <channel handle="DisplayLength" settable="false" signal="RFQ-010:PBI-BCM-001:PulseWidthR" valid="true" />
+                <channel handle="currentAvg" settable="false" signal="RFQ-010:PBI-BCM-001:FlatTopCurrentR" valid="true" />
+                <channel handle="currentMax" settable="false" signal="RFQ-010:PBI-BCM-001:UpperThreshold" valid="true" />
+                <channel handle="Particles" settable="false" signal="RFQ-010:PBI-BCM-001:PulseChargeR" valid="true" />
+                <channel handle="currentArray" settable="false" signal="RFQ-010:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QV-001" len="0.08" pos="0.2" s="7.250972" type="Q">
@@ -2571,13 +2571,13 @@
                 <aperture pos="0.0,0.15,0.15" shape="2" x="0.0184,0.0184,0.0184" y="0.0184,0.007,0.0184" />
             </attributes>
         </node>
-        <node id="MEBT-010:PBI-BCM-002" len="0.0" pos="1.8959" s="8.946872" status="true" type="BCM">
+        <node id="MEBT-010:PBI-BCM-01" len="0.0" pos="1.8959" s="8.946872" status="true" type="BCM">
             <channelsuite>
-                <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-002:PulseWidthR" valid="true" />
-                <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-002:FlatTopCurrentR" valid="true" />
-                <channel handle="currentMax" settable="false" signal="MEBT-010:PBI-BCM-002:UpperThreshold" valid="true" />
-                <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-002:PulseChargeR" valid="true" />
-                <channel handle="currentArray" settable="false" signal="MEBT-010:PBI-BCM-002:PRC-TR1-ArrayData" valid="true" />
+                <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-001:PulseWidthR" valid="true" />
+                <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-001:FlatTopCurrentR" valid="true" />
+                <channel handle="currentMax" settable="false" signal="MEBT-010:PBI-BCM-001:UpperThreshold" valid="true" />
+                <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-001:PulseChargeR" valid="true" />
+                <channel handle="currentArray" settable="false" signal="MEBT-010:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:EMR-Cav-002:Aper" len="0.2" pos="2.043" s="9.093972" type="VC">
@@ -2641,14 +2641,25 @@
             <ps main="MEBT-010:PwrC-PSCH-005" />
         </node>
         <node id="MEBT-010:ID-Coll-002" len="0.0" pos="2.324" s="9.374972" type="marker" />
-        <node id="MEBT-010:PBI-BCM-003" len="0.0" pos="2.384" s="9.434972" status="false" type="BCM">
+        <node id="MEBT-010:PBI-FBCM-01" len="0.0" pos="2.384" s="9.474972" status="false" type="BCM">
             <channelsuite>
-                <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-003:PulseWidthR" valid="true" />
-                <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-003:PulseCurrentR" valid="true" />
-                <channel handle="currentMax" settable="false" signal="MEBT-010:PBI-BCM-003:UpperThreshold" valid="true" />
-                <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-003:FlatTopChargeR" valid="true" />
-                <channel handle="currentArray" settable="false" signal="MEBT-010:PBI-BCM-003:PRC-TR1-ArrayData" valid="true" />
-                <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-BCM-003:FineDelayR" valid="true" />
+                <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-002:PulseWidthR" valid="true" />
+                <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-002:PulseCurrentR" valid="true" />
+                <channel handle="currentMax" settable="false" signal="MEBT-010:PBI-BCM-002:UpperThreshold" valid="true" />
+                <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-002:FlatTopChargeR" valid="true" />
+                <channel handle="currentArray" settable="false" signal="MEBT-010:PBI-BCM-002:PRC-TR1-ArrayData" valid="true" />
+                <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-BCM-002:FineDelayR" valid="true" />
+            </channelsuite>
+        </node>
+	      <node id="MEBT-010:PBI-BPM-004" len="0.0" pos="2.624" s="9.474972" status="false" type="BPM">
+            <attributes>
+                <bpm frequency="7.0442E8" length="1.0" orientation="1" />
+            </attributes>
+            <channelsuite>
+                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-004:YP-AvgValue" valid="true" />
+                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-004:SA-AvgValue" valid="true" />
+                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-004:SM-AvgValue" valid="true" />
+                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-004:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QV-006" len="0.08" pos="2.424" s="9.474972" type="Q">
@@ -2690,15 +2701,15 @@
                 <channel handle="xBetaTwiss" settable="false"  signal="MEBT-010:EMU001:UNKNOWN:BETAX" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:PBI-BPM-004" len="0.0" pos="2.624" s="9.674972" status="false" type="BPM">
+        <node id="MEBT-010:PBI-BPM-005" len="0.0" pos="2.624" s="9.674972" status="false" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-004:YP-AvgValue" valid="true" />
-                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-004:SA-AvgValue" valid="true" />
-                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-004:SM-AvgValue" valid="true" />
-                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-004:XP-AvgValue" valid="true" />
+                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-005:YP-AvgValue" valid="true" />
+                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-005:SA-AvgValue" valid="true" />
+                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-005:SM-AvgValue" valid="true" />
+                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-005:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QH-007" len="0.08" pos="2.624" s="9.674972" type="Q">
@@ -2730,7 +2741,7 @@
             <ps main="MEBT-010:PwrC-PSCH-007" />
         </node>
         <node id="MEBT-010:PBI-LBM-001" len="0.0" pos="2.7628" s="9.813772" type="marker" />
-        <node id="MEBT-010:PBI-FC-001" len="0.0" pos="2.9475" s="9.998472" status="true" type="BCM">
+        <node id="MEBT-010:PBI-FC-01" len="0.0" pos="2.9475" s="9.998472" status="true" type="BCM">
             <attributes>
                 <aperture shape="1" x="0.0184" y="0.0184" />
             </attributes>
@@ -2810,15 +2821,15 @@
                 </attributes>
             </node>
         </sequence>
-        <node id="MEBT-010:PBI-BPM-005" len="0.0" pos="3.436" s="10.486972" type="BPM">
+        <node id="MEBT-010:PBI-BPM-006" len="0.0" pos="3.436" s="10.486972" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-005:YP-AvgValue" valid="true" />
-                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-005:SA-AvgValue" valid="true" />
-                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-005:SM-AvgValue" valid="true" />
-                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-005:XP-AvgValue" valid="true" />
+                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-006:YP-AvgValue" valid="true" />
+                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-006:SA-AvgValue" valid="true" />
+                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-006:SM-AvgValue" valid="true" />
+                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-006:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QH-009" len="0.08" pos="3.436" s="10.486972" type="Q">
@@ -2850,15 +2861,15 @@
             <ps main="MEBT-010:PwrC-PSCH-009" />
         </node>
         <node id="MEBT-010:ID-Coll-003" len="0.0" pos="3.536" s="10.586972" type="marker" />
-        <node id="MEBT-010:PBI-BPM-006" len="0.0" pos="3.636" s="10.686972" type="BPM">
+        <node id="MEBT-010:PBI-BPM-007" len="0.0" pos="3.636" s="10.686972" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-006:YP-AvgValue" valid="true" />
-                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-006:SA-AvgValue" valid="true" />
-                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-006:SM-AvgValue" valid="true" />
-                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-006:XP-AvgValue" valid="true" />
+                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-007:YP-AvgValue" valid="true" />
+                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-007:SA-AvgValue" valid="true" />
+                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-007:SM-AvgValue" valid="true" />
+                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-007:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QV-010" len="0.08" pos="3.636" s="10.686972" type="Q">
@@ -2889,17 +2900,17 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-010" />
         </node>
-        <node id="MEBT-010:PBI-BCM-004" len="0.0" pos="3.763" s="10.786972" status="false" type="BCM">
+        <node id="MEBT-010:PBI-BCM-02" len="0.0" pos="3.763" s="10.786972" status="false" type="BCM">
             <channelsuite>
-                <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-004:PulseWidthR" valid="true" />
-                <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-004:PulseCurrentR" valid="true" />
-                <channel handle="currentMax" settable="false" signal="MEBT-010:PBI-BCM-004:UpperThreshold" valid="true" />
-                <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-004:FlatTopChargeR" valid="true" />
-                <channel handle="currentArray" settable="false" signal="MEBT-010:PBI-BCM-004:PRC-TR1-ArrayData" valid="true" />
-                <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-BCM-004:FineDelayR" valid="true" />
+                <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-002:PulseWidthR" valid="true" />
+                <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-002:PulseCurrentR" valid="true" />
+                <channel handle="currentMax" settable="false" signal="MEBT-010:PBI-BCM-002:UpperThreshold" valid="true" />
+                <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-002:FlatTopChargeR" valid="true" />
+                <channel handle="currentArray" settable="false" signal="MEBT-010:PBI-BCM-002:PRC-TR1-ArrayData" valid="true" />
+                <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-BCM-002:FineDelayR" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:PBI-FBCM-001" len="0.0" pos="3.763" s="10.786972" status="false" type="BCM">
+        <node id="MEBT-010:PBI-FBCM-02" len="0.0" pos="3.763" s="10.786972" status="false" type="BCM">
             <channelsuite>
                 <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-FBCM-001:Cur-R:WIDTH" valid="true" />
                 <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-FBCM-001:Cur-R:AVG" valid="true" />
@@ -2910,15 +2921,15 @@
                 <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-FBCM-001:Cur-R:tAvgDelay" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:PBI-BPM-007" len="0.0" pos="3.836" s="10.886972" type="BPM">
+        <node id="MEBT-010:PBI-BPM-008" len="0.0" pos="3.836" s="10.886972" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-007:YP-AvgValue" valid="true" />
-                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-007:SA-AvgValue" valid="true" />
-                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-007:SM-AvgValue" valid="true" />
-                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-007:XP-AvgValue" valid="true" />
+                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-008:YP-AvgValue" valid="true" />
+                <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-008:SA-AvgValue" valid="true" />
+                <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-008:SM-AvgValue" valid="true" />
+                <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-008:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QH-011" len="0.08" pos="3.836" s="10.886972" type="Q">
