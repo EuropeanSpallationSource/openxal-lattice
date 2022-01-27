@@ -48,6 +48,7 @@
                 <channel handle="DisplayLength" settable="false" signal="ISrc-010:PBI-BCM-001:PulseWidthR" valid="true" />
                 <channel handle="currentAvg" settable="false" signal="ISrc-010:PBI-BCM-001:FlatTopCurrentR" valid="true" />
                 <channel handle="currentMax" settable="false" signal="ISrc-010:PBI-BCM-001:UpperThreshold" valid="true" />
+                <channel handle="tDelay" settable="false" signal="ISrc-010:PBI-BCM-001:FineDelayR" valid="true" />
                 <channel handle="currentArray" settable="false" signal="ISrc-010:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
                 <channel handle="Particles" settable="false" signal="ISrc-010:PBI-BCM-001:PulseChargeR" valid="true" />
             </channelsuite>
@@ -132,6 +133,7 @@
         </node>
         <node id="LEBT-010:BMD-Chop" len="0.25" pos="1.4044" s="1.4044" status="true" type="CHP">
             <channelsuite>
+                <channel handle="lengthS" settable="true" signal="" valid="true" />
                 <channel handle="statusRB" settable="true" signal="LEBT-LPS::BMD-Chop_HVSwitchOK" valid="true" />
             </channelsuite>
         </node>
@@ -228,6 +230,7 @@
                 <channel handle="DisplayLength" settable="false" signal="LEBT-010:PBI-BCM-001:PulseWidthR" valid="true" />
                 <channel handle="currentAvg" settable="false" signal="LEBT-010:PBI-BCM-001:FlatTopCurrentR" valid="true" />
                 <channel handle="currentMax" settable="false" signal="LEBT-010:PBI-BCM-001:UpperThreshold" valid="true" />
+                <channel handle="tDelay" settable="false" signal="LEBT-010:PBI-BCM-001:FineDelayR" valid="true" />
                 <channel handle="currentArray" settable="false" signal="LEBT-010:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
                 <channel handle="Particles" settable="false" signal="LEBT-010:PBI-BCM-001:PulseChargeR" valid="true" />
             </channelsuite>
@@ -2576,6 +2579,7 @@
                 <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-001:PulseWidthR" valid="true" />
                 <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-001:FlatTopCurrentR" valid="true" />
                 <channel handle="currentMax" settable="false" signal="MEBT-010:PBI-BCM-001:UpperThreshold" valid="true" />
+                <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-BCM-001:FineDelayR" valid="true" />
                 <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-001:PulseChargeR" valid="true" />
                 <channel handle="currentArray" settable="false" signal="MEBT-010:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
             </channelsuite>
