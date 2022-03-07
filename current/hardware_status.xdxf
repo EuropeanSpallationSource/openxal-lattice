@@ -12,9 +12,12 @@
         <node exclude="true" id="MEBT-010:PBI-EMU-001" mod-comment="not available." status="false" />
         <node exclude="true" id="MEBT-010:PBI-NPM-002" mod-comment="not available." status="false" />
         <node exclude="true" id="MEBT-010:EMR-Cav-003" mod-comment="not available." status="false" />
-        <node exclude="true" id="MEBT-010:PBI-BCM-003" mod-comment="not available." status="false" />
-        <node exclude="true" id="MEBT-010:PBI-BCM-004" mod-comment="not available." status="false" />
-        <node exclude="true" id="MEBT-010:PBI-FBCM-001" mod-comment="not available." status="false" />
+        <node exclude="true" id="MEBT-010:PBI-BCM-02" mod-comment="not available." status="false" />
+        <node exclude="true" id="MEBT-010:PBI-FBCM-01" mod-comment="not available." status="false" />
+	<node exclude="true" id="MEBT-010:PBI-FBCM-02" mod-comment="not available." status="false" />
         <node exclude="true" id="MEBT-010:PBI-BPM-004" mod-comment="not available." status="false" />
+	<node exclude="true" id="MEBT-010:PBI-BPM-006" mod-comment="not available." status="false" />
+	<node exclude="true" id="MEBT-010:PBI-BPM-007" mod-comment="not available." status="false" />
+	<node exclude="true" id="MEBT-010:PBI-BPM-008" mod-comment="not available." status="false" />
 	</sequence>
 </xdxf>

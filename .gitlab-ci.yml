@@ -1,0 +1,2 @@
+---
+include: 'https://gitlab.esss.lu.se/ics-infrastructure/gitlab-ci-yml/raw/master/Docker.gitlab-ci.yml'
