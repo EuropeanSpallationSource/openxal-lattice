@@ -3017,7 +3017,7 @@
                 <channel handle="cycleEnable" settable="true" signal="MEBT-010:PwrC-PSQV-001:CycEn" valid="false" />
                 <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSQV-001:Fld-S" valid="true" />
                 <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSQV-001:Cur-R" valid="true" />
-                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSQV-001:Cur S" valid="true" />
+                <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSQV-001:Cur-S" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSQV-001:Fld-RB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="MEBT-010:PwrC-PSQV-001:CycSt" valid="false" />
             </channelsuite>
