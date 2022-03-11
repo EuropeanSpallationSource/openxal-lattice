@@ -1,10 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xdxf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="03.03.2020" system="ESS" ver="" xsi:noNamespaceSchemaLocation="https://gitlab.esss.lu.se/ess-crs/openxal/-/raw/site.ess.master/core/src/main/resources/xal/schemas/xdxf.xsd">
-    <comboseq id="FRONT-END">
+    <comboseq id="ISrc-LEBT">
         <sequence id="ISRC" />
         <sequence id="LEBT" />
     </comboseq>
-    <comboseq id="NCL">
+    <comboseq id="RFQ-MEBT">
+        <sequence id="RFQ" />
+        <sequence id="MEBT" />
+    </comboseq>
+    <comboseq id="MEBT-DTL">
         <sequence id="MEBT" />
     </comboseq>
     <sequence id="ISRC" len="0.0" pos="0.0" s="0.0">
@@ -255,7 +259,7 @@
                 <channel handle="cavPhaseAvg" settable="false" signal="RFQ-010:RFS-DIG-101:RFCtrlCnstSP-Ang-RB" valid="true" />
                 <channel handle="cavAmpSet" settable="true" signal="RFQ-010:RFS-DIG-101:RFCtrlCnstSP-Mag" valid="true" />
                 <channel handle="cavAmpAvg" settable="false" signal="RFQ-010:RFS-DIG-101:RFCtrlCnstSP-Mag-RB" valid="true" />
-                <channel handle="cavPhaseSet" settable="true" signal="RFQ-010:RFS-DIG-101:RFCtrlCnstSP-Ang" valid="true" />
+                <channel handle="cavPhaseSet" settable="true" signal="RFQ-LLRF1::FFPulseGenPhase" valid="true" />
             </channelsuite>
             <node id="RFQ_CELL_0" len="0.032286" pos="0.0161430" s="2.5220429999999956" type="RFQ">
                 <attributes>
@@ -2705,7 +2709,7 @@
                 <channel handle="xBetaTwiss" settable="false"  signal="MEBT-010:EMU001:UNKNOWN:BETAX" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:PBI-BPM-005" len="0.0" pos="2.624" s="9.674972" status="false" type="BPM">
+        <node id="MEBT-010:PBI-BPM-005" len="0.0" pos="2.624" s="9.674972" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
