@@ -95,23 +95,23 @@
             </channelsuite>
             <ps main="MFM1-PS" />
         </node>
-        <node id="ST1-VC" len="0.5454" pos="0.6081" type="DC">
+        <node id="LEBT-ST1-VC" len="0.5454" pos="0.6081" type="DC">
             <attributes>
                 <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.5454" orientation="vertical" pathLength="0.0" polarity="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="ST1-VC:B" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-ST1-VC:B" valid="true" />
             </channelsuite>
-            <ps main="ST1-VC-PS" />
+            <ps main="LEBT-ST1-VC-PS" />
         </node>
-        <node id="ST1-HC" len="0.5454" pos="0.6081" type="DC">
+        <node id="LEBT-ST1-HC" len="0.5454" pos="0.6081" type="DC">
             <attributes>
                 <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.5454" orientation="horizontal" pathLength="0.0" polarity="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="ST1-HC:B" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-ST1-HC:B" valid="true" />
             </channelsuite>
-            <ps main="ST1-HC-PS" />
+            <ps main="LEBT-ST1-HC-PS" />
         </node>
         <node id="MFM2:MFM" len="0.5454" pos="2.1069" type="MFM">
             <attributes>
@@ -124,23 +124,23 @@
             </channelsuite>
             <ps main="MFM2-PS" />
         </node>
-        <node id="ST2-VC" len="0.5454" pos="2.1069" type="DC">
+        <node id="LEBT-ST2-VC" len="0.5454" pos="2.1069" type="DC">
             <attributes>
                 <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.5454" orientation="vertical" pathLength="0.0" polarity="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="ST2-VC:B" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-ST2-VC:B" valid="true" />
             </channelsuite>
-            <ps main="ST2-VC-PS" />
+            <ps main="LEBT-ST2-VC-PS" />
         </node>
-        <node id="ST2-HC" len="0.5454" pos="2.1069" type="DC">
+        <node id="LEBT-ST2-HC" len="0.5454" pos="2.1069" type="DC">
             <attributes>
                 <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.5454" orientation="horizontal" pathLength="0.0" polarity="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="ST2-HC:B" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="LEBT-ST2-HC:B" valid="true" />
             </channelsuite>
-            <ps main="ST2-HC-PS" />
+            <ps main="LEBT-ST2-HC-PS" />
         </node>
     </sequence>
     <sequence id="RFQ" len="4.5450724" pos="2.5059" s="2.5059">
@@ -12397,6 +12397,16 @@
                 <channel handle="cycleState" settable="false" signal="TS85-HC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
+        <ps id="LEBT-ST2-HC-PS" type="main">
+            <channelsuite>
+                <channel handle="cycleEnable" settable="true" signal="LEBT-ST2-HC-PS:CycEn" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-ST2-HC-PS:FldSet" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-ST2-HC-PS:CurRB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-ST2-HC-PS:CurSet" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-ST2-HC-PS:FldRB" valid="true" />
+                <channel handle="cycleState" settable="false" signal="LEBT-ST2-HC-PS:CycSt" valid="true" />
+            </channelsuite>
+        </ps>
         <ps id="ST2-HC-PS" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="ST2-HC-PS:CycEn" valid="true" />
@@ -12465,6 +12475,16 @@
                 <channel handle="I_Set" settable="true" signal="TS107-HC-PS:CurSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="TS107-HC-PS:FldRB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="TS107-HC-PS:CycSt" valid="true" />
+            </channelsuite>
+        </ps>
+        <ps id="LEBT-ST2-VC-PS" type="main">
+            <channelsuite>
+                <channel handle="cycleEnable" settable="true" signal="LEBT-ST2-VC-PS:CycEn" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-ST2-VC-PS:FldSet" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-ST2-VC-PS:CurRB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-ST2-VC-PS:CurSet" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-ST2-VC-PS:FldRB" valid="true" />
+                <channel handle="cycleState" settable="false" signal="LEBT-ST2-VC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="ST2-VC-PS" type="main">
@@ -12545,6 +12565,16 @@
                 <channel handle="I_Set" settable="true" signal="QP86-PS:CurSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="QP86-PS:FldRB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="QP86-PS:CycSt" valid="true" />
+            </channelsuite>
+        </ps>
+        <ps id="LEBT-ST1-HC-PS" type="main">
+            <channelsuite>
+                <channel handle="cycleEnable" settable="true" signal="LEBT-ST1-HC-PS:CycEn" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-ST1-HC-PS:FldSet" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-ST1-HC-PS:CurRB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-ST1-HC-PS:CurSet" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-ST1-HC-PS:FldRB" valid="true" />
+                <channel handle="cycleState" settable="false" signal="LEBT-ST1-HC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="ST1-HC-PS" type="main">
@@ -14225,6 +14255,16 @@
                 <channel handle="I_Set" settable="true" signal="TS28-HC-PS:CurSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="TS28-HC-PS:FldRB" valid="true" />
                 <channel handle="cycleState" settable="false" signal="TS28-HC-PS:CycSt" valid="true" />
+            </channelsuite>
+        </ps>
+        <ps id="LEBT-ST1-VC-PS" type="main">
+            <channelsuite>
+                <channel handle="cycleEnable" settable="true" signal="LEBT-ST1-VC-PS:CycEn" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="LEBT-ST1-VC-PS:FldSet" valid="true" />
+                <channel handle="I" settable="false" signal="LEBT-ST1-VC-PS:CurRB" valid="true" />
+                <channel handle="I_Set" settable="true" signal="LEBT-ST1-VC-PS:CurSet" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="LEBT-ST1-VC-PS:FldRB" valid="true" />
+                <channel handle="cycleState" settable="false" signal="LEBT-ST1-VC-PS:CycSt" valid="true" />
             </channelsuite>
         </ps>
         <ps id="ST1-VC-PS" type="main">
