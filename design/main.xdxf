@@ -3116,6 +3116,7 @@
             <node id="DTL29:G" len="0.0" pos="2.7890664" s="13.8260384" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.01" y="0.01" />
+<rfgap TTF="1.0" ampFactor="0.6630441223439728" endCell="0" gapOffset="0.0" length="0.0707534" phaseFactor="0.0" stfCoeffs="0.141828,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.141828,0.892578,-0.201643,-0.151441" />
                 </attributes>
             </node>
             <node id="TS8-HC" len="0.0" pos="2.849705" s="13.886677" type="DC">

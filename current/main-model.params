@@ -65,6 +65,9 @@
         <record alpha="-0.051805615" beta="0.20954703" coordinate="x" emittance="2.875304356347471E-6" name="MEBT"/>
         <record alpha="-0.30984478" beta="0.37074849" coordinate="y" emittance="2.8618192607818744E-6" name="MEBT"/>
         <record alpha="-0.48130325" beta="0.92564505" coordinate="z" emittance="4.079614268808417E-6" name="MEBT"/>
+        <record alpha="1.3469831" beta="0.21307501" coordinate="x" emittance="3.3505764026982447E-6" name="DTL"/>
+        <record alpha="-4.1153851" beta="0.74752686" coordinate="y" emittance="3.5245714222556286E-6" name="DTL"/>
+        <record alpha="0.068189435" beta="0.39813124" coordinate="z" emittance="4.749832880796967E-6" name="DTL"/>
     </table>
     <table name="location" recordClass="xal.tools.data.GenericRecord">
         <schema>
@@ -79,6 +82,7 @@
         <record W="74671.738" name="LEBT"/>
         <record W="74622.785" name="RFQ"/>
         <record W="3621785.3" name="MEBT"/>
+        <record W="3620000.0" name="DTL"/>
     </table>
     <table name="EnvTrackerAdapt" recordClass="xal.tools.data.GenericRecord">
         <schema>
@@ -103,5 +107,6 @@
         <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="LEBT"/>
         <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="RFQ"/>
         <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="MEBT"/>
+        <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="DTL"/>
     </table>
 </tablegroup>

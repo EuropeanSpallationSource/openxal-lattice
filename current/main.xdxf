@@ -8,8 +8,9 @@
         <sequence id="RFQ" />
         <sequence id="MEBT" />
     </comboseq>
-    <comboseq id="MEBT-DTL">
+    <comboseq id="NCL">
         <sequence id="MEBT" />
+        <sequence id="DTL" />
     </comboseq>
     <sequence id="ISRC" len="0.0" pos="0.0" s="0.0">
         <node id="START-ISRC" len="0.0" pos="0.0" type="marker" />
@@ -2457,7 +2458,7 @@
                 <aperture pos="0.0,0.0,0.10,0.20,0.20" shape="1" x="0.0184,0.015,0.015,0.015,0.0184" y="0.0184,0.015,0.015,0.015,0.0184" />
             </attributes>
         </node>
-        <sequence id="MEBT-010:EMR-Cav-001" len="0.0" pos="0.581" s="7.631972" status="false" type="RF">
+        <sequence id="MEBT-010:EMR-Cav-001" len="0.0" pos="0.581" s="7.631972" status="true" type="RF">
             <attributes>
                 <rfcavity amp="0.130769" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
@@ -2487,7 +2488,7 @@
         <node id="MEBT-010:BMD-QV-003" len="0.08" pos="0.762" s="7.812972" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
-                <magnet convFactor="0.162" dfltMagFld="-12.4749" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true"/>
+                <magnet convFactor="0.162" dfltMagFld="-12.4749" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true"/>
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSQV-003:Fld-RB" valid="true" />
@@ -2593,7 +2594,7 @@
                 <aperture pos="0.0,0.0,0.10,0.20,0.20" shape="1" x="0.0184,0.015,0.015,0.015,0.0184" y="0.0184,0.015,0.015,0.015,0.0184" />
             </attributes>
         </node>
-        <sequence id="MEBT-010:EMR-Cav-002" len="0.0" pos="2.043" s="9.093972" status="false" type="RF">
+        <sequence id="MEBT-010:EMR-Cav-002" len="0.0" pos="2.043" s="9.093972" status="true" type="RF">
             <attributes>
                 <rfcavity amp="0.0596669" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
@@ -2813,7 +2814,7 @@
                 <aperture pos="0.0,0.0,0.10,0.20,0.20" shape="1" x="0.0184,0.015,0.015,0.015,0.0184" y="0.0184,0.015,0.015,0.015,0.0184" />
             </attributes>
         </node>
-        <sequence id="MEBT-010:EMR-Cav-003" len="0.0" pos="3.255" s="10.305972" status="false" type="RF">
+        <sequence id="MEBT-010:EMR-Cav-003" len="0.0" pos="3.255" s="10.305972" status="true" type="RF">
             <attributes>
                 <rfcavity amp="0.145257" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
@@ -2908,7 +2909,7 @@
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-010" />
         </node>
-        <node id="MEBT-010:PBI-BCM-02" len="0.0" pos="3.763" s="10.786972" status="false" type="BCM">
+        <node id="MEBT-010:PBI-BCM-02" len="0.0" pos="3.763" s="10.786972" status="true" type="BCM">
             <channelsuite>
                 <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-002:PulseWidthR" valid="true" />
                 <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-002:PulseCurrentR" valid="true" />
@@ -2973,6 +2974,772 @@
                 <aperture pos="0.0" shape="1" x="0.0184" y="0.0184" />
             </attributes>
         </node>
+    </sequence>
+    <sequence id="DTL" len="8.5923206" pos="11.036972" s="11.036972">
+        <attributes>
+            <sequence predecessors="MEBT" />
+        </attributes>
+        <sequence id="DTLTank1" len="7.7959377" pos="0.0" s="11.036972" type="DTLTank">
+            <attributes>
+                <rfcavity amp="6.84564581" ampFactor="1.0" freq="352.21" phase="-35.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
+            </attributes>
+            <channelsuite>
+                <channel handle="cavPhaseAvg" settable="false" signal="DTLTank1:Phs" valid="true" />
+                <channel handle="cavAmpSet" settable="true" signal="DTLTank1:AmpCtl" valid="true" />
+                <channel handle="cavAmpAvg" settable="false" signal="DTLTank1:Amp" valid="true" />
+                <channel handle="cavPhaseSet" settable="true" signal="DTLTank1:PhsCtl" valid="true" />
+            </channelsuite>
+            <node id="DTL1:Q1" len="0.05" pos="0.025" s="11.061972" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-59.9444" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL1:G" len="0.0" pos="0.0628484" s="11.0998204" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="1.0" endCell="0" gapOffset="0.0" length="0.0256523" phaseFactor="0.0" stfCoeffs="0.088161885,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.088161885,0.778013251,-0.377200485,-0.16297268" />
+                </attributes>
+            </node>
+            <node id="DTL2:G" len="0.0" pos="0.138857" s="11.175829" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.982193432" endCell="0" gapOffset="0.0" length="0.0268646" phaseFactor="0.0" stfCoeffs="0.0901891,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.0901891,0.784832516,-0.36732441,-0.165821183" />
+                </attributes>
+            </node>
+            <node id="DTL2:Q2" len="0.05" pos="0.1775169" s="11.2144889" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="61.4534" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL3:G" len="0.0" pos="0.2162885" s="11.2532605" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.953786446" endCell="0" gapOffset="0.0" length="0.0282965" phaseFactor="0.0" stfCoeffs="0.0919382,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.0919382,0.787473348,-0.358745939,-0.168035403" />
+                </attributes>
+            </node>
+            <node id="DTL-010:PBI-BPM-001" len="0.0" pos="0.2555434" s="11.2925154" type="BPM">
+                <attributes>
+                    <bpm frequency="7.0442E8" length="1.0" orientation="1" />
+                </attributes>
+                <channelsuite>
+                  <channel handle="yAvg" settable="false" signal="DTL-010:PBI-BPM-001:YP-AvgValue" valid="true" />
+                  <channel handle="phaseAvg" settable="false" signal="DTL-010:PBI-BPM-001:SA-AvgValue" valid="true" />
+                  <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-001:SM-AvgValue" valid="true" />
+                  <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-001:XP-AvgValue" valid="true" />
+                </channelsuite>
+            </node>
+             <node id="DTL4:G" len="0.0" pos="0.2953654" s="11.3323374" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.936612195" endCell="0" gapOffset="0.0" length="0.0296756" phaseFactor="0.0" stfCoeffs="0.0937035,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.0937035,0.795645161,-0.349014658,-0.17001181" />
+                </attributes>
+            </node>
+            <node id="DTL4:Q2" len="0.05" pos="0.335489" s="11.372461" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-60.6833" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL5:G" len="0.0" pos="0.3757425" s="11.4127145" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.914303177" endCell="0" gapOffset="0.0" length="0.0312082" phaseFactor="0.0" stfCoeffs="0.0954842,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.0954842,0.801558205,-0.342576595,-0.172084473" />
+                </attributes>
+            </node>
+            <node id="DTL-010:BMD-CV-001" len="0.0" pos="0.4164972" s="11.4534692" type="DC">
+                <attributes>
+                    <aperture shape="1" x="0.01" y="0.01" />
+                    <steerer convFactor="1.7023e-4" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true"/>
+                </attributes>
+                <channelsuite>
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:PwrC-PSCV-011:Fld-RB" valid="true" />
+                </channelsuite>
+                <ps main="DTL-010:PwrC-PSCV-011" />
+            </node>
+             <node id="DTL6:G" len="0.0" pos="0.4577764" s="11.4947484" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.899177747" endCell="0" gapOffset="0.0" length="0.0325326" phaseFactor="0.0" stfCoeffs="0.09728,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.09728,0.806542133,-0.331967928,-0.172536002" />
+                </attributes>
+            </node>
+            <node id="DTL6:Q2" len="0.05" pos="0.4992298" s="11.5362018" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="60.3324" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL7:G" len="0.0" pos="0.5412587" s="11.5782307" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.874121188" endCell="0" gapOffset="0.0" length="0.0345939" phaseFactor="0.0" stfCoeffs="0.0990905,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.0990905,0.818460353,-0.328221179,-0.175194816" />
+                </attributes>
+            </node>
+            <node id="DTL-010:BMD-CH-001" len="0.0" pos="0.5835637" s="11.6205357" type="DC">
+                <attributes>
+                 <aperture shape="1" x="0.01" y="0.01" />
+                 <steerer convFactor="1.7023e-4" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true"/>
+                </attributes>
+                <channelsuite>
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:PwrC-PSCH-001:Fld-RB" valid="true" />
+                </channelsuite>
+                <ps main="DTL-010:PwrC-PSCH-001" />
+            </node>
+            <node id="DTL8:G" len="0.0" pos="0.6264524" s="11.6634244" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.865769141" endCell="0" gapOffset="0.0" length="0.0356325" phaseFactor="0.0" stfCoeffs="0.100915,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.100915,0.819868927,-0.317293853,-0.174368586" />
+                </attributes>
+            </node>
+            <node id="DTL8:Q2" len="0.05" pos="0.6694562" s="11.7064282" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-59.6309" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL9:G" len="0.0" pos="0.7130111" s="11.7499831" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.844346169" endCell="0" gapOffset="0.0" length="0.0374832" phaseFactor="0.0" stfCoeffs="0.102754,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.102754,0.826035219,-0.311207083,-0.175184644" />
+                </attributes>
+            </node>
+            <node id="DTL-010:BMD-CV-002" len="0.0" pos="0.7568494" s="11.7938214" type="DC">
+                <attributes>
+                    <aperture shape="1" x="0.01" y="0.01" />
+                      <steerer convFactor="1.7023e-4" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true"/>
+                </attributes>
+                <channelsuite>
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:PwrC-PSCV-002:Fld-RB" valid="true" />
+                </channelsuite>
+                <ps main="DTL-010:PwrC-PSCV-002" />
+            </node>
+           <node id="DTL10:G" len="0.0" pos="0.8012773" s="11.8382493" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.825226046" endCell="0" gapOffset="0.0" length="0.0391934" phaseFactor="0.0" stfCoeffs="0.104605,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.104605,0.829166176,-0.302184705,-0.174400722" />
+                </attributes>
+            </node>
+            <node id="DTL10:Q2" len="0.05" pos="0.8461328" s="11.8831048" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="57.8545" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL11:G" len="0.0" pos="0.8910856" s="11.9280576" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.817104366" endCell="0" gapOffset="0.0" length="0.0403853" phaseFactor="0.0" stfCoeffs="0.10647,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.10647,0.831154323,-0.294078328,-0.173575587" />
+                </attributes>
+            </node>
+            <node id="DTL-010:BMD-CH-002" len="0.0" pos="0.936438" s="11.97341" type="DC">
+                <attributes>
+                    <aperture shape="1" x="0.01" y="0.01" />
+                  <steerer convFactor="1.7023e-4" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true"/>
+                </attributes>
+                <channelsuite>
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:PwrC-PSCH-002:Fld-RB" valid="true" />
+                </channelsuite>
+                <ps main="DTL-010:PwrC-PSCV-002" />
+            </node>
+             <node id="DTL12:G" len="0.0" pos="0.9825966" s="12.0195686" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.797462988" endCell="0" gapOffset="0.0" length="0.0423558" phaseFactor="0.0" stfCoeffs="0.108348,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.108348,0.835962643,-0.287288116,-0.173135124" />
+                </attributes>
+            </node>
+            <node id="DTL12:Q2" len="0.05" pos="1.0288739" s="12.0658459" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-57.4315" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL13:G" len="0.0" pos="1.0753356" s="12.1123076" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.794936072" endCell="0" gapOffset="0.0" length="0.0437067" phaseFactor="0.0" stfCoeffs="0.110237,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.110237,0.845152483,-0.282169265,-0.173426954" />
+                </attributes>
+            </node>
+            <node id="DTL14:G" len="0.0" pos="1.1701176" s="12.2070896" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.777408522" endCell="0" gapOffset="0.0" length="0.0454902" phaseFactor="0.0" stfCoeffs="0.112139,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.112139,0.845632563,-0.273130941,-0.171239556" />
+                </attributes>
+            </node>
+            <node id="DTL14:Q2" len="0.05" pos="1.2180708" s="12.2550428" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="55.7685" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL15:G" len="0.0" pos="1.2663461" s="12.3033181" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.76887642" endCell="0" gapOffset="0.0" length="0.0470587" phaseFactor="0.0" stfCoeffs="0.114052,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.114052,0.850629175,-0.267701458,-0.170685666" />
+                </attributes>
+            </node>
+            <node id="DTL-010:PBI-BPM-002" len="0.0" pos="1.3149599" s="12.3519319" type="BPM">
+                  <attributes>
+                      <bpm frequency="7.0442E8" length="1.0" orientation="1" />
+                  </attributes>
+                  <channelsuite>
+                    <channel handle="yAvg" settable="false" signal="DTL-010:PBI-BPM-002:YP-AvgValue" valid="true" />
+                    <channel handle="phaseAvg" settable="false" signal="DTL-010:PBI-BPM-002:SA-AvgValue" valid="true" />
+                    <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-002:SM-AvgValue" valid="true" />
+                    <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-002:XP-AvgValue" valid="true" />
+                  </channelsuite>
+            </node>
+            <node id="DTL16:G" len="0.0" pos="1.3642474" s="12.4012194" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.757308257" endCell="0" gapOffset="0.0" length="0.0487986" phaseFactor="0.0" stfCoeffs="0.115976,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.115976,0.854394211,-0.260988582,-0.169258546" />
+                </attributes>
+            </node>
+            <node id="DTL16:Q2" len="0.05" pos="1.4139281" s="12.4509001" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-54.807" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL17:G" len="0.0" pos="1.4637859" s="12.5007579" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.754876202" endCell="0" gapOffset="0.0" length="0.0502577" phaseFactor="0.0" stfCoeffs="0.117911,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.117911,0.86270544,-0.256925345,-0.169359634" />
+                </attributes>
+            </node>
+            <node id="DTL18:G" len="0.0" pos="1.5649572" s="12.6019292" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.745624654" endCell="0" gapOffset="0.0" length="0.0520796" phaseFactor="0.0" stfCoeffs="0.119855,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.119855,0.868649946,-0.251150016,-0.168129039" />
+                </attributes>
+            </node>
+            <node id="DTL18:Q2" len="0.05" pos="1.6162654" s="12.6532374" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="53.7316" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL19:G" len="0.0" pos="1.6677686" s="12.7047406" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.750036995" endCell="0" gapOffset="0.0" length="0.0535717" phaseFactor="0.0" stfCoeffs="0.121811,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.121811,0.884399693,-0.248702021,-0.168847717" />
+                </attributes>
+            </node>
+            <node id="DTL-010:PBI-BPM-003" len="0.0" pos="1.7196973" s="12.7566693" type="BPM">
+                  <attributes>
+                      <bpm frequency="7.0442E8" length="1.0" orientation="1" />
+                  </attributes>
+                  <channelsuite>
+                    <channel handle="yAvg" settable="false" signal="DTL-010:PBI-BPM-003:YP-AvgValue" valid="true" />
+                    <channel handle="phaseAvg" settable="false" signal="DTL-010:PBI-BPM-003:SA-AvgValue" valid="true" />
+                    <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-003:SM-AvgValue" valid="true" />
+                    <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-003:XP-AvgValue" valid="true" />
+                  </channelsuite>
+            </node>
+           <node id="DTL20:G" len="0.0" pos="1.7723427" s="12.8093147" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.727403605" endCell="0" gapOffset="0.0" length="0.0553427" phaseFactor="0.0" stfCoeffs="0.123776,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.123776,0.871957836,-0.238342876,-0.164021582" />
+                </attributes>
+            </node>
+            <node id="DTL20:Q2" len="0.05" pos="1.8251798" s="12.8621518" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-52.8426" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL21:G" len="0.0" pos="1.8785037" s="12.9154757" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.720761385" endCell="0" gapOffset="0.0" length="0.0574423" phaseFactor="0.0" stfCoeffs="0.12575,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.12575,0.882701821,-0.235593398,-0.164084236" />
+                </attributes>
+            </node>
+            <node id="DTL-010:BMD-CV-003" len="0.0" pos="1.9320821" s="12.9690541" type="DC">
+                <attributes>
+                    <aperture shape="1" x="0.01" y="0.01" />
+                      <steerer convFactor="1.7023e-4" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true"/>
+                </attributes>
+                <channelsuite>
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:PwrC-PSCV-003:Fld-RB" valid="true" />
+                </channelsuite>
+                <ps main="DTL-010:PwrC-PSCV-003" />
+            </node>
+            <node id="DTL22:G" len="0.0" pos="1.986368" s="13.02334" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.722643475" endCell="0" gapOffset="0.0" length="0.0587335" phaseFactor="0.0" stfCoeffs="0.127734,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.127734,0.890830067,-0.23115772,-0.162992508" />
+                </attributes>
+            </node>
+            <node id="DTL22:Q2" len="0.05" pos="2.0413556" s="13.0783276" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="51.8217" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL23:G" len="0.0" pos="2.0959664" s="13.1329384" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.710280547" endCell="0" gapOffset="0.0" length="0.0601705" phaseFactor="0.0" stfCoeffs="0.129726,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.129726,0.883199519,-0.223932158,-0.159630503" />
+                </attributes>
+            </node>
+            <node id="DTL-010:BMD-CH-003" len="0.0" pos="2.1512265" s="13.1881985" type="DC">
+                <attributes>
+                    <aperture shape="1" x="0.01" y="0.01" />
+                    <steerer convFactor="1.7023e-4" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true"/>
+                </attributes>
+                <channelsuite>
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:PwrC-PSCH-003:Fld-RB" valid="true" />
+                </channelsuite>
+                <ps main="DTL-010:PwrC-PSCH-003" />
+            </node>
+           <node id="DTL24:G" len="0.0" pos="2.2072737" s="13.2442457" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.702524258" endCell="0" gapOffset="0.0" length="0.0620185" phaseFactor="0.0" stfCoeffs="0.131726,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.131726,0.886719884,-0.218667565,-0.157635208" />
+                </attributes>
+            </node>
+            <node id="DTL24:Q2" len="0.05" pos="2.2635446" s="13.3005166" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-50.9517" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL25:G" len="0.0" pos="2.3201964" s="13.3571684" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.691150616" endCell="0" gapOffset="0.0" length="0.0640144" phaseFactor="0.0" stfCoeffs="0.133734,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.133734,0.886904345,-0.214727311,-0.156186997" />
+                </attributes>
+            </node>
+            <node id="DTL26:G" len="0.0" pos="2.4349426" s="13.4719146" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.684294945" endCell="0" gapOffset="0.0" length="0.0654919" phaseFactor="0.0" stfCoeffs="0.135749,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.135749,0.885006844,-0.210447886,-0.154406065" />
+                </attributes>
+            </node>
+            <node id="DTL26:Q2" len="0.05" pos="2.4930509" s="13.5300229" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="49.9643" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL27:G" len="0.0" pos="2.551296" s="13.588268" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.673795548" endCell="0" gapOffset="0.0" length="0.0673605" phaseFactor="0.0" stfCoeffs="0.137769,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.137769,0.883161097,-0.206329506,-0.152622979" />
+                </attributes>
+            </node>
+            <node id="DTL-010:BMD-CV-004" len="0.0" pos="2.6099517" s="13.6469237" type="DC">
+                <attributes>
+                    <aperture shape="1" x="0.01" y="0.01" />
+                      <steerer convFactor="1.7023e-4" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true"/>
+                </attributes>
+                <channelsuite>
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:PwrC-PSCV-004:Fld-RB" valid="true" />
+                </channelsuite>
+                <ps main="DTL-010:PwrC-PSCV-004" />
+            </node>
+           <node id="DTL28:G" len="0.0" pos="2.6694801" s="13.7064521" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.677722695" endCell="0" gapOffset="0.0" length="0.0689405" phaseFactor="0.0" stfCoeffs="0.139796,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.139796,0.895926564,-0.205813397,-0.153435029" />
+                </attributes>
+            </node>
+            <node id="DTL28:Q2" len="0.05" pos="2.7293519" s="13.7663239" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-49.1202" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL29:G" len="0.0" pos="2.7893364" s="13.8263084" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.665478662" endCell="0" gapOffset="0.0" length="0.0707734" phaseFactor="0.0" stfCoeffs="0.141828,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.141828,0.890204933,-0.201106899,-0.151038369" />
+                </attributes>
+            </node>
+            <node id="DTL-010:BMD-CH-004" len="0.0" pos="2.849705" s="13.886677" type="DC">
+                <attributes>
+                    <aperture shape="1" x="0.01" y="0.01" />
+                    <steerer convFactor="1.7023e-4" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true"/>
+                </attributes>
+                <channelsuite>
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:PwrC-PSCH-004:Fld-RB" valid="true" />
+                </channelsuite>
+                <ps main="DTL-010:PwrC-PSCH-004" />
+            </node>
+           <node id="DTL30:G" len="0.0" pos="2.9110181" s="13.9479901" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.666316189" endCell="0" gapOffset="0.0" length="0.0726029" phaseFactor="0.0" stfCoeffs="0.143866,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.143866,0.901402104,-0.199551553,-0.151047278" />
+                </attributes>
+            </node>
+            <node id="DTL30:Q2" len="0.05" pos="2.9727282" s="14.0097002" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="48.1732" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL31:G" len="0.0" pos="3.0342338" s="14.0712058" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.666460191" endCell="0" gapOffset="0.0" length="0.074038" phaseFactor="0.0" stfCoeffs="0.14591,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.14591,0.906504848,-0.197478001,-0.150490109" />
+                </attributes>
+            </node>
+            <node id="DTL32:G" len="0.0" pos="3.1593862" s="14.1963582" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.654307863" endCell="0" gapOffset="0.0" length="0.0758177" phaseFactor="0.0" stfCoeffs="0.147958,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.147958,0.898766915,-0.19355761,-0.148352373" />
+                </attributes>
+            </node>
+            <node id="DTL32:Q2" len="0.05" pos="3.2225839" s="14.2595559" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-47.3716" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL33:G" len="0.0" pos="3.286182" s="14.323154" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.655625671" endCell="0" gapOffset="0.0" length="0.0777629" phaseFactor="0.0" stfCoeffs="0.150012,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.150012,0.911005154,-0.192709726,-0.14867849" />
+                </attributes>
+            </node>
+            <node id="DTL-010:PBI-BPM-004" len="0.0" pos="3.3500074" s="14.3869794" type="BPM">
+                  <attributes>
+                      <bpm frequency="7.0442E8" length="1.0" orientation="1" />
+                  </attributes>
+                  <channelsuite>
+                    <channel handle="yAvg" settable="false" signal="DTL-010:PBI-BPM-004:YP-AvgValue" valid="true" />
+                    <channel handle="phaseAvg" settable="false" signal="DTL-010:PBI-BPM-004:SA-AvgValue" valid="true" />
+                    <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-004:SM-AvgValue" valid="true" />
+                    <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-004:XP-AvgValue" valid="true" />
+                  </channelsuite>
+            </node>
+           <node id="DTL34:G" len="0.0" pos="3.4148078" s="14.4517798" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.642333914" endCell="0" gapOffset="0.0" length="0.0794651" phaseFactor="0.0" stfCoeffs="0.15207,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.15207,0.899742851,-0.187614225,-0.145592491" />
+                </attributes>
+            </node>
+            <node id="DTL34:Q2" len="0.05" pos="3.4798119" s="14.5167839" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="46.4787" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL35:G" len="0.0" pos="3.5451305" s="14.5821025" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.642616063" endCell="0" gapOffset="0.0" length="0.0812607" phaseFactor="0.0" stfCoeffs="0.154132,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.154132,0.908155923,-0.187350539,-0.146138436" />
+                </attributes>
+            </node>
+            <node id="DTL36:G" len="0.0" pos="3.6772264" s="14.7141984" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.635942663" endCell="0" gapOffset="0.0" length="0.082973" phaseFactor="0.0" stfCoeffs="0.156199,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.156199,0.905485078,-0.183643882,-0.144087548" />
+                </attributes>
+            </node>
+            <node id="DTL36:Q2" len="0.05" pos="3.7440456" s="14.7810176" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-45.7144" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL37:G" len="0.0" pos="3.8110937" s="14.8480657" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.63787882" endCell="0" gapOffset="0.0" length="0.0848604" phaseFactor="0.0" stfCoeffs="0.15827,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.15827,0.916765889,-0.183465885,-0.144697564" />
+                </attributes>
+            </node>
+            <node id="DTL38:G" len="0.0" pos="3.9467783" s="14.9837503" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.624765853" endCell="0" gapOffset="0.0" length="0.0865237" phaseFactor="0.0" stfCoeffs="0.160345,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.160345,0.903662013,-0.178363363,-0.141382162" />
+                </attributes>
+            </node>
+            <node id="DTL38:Q2" len="0.05" pos="4.0154297" s="15.0524017" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="44.8682" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL39:G" len="0.0" pos="4.0840273" s="15.1209993" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.631364624" endCell="0" gapOffset="0.0" length="0.08814" phaseFactor="0.0" stfCoeffs="0.162424,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.162424,0.918324952,-0.179137886,-0.142656549" />
+                </attributes>
+            </node>
+            <node id="DTL-010:PBI-BPM-005" len="0.0" pos="4.1531597" s="15.1901317" type="BPM">
+                  <attributes>
+                      <bpm frequency="7.0442E8" length="1.0" orientation="1" />
+                  </attributes>
+                  <channelsuite>
+                    <channel handle="yAvg" settable="false" signal="DTL-010:PBI-BPM-005:YP-AvgValue" valid="true" />
+                    <channel handle="phaseAvg" settable="false" signal="DTL-010:PBI-BPM-005:SA-AvgValue" valid="true" />
+                    <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-005:SM-AvgValue" valid="true" />
+                    <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-005:XP-AvgValue" valid="true" />
+                  </channelsuite>
+            </node>
+            <node id="DTL40:G" len="0.0" pos="4.2232927" s="15.2602647" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.614250517" endCell="0" gapOffset="0.0" length="0.0900378" phaseFactor="0.0" stfCoeffs="0.164507,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.164507,0.901135568,-0.173654922,-0.138914211" />
+                </attributes>
+            </node>
+            <node id="DTL40:Q2" len="0.05" pos="4.2936075" s="15.3305795" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-44.1382" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL41:G" len="0.0" pos="4.3642197" s="15.4011917" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.620787943" endCell="0" gapOffset="0.0" length="0.0918458" phaseFactor="0.0" stfCoeffs="0.166593,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.166593,0.917347755,-0.174629255,-0.140302014" />
+                </attributes>
+            </node>
+            <node id="DTL42:G" len="0.0" pos="4.5069492" s="15.5439212" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.604153091" endCell="0" gapOffset="0.0" length="0.0935857" phaseFactor="0.0" stfCoeffs="0.168683,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.168683,0.898429378,-0.169129173,-0.136440831" />
+                </attributes>
+            </node>
+            <node id="DTL42:Q2" len="0.05" pos="4.579039" s="15.616011" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="43.3346" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL43:G" len="0.0" pos="4.6514359" s="15.6884079" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.611995229" endCell="0" gapOffset="0.0" length="0.0952157" phaseFactor="0.0" stfCoeffs="0.170776,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.170776,0.914586054,-0.169432047,-0.137318158" />
+                </attributes>
+            </node>
+            <node id="DTL-010:BMD-CV-005" len="0.0" pos="4.723995" s="15.760967" type="DC">
+                <attributes>
+                    <aperture shape="1" x="0.01" y="0.01" />
+                      <steerer convFactor="1.7023e-4" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true"/>
+                </attributes>
+                <channelsuite>
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:PwrC-PSCV-005:Fld-RB" valid="true" />
+                </channelsuite>
+                <ps main="DTL-010:PwrC-PSCV-005" />
+            </node>
+            <node id="DTL44:G" len="0.0" pos="4.7977473" s="15.8347193" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.595013466" endCell="0" gapOffset="0.0" length="0.0973443" phaseFactor="0.0" stfCoeffs="0.172872,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.172872,0.898034163,-0.165519995,-0.134565627" />
+                </attributes>
+            </node>
+            <node id="DTL44:Q2" len="0.05" pos="4.871599" s="15.908571" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-42.6416" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL45:G" len="0.0" pos="4.9457539" s="15.9827259" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.590241369" endCell="0" gapOffset="0.0" length="0.0991441" phaseFactor="0.0" stfCoeffs="0.174971,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.174971,0.896438085,-0.162776697,-0.132896867" />
+                </attributes>
+            </node>
+            <node id="DTL-010:BMD-CH-005" len="0.0" pos="5.0201632" s="16.0571352" type="DC">
+                <attributes>
+                    <aperture shape="1" x="0.01" y="0.01" />
+                    <steerer convFactor="1.7023e-4" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true"/>
+                </attributes>
+                <channelsuite>
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:PwrC-PSCH-005:Fld-RB" valid="true" />
+                </channelsuite>
+                <ps main="DTL-010:PwrC-PSCH-005" />
+            </node>
+             <node id="DTL46:G" len="0.0" pos="5.0957109" s="16.1326829" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.590701972" endCell="0" gapOffset="0.0" length="0.1006167" phaseFactor="0.0" stfCoeffs="0.177073,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.177073,0.899650269,-0.161735897,-0.132516029" />
+                </attributes>
+            </node>
+            <node id="DTL46:Q2" len="0.05" pos="5.1713598" s="16.2083318" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="41.8827" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL47:G" len="0.0" pos="5.2473444" s="16.2843164" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.584621607" endCell="0" gapOffset="0.0" length="0.1026201" phaseFactor="0.0" stfCoeffs="0.179177,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.179177,0.897420434,-0.159915324,-0.13145092" />
+                </attributes>
+            </node>
+            <node id="DTL48:G" len="0.0" pos="5.4007458" s="16.4377178" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.596747815" endCell="0" gapOffset="0.0" length="0.104206" phaseFactor="0.0" stfCoeffs="0.181284,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.181284,0.919400272,-0.162305411,-0.133850598" />
+                </attributes>
+            </node>
+            <node id="DTL48:Q2" len="0.05" pos="5.4781859" s="16.5151579" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-41.2164" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL49:G" len="0.0" pos="5.5560185" s="16.5929905" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.594176813" endCell="0" gapOffset="0.0" length="0.1062585" phaseFactor="0.0" stfCoeffs="0.183394,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.183394,0.922700637,-0.160700806,-0.13300953" />
+                </attributes>
+            </node>
+            <node id="DTL-010:BMD-CV-006" len="0.0" pos="5.6338943" s="16.6708663" type="DC">
+                <attributes>
+                    <aperture shape="1" x="0.01" y="0.01" />
+                     <steerer convFactor="1.7023e-4" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true"/>
+                </attributes>
+                <channelsuite>
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:PwrC-PSCV-006:Fld-RB" valid="true" />
+                </channelsuite>
+                <ps main="DTL-010:PwrC-PSCV-006" />
+            </node>
+             <node id="DTL50:G" len="0.0" pos="5.7130591" s="16.7500311" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.593016089" endCell="0" gapOffset="0.0" length="0.1076805" phaseFactor="0.0" stfCoeffs="0.185506,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.185506,0.922621089,-0.160367372,-0.133019239" />
+                </attributes>
+            </node>
+            <node id="DTL50:Q2" len="0.05" pos="5.7921249" s="16.8290969" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="40.4902" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL51:G" len="0.0" pos="5.8719091" s="16.9088811" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.594252634" endCell="0" gapOffset="0.0" length="0.1097436" phaseFactor="0.0" stfCoeffs="0.18762,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.18762,0.931638654,-0.159639919,-0.13288695" />
+                </attributes>
+            </node>
+            <node id="DTL-010:BMD-CH-006" len="0.0" pos="5.9515885" s="16.9885605" type="DC">
+                <attributes>
+                    <aperture shape="1" x="0.01" y="0.01" />
+                    <steerer convFactor="1.7023e-4" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true"/>
+                </attributes>
+                <channelsuite>
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:PwrC-PSCH-006:Fld-RB" valid="true" />
+                </channelsuite>
+                <ps main="DTL-010:PwrC-PSCH-006" />
+            </node>
+             <node id="DTL52:G" len="0.0" pos="6.0325511" s="17.0695231" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.583356279" endCell="0" gapOffset="0.0" length="0.1115942" phaseFactor="0.0" stfCoeffs="0.189736,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.189736,0.919576573,-0.156759638,-0.130806924" />
+                </attributes>
+            </node>
+            <node id="DTL52:Q2" len="0.05" pos="6.1134627" s="17.1504347" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-39.85" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL53:G" len="0.0" pos="6.1950152" s="17.2319872" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.582866177" endCell="0" gapOffset="0.0" length="0.1133635" phaseFactor="0.0" stfCoeffs="0.191854,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.191854,0.923087251,-0.155361111,-0.130060638" />
+                </attributes>
+            </node>
+            <node id="DTL54:G" len="0.0" pos="6.3592551" s="17.3962271" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.579632576" endCell="0" gapOffset="0.0" length="0.1149632" phaseFactor="0.0" stfCoeffs="0.193973,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.193973,0.920742902,-0.154555497,-0.129642952" />
+                </attributes>
+            </node>
+            <node id="DTL54:Q2" len="0.05" pos="6.4417894" s="17.4787614" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="39.156" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL55:G" len="0.0" pos="6.5253106" s="17.5622826" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.576753862" endCell="0" gapOffset="0.0" length="0.1169289" phaseFactor="0.0" stfCoeffs="0.196094,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.196094,0.921728748,-0.153903976,-0.129388059" />
+                </attributes>
+            </node>
+            <node id="DTL56:G" len="0.0" pos="6.6931326" s="17.7301046" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.562269295" endCell="0" gapOffset="0.0" length="0.1188249" phaseFactor="0.0" stfCoeffs="0.198215,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.198215,0.903401967,-0.151178495,-0.127263186" />
+                </attributes>
+            </node>
+            <node id="DTL56:Q2" len="0.05" pos="6.7775432" s="17.8145152" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-38.8753" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL57:G" len="0.0" pos="6.8628163" s="17.8997883" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.574137949" endCell="0" gapOffset="0.0" length="0.1205561" phaseFactor="0.0" stfCoeffs="0.200337,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.200337,0.925972987,-0.155260401,-0.130874146" />
+                </attributes>
+            </node>
+            <node id="DTL-010:PBI-BPM-006" len="0.0" pos="6.9478596" s="17.9848316" type="BPM">
+                  <attributes>
+                      <bpm frequency="7.0442E8" length="1.0" orientation="1" />
+                  </attributes>
+                  <channelsuite>
+                    <channel handle="yAvg" settable="false" signal="DTL-010:PBI-BPM-006:YP-AvgValue" valid="true" />
+                    <channel handle="phaseAvg" settable="false" signal="DTL-010:PBI-BPM-006:SA-AvgValue" valid="true" />
+                    <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-006:SM-AvgValue" valid="true" />
+                    <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-006:XP-AvgValue" valid="true" />
+                  </channelsuite>
+            </node>
+            <node id="DTL58:G" len="0.0" pos="7.0343312" s="18.0713032" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.563983621" endCell="0" gapOffset="0.0" length="0.1218991" phaseFactor="0.0" stfCoeffs="0.202458,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.202458,0.910116404,-0.152947717,-0.129083099" />
+                </attributes>
+            </node>
+            <node id="DTL58:Q2" len="0.05" pos="7.1199984" s="18.1569704" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="37.7475" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>
+            <node id="DTL59:G" len="0.0" pos="7.2076119" s="18.2445839" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.575959888" endCell="0" gapOffset="0.0" length="0.1211956" phaseFactor="0.0" stfCoeffs="0.204566,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.204566,0.92659949,-0.152739529,-0.129377875" />
+                </attributes>
+            </node>
+            <node id="DTL60:G" len="0.0" pos="7.380371" s="18.417343" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.538788462" endCell="0" gapOffset="0.0" length="0.1250672" phaseFactor="0.0" stfCoeffs="0.206602,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.206602,0.886959835,-0.174456598,-0.144830048" />
+                </attributes>
+            </node>
+            <node id="DTL60:Q2" len="0.05" pos="7.4662612" s="18.5032332" type="PQ">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <magnet bendAngle="0.0" dfltMagFld="-37.8238" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
+                </attributes>
+            </node>            
+            <node id="DTL61:G" len="0.0" pos="7.5547758" s="18.5917478" type="RG">
+                <attributes>
+                    <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
+                    <rfgap TTF="1.0" ampFactor="0.553019827" endCell="0" gapOffset="0.0" length="0.1266476" phaseFactor="0.0" stfCoeffs="0.208535,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.208535,0.90061987,-0.178322653,-0.148108192" />
+                </attributes>
+            </node>
+        </sequence>
+        <node id="DTL-010:PBI-FC-01" len="0.0" pos="8.5923206" s="19.6292926" status="true" type="BCM">
+            <attributes>
+                <aperture shape="1" x="0.0184" y="0.0184" />
+            </attributes>
+            <channelsuite>
+                <channel handle="Particles" settable="false" signal="DTL-010:PBI-FC-001:PulseChargeUcR" valid="false" />
+                <channel handle="currentAvg" settable="false" signal="DTL-010:PBI-FC-001:STAT3-MeanValueR" valid="true" />
+                <channel handle="currentArray" settable="false" signal="DTL-010:PBI-FC-001:TRC2-ArrayData" valid="true" />
+                <channel handle="currentMax" settable="false" signal="DTL-010:PBI-FC-001:STAT3-MaxValueR" valid="true" />
+            </channelsuite>
+        </node>
+        <node id="END-DTL" len="0.0" pos="8.5923206" s="19.6292926" type="marker" />
     </sequence>
     <powersupplies>
         <ps id="LEBT-010:PwrC-Dummy-EARTH" type="main">
@@ -3315,6 +4082,102 @@
                 <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSCH-011:Cur-R" valid="true" />
                 <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSCH-011:Cur-S" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-011:Fld-RB" valid="true" />
+            </channelsuite>
+        </ps>
+        <ps id="DTL-010:PwrC-PSCV-001" type="main">
+            <channelsuite>
+                <channel handle="fieldSet" settable="true" signal="DTL-010:PwrC-PSCV-001:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="DTL-010:PwrC-PSCV-001:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:PwrC-PSCV-001:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="DTL-010:PwrC-PSCV-001:Fld-RB" valid="true" />
+            </channelsuite>
+        </ps>
+        <ps id="DTL-010:PwrC-PSCH-001" type="main">
+            <channelsuite>
+                <channel handle="fieldSet" settable="true" signal="DTL-010:PwrC-PSCH-001:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="DTL-010:PwrC-PSCH-001:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:PwrC-PSCH-001:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="DTL-010:PwrC-PSCH-001:Fld-RB" valid="true" />
+            </channelsuite>
+        </ps>
+        <ps id="DTL-010:PwrC-PSCV-002" type="main">
+            <channelsuite>
+                <channel handle="fieldSet" settable="true" signal="DTL-010:PwrC-PSCV-002:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="DTL-010:PwrC-PSCV-002:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:PwrC-PSCV-002:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="DTL-010:PwrC-PSCV-002:Fld-RB" valid="true" />
+            </channelsuite>
+        </ps>
+        <ps id="DTL-010:PwrC-PSCH-002" type="main">
+            <channelsuite>
+                <channel handle="fieldSet" settable="true" signal="DTL-010:PwrC-PSCH-002:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="DTL-010:PwrC-PSCH-002:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:PwrC-PSCH-002:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="DTL-010:PwrC-PSCH-002:Fld-RB" valid="true" />
+            </channelsuite>
+        </ps>
+        <ps id="DTL-010:PwrC-PSCV-003" type="main">
+            <channelsuite>
+                <channel handle="fieldSet" settable="true" signal="DTL-010:PwrC-PSCV-003:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="DTL-010:PwrC-PSCV-003:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:PwrC-PSCV-003:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="DTL-010:PwrC-PSCV-003:Fld-RB" valid="true" />
+            </channelsuite>
+        </ps>
+        <ps id="DTL-010:PwrC-PSCH-003" type="main">
+            <channelsuite>
+                <channel handle="fieldSet" settable="true" signal="DTL-010:PwrC-PSCH-003:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="DTL-010:PwrC-PSCH-003:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:PwrC-PSCH-003:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="DTL-010:PwrC-PSCH-003:Fld-RB" valid="true" />
+            </channelsuite>
+        </ps>
+        <ps id="DTL-010:PwrC-PSCV-004" type="main">
+            <channelsuite>
+                <channel handle="fieldSet" settable="true" signal="DTL-010:PwrC-PSCV-004:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="DTL-010:PwrC-PSCV-004:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:PwrC-PSCV-004:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="DTL-010:PwrC-PSCV-004:Fld-RB" valid="true" />
+            </channelsuite>
+        </ps>
+        <ps id="DTL-010:PwrC-PSCH-004" type="main">
+            <channelsuite>
+                <channel handle="fieldSet" settable="true" signal="DTL-010:PwrC-PSCH-004:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="DTL-010:PwrC-PSCH-004:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:PwrC-PSCH-004:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="DTL-010:PwrC-PSCH-004:Fld-RB" valid="true" />
+            </channelsuite>
+        </ps>
+        <ps id="DTL-010:PwrC-PSCV-005" type="main">
+            <channelsuite>
+                <channel handle="fieldSet" settable="true" signal="DTL-010:PwrC-PSCV-005:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="DTL-010:PwrC-PSCV-005:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:PwrC-PSCV-005:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="DTL-010:PwrC-PSCV-005:Fld-RB" valid="true" />
+            </channelsuite>
+        </ps>
+        <ps id="DTL-010:PwrC-PSCH-005" type="main">
+            <channelsuite>
+                <channel handle="fieldSet" settable="true" signal="DTL-010:PwrC-PSCH-005:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="DTL-010:PwrC-PSCH-005:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:PwrC-PSCH-005:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="DTL-010:PwrC-PSCH-005:Fld-RB" valid="true" />
+            </channelsuite>
+        </ps>
+        <ps id="DTL-010:PwrC-PSCV-006" type="main">
+            <channelsuite>
+                <channel handle="fieldSet" settable="true" signal="DTL-010:PwrC-PSCV-006:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="DTL-010:PwrC-PSCV-006:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:PwrC-PSCV-006:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="DTL-010:PwrC-PSCV-006:Fld-RB" valid="true" />
+            </channelsuite>
+        </ps>
+        <ps id="DTL-010:PwrC-PSCH-006" type="main">
+            <channelsuite>
+                <channel handle="fieldSet" settable="true" signal="DTL-010:PwrC-PSCH-006:Fld-S" valid="true" />
+                <channel handle="I" settable="false" signal="DTL-010:PwrC-PSCH-006:Cur-R" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:PwrC-PSCH-006:Cur-S" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="DTL-010:PwrC-PSCH-006:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
     </powersupplies>
