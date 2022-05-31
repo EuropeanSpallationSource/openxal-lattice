@@ -2462,15 +2462,18 @@
             <attributes>
                 <rfcavity amp="0.130769" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
-            <channelsuite>
-                <channel handle="cavPhaseAvg" settable="false" signal="MEBT-010:EMR-Cav-001:Phs" valid="true" />
-                <channel handle="cavAmpSet" settable="true" signal="MEBT-010:EMR-Cav-001:AmpCtl" valid="true" />
-                <channel handle="cavAmpAvg" settable="false" signal="MEBT-010:EMR-Cav-001:Amp" valid="true" />
-                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:EMR-Cav-001:PhsCtl" valid="true" />
+            <channelsuite>              
+                <channel handle="cavAmpSet" settable="true" signal="MEBT-010:RFS-LLRF-101:SPRampingA" valid="true" />
+                <channel handle="cavAmpAvg" settable="true" signal="MEBT-010:RFS-LLRF-101:SPRampingA" valid="true" />
+                <channel handle="cavAmpWave" settable="true" signal="MEBT-010:RFS-DIG-101:SPTbl-Mag" valid="true" />
+                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:RFS-DIG-101:RFCtrlCnstSP-Ang" valid="true" />
+                <channel handle="cavPhaseAvg" settable="true" signal="MEBT-010:RFS-DIG-101:RFCtrlCnstSP-Ang-RB" valid="true" />
+                <channel handle="cavPhaseWave" settable="true" signal="MEBT-010:RFS-DIG-101:SPTbl-Ang" valid="true" />
+                <channel handle="cavPhaseAck" settable="true" signal="MEBT-010:RFS-DIG-101:SPTbl-TblToFW" valid="true" />
             </channelsuite>
             <node id="MEBT-010:EMR-Cav-001:G" len="0.0" pos="0.0" s="7.631972" type="RG">
                 <attributes>
-                    <rfgap TTF="1.0" ampFactor="1.0" endCell="0" gapOffset="0.0" length="1.0" phaseFactor="0.0" testAmpFactor="0.0" testPhaseFactor="0.0" />
+                    <rfgap TTF="1.0" ampFactor="0.001" endCell="0" gapOffset="0.0" length="1.0" phaseFactor="0.0" testAmpFactor="0.0" testPhaseFactor="0.0" />
                 </attributes>
             </node>
         </sequence>
@@ -2599,14 +2602,17 @@
                 <rfcavity amp="0.0596669" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="cavPhaseAvg" settable="false" signal="MEBT-010:EMR-Cav-002:Phs" valid="true" />
-                <channel handle="cavAmpSet" settable="true" signal="MEBT-010:EMR-Cav-002:AmpCtl" valid="true" />
-                <channel handle="cavAmpAvg" settable="false" signal="MEBT-010:EMR-Cav-002:Amp" valid="true" />
-                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:EMR-Cav-002:PhsCtl" valid="true" />
+                <channel handle="cavAmpSet" settable="true" signal="MEBT-010:RFS-LLRF-201:SPRampingA" valid="true" />
+                <channel handle="cavAmpAvg" settable="true" signal="MEBT-010:RFS-LLRF-201:SPRampingA" valid="true" />
+                <channel handle="cavAmpWave" settable="true" signal="MEBT-010:RFS-DIG-201:SPTbl-Mag" valid="true" />
+                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:RFS-DIG-201:RFCtrlCnstSP-Ang" valid="true" />
+                <channel handle="cavPhaseAvg" settable="true" signal="MEBT-010:RFS-DIG-201:RFCtrlCnstSP-Ang-RB" valid="true" />
+                <channel handle="cavPhaseWave" settable="true" signal="MEBT-010:RFS-DIG-201:SPTbl-Ang" valid="true" />
+                <channel handle="cavPhaseAck" settable="true" signal="MEBT-010:RFS-DIG-201:SPTbl-TblToFW" valid="true" />
             </channelsuite>
             <node id="MEBT-010:EMR-Cav-002:G" len="0.0" pos="0.0" s="9.093972" type="RG">
                 <attributes>
-                    <rfgap TTF="1.0" ampFactor="1.0" endCell="0" gapOffset="0.0" length="1.0" phaseFactor="0.0" testAmpFactor="0.0" testPhaseFactor="0.0" />
+                    <rfgap TTF="1.0" ampFactor="0.001" endCell="0" gapOffset="0.0" length="1.0" phaseFactor="0.0" testAmpFactor="0.0" testPhaseFactor="0.0" />
                 </attributes>
             </node>
         </sequence>
@@ -2819,14 +2825,17 @@
                 <rfcavity amp="0.145257" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="cavPhaseAvg" settable="false" signal="MEBT-010:EMR-Cav-003:Phs" valid="true" />
-                <channel handle="cavAmpSet" settable="true" signal="MEBT-010:EMR-Cav-003:AmpCtl" valid="true" />
-                <channel handle="cavAmpAvg" settable="false" signal="MEBT-010:EMR-Cav-003:Amp" valid="true" />
-                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:EMR-Cav-003:PhsCtl" valid="true" />
+                <channel handle="cavAmpSet" settable="true" signal="MEBT-010:RFS-LLRF-301:SPRampingA" valid="true" />
+                <channel handle="cavAmpAvg" settable="true" signal="MEBT-010:RFS-LLRF-301:SPRampingA" valid="true" />
+                <channel handle="cavAmpWave" settable="true" signal="MEBT-010:RFS-DIG-301:SPTbl-Mag" valid="true" />
+                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:RFS-DIG-301:RFCtrlCnstSP-Ang" valid="false" />
+                <channel handle="cavPhaseAvg" settable="true" signal="MEBT-010:RFS-DIG-301:RFCtrlCnstSP-Ang-RB" valid="false" />
+                <channel handle="cavPhaseWave" settable="true" signal="MEBT-010:RFS-DIG-301:SPTbl-Ang" valid="true" />
+                <channel handle="cavPhaseAck" settable="true" signal="MEBT-010:RFS-DIG-301:SPTbl-TblToFW" valid="true" />            
             </channelsuite>
             <node id="MEBT-010:EMR-Cav-003:G" len="0.0" pos="0.0" s="10.305972" type="RG">
                 <attributes>
-                    <rfgap TTF="1.0" ampFactor="1.0" endCell="0" gapOffset="0.0" length="1.0" phaseFactor="0.0" testAmpFactor="0.0" testPhaseFactor="0.0" />
+                    <rfgap TTF="1.0" ampFactor="0.001" endCell="0" gapOffset="0.0" length="1.0" phaseFactor="0.0" testAmpFactor="0.0" testPhaseFactor="0.0" />
                 </attributes>
             </node>
         </sequence>
@@ -2984,10 +2993,13 @@
                 <rfcavity amp="6.84564581" ampFactor="1.0" freq="352.21" phase="-35.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
             <channelsuite>
-                <channel handle="cavPhaseAvg" settable="false" signal="DTLTank1:Phs" valid="true" />
-                <channel handle="cavAmpSet" settable="true" signal="DTLTank1:AmpCtl" valid="true" />
-                <channel handle="cavAmpAvg" settable="false" signal="DTLTank1:Amp" valid="true" />
-                <channel handle="cavPhaseSet" settable="true" signal="DTLTank1:PhsCtl" valid="true" />
+                <channel handle="cavAmpSet" settable="true" signal="DTL-010:RFS-LLRF-101:SPRampingA" valid="true" />
+                <channel handle="cavAmpAvg" settable="true" signal="DTL-010:RFS-LLRF-101:SPRampingA" valid="true" />
+                <channel handle="cavAmpWave" settable="true" signal="DTL-010:RFS-DIG-101:SPTbl-Mag" valid="true" />
+                <channel handle="cavPhaseSet" settable="true" signal="DTL-010:EMR-Cav-101:PhsCtl" valid="true" />
+                <channel handle="cavPhaseAvg" settable="true" signal="DTL-010:EMR-Cav-101:PhsCtl" valid="true" />
+                <channel handle="cavPhaseWave" settable="true" signal="DTL-010:RFS-DIG-101:SPTbl-Ang" valid="true" />
+                <channel handle="cavPhaseAck" settable="true" signal="DTL-010:RFS-DIG-101:SPTbl-TblToFW" valid="true" />
             </channelsuite>
             <node id="DTL1:Q1" len="0.05" pos="0.025" s="11.061972" type="PQ">
                 <attributes>
