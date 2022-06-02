@@ -2462,7 +2462,7 @@
             <attributes>
                 <rfcavity amp="0.130769" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
-            <channelsuite>              
+            <channelsuite>
                 <channel handle="cavAmpSet" settable="true" signal="MEBT-010:RFS-LLRF-101:SPRampingA" valid="true" />
                 <channel handle="cavAmpAvg" settable="true" signal="MEBT-010:RFS-LLRF-101:SPRampingA" valid="true" />
                 <channel handle="cavAmpWave" settable="true" signal="MEBT-010:RFS-DIG-101:SPTbl-Mag" valid="true" />
@@ -2828,10 +2828,10 @@
                 <channel handle="cavAmpSet" settable="true" signal="MEBT-010:RFS-LLRF-301:SPRampingA" valid="true" />
                 <channel handle="cavAmpAvg" settable="true" signal="MEBT-010:RFS-LLRF-301:SPRampingA" valid="true" />
                 <channel handle="cavAmpWave" settable="true" signal="MEBT-010:RFS-DIG-301:SPTbl-Mag" valid="true" />
-                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:RFS-DIG-301:RFCtrlCnstSP-Ang" valid="false" />
-                <channel handle="cavPhaseAvg" settable="true" signal="MEBT-010:RFS-DIG-301:RFCtrlCnstSP-Ang-RB" valid="false" />
+                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:RFS-DIG-301:RFCtrlCnstSP-Ang" valid="true" />
+                <channel handle="cavPhaseAvg" settable="true" signal="MEBT-010:RFS-DIG-301:RFCtrlCnstSP-Ang-RB" valid="true" />
                 <channel handle="cavPhaseWave" settable="true" signal="MEBT-010:RFS-DIG-301:SPTbl-Ang" valid="true" />
-                <channel handle="cavPhaseAck" settable="true" signal="MEBT-010:RFS-DIG-301:SPTbl-TblToFW" valid="true" />            
+                <channel handle="cavPhaseAck" settable="true" signal="MEBT-010:RFS-DIG-301:SPTbl-TblToFW" valid="true" />
             </channelsuite>
             <node id="MEBT-010:EMR-Cav-003:G" len="0.0" pos="0.0" s="10.305972" type="RG">
                 <attributes>
@@ -3732,7 +3732,7 @@
                     <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
                     <magnet bendAngle="0.0" dfltMagFld="-37.8238" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.05" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" />
                 </attributes>
-            </node>            
+            </node>
             <node id="DTL61:G" len="0.0" pos="7.5547758" s="18.5917478" type="RG">
                 <attributes>
                     <aperture pos="0.0" shape="1" x="0.01" y="0.01" />
