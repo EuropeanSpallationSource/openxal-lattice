@@ -3066,9 +3066,9 @@
                     <steerer convFactor="1.7023e-4" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true"/>
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="DTL-010:PwrC-PSCV-011:Fld-RB" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:PwrC-PSCV-001:Fld-RB" valid="true" />
                 </channelsuite>
-                <ps main="DTL-010:PwrC-PSCV-011" />
+                <ps main="DTL-010:PwrC-PSCV-001" />
             </node>
              <node id="DTL6:G" len="0.0" pos="0.4577764" s="11.4947484" type="RG">
                 <attributes>
