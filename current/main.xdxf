@@ -2466,10 +2466,11 @@
                 <channel handle="cavAmpSet" settable="true" signal="MEBT-010:RFS-LLRF-101:SPRampingA" valid="true" />
                 <channel handle="cavAmpAvg" settable="true" signal="MEBT-010:RFS-LLRF-101:SPRampingA" valid="true" />
                 <channel handle="cavAmpWave" settable="true" signal="MEBT-010:RFS-DIG-101:SPTbl-Mag" valid="true" />
-                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:RFS-DIG-101:RFCtrlCnstSP-Ang" valid="true" />
-                <channel handle="cavPhaseAvg" settable="true" signal="MEBT-010:RFS-DIG-101:RFCtrlCnstSP-Ang-RB" valid="true" />
+                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:RFS-LLRF-101:SPRampingPhase" valid="true" />
+                <channel handle="cavPhaseAvg" settable="true" signal="MEBT-010:RFS-LLRF-101:SPRampingPhase" valid="true" />
+                <channel handle="cavPhaseAck" settable="true" signal="MEBT-010:RFS-LLRF-101:SPRampingEn" valid="true" />
                 <channel handle="cavPhaseWave" settable="true" signal="MEBT-010:RFS-DIG-101:SPTbl-Ang" valid="true" />
-                <channel handle="cavPhaseAck" settable="true" signal="MEBT-010:RFS-DIG-101:SPTbl-TblToFW" valid="true" />
+                <channel handle="cavPhaseSetOP" settable="true" signal="MEBT-010:RFS-LLRF-101:FFPulseGenPhase" valid="true" />
             </channelsuite>
             <node id="MEBT-010:EMR-Cav-001:G" len="0.0" pos="0.0" s="7.631972" type="RG">
                 <attributes>
@@ -2605,10 +2606,11 @@
                 <channel handle="cavAmpSet" settable="true" signal="MEBT-010:RFS-LLRF-201:SPRampingA" valid="true" />
                 <channel handle="cavAmpAvg" settable="true" signal="MEBT-010:RFS-LLRF-201:SPRampingA" valid="true" />
                 <channel handle="cavAmpWave" settable="true" signal="MEBT-010:RFS-DIG-201:SPTbl-Mag" valid="true" />
-                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:RFS-DIG-201:RFCtrlCnstSP-Ang" valid="true" />
-                <channel handle="cavPhaseAvg" settable="true" signal="MEBT-010:RFS-DIG-201:RFCtrlCnstSP-Ang-RB" valid="true" />
+                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:RFS-LLRF-201:SPRampingPhase" valid="true" />
+                <channel handle="cavPhaseAvg" settable="true" signal="MEBT-010:RFS-LLRF-201:SPRampingPhase" valid="true" />
+                <channel handle="cavPhaseAck" settable="true" signal="MEBT-010:RFS-LLRF-201:SPRampingEn" valid="true" />
                 <channel handle="cavPhaseWave" settable="true" signal="MEBT-010:RFS-DIG-201:SPTbl-Ang" valid="true" />
-                <channel handle="cavPhaseAck" settable="true" signal="MEBT-010:RFS-DIG-201:SPTbl-TblToFW" valid="true" />
+                <channel handle="cavPhaseSetOP" settable="true" signal="MEBT-010:RFS-LLRF-201:FFPulseGenPhase" valid="true" />
             </channelsuite>
             <node id="MEBT-010:EMR-Cav-002:G" len="0.0" pos="0.0" s="9.093972" type="RG">
                 <attributes>
@@ -2659,11 +2661,11 @@
         <node id="MEBT-010:PBI-FBCM-01" len="0.0" pos="2.384" s="9.474972" status="false" type="BCM">
             <channelsuite>
                 <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-002:PulseWidthR" valid="true" />
-                <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-002:PulseCurrentR" valid="true" />
+                <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-002:FlatTopCurrentR" valid="true" />
                 <channel handle="currentMax" settable="false" signal="MEBT-010:PBI-BCM-002:UpperThreshold" valid="true" />
-                <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-002:FlatTopChargeR" valid="true" />
-                <channel handle="currentArray" settable="false" signal="MEBT-010:PBI-BCM-002:PRC-TR1-ArrayData" valid="true" />
                 <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-BCM-002:FineDelayR" valid="true" />
+                <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-002:PulseChargeR" valid="true" />
+                <channel handle="currentArray" settable="false" signal="MEBT-010:PBI-BCM-002:PRC-TR1-ArrayData" valid="true" />
             </channelsuite>
         </node>
 	      <node id="MEBT-010:PBI-BPM-004" len="0.0" pos="2.624" s="9.474972" status="false" type="BPM">
@@ -2828,10 +2830,11 @@
                 <channel handle="cavAmpSet" settable="true" signal="MEBT-010:RFS-LLRF-301:SPRampingA" valid="true" />
                 <channel handle="cavAmpAvg" settable="true" signal="MEBT-010:RFS-LLRF-301:SPRampingA" valid="true" />
                 <channel handle="cavAmpWave" settable="true" signal="MEBT-010:RFS-DIG-301:SPTbl-Mag" valid="true" />
-                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:RFS-DIG-301:RFCtrlCnstSP-Ang" valid="true" />
-                <channel handle="cavPhaseAvg" settable="true" signal="MEBT-010:RFS-DIG-301:RFCtrlCnstSP-Ang-RB" valid="true" />
+                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:RFS-LLRF-301:SPRampingPhase" valid="true" />
+                <channel handle="cavPhaseAvg" settable="true" signal="MEBT-010:RFS-LLRF-301:SPRampingPhase" valid="true" />
+                <channel handle="cavPhaseAck" settable="true" signal="MEBT-010:RFS-LLRF-301:SPRampingEn" valid="true" />
                 <channel handle="cavPhaseWave" settable="true" signal="MEBT-010:RFS-DIG-301:SPTbl-Ang" valid="true" />
-                <channel handle="cavPhaseAck" settable="true" signal="MEBT-010:RFS-DIG-301:SPTbl-TblToFW" valid="true" />
+                <channel handle="cavPhaseSetOP" settable="true" signal="MEBT-010:RFS-LLRF-301:FFPulseGenPhase" valid="true" />
             </channelsuite>
             <node id="MEBT-010:EMR-Cav-003:G" len="0.0" pos="0.0" s="10.305972" type="RG">
                 <attributes>
@@ -2921,11 +2924,11 @@
         <node id="MEBT-010:PBI-BCM-02" len="0.0" pos="3.763" s="10.786972" status="true" type="BCM">
             <channelsuite>
                 <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-BCM-002:PulseWidthR" valid="true" />
-                <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-002:PulseCurrentR" valid="true" />
+                <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-BCM-002:FlatTopCurrentR" valid="true" />
                 <channel handle="currentMax" settable="false" signal="MEBT-010:PBI-BCM-002:UpperThreshold" valid="true" />
-                <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-002:FlatTopChargeR" valid="true" />
-                <channel handle="currentArray" settable="false" signal="MEBT-010:PBI-BCM-002:PRC-TR1-ArrayData" valid="true" />
                 <channel handle="tDelay" settable="false" signal="MEBT-010:PBI-BCM-002:FineDelayR" valid="true" />
+                <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-002:PulseChargeR" valid="true" />
+                <channel handle="currentArray" settable="false" signal="MEBT-010:PBI-BCM-002:PRC-TR1-ArrayData" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:PBI-FBCM-02" len="0.0" pos="3.763" s="10.786972" status="false" type="BCM">
@@ -2996,10 +2999,12 @@
                 <channel handle="cavAmpSet" settable="true" signal="DTL-010:RFS-LLRF-101:SPRampingA" valid="true" />
                 <channel handle="cavAmpAvg" settable="true" signal="DTL-010:RFS-LLRF-101:SPRampingA" valid="true" />
                 <channel handle="cavAmpWave" settable="true" signal="DTL-010:RFS-DIG-101:SPTbl-Mag" valid="true" />
-                <channel handle="cavPhaseSet" settable="true" signal="DTL-010:RFS-DIG-101:RFCtrlCnstSP-Ang" valid="true" />
-                <channel handle="cavPhaseAvg" settable="true" signal="DTL-010:RFS-DIG-101:RFCtrlCnstSP-Ang-RB" valid="true" />
-                <channel handle="cavPhaseWave" settable="true" signal="DTL-010:RFS-DIG-101:SPTbl-Ang" valid="true" />
-                <channel handle="cavPhaseAck" settable="true" signal="DTL-010:RFS-DIG-101:SPTbl-TblToFW" valid="true" />
+                <channel handle="cavAmpSetOP" settable="true" signal="DTL-010:RFS-LLRF-101:FFPulseGenP" valid="true" />
+                <channel handle="cavPhaseSet" settable="true" signal="DTL-010:RFS-LLRF-101:SPRampingPhase" valid="true" />
+                <channel handle="cavPhaseAvg" settable="true" signal="DTL-010:RFS-LLRF-101:SPRampingPhase" valid="true" />
+                <channel handle="cavPhaseAck" settable="true" signal="DTL-010:RFS-LLRF-101:SPRampingEn" valid="true" />   
+                <channel handle="cavPhaseWave" settable="true" signal="DTL-010:RFS-DIG-101:SPTbl-Ang" valid="true" />                
+                <channel handle="cavPhaseSetOP" settable="true" signal="DTL-010:RFS-LLRF-101:FFPulseGenPhase" valid="true" />
             </channelsuite>
             <node id="DTL1:Q1" len="0.05" pos="0.025" s="11.061972" type="PQ">
                 <attributes>
