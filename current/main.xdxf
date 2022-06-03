@@ -4,9 +4,12 @@
         <sequence id="ISRC" />
         <sequence id="LEBT" />
     </comboseq>
-    <comboseq id="RFQ-MEBT">
+    <comboseq id="ISrc-DTL">
+        <sequence id="ISRC" />
+        <sequence id="LEBT" />
         <sequence id="RFQ" />
         <sequence id="MEBT" />
+        <sequence id="DTL" />
     </comboseq>
     <comboseq id="NCL">
         <sequence id="MEBT" />
