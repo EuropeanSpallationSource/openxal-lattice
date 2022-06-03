@@ -2828,8 +2828,8 @@
                 <channel handle="cavAmpSet" settable="true" signal="MEBT-010:RFS-LLRF-301:SPRampingA" valid="true" />
                 <channel handle="cavAmpAvg" settable="true" signal="MEBT-010:RFS-LLRF-301:SPRampingA" valid="true" />
                 <channel handle="cavAmpWave" settable="true" signal="MEBT-010:RFS-DIG-301:SPTbl-Mag" valid="true" />
-                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:RFS-DIG-301:RFCtrlCnstSP-Ang" valid="false" />
-                <channel handle="cavPhaseAvg" settable="true" signal="MEBT-010:RFS-DIG-301:RFCtrlCnstSP-Ang-RB" valid="false" />
+                <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:RFS-DIG-301:RFCtrlCnstSP-Ang" valid="true" />
+                <channel handle="cavPhaseAvg" settable="true" signal="MEBT-010:RFS-DIG-301:RFCtrlCnstSP-Ang-RB" valid="true" />
                 <channel handle="cavPhaseWave" settable="true" signal="MEBT-010:RFS-DIG-301:SPTbl-Ang" valid="true" />
                 <channel handle="cavPhaseAck" settable="true" signal="MEBT-010:RFS-DIG-301:SPTbl-TblToFW" valid="true" />
             </channelsuite>
