@@ -2421,6 +2421,7 @@
             <channelsuite>
                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-001:YP-AvgValue" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-001:SA-AvgValue" valid="true" />
+                <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-001:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-001:SM-AvgValue" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-001:XP-AvgValue" valid="true" />
             </channelsuite>
@@ -2485,6 +2486,7 @@
             <channelsuite>
                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-002:YP-AvgValue" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-002:SA-AvgValue" valid="true" />
+                <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-002:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-002:SM-AvgValue" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-002:XP-AvgValue" valid="true" />
             </channelsuite>
@@ -2625,6 +2627,7 @@
             <channelsuite>
                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-003:YP-AvgValue" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-003:SA-AvgValue" valid="true" />
+                <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-003:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-003:SM-AvgValue" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-003:XP-AvgValue" valid="true" />
             </channelsuite>
@@ -2675,6 +2678,7 @@
             <channelsuite>
                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-004:YP-AvgValue" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-004:SA-AvgValue" valid="true" />
+                <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-004:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-004:SM-AvgValue" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-004:XP-AvgValue" valid="true" />
             </channelsuite>
@@ -2725,6 +2729,7 @@
             <channelsuite>
                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-005:YP-AvgValue" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-005:SA-AvgValue" valid="true" />
+                <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-005:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-005:SM-AvgValue" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-005:XP-AvgValue" valid="true" />
             </channelsuite>
@@ -2849,6 +2854,7 @@
             <channelsuite>
                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-006:YP-AvgValue" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-006:SA-AvgValue" valid="true" />
+                <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-006:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-006:SM-AvgValue" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-006:XP-AvgValue" valid="true" />
             </channelsuite>
@@ -2889,6 +2895,7 @@
             <channelsuite>
                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-007:YP-AvgValue" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-007:SA-AvgValue" valid="true" />
+                <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-007:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-007:SM-AvgValue" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-007:XP-AvgValue" valid="true" />
             </channelsuite>
@@ -2949,6 +2956,7 @@
             <channelsuite>
                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-008:YP-AvgValue" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-008:SA-AvgValue" valid="true" />
+                <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-008:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-008:SM-AvgValue" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-008:XP-AvgValue" valid="true" />
             </channelsuite>
@@ -3043,6 +3051,7 @@
                 <channelsuite>
                   <channel handle="yAvg" settable="false" signal="DTL-010:PBI-BPM-001:YP-AvgValue" valid="true" />
                   <channel handle="phaseAvg" settable="false" signal="DTL-010:PBI-BPM-001:SA-AvgValue" valid="true" />
+                  <channel handle="phaseArray" settable="false" signal="DTL-010:PBI-BPM-001:SA-TR1-ArrayData" valid="true" />
                   <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-001:SM-AvgValue" valid="true" />
                   <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-001:XP-AvgValue" valid="true" />
                 </channelsuite>
@@ -3202,6 +3211,7 @@
                   <channelsuite>
                     <channel handle="yAvg" settable="false" signal="DTL-010:PBI-BPM-002:YP-AvgValue" valid="true" />
                     <channel handle="phaseAvg" settable="false" signal="DTL-010:PBI-BPM-002:SA-AvgValue" valid="true" />
+                  <channel handle="phaseArray" settable="false" signal="DTL-010:PBI-BPM-002:SA-TR1-ArrayData" valid="true" />
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-002:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-002:XP-AvgValue" valid="true" />
                   </channelsuite>
@@ -3249,6 +3259,7 @@
                   <channelsuite>
                     <channel handle="yAvg" settable="false" signal="DTL-010:PBI-BPM-003:YP-AvgValue" valid="true" />
                     <channel handle="phaseAvg" settable="false" signal="DTL-010:PBI-BPM-003:SA-AvgValue" valid="true" />
+                  <channel handle="phaseArray" settable="false" signal="DTL-010:PBI-BPM-003:SA-TR1-ArrayData" valid="true" />
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-003:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-003:XP-AvgValue" valid="true" />
                   </channelsuite>
@@ -3426,6 +3437,7 @@
                   <channelsuite>
                     <channel handle="yAvg" settable="false" signal="DTL-010:PBI-BPM-004:YP-AvgValue" valid="true" />
                     <channel handle="phaseAvg" settable="false" signal="DTL-010:PBI-BPM-004:SA-AvgValue" valid="true" />
+                  <channel handle="phaseArray" settable="false" signal="DTL-010:PBI-BPM-004:SA-TR1-ArrayData" valid="true" />
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-004:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-004:XP-AvgValue" valid="true" />
                   </channelsuite>
@@ -3491,6 +3503,7 @@
                   <channelsuite>
                     <channel handle="yAvg" settable="false" signal="DTL-010:PBI-BPM-005:YP-AvgValue" valid="true" />
                     <channel handle="phaseAvg" settable="false" signal="DTL-010:PBI-BPM-005:SA-AvgValue" valid="true" />
+                    <channel handle="phaseArray" settable="false" signal="DTL-010:PBI-BPM-005:SA-TR1-ArrayData" valid="true" />
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-005:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-005:XP-AvgValue" valid="true" />
                   </channelsuite>
@@ -3704,6 +3717,7 @@
                   <channelsuite>
                     <channel handle="yAvg" settable="false" signal="DTL-010:PBI-BPM-006:YP-AvgValue" valid="true" />
                     <channel handle="phaseAvg" settable="false" signal="DTL-010:PBI-BPM-006:SA-AvgValue" valid="true" />
+                    <channel handle="phaseArray" settable="false" signal="DTL-010:PBI-BPM-006:SA-TR1-ArrayData" valid="true" />
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-006:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-006:XP-AvgValue" valid="true" />
                   </channelsuite>
