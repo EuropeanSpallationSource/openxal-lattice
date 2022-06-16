@@ -2464,7 +2464,7 @@
         </node>
         <sequence id="MEBT-010:EMR-Cav-001" len="0.0" pos="0.581" s="7.631972" status="true" type="RF">
             <attributes>
-                <rfcavity amp="0.130769" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
+                <rfcavity amp="0.130769" ampFactor="0.001" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="cavAmpSet" settable="true" signal="MEBT-010:RFS-LLRF-101:SPRampingA" valid="true" />
@@ -2480,7 +2480,7 @@
             </channelsuite>
             <node id="MEBT-010:EMR-Cav-001:G" len="0.0" pos="0.0" s="7.631972" type="RG">
                 <attributes>
-                    <rfgap TTF="1.0" ampFactor="0.001" endCell="0" gapOffset="0.0" length="1.0" phaseFactor="0.0" testAmpFactor="0.0" testPhaseFactor="0.0" />
+                    <rfgap TTF="1.0" ampFactor="1.0" endCell="0" gapOffset="0.0" length="1.0" phaseFactor="0.0" testAmpFactor="0.0" testPhaseFactor="0.0" />
                 </attributes>
             </node>
         </sequence>
@@ -2607,7 +2607,7 @@
         </node>
         <sequence id="MEBT-010:EMR-Cav-002" len="0.0" pos="2.043" s="9.093972" status="true" type="RF">
             <attributes>
-                <rfcavity amp="0.0596669" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
+                <rfcavity amp="0.0596669" ampFactor="0.001" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="cavAmpSet" settable="true" signal="MEBT-010:RFS-LLRF-201:SPRampingA" valid="true" />
@@ -2623,7 +2623,7 @@
             </channelsuite>
             <node id="MEBT-010:EMR-Cav-002:G" len="0.0" pos="0.0" s="9.093972" type="RG">
                 <attributes>
-                    <rfgap TTF="1.0" ampFactor="0.001" endCell="0" gapOffset="0.0" length="1.0" phaseFactor="0.0" testAmpFactor="0.0" testPhaseFactor="0.0" />
+                    <rfgap TTF="1.0" ampFactor="1.0" endCell="0" gapOffset="0.0" length="1.0" phaseFactor="0.0" testAmpFactor="0.0" testPhaseFactor="0.0" />
                 </attributes>
             </node>
         </sequence>
@@ -2836,7 +2836,7 @@
         </node>
         <sequence id="MEBT-010:EMR-Cav-003" len="0.0" pos="3.255" s="10.305972" status="true" type="RF">
             <attributes>
-                <rfcavity amp="0.145257" ampFactor="1.0" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
+                <rfcavity amp="0.145257" ampFactor="0.001" freq="352.21" phase="-90.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="cavAmpSet" settable="true" signal="MEBT-010:RFS-LLRF-301:SPRampingA" valid="true" />
@@ -2852,7 +2852,7 @@
             </channelsuite>
             <node id="MEBT-010:EMR-Cav-003:G" len="0.0" pos="0.0" s="10.305972" type="RG">
                 <attributes>
-                    <rfgap TTF="1.0" ampFactor="0.001" endCell="0" gapOffset="0.0" length="1.0" phaseFactor="0.0" testAmpFactor="0.0" testPhaseFactor="0.0" />
+                    <rfgap TTF="1.0" ampFactor="1.0" endCell="0" gapOffset="0.0" length="1.0" phaseFactor="0.0" testAmpFactor="0.0" testPhaseFactor="0.0" />
                 </attributes>
             </node>
         </sequence>
