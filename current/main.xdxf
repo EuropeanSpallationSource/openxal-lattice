@@ -2477,6 +2477,7 @@
                 <channel handle="cavPhaseWave" settable="true" signal="MEBT-010:RFS-DIG-101:SPTbl-Ang" valid="true" />
                 <channel handle="cavPhaseArray" settable="true" signal="MEBT-010:RFS-DIG-101:Dwn0-Cmp1" valid="true" />
                 <channel handle="cavPhaseSetOP" settable="true" signal="MEBT-010:RFS-LLRF-101:FFPulseGenPhase" valid="true" />
+                <channel handle="cavDetune" settable="true" signal="MEBT-010:RFS-LLRF-101:FFFreqTrackDeltaF" valid="true" />
             </channelsuite>
             <node id="MEBT-010:EMR-Cav-001:G" len="0.0" pos="0.0" s="7.631972" type="RG">
                 <attributes>
@@ -2620,6 +2621,7 @@
                 <channel handle="cavPhaseWave" settable="true" signal="MEBT-010:RFS-DIG-201:SPTbl-Ang" valid="true" />
                 <channel handle="cavPhaseArray" settable="true" signal="MEBT-010:RFS-DIG-201:Dwn0-Cmp1" valid="true" />
                 <channel handle="cavPhaseSetOP" settable="true" signal="MEBT-010:RFS-LLRF-201:FFPulseGenPhase" valid="true" />
+                <channel handle="cavDetune" settable="true" signal="MEBT-010:RFS-LLRF-201:FFFreqTrackDeltaF" valid="true" />
             </channelsuite>
             <node id="MEBT-010:EMR-Cav-002:G" len="0.0" pos="0.0" s="9.093972" type="RG">
                 <attributes>
@@ -2849,6 +2851,7 @@
                 <channel handle="cavPhaseWave" settable="true" signal="MEBT-010:RFS-DIG-301:SPTbl-Ang" valid="true" />
                 <channel handle="cavPhaseArray" settable="true" signal="MEBT-010:RFS-DIG-301:Dwn0-Cmp1" valid="true" />
                 <channel handle="cavPhaseSetOP" settable="true" signal="MEBT-010:RFS-LLRF-301:FFPulseGenPhase" valid="true" />
+                <channel handle="cavDetune" settable="true" signal="MEBT-010:RFS-LLRF-301:FFFreqTrackDeltaF" valid="true" />
             </channelsuite>
             <node id="MEBT-010:EMR-Cav-003:G" len="0.0" pos="0.0" s="10.305972" type="RG">
                 <attributes>
