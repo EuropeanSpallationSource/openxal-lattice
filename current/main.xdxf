@@ -3013,8 +3013,8 @@
                 <channel handle="cavAmpSetOP" settable="true" signal="DTL-010:RFS-LLRF-101:FFPulseGenP" valid="true" />
                 <channel handle="cavPhaseSet" settable="true" signal="DTL-010:RFS-LLRF-101:SPRampingPhase" valid="true" />
                 <channel handle="cavPhaseAvg" settable="true" signal="DTL-010:RFS-LLRF-101:SPRampingPhase" valid="true" />
-                <channel handle="cavPhaseAck" settable="true" signal="DTL-010:RFS-LLRF-101:SPRampingEn" valid="true" />   
-                <channel handle="cavPhaseWave" settable="true" signal="DTL-010:RFS-DIG-101:SPTbl-Ang" valid="true" />                
+                <channel handle="cavPhaseAck" settable="true" signal="DTL-010:RFS-LLRF-101:SPRampingEn" valid="true" />
+                <channel handle="cavPhaseWave" settable="true" signal="DTL-010:RFS-DIG-101:SPTbl-Ang" valid="true" />
                 <channel handle="cavPhaseSetOP" settable="true" signal="DTL-010:RFS-LLRF-101:FFPulseGenPhase" valid="true" />
             </channelsuite>
             <node id="DTL1:Q1" len="0.05" pos="0.025" s="11.061972" type="PQ">
@@ -3085,7 +3085,7 @@
                 <channelsuite>
                     <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CV-001:Fld-RB" valid="true" />
                 </channelsuite>
-                <ps main="DTL-010:BMD-CV-001" />
+                <ps main="DTL-010:PwrC-PSCV-001" />
             </node>
              <node id="DTL6:G" len="0.0" pos="0.4577764" s="11.4947484" type="RG">
                 <attributes>
@@ -3113,7 +3113,7 @@
                 <channelsuite>
                     <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CH-001:Fld-RB" valid="true" />
                 </channelsuite>
-                <ps main="DTL-010:BMD-CH-001" />
+                <ps main="DTL-010:PwrC-PSCH-001" />
             </node>
             <node id="DTL8:G" len="0.0" pos="0.6264524" s="11.6634244" type="RG">
                 <attributes>
@@ -3141,7 +3141,7 @@
                 <channelsuite>
                     <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CV-002:Fld-RB" valid="true" />
                 </channelsuite>
-                <ps main="DTL-010:BMD-CV-002" />
+                <ps main="DTL-010:PwrC-PSCV-002" />
             </node>
            <node id="DTL10:G" len="0.0" pos="0.8012773" s="11.8382493" type="RG">
                 <attributes>
@@ -3169,7 +3169,7 @@
                 <channelsuite>
                     <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CH-002:Fld-RB" valid="true" />
                 </channelsuite>
-                <ps main="DTL-010:BMD-CV-002" />
+                <ps main="DTL-010:PwrC-PSCH-002" />
             </node>
              <node id="DTL12:G" len="0.0" pos="0.9825966" s="12.0195686" type="RG">
                 <attributes>
@@ -3293,7 +3293,7 @@
                 <channelsuite>
                     <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CV-003:Fld-RB" valid="true" />
                 </channelsuite>
-                <ps main="DTL-010:BMD-CV-003" />
+                <ps main="DTL-010:PwrC-PSCV-003" />
             </node>
             <node id="DTL22:G" len="0.0" pos="1.986368" s="13.02334" type="RG">
                 <attributes>
@@ -3321,7 +3321,7 @@
                 <channelsuite>
                     <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CH-003:Fld-RB" valid="true" />
                 </channelsuite>
-                <ps main="DTL-010:BMD-CH-003" />
+                <ps main="DTL-010:PwrC-PSCH-003" />
             </node>
            <node id="DTL24:G" len="0.0" pos="2.2072737" s="13.2442457" type="RG">
                 <attributes>
@@ -3367,7 +3367,7 @@
                 <channelsuite>
                     <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CV-004:Fld-RB" valid="true" />
                 </channelsuite>
-                <ps main="DTL-010:BMD-CV-004" />
+                <ps main="DTL-010:PwrC-PSCV-004" />
             </node>
            <node id="DTL28:G" len="0.0" pos="2.6694801" s="13.7064521" type="RG">
                 <attributes>
@@ -3395,7 +3395,7 @@
                 <channelsuite>
                     <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CH-004:Fld-RB" valid="true" />
                 </channelsuite>
-                <ps main="DTL-010:BMD-CH-004" />
+                <ps main="DTL-010:PwrC-PSCH-004" />
             </node>
            <node id="DTL30:G" len="0.0" pos="2.9110181" s="13.9479901" type="RG">
                 <attributes>
@@ -3555,7 +3555,7 @@
                 <channelsuite>
                     <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CV-005:Fld-RB" valid="true" />
                 </channelsuite>
-                <ps main="DTL-010:BMD-CV-005" />
+                <ps main="DTL-010:PwrC-PSCV-005" />
             </node>
             <node id="DTL44:G" len="0.0" pos="4.7977473" s="15.8347193" type="RG">
                 <attributes>
@@ -3583,7 +3583,7 @@
                 <channelsuite>
                     <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CH-005:Fld-RB" valid="true" />
                 </channelsuite>
-                <ps main="DTL-010:BMD-CH-005" />
+                <ps main="DTL-010:PwrC-PSCH-005" />
             </node>
              <node id="DTL46:G" len="0.0" pos="5.0957109" s="16.1326829" type="RG">
                 <attributes>
@@ -3629,7 +3629,7 @@
                 <channelsuite>
                     <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CV-006:Fld-RB" valid="true" />
                 </channelsuite>
-                <ps main="DTL-010:BMD-CV-006" />
+                <ps main="DTL-010:PwrC-PSCV-006" />
             </node>
              <node id="DTL50:G" len="0.0" pos="5.7130591" s="16.7500311" type="RG">
                 <attributes>
@@ -3657,7 +3657,7 @@
                 <channelsuite>
                     <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CH-006:Fld-RB" valid="true" />
                 </channelsuite>
-                <ps main="DTL-010:BMD-CH-006" />
+                <ps main="DTL-010:PwrC-PSCH-006" />
             </node>
              <node id="DTL52:G" len="0.0" pos="6.0325511" s="17.0695231" type="RG">
                 <attributes>
@@ -3762,7 +3762,7 @@
                 </attributes>
             </node>
         </sequence>
-        <node id="DTL-010:PBI-FC-01" len="0.0" pos="8.5923206" s="19.6292926" status="true" type="BCM">
+        <node id="DTL-010:PBI-FC-001" len="0.0" pos="8.5923206" s="19.6292926" status="true" type="BCM">
             <attributes>
                 <aperture shape="1" x="0.0184" y="0.0184" />
             </attributes>
@@ -4118,99 +4118,99 @@
                 <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-011:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DTL-010:BMD-CV-001" type="main">
+        <ps id="DTL-010:PwrC-PSCV-001" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="DTL-010:BMD-CV-001:Fld-S" valid="true" />
                 <channel handle="I" settable="false" signal="DTL-010:BMD-CV-001:Curr" valid="true" />
-                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CV-001:Curr" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CV-001:CurrSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="DTL-010:BMD-CV-001:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DTL-010:BMD-CH-001" type="main">
+        <ps id="DTL-010:PwrC-PSCH-001" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="DTL-010:BMD-CH-001:Fld-S" valid="true" />
                 <channel handle="I" settable="false" signal="DTL-010:BMD-CH-001:Curr" valid="true" />
-                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CH-001:Curr" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CH-001:CurrSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="DTL-010:BMD-CH-001:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DTL-010:BMD-CV-002" type="main">
+        <ps id="DTL-010:PwrC-PSCV-002" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="DTL-010:BMD-CV-002:Fld-S" valid="true" />
                 <channel handle="I" settable="false" signal="DTL-010:BMD-CV-002:Curr" valid="true" />
-                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CV-002:Curr" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CV-002:CurrSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="DTL-010:BMD-CV-002:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DTL-010:BMD-CH-002" type="main">
+        <ps id="DTL-010:PwrC-PSCH-002" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="DTL-010:BMD-CH-002:Fld-S" valid="true" />
                 <channel handle="I" settable="false" signal="DTL-010:BMD-CH-002:Curr" valid="true" />
-                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CH-002:Curr" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CH-002:CurrSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="DTL-010:BMD-CH-002:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DTL-010:BMD-CV-003" type="main">
+        <ps id="DTL-010:PwrC-PSCV-003" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="DTL-010:BMD-CV-003:Fld-S" valid="true" />
                 <channel handle="I" settable="false" signal="DTL-010:BMD-CV-003:Curr" valid="true" />
-                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CV-003:Curr" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CV-003:CurrSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="DTL-010:BMD-CV-003:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DTL-010:BMD-CH-003" type="main">
+        <ps id="DTL-010:PwrC-PSCH-003" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="DTL-010:BMD-CH-003:Fld-S" valid="true" />
                 <channel handle="I" settable="false" signal="DTL-010:BMD-CH-003:Curr" valid="true" />
-                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CH-003:Curr" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CH-003:CurrSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="DTL-010:BMD-CH-003:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DTL-010:BMD-CV-004" type="main">
+        <ps id="DTL-010:PwrC-PSCV-004" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="DTL-010:BMD-CV-004:Fld-S" valid="true" />
                 <channel handle="I" settable="false" signal="DTL-010:BMD-CV-004:Curr" valid="true" />
-                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CV-004:Curr" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CV-004:CurrSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="DTL-010:BMD-CV-004:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DTL-010:BMD-CH-004" type="main">
+        <ps id="DTL-010:PwrC-PSCH-004" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="DTL-010:BMD-CH-004:Fld-S" valid="true" />
                 <channel handle="I" settable="false" signal="DTL-010:BMD-CH-004:Curr" valid="true" />
-                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CH-004:Curr" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CH-004:CurrSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="DTL-010:BMD-CH-004:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DTL-010:BMD-CV-005" type="main">
+        <ps id="DTL-010:PwrC-PSCV-005" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="DTL-010:BMD-CV-005:Fld-S" valid="true" />
                 <channel handle="I" settable="false" signal="DTL-010:BMD-CV-005:Curr" valid="true" />
-                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CV-005:Curr" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CV-005:CurrSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="DTL-010:BMD-CV-005:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DTL-010:BMD-CH-005" type="main">
+        <ps id="DTL-010:PwrC-PSCH-005" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="DTL-010:BMD-CH-005:Fld-S" valid="true" />
                 <channel handle="I" settable="false" signal="DTL-010:BMD-CH-005:Curr" valid="true" />
-                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CH-005:Curr" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CH-005:CurrSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="DTL-010:BMD-CH-005:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DTL-010:BMD-CV-006" type="main">
+        <ps id="DTL-010:PwrC-PSCV-006" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="DTL-010:BMD-CV-006:Fld-S" valid="true" />
                 <channel handle="I" settable="false" signal="DTL-010:BMD-CV-006:Curr" valid="true" />
-                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CV-006:Curr" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CV-006:CurrSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="DTL-010:BMD-CV-006:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DTL-010:BMD-CH-006" type="main">
+        <ps id="DTL-010:PwrC-PSCH-006" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="DTL-010:BMD-CH-006:Fld-S" valid="true" />
                 <channel handle="I" settable="false" signal="DTL-010:BMD-CH-006:Curr" valid="true" />
-                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CH-006:Curr" valid="true" />
+                <channel handle="I_Set" settable="true" signal="DTL-010:BMD-CH-006:CurrSet" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="DTL-010:BMD-CH-006:Fld-RB" valid="true" />
             </channelsuite>
         </ps>
