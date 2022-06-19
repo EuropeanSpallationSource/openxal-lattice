@@ -3027,6 +3027,11 @@
                 <channel handle="cavPhaseWave" settable="true" signal="DTL-010:RFS-DIG-101:SPTbl-Ang" valid="true" />
                 <channel handle="cavPhaseArray" settable="true" signal="DTL-010:RFS-DIG-101:Dwn0-Cmp1" valid="true" />
                 <channel handle="cavPhaseSetOP" settable="true" signal="DTL-010:RFS-LLRF-101:FFPulseGenPhase" valid="true" />
+                <channel handle="cavFieldCtrl" settable="true" signal="DTL-010:RFS-DIG-101:Dwn0-Cmp1" valid="true" />
+                <channel handle="cavFwd1" settable="true" signal="DTL-010:RFS-DIG-101:Dwn2-Cmp1" valid="true" />
+                <channel handle="cavRefl1" settable="true" signal="DTL-010:RFS-DIG-101:Dwn3-Cmp1" valid="true" />
+                <channel handle="cavFwd2" settable="true" signal="DTL-010:RFS-DIG-101:Dwn4-Cmp1" valid="true" />
+                <channel handle="cavRefl2" settable="true" signal="DTL-010:RFS-DIG-101:Dwn5-Cmp1" valid="true" />
             </channelsuite>
             <node id="DTL1:Q1" len="0.05" pos="0.025" s="11.061972" type="PQ">
                 <attributes>
@@ -3773,6 +3778,16 @@
                 </attributes>
             </node>
         </sequence>
+        <node id="DTL-010:PBI-BCM-001" len="0.0" pos="8.5923206" s="19.6292926" status="true" type="BCM">
+            <channelsuite>
+                <channel handle="DisplayLength" settable="false" signal="DTL-010:PBI-BCM-001:PulseWidthR" valid="true" />
+                <channel handle="currentAvg" settable="false" signal="DTL-010:PBI-BCM-001:FlatTopCurrentR" valid="true" />
+                <channel handle="currentMax" settable="false" signal="DTL-010:PBI-BCM-001:UpperThreshold" valid="true" />
+                <channel handle="tDelay" settable="false" signal="DTL-010:PBI-BCM-001:FineDelayR" valid="true" />
+                <channel handle="Particles" settable="false" signal="DTL-010:PBI-BCM-001:PulseChargeR" valid="true" />
+                <channel handle="currentArray" settable="false" signal="DTL-010:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
+            </channelsuite>
+        </node>
         <node id="DTL-010:PBI-FC-001" len="0.0" pos="8.5923206" s="19.6292926" status="true" type="BCM">
             <attributes>
                 <aperture shape="1" x="0.0184" y="0.0184" />
