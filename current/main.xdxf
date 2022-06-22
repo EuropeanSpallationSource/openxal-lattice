@@ -2950,7 +2950,7 @@
                 <channel handle="currentArray" settable="false" signal="MEBT-010:PBI-BCM-002:PRC-TR1-ArrayData" valid="true" />
             </channelsuite>
         </node>
-        <node id="MEBT-010:PBI-FBCM-02" len="0.0" pos="3.763" s="10.786972" status="false" type="BCM">
+        <node id="MEBT-010:PBI-FBCM-002" len="0.0" pos="3.763" s="10.786972" status="false" type="BCM">
             <channelsuite>
                 <channel handle="DisplayLength" settable="false" signal="MEBT-010:PBI-FBCM-001:Cur-R:WIDTH" valid="true" />
                 <channel handle="currentAvg" settable="false" signal="MEBT-010:PBI-FBCM-001:Cur-R:AVG" valid="true" />
