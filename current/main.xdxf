@@ -5050,6 +5050,7 @@
                 <channel handle="cycleEnable" settable="true" signal="MEBT-010:PwrC-PSQV-006:CycEn" valid="false" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
+                <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSQV-006:Cur-R" valid="true" />
                 <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSQV-006:Cur-S" valid="true" />
                 <channel handle="cycleState" settable="false" signal="MEBT-010:PwrC-PSQV-006:CycSt" valid="false" />
             </channelsuite>
@@ -5067,20 +5068,20 @@
         <ps id="MEBT-010:PwrC-PSQV-008" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MEBT-010:PwrC-PSQV-008:CycEn" valid="false" />
-                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSQV-008:Fld-S" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSQV-008:Cur-R" valid="true" />
                 <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSQV-008:Cur-S" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSQV-008:Fld-RB" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 <channel handle="cycleState" settable="false" signal="MEBT-010:PwrC-PSQV-008:CycSt" valid="false" />
             </channelsuite>
         </ps>
         <ps id="MEBT-010:PwrC-PSQH-009" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MEBT-010:PwrC-PSQH-009:CycEn" valid="false" />
-                <channel handle="fieldSet" settable="true" signal="MEBT-010:PwrC-PSQH-009:Fld-S" valid="true" />
+                <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MEBT-010:PwrC-PSQH-009:Cur-R" valid="true" />
                 <channel handle="I_Set" settable="true" signal="MEBT-010:PwrC-PSQH-009:Cur-S" valid="true" />
-                <channel handle="psFieldRB" settable="false" signal="MEBT-010:PwrC-PSQH-009:Fld-RB" valid="true" />
+                <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 <channel handle="cycleState" settable="false" signal="MEBT-010:PwrC-PSQH-009:CycSt" valid="false" />
             </channelsuite>
         </ps>
