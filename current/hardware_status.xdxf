@@ -10,10 +10,6 @@
         <node exclude="true" id="MEBT-010:PBI-EMU-001" mod-comment="not available." status="false" />
         <node exclude="true" id="MEBT-010:PBI-NPM-002" mod-comment="not available." status="false" />
         <node exclude="true" id="MEBT-010:PBI-FBCM-01" mod-comment="not available." status="false" />
-		<node exclude="true" id="MEBT-010:PBI-FBCM-02" mod-comment="not available." status="false" />
         <node exclude="true" id="MEBT-010:PBI-BPM-004" mod-comment="not available." status="false" />
-	</sequence>
-    <sequence id="DTL">
-        <node exclude="true" id="DTL-010:BMD-CH-004" mod-comment="not available due to vacuum leak." status="false" />
-	</sequence>
+	</sequence>    
 </xdxf>
