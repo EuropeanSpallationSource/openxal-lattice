@@ -141,6 +141,7 @@
         <node id="LEBT-010:BMD-Chop" len="0.25" pos="1.4044" s="1.4044" status="true" type="CHP">
             <channelsuite>                
                 <channel handle="statusRB" settable="true" signal="LEBT-LPS::BMD-Chop_HVSwitchOK" valid="true" />
+		<channel handle="lengthS" settable="false" signal="ISrc-TimCon::LEBTChopPulseWidth" valid="true" />
             </channelsuite>
         </node>
         <node id="LEBT-010:PBI-FC-001" len="0.0" pos="1.5318" s="1.5318" status="true" type="BCM">
