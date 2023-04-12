@@ -139,7 +139,7 @@
             </attributes>
         </node>
         <node id="LEBT-010:BMD-Chop" len="0.25" pos="1.4044" s="1.4044" status="true" type="CHP">
-            <channelsuite>                
+            <channelsuite>
                 <channel handle="statusRB" settable="true" signal="LEBT-LPS::BMD-Chop_HVSwitchOK" valid="true" />
 		<channel handle="lengthS" settable="false" signal="ISrc-TimCon::LEBTChopPulseWidth" valid="true" />
             </channelsuite>
@@ -262,7 +262,7 @@
                 <channel handle="cavPhaseAvg" settable="false" signal="RFQ-010:RFS-DIG-101:RFCtrlCnstSP-Ang-RB" valid="true" />
                 <channel handle="cavAmpSet" settable="true" signal="RFQ-010:RFS-DIG-101:RFCtrlCnstSP-Mag" valid="true" />
                 <channel handle="cavAmpAvg" settable="false" signal="RFQ-010:RFS-DIG-101:RFCtrlCnstSP-Mag-RB" valid="true" />
-                <channel handle="cavPhaseSet" settable="true" signal="RFQ-LLRF1::FFPulseGenPhase" valid="true" />
+                <channel handle="cavPhaseSet" settable="true" signal="RFQ-010:RFS-LLRF-101:FFPulseGenPhase" valid="true" />
             </channelsuite>
             <node id="RFQ_CELL_0" len="0.032286" pos="0.0161430" s="2.5220429999999956" type="RFQ">
                 <attributes>
@@ -2957,7 +2957,7 @@
                 <channel handle="Particles" settable="false" signal="MEBT-010:PBI-BCM-002:PulseChargeR" valid="true" />
                 <channel handle="currentArray" settable="false" signal="MEBT-010:PBI-BCM-002:PRC-TR1-ArrayData" valid="true" />
             </channelsuite>
-        </node>        
+        </node>
         <node id="MEBT-010:PBI-BPM-008" len="0.0" pos="3.836" s="10.886972" type="BPM">
             <attributes>
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
