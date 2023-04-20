@@ -2422,10 +2422,13 @@
             </attributes>
             <channelsuite>
                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-001:YP-AvgValue" valid="true" />
+                <channel handle="yArray" settable="false" signal="MEBT-010:PBI-BPM-001:YP-TR1-ArrayData" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-001:SA-AvgValue" valid="true" />
                 <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-001:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-001:SM-AvgValue" valid="true" />
+                <channel handle="amplitudeArray" settable="false" signal="MEBT-010:PBI-BPM-001:SM-TR1-ArrayData" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-001:XP-AvgValue" valid="true" />
+                <channel handle="xArray" settable="false" signal="MEBT-010:PBI-BPM-001:XP-TR1-ArrayData" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QH-002" len="0.08" pos="0.4" s="7.450972" type="Q">
@@ -2493,10 +2496,13 @@
             </attributes>
             <channelsuite>
                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-002:YP-AvgValue" valid="true" />
+                <channel handle="yArray" settable="false" signal="MEBT-010:PBI-BPM-002:YP-TR1-ArrayData" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-002:SA-AvgValue" valid="true" />
                 <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-002:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-002:SM-AvgValue" valid="true" />
+                <channel handle="amplitudeArray" settable="false" signal="MEBT-010:PBI-BPM-002:SM-TR1-ArrayData" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-002:XP-AvgValue" valid="true" />
+                <channel handle="xArray" settable="false" signal="MEBT-010:PBI-BPM-002:XP-TR1-ArrayData" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QV-003" len="0.08" pos="0.762" s="7.812972" type="Q">
@@ -2639,11 +2645,14 @@
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-003:YP-AvgValue" valid="true" />
+                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-003:YP-AvgValue" valid="true" />
+                <channel handle="yArray" settable="false" signal="MEBT-010:PBI-BPM-003:YP-TR1-ArrayData" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-003:SA-AvgValue" valid="true" />
                 <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-003:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-003:SM-AvgValue" valid="true" />
+                <channel handle="amplitudeArray" settable="false" signal="MEBT-010:PBI-BPM-003:SM-TR1-ArrayData" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-003:XP-AvgValue" valid="true" />
+                <channel handle="xArray" settable="false" signal="MEBT-010:PBI-BPM-003:XP-TR1-ArrayData" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QH-005" len="0.08" pos="2.224" s="9.274972" type="Q">
@@ -2690,11 +2699,14 @@
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-004:YP-AvgValue" valid="true" />
+                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-004:YP-AvgValue" valid="true" />
+                <channel handle="yArray" settable="false" signal="MEBT-010:PBI-BPM-004:YP-TR1-ArrayData" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-004:SA-AvgValue" valid="true" />
                 <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-004:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-004:SM-AvgValue" valid="true" />
+                <channel handle="amplitudeArray" settable="false" signal="MEBT-010:PBI-BPM-004:SM-TR1-ArrayData" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-004:XP-AvgValue" valid="true" />
+                <channel handle="xArray" settable="false" signal="MEBT-010:PBI-BPM-004:XP-TR1-ArrayData" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QV-006" len="0.08" pos="2.424" s="9.474972" type="Q">
@@ -2741,11 +2753,14 @@
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-005:YP-AvgValue" valid="true" />
+                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-005:YP-AvgValue" valid="true" />
+                <channel handle="yArray" settable="false" signal="MEBT-010:PBI-BPM-005:YP-TR1-ArrayData" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-005:SA-AvgValue" valid="true" />
                 <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-005:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-005:SM-AvgValue" valid="true" />
+                <channel handle="amplitudeArray" settable="false" signal="MEBT-010:PBI-BPM-005:SM-TR1-ArrayData" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-005:XP-AvgValue" valid="true" />
+                <channel handle="xArray" settable="false" signal="MEBT-010:PBI-BPM-005:XP-TR1-ArrayData" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QH-007" len="0.08" pos="2.624" s="9.674972" type="Q">
@@ -2873,10 +2888,13 @@
             </attributes>
             <channelsuite>
                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-006:YP-AvgValue" valid="true" />
+                <channel handle="yArray" settable="false" signal="MEBT-010:PBI-BPM-006:YP-TR1-ArrayData" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-006:SA-AvgValue" valid="true" />
                 <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-006:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-006:SM-AvgValue" valid="true" />
+                <channel handle="amplitudeArray" settable="false" signal="MEBT-010:PBI-BPM-006:SM-TR1-ArrayData" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-006:XP-AvgValue" valid="true" />
+                <channel handle="xArray" settable="false" signal="MEBT-010:PBI-BPM-006:XP-TR1-ArrayData" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QH-009" len="0.08" pos="3.436" s="10.486972" type="Q">
@@ -2913,11 +2931,14 @@
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-007:YP-AvgValue" valid="true" />
+                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-007:YP-AvgValue" valid="true" />
+                <channel handle="yArray" settable="false" signal="MEBT-010:PBI-BPM-007:YP-TR1-ArrayData" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-007:SA-AvgValue" valid="true" />
                 <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-007:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-007:SM-AvgValue" valid="true" />
+                <channel handle="amplitudeArray" settable="false" signal="MEBT-010:PBI-BPM-007:SM-TR1-ArrayData" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-007:XP-AvgValue" valid="true" />
+                <channel handle="xArray" settable="false" signal="MEBT-010:PBI-BPM-007:XP-TR1-ArrayData" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QV-010" len="0.08" pos="3.636" s="10.686972" type="Q">
@@ -2963,11 +2984,14 @@
                 <bpm frequency="7.0442E8" length="1.0" orientation="1" />
             </attributes>
             <channelsuite>
-                <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-008:YP-AvgValue" valid="true" />
+                 <channel handle="yAvg" settable="false" signal="MEBT-010:PBI-BPM-008:YP-AvgValue" valid="true" />
+                <channel handle="yArray" settable="false" signal="MEBT-010:PBI-BPM-008:YP-TR1-ArrayData" valid="true" />
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-008:SA-AvgValue" valid="true" />
                 <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-008:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-008:SM-AvgValue" valid="true" />
+                <channel handle="amplitudeArray" settable="false" signal="MEBT-010:PBI-BPM-008:SM-TR1-ArrayData" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-008:XP-AvgValue" valid="true" />
+                <channel handle="xArray" settable="false" signal="MEBT-010:PBI-BPM-008:XP-TR1-ArrayData" valid="true" />
             </channelsuite>
         </node>
         <node id="MEBT-010:BMD-QH-011" len="0.08" pos="3.836" s="10.886972" type="Q">
@@ -3069,6 +3093,9 @@
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-001:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-001:XP-AvgValue" valid="true" />
                     <channel handle="phaseArray" settable="false" signal="DTL-010:PBI-BPM-001:SA-TR1-ArrayData" valid="true" />
+                    <channel handle="yArray" settable="false" signal="DTL-010:PBI-BPM-001:YP-TR1-ArrayData" valid="true" />
+                    <channel handle="xArray" settable="false" signal="DTL-010:PBI-BPM-001:XP-TR1-ArrayData" valid="true" />
+                    <channel handle="amplitudeArray" settable="false" signal="DTL-010:PBI-BPM-001:SM-TR1-ArrayData" valid="true" />
                 </channelsuite>
             </node>
             <node id="DTL-010:EMR-Cav-001:G4" len="0.0" pos="0.2950154" s="11.3319874" type="RG">
@@ -3229,6 +3256,9 @@
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-002:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-002:XP-AvgValue" valid="true" />
                     <channel handle="phaseArray" settable="false" signal="DTL-010:PBI-BPM-002:SA-TR1-ArrayData" valid="true" />
+                    <channel handle="yArray" settable="false" signal="DTL-010:PBI-BPM-002:YP-TR1-ArrayData" valid="true" />
+                    <channel handle="xArray" settable="false" signal="DTL-010:PBI-BPM-002:XP-TR1-ArrayData" valid="true" />
+                    <channel handle="amplitudeArray" settable="false" signal="DTL-010:PBI-BPM-002:SM-TR1-ArrayData" valid="true" />
                 </channelsuite>
             </node>
             <node id="DTL-010:EMR-Cav-001:G16" len="0.0" pos="1.3639625" s="12.4009345" type="RG">
@@ -3277,6 +3307,9 @@
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-003:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-003:XP-AvgValue" valid="true" />
                     <channel handle="phaseArray" settable="false" signal="DTL-010:PBI-BPM-003:SA-TR1-ArrayData" valid="true" />
+                    <channel handle="yArray" settable="false" signal="DTL-010:PBI-BPM-003:YP-TR1-ArrayData" valid="true" />
+                    <channel handle="xArray" settable="false" signal="DTL-010:PBI-BPM-003:XP-TR1-ArrayData" valid="true" />
+                    <channel handle="amplitudeArray" settable="false" signal="DTL-010:PBI-BPM-003:SM-TR1-ArrayData" valid="true" />
                 </channelsuite>
             </node>
             <node id="DTL-010:EMR-Cav-001:G20" len="0.0" pos="1.7720327" s="12.8090047" type="RG">
@@ -3455,6 +3488,9 @@
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-004:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-004:XP-AvgValue" valid="true" />
                     <channel handle="phaseArray" settable="false" signal="DTL-010:PBI-BPM-004:SA-TR1-ArrayData" valid="true" />
+                    <channel handle="yArray" settable="false" signal="DTL-010:PBI-BPM-004:YP-TR1-ArrayData" valid="true" />
+                    <channel handle="xArray" settable="false" signal="DTL-010:PBI-BPM-004:XP-TR1-ArrayData" valid="true" />
+                    <channel handle="amplitudeArray" settable="false" signal="DTL-010:PBI-BPM-004:SM-TR1-ArrayData" valid="true" />
                 </channelsuite>
             </node>
             <node id="DTL-010:EMR-Cav-001:G34" len="0.0" pos="3.4145129" s="14.4514849" type="RG">
@@ -3521,6 +3557,9 @@
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-005:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-005:XP-AvgValue" valid="true" />
                     <channel handle="phaseArray" settable="false" signal="DTL-010:PBI-BPM-005:SA-TR1-ArrayData" valid="true" />
+                     <channel handle="yArray" settable="false" signal="DTL-010:PBI-BPM-005:YP-TR1-ArrayData" valid="true" />
+                    <channel handle="xArray" settable="false" signal="DTL-010:PBI-BPM-005:XP-TR1-ArrayData" valid="true" />
+                    <channel handle="amplitudeArray" settable="false" signal="DTL-010:PBI-BPM-005:SM-TR1-ArrayData" valid="true" />
                 </channelsuite>
             </node>
             <node id="DTL-010:EMR-Cav-001:G40" len="0.0" pos="4.2229977" s="15.2599697" type="RG">
@@ -3735,6 +3774,9 @@
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-010:PBI-BPM-006:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-010:PBI-BPM-006:XP-AvgValue" valid="true" />
                     <channel handle="phaseArray" settable="false" signal="DTL-010:PBI-BPM-006:SA-TR1-ArrayData" valid="true" />
+                    <channel handle="yArray" settable="false" signal="DTL-010:PBI-BPM-006:YP-TR1-ArrayData" valid="true" />
+                    <channel handle="xArray" settable="false" signal="DTL-010:PBI-BPM-006:XP-TR1-ArrayData" valid="true" />
+                    <channel handle="amplitudeArray" settable="false" signal="DTL-010:PBI-BPM-006:SM-TR1-ArrayData" valid="true" />
                 </channelsuite>
             </node>
             <node id="DTL-010:EMR-Cav-001:G58" len="0.0" pos="7.0340363" s="18.0710083" type="RG">
@@ -3845,6 +3887,9 @@
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-020:PBI-BPM-001:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-020:PBI-BPM-001:XP-AvgValue" valid="true" />
                     <channel handle="phaseArray" settable="false" signal="DTL-020:PBI-BPM-001:SA-TR1-ArrayData" valid="true" />
+                    <channel handle="yArray" settable="false" signal="DTL-020:PBI-BPM-001:YP-TR1-ArrayData" valid="true" />
+                    <channel handle="xArray" settable="false" signal="DTL-020:PBI-BPM-001:XP-TR1-ArrayData" valid="true" />
+                    <channel handle="amplitudeArray" settable="false" signal="DTL-020:PBI-BPM-001:SM-TR1-ArrayData" valid="true" />
                 </channelsuite>
             </node>
             <node id="DTL-020:EMR-Cav-001:G4" len="0.0" pos="0.6651745" s="19.4980841" type="RG">
@@ -3985,6 +4030,9 @@
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-020:PBI-BPM-002:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-020:PBI-BPM-002:XP-AvgValue" valid="true" />
                     <channel handle="phaseArray" settable="false" signal="DTL-020:PBI-BPM-002:SA-TR1-ArrayData" valid="true" />
+                    <channel handle="yArray" settable="false" signal="DTL-020:PBI-BPM-002:YP-TR1-ArrayData" valid="true" />
+                    <channel handle="xArray" settable="false" signal="DTL-020:PBI-BPM-002:XP-TR1-ArrayData" valid="true" />
+                    <channel handle="amplitudeArray" settable="false" signal="DTL-020:PBI-BPM-002:SM-TR1-ArrayData" valid="true" />
                 </channelsuite>
             </node>
             <node id="DTL-020:EMR-Cav-001:G16" len="0.0" pos="3.0105961" s="21.8435057" type="RG">
@@ -4125,6 +4173,9 @@
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-020:PBI-BPM-003:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-020:PBI-BPM-003:XP-AvgValue" valid="true" />
                     <channel handle="phaseArray" settable="false" signal="DTL-020:PBI-BPM-003:SA-TR1-ArrayData" valid="true" />
+                    <channel handle="yArray" settable="false" signal="DTL-020:PBI-BPM-003:YP-TR1-ArrayData" valid="true" />
+                    <channel handle="xArray" settable="false" signal="DTL-020:PBI-BPM-003:XP-TR1-ArrayData" valid="true" />
+                    <channel handle="amplitudeArray" settable="false" signal="DTL-020:PBI-BPM-003:SM-TR1-ArrayData" valid="true" />
                 </channelsuite>
             </node>
             <node id="DTL-020:EMR-Cav-001:G28" len="0.0" pos="5.6134962" s="24.4464058" type="RG">
@@ -4291,6 +4342,9 @@
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-030:PBI-BPM-001:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-030:PBI-BPM-001:XP-AvgValue" valid="true" />
                     <channel handle="phaseArray" settable="false" signal="DTL-030:PBI-BPM-001:SA-TR1-ArrayData" valid="true" />
+                    <channel handle="yArray" settable="false" signal="DTL-030:PBI-BPM-001:YP-TR1-ArrayData" valid="true" />
+                    <channel handle="xArray" settable="false" signal="DTL-030:PBI-BPM-001:XP-TR1-ArrayData" valid="true" />
+                    <channel handle="amplitudeArray" settable="false" signal="DTL-030:PBI-BPM-001:SM-TR1-ArrayData" valid="true" />
                 </channelsuite>
             </node>
             <node id="DTL-030:EMR-Cav-001:G5" len="0.0" pos="1.0956229" s="27.2930373" type="RG">
@@ -4449,6 +4503,9 @@
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-030:PBI-BPM-002:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-030:PBI-BPM-002:XP-AvgValue" valid="true" />
                     <channel handle="phaseArray" settable="false" signal="DTL-030:PBI-BPM-002:SA-TR1-ArrayData" valid="true" />
+                    <channel handle="yArray" settable="false" signal="DTL-030:PBI-BPM-002:YP-TR1-ArrayData" valid="true" />
+                    <channel handle="xArray" settable="false" signal="DTL-030:PBI-BPM-002:XP-TR1-ArrayData" valid="true" />
+                    <channel handle="amplitudeArray" settable="false" signal="DTL-030:PBI-BPM-002:SM-TR1-ArrayData" valid="true" />
                 </channelsuite>
             </node>
             <node id="DTL-030:EMR-Cav-001:G19" len="0.0" pos="4.6895349" s="30.8869493" type="RG">
@@ -4633,6 +4690,9 @@
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-040:PBI-BPM-001:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-040:PBI-BPM-001:XP-AvgValue" valid="true" />
                     <channel handle="phaseArray" settable="false" signal="DTL-040:PBI-BPM-001:SA-TR1-ArrayData" valid="true" />
+                    <channel handle="yArray" settable="false" signal="DTL-040:PBI-BPM-001:YP-TR1-ArrayData" valid="true" />
+                    <channel handle="xArray" settable="false" signal="DTL-040:PBI-BPM-001:XP-TR1-ArrayData" valid="true" />
+                    <channel handle="amplitudeArray" settable="false" signal="DTL-040:PBI-BPM-001:SM-TR1-ArrayData" valid="true" />
                 </channelsuite>
             </node>
             <node id="DTL-040:EMR-Cav-001:G3" len="0.0" pos="0.7213027" s="34.784831" type="RG">
@@ -4773,6 +4833,9 @@
                     <channel handle="amplitudeAvg" settable="false" signal="DTL-040:PBI-BPM-002:SM-AvgValue" valid="true" />
                     <channel handle="xAvg" settable="false" signal="DTL-040:PBI-BPM-002:XP-AvgValue" valid="true" />
                     <channel handle="phaseArray" settable="false" signal="DTL-040:PBI-BPM-002:SA-TR1-ArrayData" valid="true" />
+                    <channel handle="yArray" settable="false" signal="DTL-040:PBI-BPM-002:YP-TR1-ArrayData" valid="true" />
+                    <channel handle="xArray" settable="false" signal="DTL-040:PBI-BPM-002:XP-TR1-ArrayData" valid="true" />
+                    <channel handle="amplitudeArray" settable="false" signal="DTL-040:PBI-BPM-002:SM-TR1-ArrayData" valid="true" />
                 </channelsuite>
             </node>
             <node id="DTL-040:EMR-Cav-001:G15" len="0.0" pos="4.2662059" s="38.3297343" type="RG">
