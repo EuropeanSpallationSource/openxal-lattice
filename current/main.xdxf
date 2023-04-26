@@ -4631,9 +4631,9 @@
                 </attributes>
             </node>
         </sequence>
-        <sequence id="DTL-040:EMR-Cav-001" len="8.1263381" pos="23.0265564" s="34.0635284" type="DTLTank">
+        <sequence id="DTL-040:EMR-Cav-001" len="7.84721" pos="23.0265564" s="34.0635284" type="DTLTank">
             <attributes>
-                <rfcavity amp="3.42109526114517" ampFactor="1.0" freq="352.21" phase="-34.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
+                <rfcavity amp="3.04" ampFactor="1.0" freq="352.21" phase="-34.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
             <channelsuite>
                 <channel handle="cavPhaseAvg" settable="false" signal="DTL-040:RFS-LLRF-101:SPRampingPhase" valid="true" />
@@ -4665,7 +4665,7 @@
             <node id="DTL-040:EMR-Cav-001:G1" len="0.0" pos="0.143633" s="34.2071614" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="1.0" endCell="0" gapOffset="0.0" length="0.2074172" phaseFactor="0.0" stfCoeffs="0.333834,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.333834,0.812129,-0.352302,-0.261651" />
+                    <rfgap TTF="1.0" ampFactor="0.8126148984884245" endCell="0" gapOffset="0.0" length="0.2872444" phaseFactor="0.0" stfCoeffs="0.333834,0.0,0.0,0.0" ttfCoeffs="0.333834,0.812129,-0.352302,-0.261651"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-PMQ-001" len="0.08" pos="0.2874172" s="34.3509456" type="PQ">
@@ -4677,7 +4677,7 @@
             <node id="DTL-040:EMR-Cav-001:G2" len="0.0" pos="0.4315613" s="34.4950896" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9955968111539983" endCell="0" gapOffset="0.0" length="0.2085838" phaseFactor="0.0" stfCoeffs="0.33544,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.33544,0.809351,-0.357236,-0.264205" />
+                    <rfgap TTF="1.0" ampFactor="0.8085628524968156" endCell="0" gapOffset="0.0" length="0.2890293" phaseFactor="0.0" stfCoeffs="0.33544,0.0,0.0,0.0" ttfCoeffs="0.33544,0.809351,-0.357236,-0.264205"/>
                 </attributes>
             </node>
             <node id="DTL-040:PBI-BPM-001" len="0.0" pos="0.576001" s="34.6395294" type="BPM">
@@ -4698,7 +4698,7 @@
             <node id="DTL-040:EMR-Cav-001:G3" len="0.0" pos="0.7213027" s="34.784831" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="1.0033334892009984" endCell="0" gapOffset="0.0" length="0.207302" phaseFactor="0.0" stfCoeffs="0.337106,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.337106,0.815409,-0.346573,-0.259072" />
+                    <rfgap TTF="1.0" ampFactor="0.8159079629069016" endCell="0" gapOffset="0.0" length="0.2868793" phaseFactor="0.0" stfCoeffs="0.337106,0.0,0.0,0.0" ttfCoeffs="0.337106,0.815409,-0.346573,-0.259072"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-PMQ-002" len="0.08" pos="0.863303" s="34.9268314" type="PQ">
@@ -4710,7 +4710,7 @@
             <node id="DTL-040:EMR-Cav-001:G4" len="0.0" pos="1.0089126" s="35.072441" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="1.0009775093249609" endCell="0" gapOffset="0.0" length="0.2083176" phaseFactor="0.0" stfCoeffs="0.338797,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.338797,0.813802,-0.349453,-0.260679" />
+                    <rfgap TTF="1.0" ampFactor="0.8138959830503412" endCell="0" gapOffset="0.0" length="0.28831880000000004" phaseFactor="0.0" stfCoeffs="0.338797,0.0,0.0,0.0" ttfCoeffs="0.338797,0.813802,-0.349453,-0.260679"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-CV-001" len="0.0" pos="1.1516208" s="35.2151491" type="DC">
@@ -4726,7 +4726,7 @@
             <node id="DTL-040:EMR-Cav-001:G5" len="0.0" pos="1.2979593" s="35.3614877" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.996880013419942" endCell="0" gapOffset="0.0" length="0.2097512" phaseFactor="0.0" stfCoeffs="0.340482,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.340482,0.812194,-0.352335,-0.262274" />
+                    <rfgap TTF="1.0" ampFactor="0.8121035991254465" endCell="0" gapOffset="0.0" length="0.28975270000000003" phaseFactor="0.0" stfCoeffs="0.340482,0.0,0.0,0.0" ttfCoeffs="0.340482,0.812194,-0.352335,-0.262274"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-PMQ-003" len="0.08" pos="1.4413718" s="35.5049002" type="PQ">
@@ -4738,7 +4738,7 @@
             <node id="DTL-040:EMR-Cav-001:G6" len="0.0" pos="1.588437" s="35.6519654" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.99286395321356" endCell="0" gapOffset="0.0" length="0.2111799" phaseFactor="0.0" stfCoeffs="0.342161,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.342161,0.810584,-0.355216,-0.263859" />
+                    <rfgap TTF="1.0" ampFactor="0.8103467114594486" endCell="0" gapOffset="0.0" length="0.29118099999999997" phaseFactor="0.0" stfCoeffs="0.342161,0.0,0.0,0.0" ttfCoeffs="0.342161,0.810584,-0.355216,-0.263859"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-CH-001" len="0.0" pos="1.7325522" s="35.7960806" type="DC">
@@ -4754,7 +4754,7 @@
             <node id="DTL-040:EMR-Cav-001:G7" len="0.0" pos="1.8803401" s="35.9438685" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9889380460883499" endCell="0" gapOffset="0.0" length="0.2126023" phaseFactor="0.0" stfCoeffs="0.343832,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.343832,0.808971,-0.3581,-0.265432" />
+                    <rfgap TTF="1.0" ampFactor="0.8086283483507165" endCell="0" gapOffset="0.0" length="0.29260359999999996" phaseFactor="0.0" stfCoeffs="0.343832,0.0,0.0,0.0" ttfCoeffs="0.343832,0.808971,-0.3581,-0.265432"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-PMQ-004" len="0.08" pos="2.025154" s="36.0886824" type="PQ">
@@ -4766,13 +4766,13 @@
             <node id="DTL-040:EMR-Cav-001:G8" len="0.0" pos="2.1736631" s="36.2371914" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9850946394775317" endCell="0" gapOffset="0.0" length="0.2140193" phaseFactor="0.0" stfCoeffs="0.345497,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.345497,0.807357,-0.360983,-0.266994" />
+                    <rfgap TTF="1.0" ampFactor="0.8069461829692514" endCell="0" gapOffset="0.0" length="0.29402069999999997" phaseFactor="0.0" stfCoeffs="0.345497,0.0,0.0,0.0" ttfCoeffs="0.345497,0.807357,-0.360983,-0.266994"/>
                 </attributes>
             </node>
             <node id="DTL-040:EMR-Cav-001:G9" len="0.0" pos="2.4684002" s="36.5319285" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9812834162199922" endCell="0" gapOffset="0.0" length="0.2154311" phaseFactor="0.0" stfCoeffs="0.347156,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.347156,0.805743,-0.363867,-0.268545" />
+                    <rfgap TTF="1.0" ampFactor="0.8052611750720385" endCell="0" gapOffset="0.0" length="0.2954321" phaseFactor="0.0" stfCoeffs="0.347156,0.0,0.0,0.0" ttfCoeffs="0.347156,0.805743,-0.363867,-0.268545"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-PMQ-005" len="0.08" pos="2.6146044" s="36.6781328" type="PQ">
@@ -4784,13 +4784,13 @@
             <node id="DTL-040:EMR-Cav-001:G10" len="0.0" pos="2.7645459" s="36.8280743" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9776240805247454" endCell="0" gapOffset="0.0" length="0.2168256" phaseFactor="0.0" stfCoeffs="0.348808,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.348808,0.804127,-0.366747,-0.270081" />
+                    <rfgap TTF="1.0" ampFactor="0.8036270271113677" endCell="0" gapOffset="0.0" length="0.29683800000000005" phaseFactor="0.0" stfCoeffs="0.348808,0.0,0.0,0.0" ttfCoeffs="0.348808,0.804127,-0.366747,-0.270081"/>
                 </attributes>
             </node>
             <node id="DTL-040:EMR-Cav-001:G11" len="0.0" pos="3.0620947" s="37.1256231" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.97339903963385" endCell="0" gapOffset="0.0" length="0.2182478" phaseFactor="0.0" stfCoeffs="0.350453,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.350453,0.802347,-0.369911,-0.271734" />
+                    <rfgap TTF="1.0" ampFactor="0.8016212990824939" endCell="0" gapOffset="0.0" length="0.2982381" phaseFactor="0.0" stfCoeffs="0.350453,0.0,0.0,0.0" ttfCoeffs="0.350453,0.802347,-0.369911,-0.271734"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-PMQ-006" len="0.08" pos="3.2096778" s="37.2732062" type="PQ">
@@ -4802,13 +4802,13 @@
             <node id="DTL-040:EMR-Cav-001:G12" len="0.0" pos="3.3610406" s="37.424569" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9698364671852578" endCell="0" gapOffset="0.0" length="0.2196315" phaseFactor="0.0" stfCoeffs="0.352092,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.352092,0.800729,-0.37279,-0.273246" />
+                    <rfgap TTF="1.0" ampFactor="0.800010714880114" endCell="0" gapOffset="0.0" length="0.2996325" phaseFactor="0.0" stfCoeffs="0.352092,0.0,0.0,0.0" ttfCoeffs="0.352092,0.800729,-0.37279,-0.273246"/>
                 </attributes>
             </node>
             <node id="DTL-040:EMR-Cav-001:G13" len="0.0" pos="3.6613781" s="37.7249065" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9662657872143379" endCell="0" gapOffset="0.0" length="0.2210203" phaseFactor="0.0" stfCoeffs="0.353724,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.353724,0.799111,-0.375666,-0.274744" />
+                    <rfgap TTF="1.0" ampFactor="0.7984045058100956" endCell="0" gapOffset="0.0" length="0.30102140000000005" phaseFactor="0.0" stfCoeffs="0.353724,0.0,0.0,0.0" ttfCoeffs="0.353724,0.799111,-0.375666,-0.274744"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-PMQ-007" len="0.08" pos="3.8103296" s="37.873858" type="PQ">
@@ -4820,7 +4820,7 @@
             <node id="DTL-040:EMR-Cav-001:G14" len="0.0" pos="3.9631017" s="38.0266301" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9627722603224543" endCell="0" gapOffset="0.0" length="0.2224034" phaseFactor="0.0" stfCoeffs="0.355349,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.355349,0.797493,-0.37854,-0.276228" />
+                    <rfgap TTF="1.0" ampFactor="0.7968340693283342" endCell="0" gapOffset="0.0" length="0.30240480000000003" phaseFactor="0.0" stfCoeffs="0.355349,0.0,0.0,0.0" ttfCoeffs="0.355349,0.797493,-0.37854,-0.276228"/>
                 </attributes>
             </node>
             <node id="DTL-040:PBI-BPM-002" len="0.0" pos="4.1127333" s="38.1762617" type="BPM">
@@ -4841,7 +4841,7 @@
             <node id="DTL-040:EMR-Cav-001:G15" len="0.0" pos="4.2662059" s="38.3297343" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9593411872771491" endCell="0" gapOffset="0.0" length="0.2237817" phaseFactor="0.0" stfCoeffs="0.356968,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.356968,0.795873,-0.381417,-0.277704" />
+                    <rfgap TTF="1.0" ampFactor="0.7952915133526756" endCell="0" gapOffset="0.0" length="0.3037826" phaseFactor="0.0" stfCoeffs="0.356968,0.0,0.0,0.0" ttfCoeffs="0.356968,0.795873,-0.381417,-0.277704"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-PMQ-008" len="0.08" pos="4.4165147" s="38.4800431" type="PQ">
@@ -4853,7 +4853,7 @@
             <node id="DTL-040:EMR-Cav-001:G16" len="0.0" pos="4.5706851" s="38.6342134" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9560126230290535" endCell="0" gapOffset="0.0" length="0.2251537" phaseFactor="0.0" stfCoeffs="0.358581,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.358581,0.794255,-0.38428,-0.27916" />
+                    <rfgap TTF="1.0" ampFactor="0.7938054804695155" endCell="0" gapOffset="0.0" length="0.3051548" phaseFactor="0.0" stfCoeffs="0.358581,0.0,0.0,0.0" ttfCoeffs="0.358581,0.794255,-0.38428,-0.27916"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-CV-002" len="0.0" pos="4.7216683" s="38.7851967" type="DC">
@@ -4869,7 +4869,7 @@
             <node id="DTL-040:EMR-Cav-001:G17" len="0.0" pos="4.8765336" s="38.940062" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9528083673349277" endCell="0" gapOffset="0.0" length="0.2265088" phaseFactor="0.0" stfCoeffs="0.360187,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.360187,0.792637,-0.387146,-0.280604" />
+                    <rfgap TTF="1.0" ampFactor="0.7923574425183465" endCell="0" gapOffset="0.0" length="0.3065216" phaseFactor="0.0" stfCoeffs="0.360187,0.0,0.0,0.0" ttfCoeffs="0.360187,0.792637,-0.387146,-0.280604"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-PMQ-009" len="0.08" pos="5.0281772" s="39.0917056" type="PQ">
@@ -4881,7 +4881,7 @@
             <node id="DTL-040:EMR-Cav-001:G18" len="0.0" pos="5.1837462" s="39.2472746" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9490925940326758" endCell="0" gapOffset="0.0" length="0.2278933" phaseFactor="0.0" stfCoeffs="0.361786,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.361786,0.790854,-0.390293,-0.282157" />
+                    <rfgap TTF="1.0" ampFactor="0.7905811206670592" endCell="0" gapOffset="0.0" length="0.3078827" phaseFactor="0.0" stfCoeffs="0.361786,0.0,0.0,0.0" ttfCoeffs="0.361786,0.790854,-0.390293,-0.282157"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-CH-002" len="0.0" pos="5.3360711" s="39.3995995" type="DC">
@@ -4897,7 +4897,7 @@
             <node id="DTL-040:EMR-Cav-001:G19" len="0.0" pos="5.492317" s="39.5558453" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9460430434282704" endCell="0" gapOffset="0.0" length="0.2292369" phaseFactor="0.0" stfCoeffs="0.363379,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.363379,0.78924,-0.393145,-0.283571" />
+                    <rfgap TTF="1.0" ampFactor="0.7892123458976215" endCell="0" gapOffset="0.0" length="0.3092382" phaseFactor="0.0" stfCoeffs="0.363379,0.0,0.0,0.0" ttfCoeffs="0.363379,0.78924,-0.393145,-0.283571"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-PMQ-010" len="0.08" pos="5.6453074" s="39.7088358" type="PQ">
@@ -4909,13 +4909,13 @@
             <node id="DTL-040:EMR-Cav-001:G20" len="0.0" pos="5.8022404" s="39.8657688" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9429910406397937" endCell="0" gapOffset="0.0" length="0.230587" phaseFactor="0.0" stfCoeffs="0.364965,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.364965,0.787622,-0.396002,-0.284974" />
+                    <rfgap TTF="1.0" ampFactor="0.7878599380143869" endCell="0" gapOffset="0.0" length="0.3105882" phaseFactor="0.0" stfCoeffs="0.364965,0.0,0.0,0.0" ttfCoeffs="0.364965,0.787622,-0.396002,-0.284974"/>
                 </attributes>
             </node>
             <node id="DTL-040:EMR-Cav-001:G21" len="0.0" pos="6.1135112" s="40.1770395" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9400796598638399" endCell="0" gapOffset="0.0" length="0.2319205" phaseFactor="0.0" stfCoeffs="0.366545,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.366545,0.786006,-0.398855,-0.286366" />
+                    <rfgap TTF="1.0" ampFactor="0.7865644881137691" endCell="0" gapOffset="0.0" length="0.3119328" phaseFactor="0.0" stfCoeffs="0.366545,0.0,0.0,0.0" ttfCoeffs="0.366545,0.786006,-0.398855,-0.286366"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-PMQ-011" len="0.08" pos="6.2678149" s="40.3313433" type="PQ">
@@ -4927,13 +4927,13 @@
             <node id="DTL-040:EMR-Cav-001:G22" len="0.0" pos="6.4261237" s="40.489652" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9366852086757647" endCell="0" gapOffset="0.0" length="0.2332821" phaseFactor="0.0" stfCoeffs="0.368118,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.368118,0.784227,-0.40198,-0.287853" />
+                    <rfgap TTF="1.0" ampFactor="0.7849563342720005" endCell="0" gapOffset="0.0" length="0.31327170000000004" phaseFactor="0.0" stfCoeffs="0.368118,0.0,0.0,0.0" ttfCoeffs="0.368118,0.784227,-0.40198,-0.287853"/>
                 </attributes>
             </node>
             <node id="DTL-040:EMR-Cav-001:G23" len="0.0" pos="6.7400723" s="40.8036006" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9355710455758642" endCell="0" gapOffset="0.0" length="0.2341551" phaseFactor="0.0" stfCoeffs="0.369685,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.369685,0.782614,-0.404817,-0.289211" />
+                    <rfgap TTF="1.0" ampFactor="0.7836210272430333" endCell="0" gapOffset="0.0" length="0.31460520000000003" phaseFactor="0.0" stfCoeffs="0.369685,0.0,0.0,0.0" ttfCoeffs="0.369685,0.782614,-0.404817,-0.289211"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-PMQ-012" len="0.08" pos="6.8952521" s="40.9587805" type="PQ">
@@ -4945,13 +4945,13 @@
             <node id="DTL-040:EMR-Cav-001:G24" len="0.0" pos="7.0553518" s="41.1188801" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9451711280732005" endCell="0" gapOffset="0.0" length="0.2324717" phaseFactor="0.0" stfCoeffs="0.371245,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.371245,0.789797,-0.392345,-0.283931" />
+                    <rfgap TTF="1.0" ampFactor="0.7925927609213064" endCell="0" gapOffset="0.0" length="0.31197660000000005" phaseFactor="0.0" stfCoeffs="0.371245,0.0,0.0,0.0" ttfCoeffs="0.371245,0.789797,-0.392345,-0.283931"/>
                 </attributes>
             </node>
             <node id="DTL-040:EMR-Cav-001:G25" len="0.0" pos="7.3679925" s="41.4315208" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.9393563567729745" endCell="0" gapOffset="0.0" length="0.2347005" phaseFactor="0.0" stfCoeffs="0.372765,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.372765,0.787373,-0.396605,-0.285949" />
+                    <rfgap TTF="1.0" ampFactor="0.7909287817624642" endCell="0" gapOffset="0.0" length="0.3136885" phaseFactor="0.0" stfCoeffs="0.372765,0.0,0.0,0.0" ttfCoeffs="0.372765,0.787373,-0.396605,-0.285949"/>
                 </attributes>
             </node>
             <node id="DTL-040:BMD-PMQ-013" len="0.08" pos="7.5224243" s="41.5859527" type="PQ">
@@ -4963,7 +4963,7 @@
             <node id="DTL-040:EMR-Cav-001:G26" len="0.0" pos="7.6823133" s="41.7458417" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
-                    <rfgap TTF="1.0" ampFactor="0.8936721597121835" endCell="0" gapOffset="0.0" length="0.2447888" phaseFactor="0.0" stfCoeffs="0.374216,0.0,0.0,0.0" testAmpFactor="0.0" testPhaseFactor="0.0" ttfCoeffs="0.374216,0.758033,-0.447244,-0.306079" />
+                    <rfgap TTF="1.0" ampFactor="0.7552296994113098" endCell="0" gapOffset="0.0" length="0.3259735" phaseFactor="0.0" stfCoeffs="0.374216,0.0,0.0,0.0" ttfCoeffs="0.374216,0.758033,-0.447244,-0.306079"/>
                 </attributes>
             </node>
             <node id="DTL-040:PBI-BCM-001" len="0.0" pos="7.8473451" s="41.9108735" status="true" type="BCM">
