@@ -3815,17 +3815,17 @@
                     <rfgap TTF="1.0" ampFactor="0.8912802225833766" endCell="0" gapOffset="0.0" length="0.17745560000000002" phaseFactor="0.0" stfCoeffs="0.208535,0.0,0.0,0.0" ttfCoeffs="0.208535,0.906359,-0.179459,-0.149052"/>
                 </attributes>
             </node>
-            <node id="DTL-010:PBI-BCM-001" len="0.0" pos="7.6429486" s="18.67992060" status="true" type="BCM">
-                <channelsuite>
-                    <channel handle="DisplayLength" settable="false" signal="DTL-010:PBI-BCM-001:PulseWidthR" valid="true" />
-                    <channel handle="currentAvg" settable="false" signal="DTL-010:PBI-BCM-001:FlatTopCurrentR" valid="true" />
-                    <channel handle="currentMax" settable="false" signal="DTL-010:PBI-BCM-001:UpperThreshold" valid="true" />
-                    <channel handle="tDelay" settable="false" signal="DTL-010:PBI-BCM-001:FineDelayR" valid="true" />
-                    <channel handle="Particles" settable="false" signal="DTL-010:PBI-BCM-001:PulseChargeR" valid="true" />
-                    <channel handle="currentArray" settable="false" signal="DTL-010:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
-                </channelsuite>
-            </node>
-            </sequence>
+        </sequence>
+        <node id="DTL-010:PBI-BCM-001" len="0.0" pos="7.6429486" s="18.67992060" status="true" type="BCM">
+            <channelsuite>
+                <channel handle="DisplayLength" settable="false" signal="DTL-010:PBI-BCM-001:PulseWidthR" valid="true" />
+                <channel handle="currentAvg" settable="false" signal="DTL-010:PBI-BCM-001:FlatTopCurrentR" valid="true" />
+                <channel handle="currentMax" settable="false" signal="DTL-010:PBI-BCM-001:UpperThreshold" valid="true" />
+                <channel handle="tDelay" settable="false" signal="DTL-010:PBI-BCM-001:FineDelayR" valid="true" />
+                <channel handle="Particles" settable="false" signal="DTL-010:PBI-BCM-001:PulseChargeR" valid="true" />
+                <channel handle="currentArray" settable="false" signal="DTL-010:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
+            </channelsuite>
+        </node>
         <sequence id="DTL-020:EMR-Cav-001" len="7.10114" pos="7.7959377" s="18.8329097" type="DTLTank">
             <attributes>
                 <rfcavity amp="3.16" ampFactor="1.0" freq="352.21" phase="-34.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
@@ -4265,6 +4265,16 @@
                 </attributes>
             </node>
         </sequence>
+        <node id="DTL-020:PBI-BCM-001" len="0.0" pos="7.7959377" s="26.1974144" status="true" type="BCM">
+            <channelsuite>
+                <channel handle="DisplayLength" settable="false" signal="DTL-020:PBI-BCM-001:PulseWidthR" valid="true" />
+                <channel handle="currentAvg" settable="false" signal="DTL-020:PBI-BCM-001:FlatTopCurrentR" valid="true" />
+                <channel handle="currentMax" settable="false" signal="DTL-020:PBI-BCM-001:UpperThreshold" valid="true" />
+                <channel handle="tDelay" settable="false" signal="DTL-020:PBI-BCM-001:FineDelayR" valid="true" />
+                <channel handle="Particles" settable="false" signal="DTL-020:PBI-BCM-001:PulseChargeR" valid="true" />
+                <channel handle="currentArray" settable="false" signal="DTL-020:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
+            </channelsuite>
+        </node>
         <sequence id="DTL-030:EMR-Cav-001" len="7.58263" pos="15.1604424" s="26.1974144" type="DTLTank">
             <attributes>
                 <rfcavity amp="3.07" ampFactor="1.0" freq="352.21" phase="-34.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
@@ -4286,16 +4296,6 @@
                 <channel handle="cavFwd2" settable="true" signal="DTL-030:RFS-DIG-101:Dwn4-Cmp1" valid="true" />
                 <channel handle="cavRefl2" settable="true" signal="DTL-030:RFS-DIG-101:Dwn5-Cmp1" valid="true" />
             </channelsuite>
-            <node id="DTL-020:PBI-BCM-001" len="0.0" pos="0.0" s="26.1974144" status="true" type="BCM">
-                <channelsuite>
-                    <channel handle="DisplayLength" settable="false" signal="DTL-020:PBI-BCM-001:PulseWidthR" valid="true" />
-                    <channel handle="currentAvg" settable="false" signal="DTL-020:PBI-BCM-001:FlatTopCurrentR" valid="true" />
-                    <channel handle="currentMax" settable="false" signal="DTL-020:PBI-BCM-001:UpperThreshold" valid="true" />
-                    <channel handle="tDelay" settable="false" signal="DTL-020:PBI-BCM-001:FineDelayR" valid="true" />
-                    <channel handle="Particles" settable="false" signal="DTL-020:PBI-BCM-001:PulseChargeR" valid="true" />
-                    <channel handle="currentArray" settable="false" signal="DTL-020:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
-                </channelsuite>
-            </node>
             <node id="DTL-030:EMR-Cav-001:G1" len="0.0" pos="0.1208746" s="26.3182889" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.011" y="0.011" />
@@ -4631,6 +4631,16 @@
                 </attributes>
             </node>
         </sequence>
+        <node id="DTL-030:PBI-BCM-001" len="0.0" pos="23.0265564" s="34.0635284" status="true" type="BCM">
+            <channelsuite>
+                <channel handle="DisplayLength" settable="false" signal="DTL-030:PBI-BCM-001:PulseWidthR" valid="true" />
+                <channel handle="currentAvg" settable="false" signal="DTL-030:PBI-BCM-001:FlatTopCurrentR" valid="true" />
+                <channel handle="currentMax" settable="false" signal="DTL-030:PBI-BCM-001:UpperThreshold" valid="true" />
+                <channel handle="tDelay" settable="false" signal="DTL-030:PBI-BCM-001:FineDelayR" valid="true" />
+                <channel handle="Particles" settable="false" signal="DTL-030:PBI-BCM-001:PulseChargeR" valid="true" />
+                <channel handle="currentArray" settable="false" signal="DTL-030:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
+            </channelsuite>
+        </node>
         <sequence id="DTL-040:EMR-Cav-001" len="7.84721" pos="23.0265564" s="34.0635284" type="DTLTank">
             <attributes>
                 <rfcavity amp="3.04" ampFactor="1.0" freq="352.21" phase="-34.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
@@ -4652,16 +4662,6 @@
                 <channel handle="cavFwd2" settable="true" signal="DTL-040:RFS-DIG-101:Dwn4-Cmp1" valid="true" />
                 <channel handle="cavRefl2" settable="true" signal="DTL-040:RFS-DIG-101:Dwn5-Cmp1" valid="true" />
             </channelsuite>
-            <node id="DTL-030:PBI-BCM-001" len="0.0" pos="0.0" s="34.0635284" status="true" type="BCM">
-                <channelsuite>
-                    <channel handle="DisplayLength" settable="false" signal="DTL-030:PBI-BCM-001:PulseWidthR" valid="true" />
-                    <channel handle="currentAvg" settable="false" signal="DTL-030:PBI-BCM-001:FlatTopCurrentR" valid="true" />
-                    <channel handle="currentMax" settable="false" signal="DTL-030:PBI-BCM-001:UpperThreshold" valid="true" />
-                    <channel handle="tDelay" settable="false" signal="DTL-030:PBI-BCM-001:FineDelayR" valid="true" />
-                    <channel handle="Particles" settable="false" signal="DTL-030:PBI-BCM-001:PulseChargeR" valid="true" />
-                    <channel handle="currentArray" settable="false" signal="DTL-030:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
-                </channelsuite>
-            </node>
             <node id="DTL-040:EMR-Cav-001:G1" len="0.0" pos="0.143633" s="34.2071614" type="RG">
                 <attributes>
                     <aperture shape="1" x="0.012" y="0.012" />
@@ -4966,17 +4966,17 @@
                     <rfgap TTF="1.0" ampFactor="0.7552296994113098" endCell="0" gapOffset="0.0" length="0.3259735" phaseFactor="0.0" stfCoeffs="0.374216,0.0,0.0,0.0" ttfCoeffs="0.374216,0.758033,-0.447244,-0.306079"/>
                 </attributes>
             </node>
-            <node id="DTL-040:PBI-BCM-001" len="0.0" pos="7.8473451" s="41.9108735" status="true" type="BCM">
-                <channelsuite>
-                    <channel handle="DisplayLength" settable="false" signal="DTL-040:PBI-BCM-001:PulseWidthR" valid="true" />
-                    <channel handle="currentAvg" settable="false" signal="DTL-040:PBI-BCM-001:FlatTopCurrentR" valid="true" />
-                    <channel handle="currentMax" settable="false" signal="DTL-040:PBI-BCM-001:UpperThreshold" valid="true" />
-                    <channel handle="tDelay" settable="false" signal="DTL-040:PBI-BCM-001:FineDelayR" valid="true" />
-                    <channel handle="Particles" settable="false" signal="DTL-040:PBI-BCM-001:PulseChargeR" valid="true" />
-                    <channel handle="currentArray" settable="false" signal="DTL-040:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
-                </channelsuite>
-            </node>
         </sequence>
+        <node id="DTL-040:PBI-BCM-001" len="0.0" pos="30.8739015" s="41.9108735" status="true" type="BCM">
+            <channelsuite>
+                <channel handle="DisplayLength" settable="false" signal="DTL-040:PBI-BCM-001:PulseWidthR" valid="true" />
+                <channel handle="currentAvg" settable="false" signal="DTL-040:PBI-BCM-001:FlatTopCurrentR" valid="true" />
+                <channel handle="currentMax" settable="false" signal="DTL-040:PBI-BCM-001:UpperThreshold" valid="true" />
+                <channel handle="tDelay" settable="false" signal="DTL-040:PBI-BCM-001:FineDelayR" valid="true" />
+                <channel handle="Particles" settable="false" signal="DTL-040:PBI-BCM-001:PulseChargeR" valid="true" />
+                <channel handle="currentArray" settable="false" signal="DTL-040:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
+            </channelsuite>
+        </node>
         <node id="DTL-040:PBI-FC-001" len="0.0" pos="33.1528945" s="44.1898665" status="true" type="BCM">
             <attributes>
                 <aperture shape="1" x="0.0184" y="0.0184" />
