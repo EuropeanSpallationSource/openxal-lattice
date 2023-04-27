@@ -2425,6 +2425,8 @@
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-001:SA-AvgValue" valid="true" />
                 <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-001:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-001:SM-AvgValue" valid="true" />
+                <channel handle="sigROIStart" settable="false" signal="PBI-BPM01:Ctrl-AMC-110:RoiFirstSampleR" valid="true" />
+                <channel handle="sigROIEnd" settable="false" signal="PBI-BPM01:Ctrl-AMC-110:RoiLastSampleR" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-001:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
@@ -2467,11 +2469,11 @@
             </attributes>
             <channelsuite>
                 <channel handle="cavAmpSet" settable="true" signal="MEBT-010:RFS-LLRF-101:SPRampingA" valid="true" />
-                <channel handle="cavAmpAvg" settable="true" signal="MEBT-010:RFS-LLRF-101:SPRampingA" valid="true" />
+                <channel handle="cavAmpAvg" settable="true" signal="MEBT-010:RFS-DIG-101:AI0-SMonAvg-Mag" valid="true" />
                 <channel handle="cavAmpWave" settable="true" signal="MEBT-010:RFS-DIG-101:SPTbl-Mag" valid="true" />
                 <channel handle="cavAmpArray" settable="true" signal="MEBT-010:RFS-DIG-101:Dwn0-Cmp0" valid="true" />
                 <channel handle="cavPhaseSet" settable="true" signal="MEBT-010:RFS-LLRF-101:SPRampingPhase" valid="true" />
-                <channel handle="cavPhaseAvg" settable="true" signal="MEBT-010:RFS-LLRF-101:SPRampingPhase" valid="true" />
+                <channel handle="cavPhaseAvg" settable="true" signal="MEBT-010:RFS-DIG-101:RFCErrLimSBCmp1" valid="true" />
                 <channel handle="cavPhaseAck" settable="true" signal="MEBT-010:RFS-LLRF-101:SPRampingEn" valid="true" />
                 <channel handle="cavPhaseWave" settable="true" signal="MEBT-010:RFS-DIG-101:SPTbl-Ang" valid="true" />
                 <channel handle="cavPhaseArray" settable="true" signal="MEBT-010:RFS-DIG-101:Dwn0-Cmp1" valid="true" />
@@ -2496,6 +2498,8 @@
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-002:SA-AvgValue" valid="true" />
                 <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-002:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-002:SM-AvgValue" valid="true" />
+                <channel handle="sigROIStart" settable="false" signal="PBI-BPM01:Ctrl-AMC-110:RoiFirstSampleR" valid="true" />
+                <channel handle="sigROIEnd" settable="false" signal="PBI-BPM01:Ctrl-AMC-110:RoiLastSampleR" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-002:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
@@ -2643,6 +2647,8 @@
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-003:SA-AvgValue" valid="true" />
                 <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-003:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-003:SM-AvgValue" valid="true" />
+                <channel handle="sigROIStart" settable="false" signal="PBI-BPM01:Ctrl-AMC-120:RoiFirstSampleR" valid="true" />
+                <channel handle="sigROIEnd" settable="false" signal="PBI-BPM01:Ctrl-AMC-120:RoiLastSampleR" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-003:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
@@ -2745,6 +2751,8 @@
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-005:SA-AvgValue" valid="true" />
                 <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-005:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-005:SM-AvgValue" valid="true" />
+                <channel handle="sigROIStart" settable="false" signal="PBI-BPM01:Ctrl-AMC-120:RoiFirstSampleR" valid="true" />
+                <channel handle="sigROIEnd" settable="false" signal="PBI-BPM01:Ctrl-AMC-120:RoiLastSampleR" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-005:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
@@ -2876,6 +2884,8 @@
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-006:SA-AvgValue" valid="true" />
                 <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-006:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-006:SM-AvgValue" valid="true" />
+                <channel handle="sigROIStart" settable="false" signal="PBI-BPM01:Ctrl-AMC-130:RoiFirstSampleR" valid="true" />
+                <channel handle="sigROIEnd" settable="false" signal="PBI-BPM01:Ctrl-AMC-130:RoiLastSampleR" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-006:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
@@ -2917,6 +2927,8 @@
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-007:SA-AvgValue" valid="true" />
                 <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-007:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-007:SM-AvgValue" valid="true" />
+                <channel handle="sigROIStart" settable="false" signal="PBI-BPM01:Ctrl-AMC-130:RoiFirstSampleR" valid="true" />
+                <channel handle="sigROIEnd" settable="false" signal="PBI-BPM01:Ctrl-AMC-130:RoiLastSampleR" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-007:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
@@ -2967,6 +2979,8 @@
                 <channel handle="phaseAvg" settable="false" signal="MEBT-010:PBI-BPM-008:SA-AvgValue" valid="true" />
                 <channel handle="phaseArray" settable="false" signal="MEBT-010:PBI-BPM-008:SA-TR1-ArrayData" valid="true" />
                 <channel handle="amplitudeAvg" settable="false" signal="MEBT-010:PBI-BPM-008:SM-AvgValue" valid="true" />
+                <channel handle="sigROIStart" settable="false" signal="PBI-BPM01:Ctrl-AMC-130:RoiFirstSampleR" valid="true" />
+                <channel handle="sigROIEnd" settable="false" signal="PBI-BPM01:Ctrl-AMC-130:RoiLastSampleR" valid="true" />
                 <channel handle="xAvg" settable="false" signal="MEBT-010:PBI-BPM-008:XP-AvgValue" valid="true" />
             </channelsuite>
         </node>
