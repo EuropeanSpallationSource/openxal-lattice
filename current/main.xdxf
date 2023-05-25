@@ -3826,7 +3826,7 @@
                 <channel handle="currentArray" settable="false" signal="DTL-010:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
             </channelsuite>
         </node>
-        <sequence id="DTL-020:EMR-Cav-001" len="7.10114" pos="7.7959377" s="18.8329097" type="DTLTank">
+        <sequence id="DTL-020:EMR-Cav-001" len="7.166137" pos="7.7959377" s="18.8329097" type="DTLTank">
             <attributes>
                 <rfcavity amp="3.16" ampFactor="1.0" freq="352.21" phase="-34.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
@@ -4275,7 +4275,7 @@
                 <channel handle="currentArray" settable="false" signal="DTL-020:PBI-BCM-001:PRC-TR1-ArrayData" valid="true" />
             </channelsuite>
         </node>
-        <sequence id="DTL-030:EMR-Cav-001" len="7.58263" pos="15.1604424" s="26.1974144" type="DTLTank">
+        <sequence id="DTL-030:EMR-Cav-001" len="7.622633" pos="15.1604424" s="26.1974144" type="DTLTank">
             <attributes>
                 <rfcavity amp="3.07" ampFactor="1.0" freq="352.21" phase="-34.0" phaseOffset="0.0" qLoaded="0.0" structureMode="0.0" structureTTF="1.0" />
             </attributes>
