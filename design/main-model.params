@@ -82,6 +82,9 @@
         <record alpha="-1.0191976" beta="27.823781" coordinate="x" emittance="1.133272393585098E-7" name="A2T"/>
         <record alpha="0.70355989" beta="12.514001" coordinate="y" emittance="1.2133546201187885E-7" name="A2T"/>
         <record alpha="-17.169904" beta="1830.4725" coordinate="z" emittance="2.3296320600362807E-8" name="A2T"/>
+        <record alpha="-1.0191976" beta="27.823781" coordinate="x" emittance="1.133272393585098E-7" name="DMPL"/>
+        <record alpha="0.70355989" beta="12.514001" coordinate="y" emittance="1.2133546201187885E-7" name="DMPL"/>
+        <record alpha="-17.169904" beta="1830.4725" coordinate="z" emittance="2.3296320600362807E-8" name="DMPL"/>
     </table>
     <table name="location" recordClass="xal.tools.data.GenericRecord">
         <schema>
@@ -102,6 +105,7 @@
         <record W="5.7096562E8" name="HBL"/>
         <record W="1.9911104E9" name="HEBT"/>
         <record W="1.9911105E9" name="A2T"/>
+        <record W="1.9911105E9" name="DMPL"/>
     </table>
     <table name="EnvTrackerAdapt" recordClass="xal.tools.data.GenericRecord">
         <schema>
@@ -132,5 +136,6 @@
         <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="HBL"/>
         <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="HEBT"/>
         <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="A2T"/>
+        <record coordinates="(0.0,0.0,0.0,0.0,0.0,0.0,1.0)" name="DMPL"/>
     </table>
 </tablegroup>

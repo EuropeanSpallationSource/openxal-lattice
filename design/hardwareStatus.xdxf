@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<xdxf date="2023.12.12" system="ESS" ver="">
+    <sequence id="ISRC">
+        <node id="ISrc-010:PBI-BCM-001" status="false"/>
+    </sequence>
+</xdxf>
