@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<xdxf date="2024-01-03" system="ESS" ver="2.6-r4">
+<xdxf date="2024-01-03" system="ESS" ver="2.6-r5">
     <comboseq id="FRONT-END">
         <sequence id="ISRC" />
         <sequence id="LEBT" />
@@ -9952,7 +9952,7 @@
         <node id="HEBT-010LWU:BMD-QH-001" len="0.35" pos="0.426" s="361.8037" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05" />
-                <magnet convFactor="1.0" dfltMagFld="4.99497" len="0.35" polarity="1.0" useCurrent="false" />
+                <magnet convFactor="1.0" dfltMagFld="4.94761" len="0.35" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="QP99:B" />
@@ -9997,7 +9997,7 @@
         <node id="HEBT-010LWU:BMD-QV-002" len="0.35" pos="1.506" s="362.8837" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05" />
-                <magnet convFactor="1.0" dfltMagFld="-5.0757" len="0.35" polarity="1.0" useCurrent="false" />
+                <magnet convFactor="1.0" dfltMagFld="-4.96763" len="0.35" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="QP100:B" />
@@ -10007,7 +10007,7 @@
         <node id="HEBT-020LWU:BMD-QH-001" len="0.35" pos="8.946" s="370.3237" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05" />
-                <magnet convFactor="1.0" dfltMagFld="4.10983" len="0.35" polarity="1.0" useCurrent="false" />
+                <magnet convFactor="1.0" dfltMagFld="3.91314" len="0.35" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="QP101:B" />
@@ -10052,7 +10052,7 @@
         <node id="HEBT-020LWU:BMD-QV-002" len="0.35" pos="10.026" s="371.4037" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05" />
-                <magnet convFactor="1.0" dfltMagFld="-3.84514" len="0.35" polarity="1.0" useCurrent="false" />
+                <magnet convFactor="1.0" dfltMagFld="-3.73321" len="0.35" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="QP102:B" />
@@ -10062,7 +10062,7 @@
         <node id="HEBT-030LWU:BMD-QH-001" len="0.35" pos="17.466" s="378.8437" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05" />
-                <magnet convFactor="1.0" dfltMagFld="4.31966" len="0.35" polarity="1.0" useCurrent="false" />
+                <magnet convFactor="1.0" dfltMagFld="4.50872" len="0.35" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="QP103:B" />
@@ -10107,7 +10107,7 @@
         <node id="HEBT-030LWU:BMD-QV-002" len="0.35" pos="18.546" s="379.9237" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05" />
-                <magnet convFactor="1.0" dfltMagFld="-4.49978" len="0.35" polarity="1.0" useCurrent="false" />
+                <magnet convFactor="1.0" dfltMagFld="-4.57235" len="0.35" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="QP104:B" />
@@ -10117,7 +10117,7 @@
         <node id="HEBT-040LWU:BMD-QH-001" len="0.35" pos="25.986" s="387.3637" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05" />
-                <magnet convFactor="1.0" dfltMagFld="3.83592" len="0.35" polarity="1.0" useCurrent="false" />
+                <magnet convFactor="1.0" dfltMagFld="3.59527" len="0.35" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="QP105:B" />
@@ -10162,7 +10162,7 @@
         <node id="HEBT-040LWU:BMD-QV-002" len="0.35" pos="27.066" s="388.4437" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05" />
-                <magnet convFactor="1.0" dfltMagFld="-3.89777" len="0.35" polarity="1.0" useCurrent="false" />
+                <magnet convFactor="1.0" dfltMagFld="-3.68762" len="0.35" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
                 <channel handle="fieldRB" settable="false" signal="QP106:B" />
