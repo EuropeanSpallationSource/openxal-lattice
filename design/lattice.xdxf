@@ -5070,7 +5070,8 @@
                 <channel handle="fieldRB" settable="false" signal="TS32-HC:B"/>
             </channelsuite>
             <ps main="TS32-HC-PS"/>
-        </node>
+        </node>        
+        <node id="Spk-020LWU_PBI-WS-001" len="0.0" pos="5.6753" s="55.59300" type="marker"/>        
         <node id="Spk-020LWU:BMD-QV-002" len="0.25" pos="5.855" s="55.7727" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.028550000000000002" y="0.028550000000000002"/>
@@ -5252,7 +5253,8 @@
                 <channel handle="fieldRB" settable="false" signal="TS34-HC:B"/>
             </channelsuite>
             <ps main="TS34-HC-PS"/>
-        </node>
+        </node>        
+        <node id="Spk-040LWU_PBI-WS-001" len="0.0" pos="14.01737" s="63.93507" type="marker"/>                
         <node id="Spk-040LWU:BMD-QV-002" len="0.25" pos="14.375" s="64.2927" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.028550000000000002" y="0.028550000000000002"/>
@@ -5309,6 +5311,7 @@
             </channelsuite>
             <ps main="QP21-PS"/>
         </node>
+        <node id="Spk-050LWU_PBI-WS-001" len="0.0" pos="18.16263" s="68.08033" type="marker"/>    
         <node id="TS35-VC" len="0.0" pos="18.4078" s="68.3255" type="DC">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.02855" y="0.02855"/>
@@ -6170,6 +6173,17 @@
             </channelsuite>
             <ps main="TS44-HC-PS"/>
         </node>
+         <node id="MBL-010LWU_PBI-BCM-001" len="0.0" pos="0.83248" s="106.61018" status="true" type="BCM">
+            <channelsuite>
+                <channel handle="tDelay" settable="false" signal="MBL-010LWU_PBI-BCM-001:CURR:tAvgDelay"/>
+                <channel handle="DisplayLength" settable="false" signal="MBL-010LWU_PBI-BCM-001:CURR:WIDTH"/>
+                <channel handle="currentArray" settable="false" signal="MBL-010LWU_PBI-BCM-001:AI4-ArrayData"/>
+                <channel handle="currentArrayCompressed" settable="false" signal="MBL-010LWU_PBI-BCM-001:AI4-Compressed"/>
+                <channel handle="currentMax" settable="false" signal="MBL-010LWU_PBI-BCM-001:CURR:MAX"/>
+                <channel handle="currentAvg" settable="false" signal="MBL-010LWU_PBI-BCM-001:CURR:AVG"/>
+                <channel handle="Particles" settable="false" signal="MBL-010LWU_PBI-BCM-001:CURR:INTEGRAL"/>
+            </channelsuite>
+        </node>
         <node id="MBL-010LWU:BMD-QV-002" len="0.35" pos="1.5062" s="107.2839" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05"/>
@@ -6261,7 +6275,8 @@
                 <channel handle="fieldRB" settable="false" signal="QP41:B"/>
             </channelsuite>
             <ps main="QP41-PS"/>
-        </node>
+        </node>        
+        <node id="MBL-020LWU_PBI-WS-001" len="0.0" pos="9.1809" s="114.9586" type="marker"/>            
         <node id="TS45-VC" len="0.0" pos="9.7292" s="115.5069" type="DC">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05"/>
@@ -6536,6 +6551,7 @@
             </channelsuite>
             <ps main="TS47-HC-PS"/>
         </node>
+        <node id="MBL-040LWU_PBI-WS-001" len="0.0" pos="26.2209" s="131.9986" type="marker"/>                    
         <node id="MBL-040LWU:PBI-BPM-001" len="0.0" pos="26.8514" s="132.6291" type="BPM">
             <attributes>
                 <bpm frequency="3.5221E8" length="1.0" orientation="1"/>
@@ -6677,7 +6693,8 @@
                 <channel handle="fieldRB" settable="false" signal="TS48-HC:B"/>
             </channelsuite>
             <ps main="TS48-HC-PS"/>
-        </node>
+        </node>        
+        <node id="MBL-050LWU_PBI-WS-001" len="0.0" pos="35.3515" s="141.1292" type="marker"/>                            
         <node id="MBL-050LWU:BMD-QV-002" len="0.35" pos="35.5862" s="141.3639" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05"/>
@@ -7284,7 +7301,18 @@
                 <channel handle="fieldRB" settable="false" signal="QP57:B"/>
             </channelsuite>
             <ps main="QP57-PS"/>
-        </node>
+        </node>        
+        <node id="HBL-010LWU_PBI-BCM-001" len="0.0" pos="1.0899" s="183.5476" status="true" type="BCM">
+            <channelsuite>
+                <channel handle="tDelay" settable="false" signal="HBL-010LWU_PBI-BCM-001:CURR:tAvgDelay"/>
+                <channel handle="DisplayLength" settable="false" signal="HBL-010LWU_PBI-BCM-001:CURR:WIDTH"/>
+                <channel handle="currentArray" settable="false" signal="HBL-010LWU_PBI-BCM-001:AI4-ArrayData"/>
+                <channel handle="currentArrayCompressed" settable="false" signal="HBL-010LWU_PBI-BCM-001:AI4-Compressed"/>
+                <channel handle="currentMax" settable="false" signal="HBL-010LWU_PBI-BCM-001:CURR:MAX"/>
+                <channel handle="currentAvg" settable="false" signal="HBL-010LWU_PBI-BCM-001:CURR:AVG"/>
+                <channel handle="Particles" settable="false" signal="HBL-010LWU_PBI-BCM-001:CURR:INTEGRAL"/>
+            </channelsuite>
+        </node>        
         <node id="TS53-VC" len="0.0" pos="1.209" s="183.6667" type="DC">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05"/>
@@ -7411,7 +7439,8 @@
                 <channel handle="fieldRB" settable="false" signal="QP59:B"/>
             </channelsuite>
             <ps main="QP59-PS"/>
-        </node>
+        </node>                
+        <node id="HBL-020LWU_PBI-WS-001" len="0.0" pos="9.1809" s="191.6386" type="marker"/>              
         <node id="TS54-VC" len="0.0" pos="9.729" s="192.1867" type="DC">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05"/>
@@ -9948,7 +9977,7 @@
         <attributes>
             <sequence predecessors="HBL"/>
         </attributes>
-        <node id="START-HEBT" len="0.0" pos="0.0" s="361.3777" type="marker"/>
+        <node id="START-HEBT" len="0.0" pos="0.0" s="361.3777" type="marker"/>                                 
         <node id="HEBT-010LWU:BMD-QH-001" len="0.35" pos="0.426" s="361.8037" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05"/>
@@ -9958,7 +9987,18 @@
                 <channel handle="fieldRB" settable="false" signal="QP99:B"/>
             </channelsuite>
             <ps main="QP99-PS"/>
-        </node>
+        </node>        
+         <node id="HEBT-010LWU_PBI-BCM-001" len="0.0" pos="0.8325" s="362.2102" status="true" type="BCM">
+            <channelsuite>
+                <channel handle="tDelay" settable="false" signal="HEBT-010LWU_PBI-BCM-001:CURR:tAvgDelay"/>
+                <channel handle="DisplayLength" settable="false" signal="HEBT-010LWU_PBI-BCM-001:CURR:WIDTH"/>
+                <channel handle="currentArray" settable="false" signal="HEBT-010LWU_PBI-BCM-001:AI4-ArrayData"/>
+                <channel handle="currentArrayCompressed" settable="false" signal="HEBT-010LWU_PBI-BCM-001:AI4-Compressed"/>
+                <channel handle="currentMax" settable="false" signal="HEBT-010LWU_PBI-BCM-001:CURR:MAX"/>
+                <channel handle="currentAvg" settable="false" signal="HEBT-010LWU_PBI-BCM-001:CURR:AVG"/>
+                <channel handle="Particles" settable="false" signal="HEBT-010LWU_PBI-BCM-001:CURR:INTEGRAL"/>
+            </channelsuite>
+        </node>              
         <node id="HEBT-010LWU:PBI-BPM-001" len="0.0" pos="0.641" s="362.0187" type="BPM">
             <attributes>
                 <bpm frequency="3.5221E8" length="1.0" orientation="1"/>
@@ -10444,8 +10484,8 @@
             </channelsuite>
             <ps main="QP116-PS"/>
         </node>
-        <node id="WS1-1" len="0.0" pos="71.0904" s="432.4681" type="marker"/>
-        <node id="WS1-2" len="0.0" pos="72.1895" s="433.5672" type="marker"/>
+        <node id="HEBT-090Drf_PBI-WS-001" len="0.0" pos="71.0904" s="432.4681" type="marker"/>
+        <node id="HEBT-090Drf_PBI-WS-002" len="0.0" pos="72.1895" s="433.5672" type="marker"/>
         <node id="HEBT-100LWU:BMD-QH-001" len="0.35" pos="77.106" s="438.4837" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05"/>
@@ -10611,8 +10651,8 @@
             </channelsuite>
             <ps main="QP122-PS"/>
         </node>
-        <node id="WS2-1" len="0.0" pos="96.6403" s="458.018" type="marker"/>
-        <node id="WS2-2" len="0.0" pos="97.7393" s="459.117" type="marker"/>
+        <node id="HEBT-120Drf_PBI-WS-001" len="0.0" pos="96.6403" s="458.018" type="marker"/>
+        <node id="HEBT-120Drf_PBI-WS-002" len="0.0" pos="97.7393" s="459.117" type="marker"/>
         <node id="HEBT-130LWU:BMD-QH-001" len="0.35" pos="102.666" s="464.0437" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05"/>
@@ -10778,8 +10818,8 @@
             </channelsuite>
             <ps main="QP128-PS"/>
         </node>
-        <node id="WS3-1" len="0.0" pos="122.1829" s="483.5606" type="marker"/>
-        <node id="WS3-2" len="0.0" pos="123.2846" s="484.6623" type="marker"/>
+        <node id="HEBT-150Drf_PBI-WS-001" len="0.0" pos="122.1829" s="483.5606" type="marker"/>
+        <node id="HEBT-150Drf_PBI-WS-002" len="0.0" pos="123.2846" s="484.6623" type="marker"/>
         <node id="HEBT-160LWU:BMD-QH-001" len="0.35" pos="128.226" s="489.6037" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05"/>
@@ -10789,7 +10829,18 @@
                 <channel handle="fieldRB" settable="false" signal="QP129:B"/>
             </channelsuite>
             <ps main="QP129-PS"/>
-        </node>
+        </node>        
+         <node id="HEBT-160LWU_PBI-BCM-001" len="0.0" pos="128.8899" s="490.2676" status="true" type="BCM">
+            <channelsuite>
+                <channel handle="tDelay" settable="false" signal="HEBT-160LWU_PBI-BCM-001:CURR:tAvgDelay"/>
+                <channel handle="DisplayLength" settable="false" signal="HEBT-160LWU_PBI-BCM-001:CURR:WIDTH"/>
+                <channel handle="currentArray" settable="false" signal="HEBT-160LWU_PBI-BCM-001:AI4-ArrayData"/>
+                <channel handle="currentArrayCompressed" settable="false" signal="HEBT-160LWU_PBI-BCM-001:AI4-Compressed"/>
+                <channel handle="currentMax" settable="false" signal="HEBT-160LWU_PBI-BCM-001:CURR:MAX"/>
+                <channel handle="currentAvg" settable="false" signal="HEBT-160LWU_PBI-BCM-001:CURR:AVG"/>
+                <channel handle="Particles" settable="false" signal="HEBT-160LWU_PBI-BCM-001:CURR:INTEGRAL"/>
+            </channelsuite>
+        </node>                 
         <node id="TS89-VC" len="0.0" pos="129.009" s="490.3867" type="DC">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05"/>
@@ -10897,6 +10948,17 @@
                 <channel handle="phaseTBT" settable="false" signal="BPM83:PhsTBT"/>
             </channelsuite>
         </node>
+         <node id="A2T-010LWU_PBI-BCM-001" len="0.0" pos="9.0689" s="500.7993" status="true" type="BCM">
+            <channelsuite>
+                <channel handle="tDelay" settable="false" signal="A2T-010LWU_PBI-BCM-001:CURR:tAvgDelay"/>
+                <channel handle="DisplayLength" settable="false" signal="A2T-010LWU_PBI-BCM-001:CURR:WIDTH"/>
+                <channel handle="currentArray" settable="false" signal="A2T-010LWU_PBI-BCM-001:AI4-ArrayData"/>
+                <channel handle="currentArrayCompressed" settable="false" signal="A2T-010LWU_PBI-BCM-001:AI4-Compressed"/>
+                <channel handle="currentMax" settable="false" signal="A2T-010LWU_PBI-BCM-001:CURR:MAX"/>
+                <channel handle="currentAvg" settable="false" signal="A2T-010LWU_PBI-BCM-001:CURR:AVG"/>
+                <channel handle="Particles" settable="false" signal="A2T-010LWU_PBI-BCM-001:CURR:INTEGRAL"/>
+            </channelsuite>
+        </node>               
         <node id="QP132" len="0.35" pos="9.9283" s="501.6587" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.05" y="0.05"/>
@@ -11246,7 +11308,18 @@
                 <channel handle="fieldRB" settable="false" signal="QP144:B"/>
             </channelsuite>
             <ps main="QP144-PS"/>
-        </node>
+        </node>        
+         <node id="A2T-090Drf_PBI-BCM-001" len="0.0" pos="71.4844" s="563.2148" status="true" type="BCM">
+            <channelsuite>
+                <channel handle="tDelay" settable="false" signal="A2T-090Drf_PBI-BCM-001:CURR:tAvgDelay"/>
+                <channel handle="DisplayLength" settable="false" signal="A2T-090Drf_PBI-BCM-001:CURR:WIDTH"/>
+                <channel handle="currentArray" settable="false" signal="A2T-090Drf_PBI-BCM-001:AI4-ArrayData"/>
+                <channel handle="currentArrayCompressed" settable="false" signal="A2T-090Drf_PBI-BCM-001:AI4-Compressed"/>
+                <channel handle="currentMax" settable="false" signal="A2T-090Drf_PBI-BCM-001:CURR:MAX"/>
+                <channel handle="currentAvg" settable="false" signal="A2T-090Drf_PBI-BCM-001:CURR:AVG"/>
+                <channel handle="Particles" settable="false" signal="A2T-090Drf_PBI-BCM-001:CURR:INTEGRAL"/>
+            </channelsuite>
+        </node>              
         <node id="QP145" len="0.8" pos="72.8093" s="564.5397" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.0565" y="0.0565"/>
@@ -11416,7 +11489,8 @@
                 <channel handle="xAvg" settable="false" signal="BPM91:XAvg"/>
                 <channel handle="phaseTBT" settable="false" signal="BPM91:PhsTBT"/>
             </channelsuite>
-        </node>
+        </node>        
+        <node id="A2T-120Drf_PBI-WS-001" len="0.0" pos="84.1703" s="575.9007" type="marker"/>        
         <node id="BPM92" len="0.0" pos="84.2509" s="575.9813" type="BPM">
             <attributes>
                 <bpm frequency="3.5221E8" length="1.0" orientation="1"/>
@@ -11486,7 +11560,18 @@
                 <channel handle="xAvg" settable="false" signal="BPM93:XAvg"/>
                 <channel handle="phaseTBT" settable="false" signal="BPM93:PhsTBT"/>
             </channelsuite>
-        </node>
+        </node>        
+        <node id="A2T-130NSW_PBI-BCM-001" len="0.0" pos="89.1173" s="580.8477" status="true" type="BCM">
+            <channelsuite>
+                <channel handle="tDelay" settable="false" signal="A2T-130NSW_PBI-BCM-001:CURR:tAvgDelay"/>
+                <channel handle="DisplayLength" settable="false" signal="A2T-130NSW_PBI-BCM-001:CURR:WIDTH"/>
+                <channel handle="currentArray" settable="false" signal="A2T-130NSW_PBI-BCM-001:AI4-ArrayData"/>
+                <channel handle="currentArrayCompressed" settable="false" signal="A2T-130NSW_PBI-BCM-001:AI4-Compressed"/>
+                <channel handle="currentMax" settable="false" signal="A2T-130NSW_PBI-BCM-001:CURR:MAX"/>
+                <channel handle="currentAvg" settable="false" signal="A2T-130NSW_PBI-BCM-001:CURR:AVG"/>
+                <channel handle="Particles" settable="false" signal="A2T-130NSW_PBI-BCM-001:CURR:INTEGRAL"/>
+            </channelsuite>
+        </node>        
         <node id="BPM94" len="0.0" pos="89.8304" s="581.5608" type="BPM">
             <attributes>
                 <bpm frequency="3.5221E8" length="1.0" orientation="1"/>
@@ -11509,7 +11594,17 @@
             <sequence predecessors="HEBT"/>
         </attributes>
         <node id="START-DMPL" len="0.0" pos="0.0" s="491.7304" type="marker"/>
-        <node id="DMPL-BCM1" len="0.0" pos="8.0293" s="499.7597" type="marker"/>
+         <node id="DmpL-010Drf_PBI-BCM-001" len="0.0" pos="8.0293" s="499.7597" status="true" type="BCM">
+            <channelsuite>
+                <channel handle="tDelay" settable="false" signal="DmpL-010Drf_PBI-BCM-001:CURR:tAvgDelay"/>
+                <channel handle="DisplayLength" settable="false" signal="DmpL-010Drf_PBI-BCM-001:CURR:WIDTH"/>
+                <channel handle="currentArray" settable="false" signal="DmpL-010Drf_PBI-BCM-001:AI4-ArrayData"/>
+                <channel handle="currentArrayCompressed" settable="false" signal="DmpL-010Drf_PBI_PBI-BCM-001:AI4-Compressed"/>
+                <channel handle="currentMax" settable="false" signal="DmpL-010Drf_PBI_PBI-BCM-001:CURR:MAX"/>
+                <channel handle="currentAvg" settable="false" signal="DmpL-010Drf_PBI_PBI-BCM-001:CURR:AVG"/>
+                <channel handle="Particles" settable="false" signal="DmpL-010Drf_PBI_PBI-BCM-001:CURR:INTEGRAL"/>
+            </channelsuite>
+        </node>       
         <node id="QP149" len="0.35" pos="18.4763" s="510.2067" type="Q">
             <attributes>
                 <aperture pos="0.0" shape="1" x="0.175" y="0.175"/>
@@ -11661,9 +11756,19 @@
                 <channel handle="phaseTBT" settable="false" signal="BPM99:PhsTBT"/>
             </channelsuite>
         </node>
-        <node id="DMPL-BCM2" len="0.0" pos="39.9318" s="531.6622" type="marker"/>
-        <node id="DMPL-IMG2" len="0.0" pos="45.7897" s="537.5201" type="marker"/>
-        <node id="DMPL-IMG3" len="0.0" pos="54.4977" s="546.2281" type="marker"/>
+         <node id="DmpL-040Drf_PBI-BCM-001" len="0.0" pos="39.9318" s="531.6622" status="true" type="BCM">
+            <channelsuite>
+                <channel handle="tDelay" settable="false" signal="DmpL-040Drf_PBI-BCM-001:CURR:tAvgDelay"/>
+                <channel handle="DisplayLength" settable="false" signal="DmpL-040Drf_PBI-BCM-001:CURR:WIDTH"/>
+                <channel handle="currentArray" settable="false" signal="DmpL-040Drf_PBI-BCM-001:AI4-ArrayData"/>
+                <channel handle="currentArrayCompressed" settable="false" signal="DmpL-040Drf_PBI_PBI-BCM-001:AI4-Compressed"/>
+                <channel handle="currentMax" settable="false" signal="DmpL-040Drf_PBI_PBI-BCM-001:CURR:MAX"/>
+                <channel handle="currentAvg" settable="false" signal="DmpL-040Drf_PBI_PBI-BCM-001:CURR:AVG"/>
+                <channel handle="Particles" settable="false" signal="DmpL-040Drf_PBI_PBI-BCM-001:CURR:INTEGRAL"/>
+            </channelsuite>
+        </node>    
+        <node id="DmpL-050Drf_PBI-AptM-001" len="0.0" pos="45.7897" s="537.5201" type="marker"/>
+        <node id="DmpL-050Drf_PBI-Img-001" len="0.0" pos="54.4977" s="546.2281" type="marker"/>
         <node id="END-DMPL" len="0.0" pos="54.4977" s="546.2281" type="marker"/>
     </sequence>
 </xdxf>
