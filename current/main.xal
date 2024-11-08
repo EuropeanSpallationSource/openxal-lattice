@@ -2,7 +2,8 @@
 <sources version="2.0">
     <modelElementConfig_source name="modelElementConfig" url="mainModelConfig.xml"/>
     <deviceMapping_source name="deviceMapping" url="main.impl"/>
-    <optics_source name="optics" url="lattice.xdxf"/>
+    <optics_source name="optics" url="lattice800.xdxf"/>
     <tablegroup_source name="modelparams" url="main-model.params"/>
-    <hardware_status name="hardwareStatus" url="hardware_status.xdxf"/>
+    <powersupplies url="powerSupplies.xdxf"/>
+    <hardware_status url="hardwareStatus.xdxf"/>
 </sources>
