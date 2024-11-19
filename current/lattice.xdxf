@@ -3067,7 +3067,7 @@
             </attributes>
         </node>
     </sequence>
-    <sequence id="DTL" len="33.1528945" pos="11.036972" s="11.036972">
+    <sequence id="DTL" len="38.880728" pos="11.036972" s="11.036972">
         <attributes>
             <sequence predecessors="MEBT" />
         </attributes>
