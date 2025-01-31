@@ -1,5 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <xdxf date="2023.12.12" system="ESS" ver="">
+    <sequence id="LEBT">
+        <node exclude="true" id="LEBT-010:PBI-Dpl-01" mod-comment="LEBT Doppler, equipment not available." status="false" />
+        <node exclude="true" id="LEBT-010:PBI-EMU-01" mod-comment="LEBT Emittance monitor, equipment not available." status="false" />
+        <node exclude="true" id="LEBT-010:PBI-NPM-01" mod-comment="LEBT NPM monitor, equipment not available." status="false" />
+    </sequence>
+    <sequence id="MEBT">
+        <node exclude="true" id="MEBT-010:PBI-BPM-004" mod-comment="Fast BPM, not used for position." status="false" />
+        <node exclude="true" id="MEBT-010:PBI-EMU-001" mod-comment="MEBT Emittance monitor, equipment not available." status="false" />
+        <node exclude="true" id="MEBT-010:PBI-NPM-001" mod-comment="MEBT NPM monitor, equipment not available." status="false" />
+        <node exclude="true" id="MEBT-010:PBI-NPM-002" mod-comment="MEBT NPM monitor, equipment not available." status="false" />
+    </sequence>
     <sequence id="HBL">
         <node exclude="true" id="HBL-060RFC:EMR-Cav-101" mod-comment="not installed." status="false" />
         <node exclude="true" id="HBL-060RFC:EMR-Cav-201" mod-comment="not installed." status="false" />
