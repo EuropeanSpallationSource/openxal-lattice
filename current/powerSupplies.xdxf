@@ -582,7 +582,7 @@
                  <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                  </channelsuite>
          </ps>
-        <ps id="SPK-010LWU:PwrC-PSQH-001" type="main">
+        <ps id="SPK-010LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-010LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -592,7 +592,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-010LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-010LWU:PwrC-PSCV-001" type="main">
+        <ps id="SPK-010LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-010LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -600,7 +600,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-010LWU:PwrC-PSCH-001" type="main">
+        <ps id="SPK-010LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-010LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -608,7 +608,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-010LWU:PwrC-PSQV-001" type="main">
+        <ps id="SPK-010LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-010LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -618,7 +618,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-010LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-020LWU:PwrC-PSQH-001" type="main">
+        <ps id="SPK-020LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-020LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -628,7 +628,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-020LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-020LWU:PwrC-PSCV-001" type="main">
+        <ps id="SPK-020LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-020LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -636,7 +636,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-020LWU:PwrC-PSCH-001" type="main">
+        <ps id="SPK-020LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-020LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -644,7 +644,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-020LWU:PwrC-PSQV-001" type="main">
+        <ps id="SPK-020LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-020LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -654,7 +654,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-020LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-030LWU:PwrC-PSQH-001" type="main">
+        <ps id="SPK-030LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-030LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -664,7 +664,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-030LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-030LWU:PwrC-PSCV-001" type="main">
+        <ps id="SPK-030LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-030LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -672,7 +672,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-030LWU:PwrC-PSCH-001" type="main">
+        <ps id="SPK-030LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-030LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -680,7 +680,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-030LWU:PwrC-PSQV-001" type="main">
+        <ps id="SPK-030LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-030LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -690,7 +690,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-030LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-040LWU:PwrC-PSQH-001" type="main">
+        <ps id="SPK-040LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-040LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -700,7 +700,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-040LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-040LWU:PwrC-PSCV-001" type="main">
+        <ps id="SPK-040LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-040LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -708,7 +708,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-040LWU:PwrC-PSCH-001" type="main">
+        <ps id="SPK-040LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-040LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -716,7 +716,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-040LWU:PwrC-PSQV-001" type="main">
+        <ps id="SPK-040LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-040LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -726,7 +726,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-040LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-050LWU:PwrC-PSQH-001" type="main">
+        <ps id="SPK-050LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-050LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -736,7 +736,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-050LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-050LWU:PwrC-PSCV-001" type="main">
+        <ps id="SPK-050LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-050LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -744,7 +744,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-050LWU:PwrC-PSCH-001" type="main">
+        <ps id="SPK-050LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-050LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -752,7 +752,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-050LWU:PwrC-PSQV-001" type="main">
+        <ps id="SPK-050LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-050LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -762,7 +762,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-050LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-060LWU:PwrC-PSQH-001" type="main">
+        <ps id="SPK-060LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-060LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -772,7 +772,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-060LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-060LWU:PwrC-PSCV-001" type="main">
+        <ps id="SPK-060LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-060LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -780,7 +780,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-060LWU:PwrC-PSCH-001" type="main">
+        <ps id="SPK-060LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-060LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -788,7 +788,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-060LWU:PwrC-PSQV-001" type="main">
+        <ps id="SPK-060LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-060LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -798,7 +798,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-060LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-070LWU:PwrC-PSQH-001" type="main">
+        <ps id="SPK-070LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-070LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -808,7 +808,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-070LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-070LWU:PwrC-PSCV-001" type="main">
+        <ps id="SPK-070LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-070LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -816,7 +816,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-070LWU:PwrC-PSCH-001" type="main">
+        <ps id="SPK-070LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-070LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -824,7 +824,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-070LWU:PwrC-PSQV-001" type="main">
+        <ps id="SPK-070LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-070LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -834,7 +834,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-070LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-080LWU:PwrC-PSQH-001" type="main">
+        <ps id="SPK-080LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-080LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -844,7 +844,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-080LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-080LWU:PwrC-PSCV-001" type="main">
+        <ps id="SPK-080LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-080LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -852,7 +852,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-080LWU:PwrC-PSCH-001" type="main">
+        <ps id="SPK-080LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-080LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -860,7 +860,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-080LWU:PwrC-PSQV-001" type="main">
+        <ps id="SPK-080LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-080LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -870,7 +870,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-080LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-090LWU:PwrC-PSQH-001" type="main">
+        <ps id="SPK-090LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-090LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -880,7 +880,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-090LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-090LWU:PwrC-PSCV-001" type="main">
+        <ps id="SPK-090LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-090LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -888,7 +888,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-090LWU:PwrC-PSCH-001" type="main">
+        <ps id="SPK-090LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-090LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -896,7 +896,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-090LWU:PwrC-PSQV-001" type="main">
+        <ps id="SPK-090LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-090LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -906,7 +906,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-090LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-100LWU:PwrC-PSQH-001" type="main">
+        <ps id="SPK-100LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-100LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -916,7 +916,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-100LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-100LWU:PwrC-PSCV-001" type="main">
+        <ps id="SPK-100LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-100LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -924,7 +924,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-100LWU:PwrC-PSCH-001" type="main">
+        <ps id="SPK-100LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-100LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -932,7 +932,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-100LWU:PwrC-PSQV-001" type="main">
+        <ps id="SPK-100LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-100LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -942,7 +942,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-100LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-110LWU:PwrC-PSQH-001" type="main">
+        <ps id="SPK-110LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-110LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -952,7 +952,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-110LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-110LWU:PwrC-PSCV-001" type="main">
+        <ps id="SPK-110LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-110LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -960,7 +960,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-110LWU:PwrC-PSCH-001" type="main">
+        <ps id="SPK-110LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-110LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -968,7 +968,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-110LWU:PwrC-PSQV-001" type="main">
+        <ps id="SPK-110LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-110LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -978,7 +978,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-110LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-120LWU:PwrC-PSQH-001" type="main">
+        <ps id="SPK-120LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-120LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -988,7 +988,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-120LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-120LWU:PwrC-PSCV-001" type="main">
+        <ps id="SPK-120LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-120LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -996,7 +996,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-120LWU:PwrC-PSCH-001" type="main">
+        <ps id="SPK-120LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-120LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1004,7 +1004,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-120LWU:PwrC-PSQV-001" type="main">
+        <ps id="SPK-120LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-120LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1014,7 +1014,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-120LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-130LWU:PwrC-PSQH-001" type="main">
+        <ps id="SPK-130LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-130LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1024,7 +1024,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-130LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="SPK-130LWU:PwrC-PSCV-001" type="main">
+        <ps id="SPK-130LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-130LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1032,7 +1032,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-130LWU:PwrC-PSCH-001" type="main">
+        <ps id="SPK-130LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="Spk-130LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1040,7 +1040,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="SPK-130LWU:PwrC-PSQV-001" type="main">
+        <ps id="SPK-130LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="Spk-130LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1050,7 +1050,7 @@
                 <channel handle="cycleState" settable="false" signal="Spk-130LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-010LWU:PwrC-PSQH-001" type="main">
+        <ps id="MBL-010LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-010LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1060,7 +1060,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-010LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-010LWU:PwrC-PSCV-001" type="main">
+        <ps id="MBL-010LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-010LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1068,7 +1068,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-010LWU:PwrC-PSCH-001" type="main">
+        <ps id="MBL-010LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-010LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1076,7 +1076,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-010LWU:PwrC-PSQV-001" type="main">
+        <ps id="MBL-010LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-010LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1086,7 +1086,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-010LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-020LWU:PwrC-PSQH-001" type="main">
+        <ps id="MBL-020LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-020LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1096,7 +1096,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-020LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-020LWU:PwrC-PSCV-001" type="main">
+        <ps id="MBL-020LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-020LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1104,7 +1104,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-020LWU:PwrC-PSCH-001" type="main">
+        <ps id="MBL-020LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-020LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1112,7 +1112,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-020LWU:PwrC-PSQV-001" type="main">
+        <ps id="MBL-020LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-020LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1122,7 +1122,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-020LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-030LWU:PwrC-PSQH-001" type="main">
+        <ps id="MBL-030LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-030LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1132,7 +1132,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-030LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-030LWU:PwrC-PSCV-001" type="main">
+        <ps id="MBL-030LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-030LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1140,7 +1140,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-030LWU:PwrC-PSCH-001" type="main">
+        <ps id="MBL-030LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-030LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1148,7 +1148,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-030LWU:PwrC-PSQV-001" type="main">
+        <ps id="MBL-030LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-030LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1158,7 +1158,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-030LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-040LWU:PwrC-PSQH-001" type="main">
+        <ps id="MBL-040LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-040LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1168,7 +1168,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-040LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-040LWU:PwrC-PSCV-001" type="main">
+        <ps id="MBL-040LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-040LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1176,7 +1176,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-040LWU:PwrC-PSCH-001" type="main">
+        <ps id="MBL-040LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-040LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1184,7 +1184,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-040LWU:PwrC-PSQV-001" type="main">
+        <ps id="MBL-040LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-040LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1194,7 +1194,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-040LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-050LWU:PwrC-PSQH-001" type="main">
+        <ps id="MBL-050LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-050LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1204,7 +1204,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-050LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-050LWU:PwrC-PSCV-001" type="main">
+        <ps id="MBL-050LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-050LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1212,7 +1212,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-050LWU:PwrC-PSCH-001" type="main">
+        <ps id="MBL-050LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-050LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1220,7 +1220,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-050LWU:PwrC-PSQV-001" type="main">
+        <ps id="MBL-050LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-050LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1230,7 +1230,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-050LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-060LWU:PwrC-PSQH-001" type="main">
+        <ps id="MBL-060LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-060LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1240,7 +1240,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-060LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-060LWU:PwrC-PSCV-001" type="main">
+        <ps id="MBL-060LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-060LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1248,7 +1248,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-060LWU:PwrC-PSCH-001" type="main">
+        <ps id="MBL-060LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-060LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1256,7 +1256,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-060LWU:PwrC-PSQV-001" type="main">
+        <ps id="MBL-060LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-060LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1266,7 +1266,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-060LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-070LWU:PwrC-PSQH-001" type="main">
+        <ps id="MBL-070LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-070LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1276,7 +1276,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-070LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-070LWU:PwrC-PSCV-001" type="main">
+        <ps id="MBL-070LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-070LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1284,7 +1284,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-070LWU:PwrC-PSCH-001" type="main">
+        <ps id="MBL-070LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-070LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1292,7 +1292,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-070LWU:PwrC-PSQV-001" type="main">
+        <ps id="MBL-070LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-070LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1302,7 +1302,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-070LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-080LWU:PwrC-PSQH-001" type="main">
+        <ps id="MBL-080LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-080LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1312,7 +1312,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-080LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-080LWU:PwrC-PSCV-001" type="main">
+        <ps id="MBL-080LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-080LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1320,7 +1320,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-080LWU:PwrC-PSCH-001" type="main">
+        <ps id="MBL-080LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-080LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1328,7 +1328,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-080LWU:PwrC-PSQV-001" type="main">
+        <ps id="MBL-080LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-080LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1338,7 +1338,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-080LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-090LWU:PwrC-PSQH-001" type="main">
+        <ps id="MBL-090LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-090LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1348,7 +1348,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-090LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="MBL-090LWU:PwrC-PSCV-001" type="main">
+        <ps id="MBL-090LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-090LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1356,7 +1356,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-090LWU:PwrC-PSCH-001" type="main">
+        <ps id="MBL-090LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="MBL-090LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1364,7 +1364,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="MBL-090LWU:PwrC-PSQV-001" type="main">
+        <ps id="MBL-090LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="MBL-090LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1374,7 +1374,7 @@
                 <channel handle="cycleState" settable="false" signal="MBL-090LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-         <ps id="HBL-010LWU:PwrC-PSQH-001" type="main">
+         <ps id="HBL-010LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-010LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1384,7 +1384,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-010LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-010LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-010LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-010LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1392,7 +1392,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-010LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-010LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-010LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1400,7 +1400,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-010LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-010LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-010LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1410,7 +1410,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-010LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-020LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-020LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-020LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1420,7 +1420,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-020LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-020LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-020LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-020LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1428,7 +1428,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-020LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-020LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-020LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1436,7 +1436,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-020LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-020LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-020LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1446,7 +1446,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-020LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-030LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-030LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-030LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1456,7 +1456,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-030LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-030LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-030LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-030LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1464,7 +1464,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-030LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-030LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-030LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1472,7 +1472,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-030LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-030LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-030LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1482,7 +1482,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-030LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-040LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-040LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-040LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1492,7 +1492,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-040LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-040LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-040LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-040LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1500,7 +1500,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-040LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-040LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-040LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1508,7 +1508,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-040LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-040LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-040LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1518,7 +1518,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-040LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-050LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-050LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-050LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1528,7 +1528,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-050LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-050LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-050LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-050LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1536,7 +1536,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-050LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-050LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-050LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1544,7 +1544,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-050LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-050LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-050LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1554,7 +1554,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-050LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-060LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-060LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-060LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1564,7 +1564,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-060LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-060LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-060LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-060LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1572,7 +1572,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-060LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-060LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-060LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1580,7 +1580,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-060LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-060LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-060LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1590,7 +1590,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-060LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-070LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-070LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-070LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1600,7 +1600,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-070LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-070LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-070LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-070LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1608,7 +1608,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-070LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-070LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-070LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1616,7 +1616,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-070LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-070LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-070LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1626,7 +1626,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-070LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-080LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-080LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-080LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1636,7 +1636,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-080LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-080LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-080LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-080LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1644,7 +1644,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-080LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-080LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-080LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1652,7 +1652,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-080LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-080LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-080LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1662,7 +1662,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-080LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-090LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-090LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-090LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1672,7 +1672,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-090LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-090LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-090LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-090LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1680,7 +1680,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-090LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-090LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-090LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1688,7 +1688,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-090LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-090LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-090LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1698,7 +1698,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-090LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-100LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-100LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-100LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1708,7 +1708,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-100LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-100LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-100LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-100LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1716,7 +1716,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-100LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-100LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-100LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1724,7 +1724,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-100LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-100LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-100LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1734,7 +1734,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-100LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-110LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-110LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-110LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1744,7 +1744,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-110LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-110LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-110LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-110LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1752,7 +1752,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-110LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-110LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-110LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1760,7 +1760,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-110LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-110LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-110LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1770,7 +1770,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-110LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-120LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-120LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-120LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1780,7 +1780,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-120LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-120LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-120LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-120LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1788,7 +1788,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-120LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-120LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-120LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1796,7 +1796,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-120LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-120LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-120LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1806,7 +1806,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-120LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-130LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-130LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-130LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1816,7 +1816,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-130LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-130LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-130LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-130LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1824,7 +1824,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-130LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-130LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-130LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1832,7 +1832,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-130LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-130LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-130LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1842,7 +1842,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-130LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-140LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-140LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-140LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1852,7 +1852,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-140LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-140LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-140LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-140LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1860,7 +1860,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-140LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-140LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-140LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1868,7 +1868,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-140LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-140LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-140LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1878,7 +1878,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-140LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-150LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-150LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-150LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1888,7 +1888,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-150LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-150LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-150LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-150LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1896,7 +1896,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-150LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-150LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-150LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1904,7 +1904,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-150LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-150LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-150LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1914,7 +1914,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-150LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-160LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-160LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-160LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1924,7 +1924,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-160LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-160LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-160LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-160LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1932,7 +1932,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-160LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-160LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-160LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1940,7 +1940,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-160LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-160LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-160LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1950,7 +1950,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-160LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-170LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-170LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-170LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1960,7 +1960,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-170LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-170LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-170LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-170LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -1968,7 +1968,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-170LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-170LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-170LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -1976,7 +1976,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-170LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-170LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-170LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1986,7 +1986,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-170LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-180LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-180LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-180LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -1996,7 +1996,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-180LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-180LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-180LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-180LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2004,7 +2004,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-180LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-180LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-180LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2012,7 +2012,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-180LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-180LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-180LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2022,7 +2022,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-180LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-190LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-190LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-190LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2032,7 +2032,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-190LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-190LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-190LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-190LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2040,7 +2040,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-190LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-190LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-190LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2048,7 +2048,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-190LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-190LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-190LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2058,7 +2058,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-190LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-200LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-200LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-200LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2068,7 +2068,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-200LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-200LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-200LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-200LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2076,7 +2076,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-200LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-200LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-200LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2084,7 +2084,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-200LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-200LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-200LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2094,7 +2094,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-200LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-210LWU:PwrC-PSQH-001" type="main">
+        <ps id="HBL-210LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-210LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2104,7 +2104,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-210LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HBL-210LWU:PwrC-PSCV-001" type="main">
+        <ps id="HBL-210LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-210LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2112,7 +2112,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-210LWU:PwrC-PSCH-001" type="main">
+        <ps id="HBL-210LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HBL-210LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2120,7 +2120,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HBL-210LWU:PwrC-PSQV-001" type="main">
+        <ps id="HBL-210LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HBL-210LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2130,7 +2130,7 @@
                 <channel handle="cycleState" settable="false" signal="HBL-210LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-         <ps id="HEBT-010LWU:PwrC-PSQH-001" type="main">
+         <ps id="HEBT-010LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-010LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2140,7 +2140,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-010LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-010LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-010LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-010LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2148,7 +2148,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-010LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-010LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-010LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2156,7 +2156,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-010LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-010LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-010LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2166,7 +2166,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-010LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-020LWU:PwrC-PSQH-001" type="main">
+        <ps id="HEBT-020LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-020LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2176,7 +2176,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-020LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-020LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-020LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-020LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2184,7 +2184,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-020LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-020LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-020LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2192,7 +2192,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-020LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-020LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-020LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2202,7 +2202,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-020LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-030LWU:PwrC-PSQH-001" type="main">
+        <ps id="HEBT-030LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-030LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2212,7 +2212,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-030LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-030LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-030LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-030LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2220,7 +2220,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-030LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-030LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-030LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2228,7 +2228,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-030LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-030LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-030LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2238,7 +2238,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-030LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-040LWU:PwrC-PSQH-001" type="main">
+        <ps id="HEBT-040LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-040LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2248,7 +2248,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-040LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-040LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-040LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-040LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2256,7 +2256,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-040LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-040LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-040LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2264,7 +2264,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-040LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-040LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-040LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2274,7 +2274,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-040LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-050LWU:PwrC-PSQH-001" type="main">
+        <ps id="HEBT-050LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-050LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2284,7 +2284,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-050LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-050LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-050LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-050LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2292,7 +2292,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-050LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-050LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-050LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2300,7 +2300,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-050LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-050LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-050LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2310,7 +2310,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-050LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-060LWU:PwrC-PSQH-001" type="main">
+        <ps id="HEBT-060LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-060LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2320,7 +2320,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-060LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-060LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-060LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-060LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2328,7 +2328,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-060LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-060LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-060LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2336,7 +2336,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-060LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-060LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-060LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2346,7 +2346,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-060LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-070LWU:PwrC-PSQH-001" type="main">
+        <ps id="HEBT-070LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-070LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2356,7 +2356,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-070LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-070LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-070LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-070LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2364,7 +2364,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-070LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-070LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-070LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2372,7 +2372,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-070LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-070LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-070LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2382,7 +2382,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-070LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-080LWU:PwrC-PSQH-001" type="main">
+        <ps id="HEBT-080LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-080LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2392,7 +2392,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-080LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-080LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-080LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-080LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2400,7 +2400,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-080LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-080LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-080LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2408,7 +2408,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-080LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-080LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-080LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2418,7 +2418,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-080LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-090LWU:PwrC-PSQH-001" type="main">
+        <ps id="HEBT-090LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-090LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2428,7 +2428,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-090LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-090LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-090LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-090LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2436,7 +2436,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-090LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-090LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-090LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2444,7 +2444,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-090LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-090LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-090LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2454,7 +2454,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-090LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-100LWU:PwrC-PSQH-001" type="main">
+        <ps id="HEBT-100LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-100LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2464,7 +2464,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-100LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-100LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-100LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-100LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2472,7 +2472,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-100LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-100LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-100LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2480,7 +2480,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-100LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-100LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-100LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2490,7 +2490,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-100LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-110LWU:PwrC-PSQH-001" type="main">
+        <ps id="HEBT-110LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-110LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2500,7 +2500,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-110LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-110LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-110LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-110LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2508,7 +2508,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-110LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-110LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-110LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2516,7 +2516,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-110LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-110LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-110LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2526,7 +2526,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-110LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-120LWU:PwrC-PSQH-001" type="main">
+        <ps id="HEBT-120LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-120LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2536,7 +2536,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-120LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-120LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-120LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-120LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2544,7 +2544,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-120LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-120LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-120LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2552,7 +2552,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-120LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-120LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-120LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2562,7 +2562,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-120LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-130LWU:PwrC-PSQH-001" type="main">
+        <ps id="HEBT-130LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-130LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2572,7 +2572,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-130LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-130LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-130LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-130LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2580,7 +2580,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-130LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-130LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-130LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2588,7 +2588,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-130LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-130LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-130LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2598,7 +2598,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-130LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-140LWU:PwrC-PSQH-001" type="main">
+        <ps id="HEBT-140LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-140LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2608,7 +2608,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-140LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-140LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-140LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-140LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2616,7 +2616,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-140LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-140LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-140LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2624,7 +2624,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-140LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-140LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-140LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2634,7 +2634,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-140LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-150LWU:PwrC-PSQH-001" type="main">
+        <ps id="HEBT-150LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-150LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2644,7 +2644,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-150LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-150LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-150LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-150LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2652,7 +2652,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-150LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-150LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-150LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2660,7 +2660,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-150LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-150LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-150LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2670,7 +2670,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-150LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-160LWU:PwrC-PSQH-001" type="main">
+        <ps id="HEBT-160LWU:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-160LWU:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2680,7 +2680,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-160LWU:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="HEBT-160LWU:PwrC-PSCV-001" type="main">
+        <ps id="HEBT-160LWU:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-160LWU:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2688,7 +2688,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-160LWU:PwrC-PSCH-001" type="main">
+        <ps id="HEBT-160LWU:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="HEBT-160LWU:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2696,7 +2696,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="HEBT-160LWU:PwrC-PSQV-001" type="main">
+        <ps id="HEBT-160LWU:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="HEBT-160LWU:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2706,7 +2706,7 @@
                 <channel handle="cycleState" settable="false" signal="HEBT-160LWU:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DmpL-010Drf:PwrC-PSQH-001" type="main">
+        <ps id="DmpL-010Drf:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="DmpL-010Drf:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2716,7 +2716,7 @@
                 <channel handle="cycleState" settable="false" signal="DmpL-010Drf:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DmpL-010Drf:PwrC-PSCV-001" type="main">
+        <ps id="DmpL-010Drf:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="DmpL-010Drf:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2724,7 +2724,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="DmpL-010Drf:PwrC-PSCH-001" type="main">
+        <ps id="DmpL-010Drf:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="DmpL-010Drf:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2732,7 +2732,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="DmpL-020Drf:PwrC-PSQV-001" type="main">
+        <ps id="DmpL-020Drf:PwrC-PSQV-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="DmpL-020Drf:PwrC-PSQV-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2742,7 +2742,7 @@
                 <channel handle="cycleState" settable="false" signal="DmpL-020Drf:PwrC-PSQV-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DmpL-020Drf:PwrC-PSCV-001" type="main">
+        <ps id="DmpL-020Drf:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="DmpL-020Drf:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2750,7 +2750,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="DmpL-020Drf:PwrC-PSCH-001" type="main">
+        <ps id="DmpL-020Drf:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="DmpL-020Drf:PwrC-PSCH-010:Cur-R" valid="true" />
@@ -2758,7 +2758,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="DmpL-030Drf:PwrC-PSQH-001" type="main">
+        <ps id="DmpL-030Drf:PwrC-PSQH-010" type="main">
             <channelsuite>
                 <channel handle="cycleEnable" settable="true" signal="DmpL-030Drf:PwrC-PSQH-010:CycEn" valid="true" />
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
@@ -2768,7 +2768,7 @@
                 <channel handle="cycleState" settable="false" signal="DmpL-030Drf:PwrC-PSQH-010:CycSt" valid="true" />
             </channelsuite>
         </ps>
-        <ps id="DmpL-030Drf:PwrC-PSCV-001" type="main">
+        <ps id="DmpL-030Drf:PwrC-PSCV-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="DmpL-030Drf:PwrC-PSCV-010:Cur-R" valid="true" />
@@ -2776,7 +2776,7 @@
                 <channel handle="psFieldRB" settable="false" signal="" valid="true" />
                 </channelsuite>
         </ps>
-        <ps id="DmpL-030Drf:PwrC-PSCH-001" type="main">
+        <ps id="DmpL-030Drf:PwrC-PSCH-010" type="main">
             <channelsuite>
                 <channel handle="fieldSet" settable="true" signal="" valid="true" />
                 <channel handle="I" settable="false" signal="DmpL-030Drf:PwrC-PSCH-010:Cur-R" valid="true" />
