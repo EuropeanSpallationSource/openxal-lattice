@@ -2418,7 +2418,7 @@
                 <magnet convFactor="-0.16617" dfltMagFld="-16.3007" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSQV-001:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSQV-001" />
         </node>
@@ -2427,7 +2427,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-001:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-001" />
         </node>
@@ -2436,7 +2436,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-001:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-001" />
         </node>
@@ -2464,7 +2464,7 @@
                 <magnet convFactor="0.16617" dfltMagFld="19.5694" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSQH-002:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSQH-002" />
         </node>
@@ -2473,7 +2473,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-002:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-002" />
         </node>
@@ -2482,7 +2482,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-002:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-002" />
         </node>
@@ -2540,7 +2540,7 @@
                 <magnet convFactor="-0.16617" dfltMagFld="-12.4749" bendAngle="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSQV-003:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSQV-003" />
         </node>
@@ -2549,7 +2549,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-003:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-003" />
         </node>
@@ -2558,7 +2558,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-003:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-003" />
         </node>
@@ -2580,7 +2580,7 @@
                 <magnet convFactor="0.16617" dfltMagFld="5.0" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSQH-004:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSQH-004" />
         </node>
@@ -2589,7 +2589,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-004:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-004" />
         </node>
@@ -2598,7 +2598,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-004:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-004" />
         </node>
@@ -2692,7 +2692,7 @@
                 <magnet convFactor="0.16617" dfltMagFld="6.87809" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSQH-005:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSQH-005" />
         </node>
@@ -2701,7 +2701,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-005:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-005" />
         </node>
@@ -2710,7 +2710,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-005:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-005" />
         </node>
@@ -2746,7 +2746,7 @@
                 <magnet convFactor="-0.16617" dfltMagFld="-14.7817" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSQV-006:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSQV-006" />
         </node>
@@ -2755,7 +2755,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-006:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-006" />
         </node>
@@ -2764,7 +2764,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-006:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-006" />
         </node>
@@ -2802,7 +2802,7 @@
                 <magnet convFactor="0.16617" dfltMagFld="9.57296" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSQH-007:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSQH-007" />
         </node>
@@ -2811,7 +2811,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-007:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-007" />
         </node>
@@ -2820,7 +2820,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-007:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-007" />
         </node>
@@ -2862,7 +2862,7 @@
                 <magnet convFactor="-0.16617" dfltMagFld="-9.19019" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSQV-008:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSQV-008" />
         </node>
@@ -2871,7 +2871,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-008:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-008" />
         </node>
@@ -2880,7 +2880,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-008:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-008" />
         </node>
@@ -2938,7 +2938,7 @@
                 <magnet convFactor="0.16617" dfltMagFld="18.58" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSQH-009:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSQH-009" />
         </node>
@@ -2947,7 +2947,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-009:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-009" />
         </node>
@@ -2956,7 +2956,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-009:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-009" />
         </node>
@@ -2984,7 +2984,7 @@
                 <magnet convFactor="-0.16617" dfltMagFld="-30.7441" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSQV-010:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSQV-010" />
         </node>
@@ -2993,7 +2993,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-010:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-010" />
         </node>
@@ -3002,7 +3002,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-010:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-010" />
         </node>
@@ -3039,7 +3039,7 @@
                 <magnet convFactor="0.16617" dfltMagFld="23.8053" len="0.08" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSQH-011:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSQH-011" />
         </node>
@@ -3048,7 +3048,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCV-011:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCV-011" />
         </node>
@@ -3057,7 +3057,7 @@
                 <steerer convFactor="5.587858e-3" dfltMagFld="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="0.08" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                <channel handle="fieldRB" settable="false" signal="MEBT-010:PwrC-PSCH-011:Fld-RB" valid="true" />
             </channelsuite>
             <ps main="MEBT-010:PwrC-PSCH-011" />
         </node>
@@ -3161,7 +3161,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CV-001:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-010:BMD-CV-001" />
             </node>
@@ -3189,7 +3189,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CH-001:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-010:BMD-CH-001" />
             </node>
@@ -3217,7 +3217,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CV-002:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-010:BMD-CV-002" />
             </node>
@@ -3245,7 +3245,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CH-002:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-010:BMD-CH-002" />
             </node>
@@ -3375,7 +3375,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CV-003:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-010:BMD-CV-003" />
             </node>
@@ -3403,7 +3403,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CH-003:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-010:BMD-CH-003" />
             </node>
@@ -3449,7 +3449,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CV-004:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-010:BMD-CV-004" />
             </node>
@@ -3477,7 +3477,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CH-004:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-010:BMD-CH-004" />
             </node>
@@ -3643,7 +3643,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CV-005:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-010:BMD-CV-005" />
             </node>
@@ -3671,7 +3671,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CH-005:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-010:BMD-CH-005" />
             </node>
@@ -3717,7 +3717,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CV-006:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-010:BMD-CV-006" />
             </node>
@@ -3745,7 +3745,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-010:BMD-CH-006:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-010:BMD-CH-006" />
             </node>
@@ -3956,7 +3956,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-020:BMD-CV-001:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-020:BMD-CV-001" />
             </node>
@@ -3984,7 +3984,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-020:BMD-CH-001:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-020:BMD-CH-001" />
             </node>
@@ -4099,7 +4099,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-020:BMD-CV-002:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-020:BMD-CV-002" />
             </node>
@@ -4127,7 +4127,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-020:BMD-CH-002:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-020:BMD-CH-002" />
             </node>
@@ -4242,7 +4242,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-020:BMD-CV-003:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-020:BMD-CV-003" />
             </node>
@@ -4270,7 +4270,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-020:BMD-CH-003:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-020:BMD-CH-003" />
             </node>
@@ -4422,7 +4422,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-030:BMD-CV-001:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-030:BMD-CV-001" />
             </node>
@@ -4450,7 +4450,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-030:BMD-CH-001:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-030:BMD-CH-001" />
             </node>
@@ -4583,7 +4583,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-030:BMD-CV-002:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-030:BMD-CV-002" />
             </node>
@@ -4611,7 +4611,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-030:BMD-CH-002:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-030:BMD-CH-002" />
             </node>
@@ -4770,7 +4770,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-040:BMD-CV-001:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-040:BMD-CV-001" />
             </node>
@@ -4798,7 +4798,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-040:BMD-CH-001:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-040:BMD-CH-001" />
             </node>
@@ -4913,7 +4913,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-040:BMD-CV-002:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-040:BMD-CV-002" />
             </node>
@@ -4941,7 +4941,7 @@
                     <steerer bendAngle="0.0" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" entrFringeFieldFactorK1="0.45" entrFringeFieldFactorK2="2.8" exitFringeFieldFactorK1="0.45" exitFringeFieldFactorK2="2.8" gap="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" convFactor="1.7023e-4" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" valid="true" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-040:BMD-CH-002:Fld-RB" valid="true" />
                 </channelsuite>
                 <ps main="DTL-040:BMD-CH-002" />
             </node>
@@ -5112,7 +5112,7 @@
                     <steerer bendAngle="0.0" convFactor="1.7023e-4" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-050:BMD-CV-001:Fld-RB" />
                 </channelsuite>
                 <ps main="DTL-050:BMD-CV-001" />
             </node>
@@ -5140,7 +5140,7 @@
                     <steerer bendAngle="0.0" convFactor="1.7023e-4" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-050:BMD-CH-001:Fld-RB" />
                 </channelsuite>
                 <ps main="DTL-050:BMD-CH-001" />
             </node>
@@ -5255,7 +5255,7 @@
                     <steerer bendAngle="0.0" convFactor="1.7023e-4" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-050:BMD-CV-002:Fld-RB" />
                 </channelsuite>
                 <ps main="DTL-050:BMD-CV-002" />
             </node>
@@ -5283,7 +5283,7 @@
                     <steerer bendAngle="0.0" convFactor="1.7023e-4" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
                 </attributes>
                 <channelsuite>
-                    <channel handle="fieldRB" settable="false" signal="" />
+                    <channel handle="fieldRB" settable="false" signal="DTL-050:BMD-CH-002:Fld-RB" />
                 </channelsuite>
                 <ps main="DTL-050:BMD-CH-002" />
             </node>
@@ -5366,9 +5366,9 @@
                 <magnet convFactor="0.063369" dfltMagFld="7.665344311377246" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-010LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-010LWU:PwrC-PSQH-010" />
+            <ps main="Spk-010LWU:PwrC-PSQH-010" />
         </node>
         <node id="SPK-010LWU:PBI-BPM-001" len="0.0" pos="0.685" s="50.6027" type="BPM">
             <attributes>
@@ -5391,9 +5391,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-010LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-010LWU:PwrC-PSCV-010" />
+            <ps main="Spk-010LWU:PwrC-PSCV-010" />
         </node>
         <node id="SPK-010LWU:BMD-CH-010" len="0.0" pos="0.7522" s="50.6699" type="DC">
             <attributes>
@@ -5401,9 +5401,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-010LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-010LWU:PwrC-PSCH-010" />
+            <ps main="Spk-010LWU:PwrC-PSCH-010" />
         </node>
         <node id="SPK-010-IBS" len="0.0" pos="1.0785" s="50.9962" type="marker" />
         <node id="SPK-010LWU:PBI-BPM-002" len="0.0" pos="1.195" s="51.1127" type="BPM">
@@ -5427,9 +5427,9 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-6.926534431137725" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-010LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-010LWU:PwrC-PSQV-010" />
+            <ps main="Spk-010LWU:PwrC-PSQV-010" />
         </node>
         <node id="SPK-010-CRYOSTART" len="0.0" pos="1.880" s="51.7977" type="marker" />
         <sequence id="SPK-010RFC:EMR-Cav-101" len="0.988" pos="2.2515" type="RF">
@@ -5499,9 +5499,9 @@
                 <magnet convFactor="0.063369" dfltMagFld="7.109792914171657" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-020LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-020LWU:PwrC-PSQH-010" />
+            <ps main="Spk-020LWU:PwrC-PSQH-010" />
         </node>
         <node id="SPK-020LWU:PBI-BPM-001" len="0.0" pos="5.185" s="55.1027" type="BPM">
             <attributes>
@@ -5524,9 +5524,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-020LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-020LWU:PwrC-PSCV-010" />
+            <ps main="Spk-020LWU:PwrC-PSCV-010" />
         </node>
         <node id="SPK-020LWU:BMD-CH-010" len="0.0" pos="5.2522" s="55.1699" type="DC">
             <attributes>
@@ -5534,9 +5534,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-020LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-020LWU:PwrC-PSCH-010" />
+            <ps main="Spk-020LWU:PwrC-PSCH-010" />
         </node>
         <node id="SPK-020LWU:BMD-QV-010" len="0.2004" pos="5.855" s="55.7727" type="Q">
             <attributes>
@@ -5544,9 +5544,9 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-7.056761477045908" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-020LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-020LWU:PwrC-PSQV-010" />
+            <ps main="Spk-020LWU:PwrC-PSQV-010" />
         </node>
         <node id="SPK-020-CRYOSTART" len="0.0" pos="6.140" s="56.0577" type="marker" />
         <sequence id="SPK-020RFC:EMR-Cav-101" len="0.988" pos="6.5115" type="RF">
@@ -5616,9 +5616,9 @@
                 <magnet convFactor="0.063369" dfltMagFld="6.525174650698602" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-030LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-030LWU:PwrC-PSQH-010" />
+            <ps main="Spk-030LWU:PwrC-PSQH-010" />
         </node>
         <node id="SPK-030LWU:BMD-CV-010" len="0.0" pos="9.8878" s="59.8055" type="DC">
             <attributes>
@@ -5626,9 +5626,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-030LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-030LWU:PwrC-PSCV-010" />
+            <ps main="Spk-030LWU:PwrC-PSCV-010" />
         </node>
         <node id="SPK-030LWU:BMD-CH-010" len="0.0" pos="9.8878" s="59.8055" type="DC">
             <attributes>
@@ -5636,9 +5636,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-030LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-030LWU:PwrC-PSCH-010" />
+            <ps main="Spk-030LWU:PwrC-PSCH-010" />
         </node>
         <node id="SPK-030LWU:PBI-BPM-001" len="0.0" pos="9.955" s="59.8727" type="BPM">
             <attributes>
@@ -5661,9 +5661,9 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-6.515444111776447" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-030LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-030LWU:PwrC-PSQV-010" />
+            <ps main="Spk-030LWU:PwrC-PSQV-010" />
         </node>
         <node id="SPK-030-CRYOSTART" len="0.0" pos="10.400" s="60.3177" type="marker" />
         <sequence id="SPK-030RFC:EMR-Cav-101" len="0.988" pos="10.7715" type="RF">
@@ -5733,9 +5733,9 @@
                 <magnet convFactor="0.063369" dfltMagFld="6.375723552894212" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-040LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-040LWU:PwrC-PSQH-010" />
+            <ps main="Spk-040LWU:PwrC-PSQH-010" />
         </node>
         <node id="SPK-040LWU:PBI-BPM-001" len="0.0" pos="13.705" s="63.6227" type="BPM">
             <attributes>
@@ -5758,9 +5758,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-040LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-040LWU:PwrC-PSCV-010" />
+            <ps main="Spk-040LWU:PwrC-PSCV-010" />
         </node>
         <node id="SPK-040LWU:BMD-CH-010" len="0.0" pos="13.7722" s="63.6899" type="DC">
             <attributes>
@@ -5768,9 +5768,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-040LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-040LWU:PwrC-PSCH-010" />
+            <ps main="Spk-040LWU:PwrC-PSCH-010" />
         </node>
         <node id="SPK-040LWU:BMD-QV-010" len="0.2004" pos="14.375" s="64.2927" type="Q">
             <attributes>
@@ -5778,9 +5778,9 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-6.384693113772455" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-040LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-040LWU:PwrC-PSQV-010" />
+            <ps main="Spk-040LWU:PwrC-PSQV-010" />
         </node>
         <node id="SPK-040-CRYOSTART" len="0.0" pos="14.660" s="64.5777" type="marker" />
         <sequence id="SPK-040RFC:EMR-Cav-101" len="0.988" pos="15.0315" type="RF">
@@ -5850,9 +5850,9 @@
                 <magnet convFactor="0.063369" dfltMagFld="6.305127245508983" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-050LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-050LWU:PwrC-PSQH-010" />
+            <ps main="Spk-050LWU:PwrC-PSQH-010" />
         </node>
         <node id="SPK-050LWU:BMD-CV-010" len="0.0" pos="18.4078" s="68.3255" type="DC">
             <attributes>
@@ -5860,9 +5860,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-050LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-050LWU:PwrC-PSCV-010" />
+            <ps main="Spk-050LWU:PwrC-PSCV-010" />
         </node>
         <node id="SPK-050LWU:BMD-CH-010" len="0.0" pos="18.4078" s="68.3255" type="DC">
             <attributes>
@@ -5870,9 +5870,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-050LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-050LWU:PwrC-PSCH-010" />
+            <ps main="Spk-050LWU:PwrC-PSCH-010" />
         </node>
         <node id="SPK-050LWU:PBI-BPM-001" len="0.0" pos="18.475" s="68.3927" type="BPM">
             <attributes>
@@ -5895,9 +5895,9 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-6.247841816367266" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-050LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-050LWU:PwrC-PSQV-010" />
+            <ps main="Spk-050LWU:PwrC-PSQV-010" />
         </node>
         <node id="SPK-050-CRYOSTART" len="0.0" pos="18.920" s="68.8377" type="marker" />
         <sequence id="SPK-050RFC:EMR-Cav-101" len="0.988" pos="19.2915" type="RF">
@@ -5967,9 +5967,9 @@
                 <magnet convFactor="0.063369" dfltMagFld="6.3848428143712574" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-060LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-060LWU:PwrC-PSQH-010" />
+            <ps main="Spk-060LWU:PwrC-PSQH-010" />
         </node>
         <node id="SPK-060LWU:PBI-BPM-001" len="0.0" pos="22.225" s="72.1427" type="BPM">
             <attributes>
@@ -5992,9 +5992,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-060LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-060LWU:PwrC-PSCV-010" />
+            <ps main="Spk-060LWU:PwrC-PSCV-010" />
         </node>
         <node id="SPK-060LWU:BMD-CH-010" len="0.0" pos="22.2922" s="72.2099" type="DC">
             <attributes>
@@ -6002,9 +6002,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-060LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-060LWU:PwrC-PSCH-010" />
+            <ps main="Spk-060LWU:PwrC-PSCH-010" />
         </node>
         <node id="SPK-060LWU:BMD-QV-010" len="0.2004" pos="22.895" s="72.8127" type="Q">
             <attributes>
@@ -6012,9 +6012,9 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-6.3583707584830345" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-060LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-060LWU:PwrC-PSQV-010" />
+            <ps main="Spk-060LWU:PwrC-PSQV-010" />
         </node>
         <node id="SPK-060-CRYOSTART" len="0.0" pos="23.180" s="73.0977" type="marker" />
         <sequence id="SPK-060RFC:EMR-Cav-101" len="0.988" pos="23.5515" type="RF">
@@ -6084,9 +6084,9 @@
                 <magnet convFactor="0.063369" dfltMagFld="6.204129241516966" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-070LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-070LWU:PwrC-PSQH-010" />
+            <ps main="Spk-070LWU:PwrC-PSQH-010" />
         </node>
         <node id="SPK-070LWU:BMD-CV-010" len="0.0" pos="26.9278" s="76.8455" type="DC">
             <attributes>
@@ -6094,9 +6094,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-070LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-070LWU:PwrC-PSCV-010" />
+            <ps main="Spk-070LWU:PwrC-PSCV-010" />
         </node>
         <node id="SPK-070LWU:BMD-CH-010" len="0.0" pos="26.9278" s="76.8455" type="DC">
             <attributes>
@@ -6104,9 +6104,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-070LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-070LWU:PwrC-PSCH-010" />
+            <ps main="Spk-070LWU:PwrC-PSCH-010" />
         </node>
         <node id="SPK-070LWU:PBI-BPM-001" len="0.0" pos="26.995" s="76.9127" type="BPM">
             <attributes>
@@ -6129,9 +6129,9 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-6.16495758483034" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-070LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-070LWU:PwrC-PSQV-010" />
+            <ps main="Spk-070LWU:PwrC-PSQV-010" />
         </node>
         <node id="SPK-070-CRYOSTART" len="0.0" pos="27.440" s="77.3577" type="marker" />
         <sequence id="SPK-070RFC:EMR-Cav-101" len="0.988" pos="27.8115" type="RF">
@@ -6201,9 +6201,9 @@
                 <magnet convFactor="0.063369" dfltMagFld="6.1826971057884235" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-080LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-080LWU:PwrC-PSQH-010" />
+            <ps main="Spk-080LWU:PwrC-PSQH-010" />
         </node>
         <node id="SPK-080LWU:PBI-BPM-001" len="0.0" pos="30.745" s="80.6627" type="BPM">
             <attributes>
@@ -6226,9 +6226,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-080LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-080LWU:PwrC-PSCV-010" />
+            <ps main="Spk-080LWU:PwrC-PSCV-010" />
         </node>
         <node id="SPK-080LWU:BMD-CH-010" len="0.0" pos="30.8122" s="80.7299" type="DC">
             <attributes>
@@ -6236,9 +6236,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-080LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-080LWU:PwrC-PSCH-010" />
+            <ps main="Spk-080LWU:PwrC-PSCH-010" />
         </node>
         <node id="SPK-080LWU:BMD-QV-010" len="0.2004" pos="31.415" s="81.3327" type="Q">
             <attributes>
@@ -6246,9 +6246,9 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-6.120459081836327" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-080LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-080LWU:PwrC-PSQV-010" />
+            <ps main="Spk-080LWU:PwrC-PSQV-010" />
         </node>
         <node id="SPK-080-CRYOSTART" len="0.0" pos="31.700" s="81.6177" type="marker" />
         <sequence id="SPK-080RFC:EMR-Cav-101" len="0.988" pos="32.0715" type="RF">
@@ -6318,9 +6318,9 @@
                 <magnet convFactor="0.063369" dfltMagFld="6.527956586826347" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-090LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-090LWU:PwrC-PSQH-010" />
+            <ps main="Spk-090LWU:PwrC-PSQH-010" />
         </node>
         <node id="SPK-090LWU:BMD-CV-010" len="0.0" pos="35.4478" s="85.3655" type="DC">
             <attributes>
@@ -6328,9 +6328,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-090LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-090LWU:PwrC-PSCV-010" />
+            <ps main="Spk-090LWU:PwrC-PSCV-010" />
         </node>
         <node id="SPK-090LWU:BMD-CH-010" len="0.0" pos="35.4478" s="85.3655" type="DC">
             <attributes>
@@ -6338,9 +6338,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-090LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-090LWU:PwrC-PSCH-010" />
+            <ps main="Spk-090LWU:PwrC-PSCH-010" />
         </node>
         <node id="SPK-090LWU:PBI-BPM-001" len="0.0" pos="35.515" s="85.4327" type="BPM">
             <attributes>
@@ -6363,9 +6363,9 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-6.480688622754491" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="Spk-090LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-090LWU:PwrC-PSQV-010" />
+            <ps main="Spk-090LWU:PwrC-PSQV-010" />
         </node>
         <node id="SPK-090-CRYOSTART" len="0.0" pos="35.960" s="85.8777" type="marker" />
         <sequence id="SPK-090RFC:EMR-Cav-101" len="0.988" pos="36.3315" type="RF">
@@ -6435,7 +6435,7 @@
                 <magnet convFactor="0.063369" dfltMagFld="6.618962075848304" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-100LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-100LWU:PwrC-PSQH-010" />
         </node>
@@ -6460,7 +6460,7 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-100LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-100LWU:PwrC-PSCV-010" />
         </node>
@@ -6470,7 +6470,7 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-100LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-100LWU:PwrC-PSCH-010" />
         </node>
@@ -6480,7 +6480,7 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-6.560067365269461" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-100LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-100LWU:PwrC-PSQV-010" />
         </node>
@@ -6552,7 +6552,7 @@
                 <magnet convFactor="0.063369" dfltMagFld="6.778617764471059" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-110LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-110LWU:PwrC-PSQH-010" />
         </node>
@@ -6562,7 +6562,7 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-110LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-110LWU:PwrC-PSCV-010" />
         </node>
@@ -6572,7 +6572,7 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-110LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-110LWU:PwrC-PSCH-010" />
         </node>
@@ -6597,7 +6597,7 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-6.725948103792415" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-110LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-110LWU:PwrC-PSQV-010" />
         </node>
@@ -6669,7 +6669,7 @@
                 <magnet convFactor="0.063369" dfltMagFld="6.821182634730539" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-120LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-120LWU:PwrC-PSQH-010" />
         </node>
@@ -6694,7 +6694,7 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-120LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-120LWU:PwrC-PSCV-010" />
         </node>
@@ -6704,7 +6704,7 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-120LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-120LWU:PwrC-PSCH-010" />
         </node>
@@ -6714,7 +6714,7 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-6.772243013972056" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-120LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-120LWU:PwrC-PSQV-010" />
         </node>
@@ -6786,7 +6786,7 @@
                 <magnet convFactor="0.063369" dfltMagFld="4.7689745508982035" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-130LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-130LWU:PwrC-PSQH-010" />
         </node>
@@ -6796,7 +6796,7 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-130LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-130LWU:PwrC-PSCV-010" />
         </node>
@@ -6806,7 +6806,7 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-130LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-130LWU:PwrC-PSCH-010" />
         </node>
@@ -6831,7 +6831,7 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-4.526933632734531" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="SPK-130LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="SPK-130LWU:PwrC-PSQV-010" />
         </node>
@@ -6910,7 +6910,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="4.9136062343246145" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-010LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-010LWU:PwrC-PSQH-010" />
         </node>
@@ -6935,7 +6935,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-010LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-010LWU:PwrC-PSCV-010" />
         </node>
@@ -6945,7 +6945,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-010LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-010LWU:PwrC-PSCH-010" />
         </node>
@@ -6965,7 +6965,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-4.9648960945897525" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-010LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-010LWU:PwrC-PSQV-010" />
         </node>
@@ -7097,7 +7097,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="5.161540666427803" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-020LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-020LWU:PwrC-PSQH-010" />
         </node>
@@ -7107,7 +7107,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-020LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-020LWU:PwrC-PSCV-010" />
         </node>
@@ -7117,7 +7117,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-020LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-020LWU:PwrC-PSCH-010" />
         </node>
@@ -7142,7 +7142,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-5.227414905051953" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-020LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-020LWU:PwrC-PSQV-010" />
         </node>
@@ -7274,7 +7274,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="5.306594410605517" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-030LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-030LWU:PwrC-PSQH-010" />
         </node>
@@ -7299,7 +7299,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-030LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-030LWU:PwrC-PSCV-010" />
         </node>
@@ -7309,7 +7309,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-030LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-030LWU:PwrC-PSCH-010" />
         </node>
@@ -7319,7 +7319,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-5.4071049802938" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-030LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-030LWU:PwrC-PSQV-010" />
         </node>
@@ -7451,7 +7451,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="5.7660713006091" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-040LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-040LWU:PwrC-PSQH-010" />
         </node>
@@ -7461,7 +7461,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-040LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-040LWU:PwrC-PSCV-010" />
         </node>
@@ -7471,7 +7471,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-040LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-040LWU:PwrC-PSCH-010" />
         </node>
@@ -7496,7 +7496,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-5.781984951630239" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-040LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-040LWU:PwrC-PSQV-010" />
         </node>
@@ -7628,7 +7628,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="6.166119670369043" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-050LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-050LWU:PwrC-PSQH-010" />
         </node>
@@ -7653,7 +7653,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-050LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-050LWU:PwrC-PSCV-010" />
         </node>
@@ -7663,7 +7663,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-050LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-050LWU:PwrC-PSCH-010" />
         </node>
@@ -7673,7 +7673,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-6.145327839484056" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-050LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-050LWU:PwrC-PSQV-010" />
         </node>
@@ -7805,7 +7805,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="6.5801755643138655" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-060LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-060LWU:PwrC-PSQH-010" />
         </node>
@@ -7816,7 +7816,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-060LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-060LWU:PwrC-PSCV-010" />
         </node>
@@ -7826,7 +7826,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-060LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-060LWU:PwrC-PSCH-010" />
         </node>
@@ -7851,7 +7851,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-6.517398781798637" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-060LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-060LWU:PwrC-PSQV-010" />
         </node>
@@ -7983,7 +7983,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="6.840938731637405" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-070LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-070LWU:PwrC-PSQH-010" />
         </node>
@@ -8008,7 +8008,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-070LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-070LWU:PwrC-PSCV-010" />
         </node>
@@ -8018,7 +8018,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-070LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-070LWU:PwrC-PSCH-010" />
         </node>
@@ -8028,7 +8028,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-6.7588122536725175" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-070LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-070LWU:PwrC-PSQV-010" />
         </node>
@@ -8160,7 +8160,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="6.961288068792546" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-080LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-080LWU:PwrC-PSQH-010" />
         </node>
@@ -8170,7 +8170,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-080LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-080LWU:PwrC-PSCV-010" />
         </node>
@@ -8180,7 +8180,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-080LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-080LWU:PwrC-PSCH-010" />
         </node>
@@ -8205,7 +8205,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-6.872013615191687" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-080LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-080LWU:PwrC-PSQV-010" />
         </node>
@@ -8337,7 +8337,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="7.210200644930131" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-090LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-090LWU:PwrC-PSQH-010" />
         </node>
@@ -8362,7 +8362,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-090LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-090LWU:PwrC-PSCV-010" />
         </node>
@@ -8372,7 +8372,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-090LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-090LWU:PwrC-PSCH-010" />
         </node>
@@ -8382,7 +8382,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-7.31202794697241" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="MBL-090LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="MBL-090LWU:PwrC-PSQV-010" />
         </node>
@@ -8521,7 +8521,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="7.25461841633823" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-010LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-010LWU:PwrC-PSQH-010" />
         </node>
@@ -8541,7 +8541,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-010LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-010LWU:PwrC-PSCV-010" />
         </node>
@@ -8551,7 +8551,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-010LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-010LWU:PwrC-PSCH-010" />
         </node>
@@ -8576,7 +8576,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-7.252423862414904" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-010LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-010LWU:PwrC-PSQV-010" />
         </node>
@@ -8708,7 +8708,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="6.8674238624149035" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-020LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-020LWU:PwrC-PSQH-010" />
         </node>
@@ -8718,7 +8718,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-020LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-020LWU:PwrC-PSCV-010" />
         </node>
@@ -8728,7 +8728,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-020LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-020LWU:PwrC-PSCH-010" />
         </node>
@@ -8753,7 +8753,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-6.8639501970619845" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-020LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-020LWU:PwrC-PSQV-010" />
         </node>
@@ -8885,7 +8885,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="6.894974919383732" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-030LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-030LWU:PwrC-PSQH-010" />
         </node>
@@ -8895,7 +8895,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-030LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-030LWU:PwrC-PSCV-010" />
         </node>
@@ -8905,7 +8905,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-030LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-030LWU:PwrC-PSCH-010" />
         </node>
@@ -8930,7 +8930,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-6.8862217843066995" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-030LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-030LWU:PwrC-PSQV-010" />
         </node>
@@ -9062,7 +9062,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="7.126995700465782" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-040LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-040LWU:PwrC-PSQH-010" />
         </node>
@@ -9087,7 +9087,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-040LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-040LWU:PwrC-PSCV-010" />
         </node>
@@ -9097,7 +9097,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-040LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-040LWU:PwrC-PSCH-010" />
         </node>
@@ -9107,7 +9107,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-7.1476119670369025" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-040LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-040LWU:PwrC-PSQV-010" />
         </node>
@@ -9239,7 +9239,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="6.620542816194912" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-050LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-050LWU:PwrC-PSQH-010" />
         </node>
@@ -9249,7 +9249,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-050LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-050LWU:PwrC-PSCV-010" />
         </node>
@@ -9259,7 +9259,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-050LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-050LWU:PwrC-PSCH-010" />
         </node>
@@ -9284,7 +9284,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-6.425653887495519" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-050LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-050LWU:PwrC-PSQV-010" />
         </node>
@@ -9416,7 +9416,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="5.873152991759225" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-060LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-060LWU:PwrC-PSQH-010" />
         </node>
@@ -9441,7 +9441,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-060LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-060LWU:PwrC-PSCV-010" />
         </node>
@@ -9451,7 +9451,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-060LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-060LWU:PwrC-PSCH-010" />
         </node>
@@ -9461,7 +9461,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-5.873152991759225" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-060LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-060LWU:PwrC-PSQV-010" />
         </node>
@@ -9593,7 +9593,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="5.708573987817986" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-070LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-070LWU:PwrC-PSQH-010" />
         </node>
@@ -9603,7 +9603,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-070LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-070LWU:PwrC-PSCV-010" />
         </node>
@@ -9613,7 +9613,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-070LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-070LWU:PwrC-PSCH-010" />
         </node>
@@ -9638,7 +9638,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-5.708573987817986" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-070LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-070LWU:PwrC-PSQV-010" />
         </node>
@@ -9770,7 +9770,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="5.542929057685416" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-080LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-080LWU:PwrC-PSQH-010" />
         </node>
@@ -9795,7 +9795,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-080LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-080LWU:PwrC-PSCV-010" />
         </node>
@@ -9805,7 +9805,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-080LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-080LWU:PwrC-PSCH-010" />
         </node>
@@ -9815,7 +9815,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-5.542916517377283" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-080LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-080LWU:PwrC-PSQV-010" />
         </node>
@@ -9947,7 +9947,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="5.376406305983518" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-090LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-090LWU:PwrC-PSQH-010" />
         </node>
@@ -9957,7 +9957,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-090LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-090LWU:PwrC-PSCV-010" />
         </node>
@@ -9967,7 +9967,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-090LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-090LWU:PwrC-PSCH-010" />
         </node>
@@ -9992,7 +9992,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-5.376406305983518" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-090LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-090LWU:PwrC-PSQV-010" />
         </node>
@@ -10124,7 +10124,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="5.208679684700823" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-100LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-100LWU:PwrC-PSQH-010" />
         </node>
@@ -10149,7 +10149,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-100LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-100LWU:PwrC-PSCV-010" />
         </node>
@@ -10159,7 +10159,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-100LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-100LWU:PwrC-PSCH-010" />
         </node>
@@ -10169,7 +10169,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-5.208667144392689" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-100LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-100LWU:PwrC-PSQV-010" />
         </node>
@@ -10301,7 +10301,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="5.0400752418487995" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-110LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-110LWU:PwrC-PSQH-010" />
         </node>
@@ -10311,7 +10311,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-110LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-110LWU:PwrC-PSCV-010" />
         </node>
@@ -10321,7 +10321,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-110LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-110LWU:PwrC-PSCH-010" />
         </node>
@@ -10346,7 +10346,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-5.0400752418487995" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-110LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-110LWU:PwrC-PSQV-010" />
         </node>
@@ -10478,7 +10478,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="4.870455034037978" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-120LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-120LWU:PwrC-PSQH-010" />
         </node>
@@ -10503,7 +10503,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-120LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-120LWU:PwrC-PSCV-010" />
         </node>
@@ -10513,7 +10513,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-120LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-120LWU:PwrC-PSCH-010" />
         </node>
@@ -10523,7 +10523,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-4.870442493729846" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-120LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-120LWU:PwrC-PSQV-010" />
         </node>
@@ -10655,7 +10655,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="4.699894303117162" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-130LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-130LWU:PwrC-PSQH-010" />
         </node>
@@ -10665,7 +10665,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-130LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-130LWU:PwrC-PSCV-010" />
         </node>
@@ -10675,7 +10675,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-130LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-130LWU:PwrC-PSCH-010" />
         </node>
@@ -10700,7 +10700,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-4.699894303117162" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-130LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-130LWU:PwrC-PSQV-010" />
         </node>
@@ -10832,7 +10832,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="4.528443210318882" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-140LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-140LWU:PwrC-PSQH-010" />
         </node>
@@ -10857,7 +10857,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-140LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-140LWU:PwrC-PSCV-010" />
         </node>
@@ -10867,7 +10867,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-140LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-140LWU:PwrC-PSCH-010" />
         </node>
@@ -10877,7 +10877,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-4.528443210318882" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-140LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-140LWU:PwrC-PSQV-010" />
         </node>
@@ -11009,7 +11009,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="4.356189537800072" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-150LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-150LWU:PwrC-PSQH-010" />
         </node>
@@ -11019,7 +11019,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-150LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-150LWU:PwrC-PSCV-010" />
         </node>
@@ -11029,7 +11029,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-150LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-150LWU:PwrC-PSCH-010" />
         </node>
@@ -11054,7 +11054,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-4.356189537800072" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-150LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-150LWU:PwrC-PSQV-010" />
         </node>
@@ -11186,7 +11186,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="4.183170906485131" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-160LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-160LWU:PwrC-PSQH-010" />
         </node>
@@ -11211,7 +11211,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-160LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-160LWU:PwrC-PSCV-010" />
         </node>
@@ -11221,7 +11221,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-160LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-160LWU:PwrC-PSCH-010" />
         </node>
@@ -11231,7 +11231,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-4.183170906485131" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-160LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-160LWU:PwrC-PSQV-010" />
         </node>
@@ -11363,7 +11363,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="4.0093246148333925" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-170LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-170LWU:PwrC-PSQH-010" />
         </node>
@@ -11373,7 +11373,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-170LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-170LWU:PwrC-PSCV-010" />
         </node>
@@ -11383,7 +11383,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-170LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-170LWU:PwrC-PSCH-010" />
         </node>
@@ -11408,7 +11408,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-4.0093246148333925" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-170LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-170LWU:PwrC-PSQV-010" />
         </node>
@@ -11540,7 +11540,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.865085990684342" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-180LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-180LWU:PwrC-PSQH-010" />
         </node>
@@ -11565,7 +11565,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-180LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-180LWU:PwrC-PSCV-010" />
         </node>
@@ -11575,7 +11575,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-180LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-180LWU:PwrC-PSCH-010" />
         </node>
@@ -11585,7 +11585,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-3.865085990684342" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-180LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-180LWU:PwrC-PSQV-010" />
         </node>
@@ -11717,7 +11717,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.742767825152275" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-190LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-190LWU:PwrC-PSQH-010" />
         </node>
@@ -11727,7 +11727,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-190LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-190LWU:PwrC-PSCV-010" />
         </node>
@@ -11737,7 +11737,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-190LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-190LWU:PwrC-PSCH-010" />
         </node>
@@ -11762,7 +11762,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-3.742767825152275" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-190LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-190LWU:PwrC-PSQV-010" />
         </node>
@@ -11894,7 +11894,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.653593694016481" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-200LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-200LWU:PwrC-PSQH-010" />
         </node>
@@ -11919,7 +11919,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-200LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-200LWU:PwrC-PSCV-010" />
         </node>
@@ -11929,7 +11929,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-200LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-200LWU:PwrC-PSCH-010" />
         </node>
@@ -11939,7 +11939,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-3.653593694016481" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-200LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-200LWU:PwrC-PSQV-010" />
         </node>
@@ -12071,7 +12071,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.5978394840558936" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-210LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-210LWU:PwrC-PSQH-010" />
         </node>
@@ -12081,7 +12081,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-210LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-210LWU:PwrC-PSCV-010" />
         </node>
@@ -12091,7 +12091,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-210LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-210LWU:PwrC-PSCH-010" />
         </node>
@@ -12116,7 +12116,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-3.5978394840558936" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HBL-210LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HBL-210LWU:PwrC-PSQV-010" />
         </node>
@@ -12255,7 +12255,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.5643192404156214" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-010LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-010LWU:PwrC-PSQH-010" />
         </node>
@@ -12280,7 +12280,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-010LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-010LWU:PwrC-PSCV-010" />
         </node>
@@ -12290,7 +12290,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-010LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-010LWU:PwrC-PSCH-010" />
         </node>
@@ -12310,7 +12310,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-3.5643192404156214" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-010LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-010LWU:PwrC-PSQV-010" />
         </node>
@@ -12322,7 +12322,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-020LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-020LWU:PwrC-PSQH-010" />
         </node>
@@ -12332,7 +12332,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-020LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-020LWU:PwrC-PSCV-010" />
         </node>
@@ -12342,7 +12342,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-020LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-020LWU:PwrC-PSCH-010" />
         </node>
@@ -12367,7 +12367,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-020LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-020LWU:PwrC-PSQV-010" />
         </node>
@@ -12379,7 +12379,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-030LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-030LWU:PwrC-PSQH-010" />
         </node>
@@ -12404,7 +12404,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-030LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-030LWU:PwrC-PSCV-010" />
         </node>
@@ -12414,7 +12414,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-030LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-030LWU:PwrC-PSCH-010" />
         </node>
@@ -12424,7 +12424,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-030LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-030LWU:PwrC-PSQV-010" />
         </node>
@@ -12436,7 +12436,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-040LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-040LWU:PwrC-PSQH-010" />
         </node>
@@ -12446,7 +12446,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-040LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-040LWU:PwrC-PSCV-010" />
         </node>
@@ -12456,7 +12456,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-040LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-040LWU:PwrC-PSCH-010" />
         </node>
@@ -12481,7 +12481,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-040LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-040LWU:PwrC-PSQV-010" />
         </node>
@@ -12493,7 +12493,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-050LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-050LWU:PwrC-PSQH-010" />
         </node>
@@ -12518,7 +12518,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-050LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-050LWU:PwrC-PSCV-010" />
         </node>
@@ -12528,7 +12528,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-050LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-050LWU:PwrC-PSCH-010" />
         </node>
@@ -12538,7 +12538,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-050LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-050LWU:PwrC-PSQV-010" />
         </node>
@@ -12550,7 +12550,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-060LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-060LWU:PwrC-PSQH-010" />
         </node>
@@ -12560,7 +12560,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-060LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-060LWU:PwrC-PSCV-010" />
         </node>
@@ -12570,7 +12570,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-060LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-060LWU:PwrC-PSCH-010" />
         </node>
@@ -12595,7 +12595,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-060LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-060LWU:PwrC-PSQV-010" />
         </node>
@@ -12607,7 +12607,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-070LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-070LWU:PwrC-PSQH-010" />
         </node>
@@ -12632,7 +12632,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-070LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-070LWU:PwrC-PSCV-010" />
         </node>
@@ -12642,7 +12642,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-070LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-070LWU:PwrC-PSCH-010" />
         </node>
@@ -12652,7 +12652,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-070LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-070LWU:PwrC-PSQV-010" />
         </node>
@@ -12664,7 +12664,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-080LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-080LWU:PwrC-PSQH-010" />
         </node>
@@ -12674,7 +12674,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-080LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-080LWU:PwrC-PSCV-010" />
         </node>
@@ -12684,7 +12684,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-080LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-080LWU:PwrC-PSCH-010" />
         </node>
@@ -12709,7 +12709,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-080LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-080LWU:PwrC-PSQV-010" />
         </node>
@@ -12721,7 +12721,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-090LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-090LWU:PwrC-PSQH-010" />
         </node>
@@ -12746,7 +12746,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-090LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-090LWU:PwrC-PSCV-010" />
         </node>
@@ -12756,7 +12756,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-090LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-090LWU:PwrC-PSCH-010" />
         </node>
@@ -12766,7 +12766,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-090LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-090LWU:PwrC-PSQV-010" />
         </node>
@@ -12780,7 +12780,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-100LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-100LWU:PwrC-PSQH-010" />
         </node>
@@ -12790,7 +12790,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-100LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-100LWU:PwrC-PSCV-010" />
         </node>
@@ -12800,7 +12800,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-100LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-100LWU:PwrC-PSCH-010" />
         </node>
@@ -12825,7 +12825,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-3.5531082049444636" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-100LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-100LWU:PwrC-PSQV-010" />
         </node>
@@ -12837,7 +12837,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.6948889286993905" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-110LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-110LWU:PwrC-PSQH-010" />
         </node>
@@ -12862,7 +12862,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-110LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-110LWU:PwrC-PSCV-010" />
         </node>
@@ -12872,7 +12872,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-110LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-110LWU:PwrC-PSCH-010" />
         </node>
@@ -12882,7 +12882,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-3.7532640630598353" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-110LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-110LWU:PwrC-PSQV-010" />
         </node>
@@ -12894,7 +12894,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="3.938170906485131" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-120LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-120LWU:PwrC-PSQH-010" />
         </node>
@@ -12904,7 +12904,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-120LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-120LWU:PwrC-PSCV-010" />
         </node>
@@ -12914,7 +12914,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-120LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-120LWU:PwrC-PSCH-010" />
         </node>
@@ -12939,7 +12939,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-4.104242207094232" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-120LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-120LWU:PwrC-PSQV-010" />
         </node>
@@ -12953,7 +12953,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="4.236015764958796" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-130LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-130LWU:PwrC-PSQH-010" />
         </node>
@@ -12978,7 +12978,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-130LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-130LWU:PwrC-PSCV-010" />
         </node>
@@ -12988,7 +12988,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-130LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-130LWU:PwrC-PSCH-010" />
         </node>
@@ -12998,7 +12998,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-4.547604801146542" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-130LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-130LWU:PwrC-PSQV-010" />
         </node>
@@ -13010,7 +13010,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="4.534776065926191" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-140LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-140LWU:PwrC-PSQH-010" />
         </node>
@@ -13020,7 +13020,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-140LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-140LWU:PwrC-PSCV-010" />
         </node>
@@ -13030,7 +13030,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-140LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-140LWU:PwrC-PSCH-010" />
         </node>
@@ -13055,7 +13055,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-5.008135077033321" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-140LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-140LWU:PwrC-PSQV-010" />
         </node>
@@ -13067,7 +13067,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="4.781230741669652" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-150LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-150LWU:PwrC-PSQH-010" />
         </node>
@@ -13092,7 +13092,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-150LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-150LWU:PwrC-PSCV-010" />
         </node>
@@ -13102,7 +13102,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-150LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-150LWU:PwrC-PSCH-010" />
         </node>
@@ -13112,7 +13112,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-5.400584020064493" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-150LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-150LWU:PwrC-PSQV-010" />
         </node>
@@ -13126,7 +13126,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="4.890720171981369" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-160LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-160LWU:PwrC-PSQH-010" />
         </node>
@@ -13146,7 +13146,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-160LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-160LWU:PwrC-PSCV-010" />
         </node>
@@ -13156,7 +13156,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-160LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-160LWU:PwrC-PSCH-010" />
         </node>
@@ -13181,7 +13181,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-4.890720171981369" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="HEBT-160LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="HEBT-160LWU:PwrC-PSQV-010" />
         </node>
@@ -13209,7 +13209,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="7.522930849158006" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="DmpL-010Drf:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="DmpL-010Drf:PwrC-PSQH-010" />
         </node>
@@ -13219,7 +13219,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="DmpL-010Drf:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="DmpL-010Drf:PwrC-PSCV-010" />
         </node>
@@ -13229,7 +13229,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="DmpL-010Drf:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="DmpL-010Drf:PwrC-PSCH-010" />
         </node>
@@ -13255,7 +13255,7 @@
                 <magnet convFactor="-0.048243" dfltMagFld="-7.524184879971335" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="DmpL-020Drf:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
             <ps main="DmpL-020Drf:PwrC-PSQV-010" />
         </node>
@@ -13265,7 +13265,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="DmpL-020Drf:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="DmpL-020Drf:PwrC-PSCV-010" />
         </node>
@@ -13275,7 +13275,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="DmpL-020Drf:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="DmpL-020Drf:PwrC-PSCH-010" />
         </node>
@@ -13300,7 +13300,7 @@
                 <magnet convFactor="0.048243" dfltMagFld="0.627015406664278" len="0.2791" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="DmpL-030Drf:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
             <ps main="DmpL-030Drf:PwrC-PSQH-010" />
         </node>
@@ -13310,7 +13310,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186798" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="DmpL-030Drf:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
             <ps main="DmpL-030Drf:PwrC-PSCV-010" />
         </node>
@@ -13320,7 +13320,7 @@
                 <steerer bendAngle="0.0" convFactor="0.000186149" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="" />
+                <channel handle="fieldRB" settable="false" signal="DmpL-030Drf:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
             <ps main="DmpL-030Drf:PwrC-PSCH-010" />
         </node>
