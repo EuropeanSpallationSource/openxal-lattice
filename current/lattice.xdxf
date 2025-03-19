@@ -6435,9 +6435,9 @@
                 <magnet convFactor="0.063369" dfltMagFld="6.618962075848304" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-100LWU:PwrC-PSQH-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-100LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-100LWU:PwrC-PSQH-010" />
+            <ps main="Spk-100LWU:PwrC-PSQH-010" />
         </node>
         <node id="SPK-100LWU:PBI-BPM-001" len="0.0" pos="39.265" s="89.1827" type="BPM">
             <attributes>
@@ -6460,9 +6460,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-100LWU:PwrC-PSCV-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-100LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-100LWU:PwrC-PSCV-010" />
+            <ps main="Spk-100LWU:PwrC-PSCV-010" />
         </node>
         <node id="SPK-100LWU:BMD-CH-010" len="0.0" pos="39.3322" s="89.2499" type="DC">
             <attributes>
@@ -6470,9 +6470,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-100LWU:PwrC-PSCH-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-100LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-100LWU:PwrC-PSCH-010" />
+            <ps main="Spk-100LWU:PwrC-PSCH-010" />
         </node>
         <node id="SPK-100LWU:BMD-QV-010" len="0.2004" pos="39.935" s="89.8527" type="Q">
             <attributes>
@@ -6480,9 +6480,9 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-6.560067365269461" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-100LWU:PwrC-PSQV-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-100LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-100LWU:PwrC-PSQV-010" />
+            <ps main="Spk-100LWU:PwrC-PSQV-010" />
         </node>
         <node id="SPK-100-CRYOSTART" len="0.0" pos="40.220" s="90.1377" type="marker" />
         <sequence id="SPK-100RFC:EMR-Cav-101" len="0.988" pos="40.5915" type="RF">
@@ -6552,9 +6552,9 @@
                 <magnet convFactor="0.063369" dfltMagFld="6.778617764471059" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-110LWU:PwrC-PSQH-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-110LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-110LWU:PwrC-PSQH-010" />
+            <ps main="Spk-110LWU:PwrC-PSQH-010" />
         </node>
         <node id="SPK-110LWU:BMD-CV-010" len="0.0" pos="43.9678" s="93.8855" type="DC">
             <attributes>
@@ -6562,9 +6562,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-110LWU:PwrC-PSCV-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-110LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-110LWU:PwrC-PSCV-010" />
+            <ps main="Spk-110LWU:PwrC-PSCV-010" />
         </node>
         <node id="SPK-110LWU:BMD-CH-010" len="0.0" pos="43.9678" s="93.8855" type="DC">
             <attributes>
@@ -6572,9 +6572,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-110LWU:PwrC-PSCH-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-110LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-110LWU:PwrC-PSCH-010" />
+            <ps main="Spk-110LWU:PwrC-PSCH-010" />
         </node>
         <node id="SPK-110LWU:PBI-BPM-001" len="0.0" pos="44.035" s="93.9527" type="BPM">
             <attributes>
@@ -6597,9 +6597,9 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-6.725948103792415" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-110LWU:PwrC-PSQV-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-110LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-110LWU:PwrC-PSQV-010" />
+            <ps main="Spk-110LWU:PwrC-PSQV-010" />
         </node>
         <node id="SPK-110-CRYOSTART" len="0.0" pos="44.480" s="94.3977" type="marker" />
         <sequence id="SPK-110RFC:EMR-Cav-101" len="0.988" pos="44.8515" type="RF">
@@ -6669,9 +6669,9 @@
                 <magnet convFactor="0.063369" dfltMagFld="6.821182634730539" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-120LWU:PwrC-PSQH-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-120LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-120LWU:PwrC-PSQH-010" />
+            <ps main="Spk-120LWU:PwrC-PSQH-010" />
         </node>
         <node id="SPK-120LWU:PBI-BPM-001" len="0.0" pos="47.785" s="97.7027" type="BPM">
             <attributes>
@@ -6694,9 +6694,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-120LWU:PwrC-PSCV-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-120LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-120LWU:PwrC-PSCV-010" />
+            <ps main="Spk-120LWU:PwrC-PSCV-010" />
         </node>
         <node id="SPK-120LWU:BMD-CH-010" len="0.0" pos="47.8522" s="97.7699" type="DC">
             <attributes>
@@ -6704,9 +6704,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-120LWU:PwrC-PSCH-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-120LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-120LWU:PwrC-PSCH-010" />
+            <ps main="Spk-120LWU:PwrC-PSCH-010" />
         </node>
         <node id="SPK-120LWU:BMD-QV-010" len="0.2004" pos="48.455" s="98.3727" type="Q">
             <attributes>
@@ -6714,9 +6714,9 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-6.772243013972056" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-120LWU:PwrC-PSQV-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-120LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-120LWU:PwrC-PSQV-010" />
+            <ps main="Spk-120LWU:PwrC-PSQV-010" />
         </node>
         <node id="SPK-120-CRYOSTART" len="0.0" pos="48.740" s="98.6577" type="marker" />
         <sequence id="SPK-120RFC:EMR-Cav-101" len="0.988" pos="49.1115" type="RF">
@@ -6786,9 +6786,9 @@
                 <magnet convFactor="0.063369" dfltMagFld="4.7689745508982035" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-130LWU:PwrC-PSQH-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-130LWU:PwrC-PSQH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-130LWU:PwrC-PSQH-010" />
+            <ps main="Spk-130LWU:PwrC-PSQH-010" />
         </node>
         <node id="SPK-130LWU:BMD-CV-010" len="0.0" pos="52.4878" s="102.4055" type="DC">
             <attributes>
@@ -6796,9 +6796,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010562" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="vertical" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-130LWU:PwrC-PSCV-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-130LWU:PwrC-PSCV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-130LWU:PwrC-PSCV-010" />
+            <ps main="Spk-130LWU:PwrC-PSCV-010" />
         </node>
         <node id="SPK-130LWU:BMD-CH-010" len="0.0" pos="52.4878" s="102.4055" type="DC">
             <attributes>
@@ -6806,9 +6806,9 @@
                 <steerer bendAngle="0.0" convFactor="0.00010503" dfltMagFld="0.0" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" dipoleQuadComponent="0.0" len="1.0" orientation="horizontal" pathLength="0.0" polarity="1.0" slices="1" slicesEffLength="1.0" useCurrent="true" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-130LWU:PwrC-PSCH-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-130LWU:PwrC-PSCH-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-130LWU:PwrC-PSCH-010" />
+            <ps main="Spk-130LWU:PwrC-PSCH-010" />
         </node>
         <node id="SPK-130LWU:PBI-BPM-001" len="0.0" pos="52.555" s="102.4727" type="BPM">
             <attributes>
@@ -6831,9 +6831,9 @@
                 <magnet convFactor="-0.063369" dfltMagFld="-4.526933632734531" len="0.2004" polarity="1.0" useCurrent="false" />
             </attributes>
             <channelsuite>
-                <channel handle="fieldRB" settable="false" signal="SPK-130LWU:PwrC-PSQV-010:Fld-RB" />
+                <channel handle="fieldRB" settable="false" signal="Spk-130LWU:PwrC-PSQV-010:Fld-RB" />
             </channelsuite>
-            <ps main="SPK-130LWU:PwrC-PSQV-010" />
+            <ps main="Spk-130LWU:PwrC-PSQV-010" />
         </node>
         <node id="SPK-130-CRYOSTART" len="0.0" pos="53.000" s="102.9177" type="marker" />
         <sequence id="SPK-130RFC:EMR-Cav-101" len="0.988" pos="53.3715" type="RF">
